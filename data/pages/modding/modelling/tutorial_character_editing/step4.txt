@@ -1,0 +1,45 @@
+===== Tutorial: Character Editing Cavats; Step 4. =====
+
+[[.:step3|<- Previous Step]] | [[.:|Tutorial Summary]]
+
+----
+
+==== Package and Test ====
+
+Follow the same process from the [[modding:modelling:tutorial_mesh:step6|introductory tutorial]] to package the Unreal project's cooked assets.
+
+In this case, your "FinalPackaging" folder structure will look like this:
+
+<code>
+FinalPackaging
+  BloodstainedRotN
+    Content
+      Core
+        Character
+          P0000
+            Mesh
+              SK_P10000.uasset
+</code>
+
+It should **not** contain any of the **.uasset** files that contain the materials, physics asset, or skeleton. Remove those.
+
+Drag & Drop the "FinalPackaging" folder on top of "UnreakPak-Without-Compression.bat" to generate the **.pak** file. Rename it so it loads alphabetically after "packmod". I named it "~MiriamBodyMod.pak".
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_packaging_folder.png?nolink&400 |}}
+
+Copy your generated **.pak** file into the //Bloodstained Ritual of the Night\BloodstainedRotN\Content\Paks// folder. Run the game to test.
+
+If you face Miriam left or right while aiming a Directional Shard, she should use the arm that's in the front (like the original game). If this is broken, you did not follow the step to generate the mirror table properly.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_finished_mirror_view.png?nolink |}}
+
+If you open the menu screen, the 3 changes I made:
+  * Her shoulder armor is gone.
+  * The skin material on her chest/shoulders was changed to the shiny purple flower material.
+  * The cylinder is attached to her arm (not floating in the air), which means the weight paint transfer was successful. It has the skin material by default because I did not set a material on the cylinder.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_finished_menu.png?nolink |}}
+
+----
+
+[[.:step3|<- Previous Step]] | [[.:|Tutorial Summary]]

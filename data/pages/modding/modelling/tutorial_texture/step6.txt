@@ -1,0 +1,57 @@
+===== Tutorial: Modifying a 3D Model's Texture; Step 6. =====
+
+[[.:step5|<- Previous Step]] | [[.:|Tutorial Summary]]
+
+----
+
+==== Create a New .pak File From the Newly Packaged .uasset Files ====
+
+I'm going to create a new folder next to my **MiriamHeadUnreal (Unreal Engine Project)** folder, and my **ModelEdits (UE Viewer export)** folder called "FinalPackaging". This is where I'll set up the file structure to generate the new **.pak** file that will serve as the final file that is distributed to everyone as the mod.
+
+{{ :modding:modelling:tutorial_create_pak_make_package_folder.png?nolink&400 |}}
+
+Inside of this "FinalPackaging" folder, create a folder called "BloodstainedRotN". Then open it.
+
+{{ :modding:modelling:tutorial_create_pak_make_bloodstained_rotn_folder.png?nolink&400 |}}
+
+Now in a separate Windows Explorer window, locate the "Cooked" folder you created in the previous step. Navigate to:\\ "Cooked -> WindowsNoEditor -> **//NAME OF UNREAL ENGINE PROJECT FOLDER//**".
+
+In my case, I named the Unreal Engine project folder "MiriamHeadUnreal", so my path is:\\ "Cooked -> WindowsNoEditor -> MiriamHeadUnreal"
+
+Copy the "Content" folder into the "BloodstainedRotN" folder (inside "FinalPackaging").
+
+{{ :modding:modelling:tutorial_create_pak_copy_content_folder_over.png?nolink&800 |}}
+
+If you've followed the other tutorial to modify Miriam's nose geometry, make sure you aren't accidentally copying those cooked files over as well. All you want in this folder is the //Content\Core\Character\P0000\Texture\Face\T_Face01_Color.uasset// file.
+
+Now download {{ :modding:tool_unrealpak.zip |UnrealPak}} if you haven't already, and extract it in the folder above the "FinalPackaging" folder.
+
+{{ :modding:modelling:tutorial_mesh:tutorial_create_pak_extract_unrealpak.png?nolink&400 |}}
+
+Click and hold the left mouse button down on top of the "Final Packaging" folder, and drag it on top of "UnrealPak-Without-Compression.bat". Release the left mouse button.
+
+{{ :modding:modelling:tutorial_mesh:tutorial_create_pak_unrealpak_drop_folder.png?nolink&600 |}}
+
+UnrealPak will output something like the following and generate a new file called "FinalPacking.pak" in the same folder.
+
+{{ :modding:modelling:tutorial_mesh:tutorial_create_pak_unrealpak_output.png?nolink&600 |}}
+
+{{ :modding:modelling:tutorial_mesh:tutorial_create_pak_unrealpak_generated_file.png?nolink&400 |}}
+
+**Congratulations!** FinalPacking.pak is your mod.
+
+Before you add your mod to Bloodstained's Pak folder, you should give it a filename that assures it will load **after** the main game files load. Bloodstained will load all **.pak** files in alphabetical order, so it would be best if you name it something that comes after "pakchunk" in the alphabet.
+
+Another way to get around this is to create a folder called "~mods" inside of the "Paks" folder, then place your *.pak file inside of that. The tilde ~ character is loaded alphabetically after all other letters by Unreal Engine.
+
+In my case, I'll rename "FinalPacking.pak" to "~MiriamHeadMod.pak", and then copy "~MiriamHeadMod.pak" into Bloodstained's //BloodstainedRotN\Content\Paks// folder.
+
+{{ :modding:modelling:tutorial_mesh:tutorial_create_pak_final_pak_in_paks_folder.png?nolink&600 |}}
+
+Now start the game and see your texture changes.
+
+{{ :modding:modelling:tutorial_texture:tutorial_complete_miriam_head_texture.png?nolink |}}
+
+----
+
+[[.:step5|<- Previous Step]] | [[.:|Tutorial Summary]]

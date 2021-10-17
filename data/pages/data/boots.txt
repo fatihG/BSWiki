@@ -1,0 +1,343 @@
+===== Boots =====
+[[start|<Back>]]
+
+> Blank
+
+Words
+
+> WIP
+
+To-do:
+  * Links to crafting
+  * Links to techniques
+  * Double check all Acquisition
+
+----
+
+==== Table ====
+
+^	Boots									^^^^^
+^	Img	^	-Name-	^	Atk	^	Dmg	^	Special	^
+|	-	|	[[#DefaultBoots]]	|	0	|	{{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{..:boots:boots01.png?nolink&30}}	|	[[#Kung Fu Shoes]]	|	8	|	{{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{..:boots:boots02.png?nolink&30}}	|	[[#Battle Boots]]	|	12	|	{{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{..:boots:boots03.png?nolink&30}}	|	[[#Lethal Boots]]	|	14	|	{{..:iconcut.png?nolink&20|Cut}}	|	Small daggers comes out of shoes	|
+|	{{..:boots:boots04.png?nolink&30}}	|	[[#Toy Shoes]]	|	17	|	{{..:iconstrike.png?nolink&20|Strike}}	|	Squeaking noises	|
+|	{{..:boots:boots06.png?nolink&30}}	|	[[#Steam Boots]]	|	21	|	{{..:iconstrike.png?nolink&20|Strike}}	|	Steam sounds	|
+|	{{..:boots:boots05.png?nolink&30}}	|	[[#Bunny Boots]]	|	24	|	{{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{..:boots:boots07.png?nolink&30}}	|	[[#Dragon Shoes]]	|	28	|	{{..:iconstrike.png?nolink&20|Strike}} {{..:iconflame.png?nolink&20|Fire}}	|		|
+|	{{..:boots:boots08.png?nolink&30}}	|	[[#Hermes Shoes]]	|	38	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{..:boots:boots09.png?nolink&30}}	|	[[#Hell's Kneels]]	|	45	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconstrike.png?nolink&20|Strike}} {{..:icondark.png?nolink&20|Dark}}	|	Small daggers comes out of shoes	|
+|	{{..:boots:weap8bit14.png?nolink&30}}	|	[[#Blue Skies]]	|	15	|	{{..:iconstrike.png?nolink&20|Strike}}	|	Upgradeable	|
+|	{{..:boots:weap8bit15.png?nolink&30}}	|	[[#Boreal Rime Boots]]	|	15	|	{{..:iconstrike.png?nolink&20|Strike}} {{..:iconice.png?nolink&20|Ice}}	|	Upgradeable, Moves like on ice	|
+|	{{..:boots:weap8bit19.png?nolink&30}}	|	[[#Oleanders]]	|	12	|	{{..:iconstrike.png?nolink&20|Strike}} {{..:iconpoison.png?nolink&20|Poison}}	|	Upgradeable	|
+
+
+----
+
+===== Details =====
+
+----
+==== DefaultBoots ====
+{{..:tech.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	DefaultBoots									|||||	0	|	-	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+> -
+
+Special:
+  * -
+
+Technique:
+  * -
+
+Acquisition:
+  * -
+
+Notes:
+  * -
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+==== Kung Fu Shoes ====
+{{..:boots:boots01.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	KungFuShoes									|||||	8	|	-	|	600			||	60			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> Shoes from the Far East that were designed not to encumber movement.
+
+Technique:
+  * Flashing Air Kick (236A)
+
+Acquisition:
+  * Chest: Galleon Minerva (SIP000)
+  * Craft
+  * Shop
+
+Notes:
+  * You can use Flashing Air Kick to extend jumps horizontally, useful a few times in Galleon especially.
+  * Used to upgrade Kick Mastery rank 2-4
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+==== Battle Boots ====
+{{..:boots:boots02.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	BattleBoots									|||||	12	|	-	|	1800			||	180			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+> Combat boots soled in iron plates.
+
+Acquisition:
+  * Craft
+  * Shop
+
+Notes:
+  * Nothing to note, thank you for noticing.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+==== Lethal Shoes ====
+{{..:boots:boots03.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	KillerBoots									|||||	14	|	-	|	2700			||	270			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+> An assassin's boots. There are knives concealed inside.
+
+Special:
+  * Small daggers comes out of feet, extending range.
+  * These do less damage.
+
+Technique:
+  * Hatchet Heel (22A)
+
+Acquisition:
+  * Chest: Entrance (ENT009)
+  * Craft
+  * Shop
+
+Notes:
+  * Used to upgrade Kick Mastery ranks 5-7
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+==== Toy Shoes ====
+{{..:boots:boots04.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Toyshoes									|||||	17	|	-	|	4800			||	480			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+> Shoes that emit an adorable squeak with each step.
+
+Special:
+  * These makes squeaking noises
+
+Acquisition:
+  * Craft
+  * Quest: Abigail (Rhava Búral)
+
+Notes:
+  * Some might find these noises endearing, personally they drive me crazy.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+==== Steam Boots ====
+{{..:boots:boots06.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Assaultsollette									|||||	21	|	-	|	7500			||	750			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+> Steel boots fitted with a steam engine.
+
+Special:
+  * These makes steam noises
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Used to upgrade Kick Mastery ranks 8-9
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+==== Bunny Boots ====
+{{..:boots:boots05.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Rabbitboots									|||||	24	|	-	|	10800			||	1080			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+> Adorable boots fashioned after a rabbit.
+
+Acquisition:
+  * Craft
+
+Notes:
+  * For those that like the theme, these match up with the bunny scarf and ears.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+==== Dragon Shoes ====
+{{..:boots:boots07.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Dragonshoes									|||||	28	|	28	|	19200			||	1920			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|
+
+> Combat boots once prized by a master of the martial arts.
+
+Technique:
+  * Flashing Air Kick (236A)
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Nothing to note, thank you for noticing.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+==== Hermes Shoes ====
+{{..:boots:boots08.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Hermesshoes									|||||	38	|	-	|	30000			||	3000			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+> Shoes imbued with a wind spirit's power.
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Nothing to note, thank you for noticing.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+==== Hell's Kneels ====
+{{..:boots:boots09.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Decapitator									|||||	45	|	-	|	43200			||	4320			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+> Shoes that a demon created with the intent of beheading God himself.
+
+Special:
+  * Small daggers comes out of feet, extending range.
+  * These do less damage.
+
+Technique:
+  * Hatchet Heel (22A)
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Looks way too cumbersome, you'd cut your legs to shreds trying to run with these.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+==== Blue Skies ====
+{{..:boots:weap8bit14.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	CoolShoesOfMrNarita									|||||	15	|	-	|	-			||	-			||
+|	CoolShoesOfMrNarita2									|||||	31	|	-	|	-			||	-			||
+|	CoolShoesOfMrNarita3									|||||	45	|	-	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+> Blood-soaked boots that hit with all the force of the falling sky.
+
+Special:
+  * 8Bit-Upgradeable
+    - 8bitcoin lets you craft the first one.
+    - 16bitcoin lets you upgrade it to the second form.
+    - 32bitcoin+8bitnightmare lets you upgrade it to the third form.
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Nothing to note, thank you for noticing.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+==== Boreal Rime Boots ====
+{{..:boots:weap8bit15.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	IceSlewShoes									|||||	15	|	15	|	-			||	-			||
+|	IceSlewShoes2									|||||	31	|	31	|	-			||	-			||
+|	IceSlewShoes3									|||||	45	|	45	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|
+
+> Boots imbued with an ice deity. Used by a heroine who saved her homeland.
+
+Special:
+  * 8Bit-Upgradeable
+    - 8bitcoin lets you craft the first one.
+    - 16bitcoin lets you upgrade it to the second form.
+    - 32bitcoin+8bitnightmare lets you upgrade it to the third form.
+  * These have a permanent ice/slippery effect, this have several effects:
+    * Makes it noticeably harder to walk, as you slip and need to build up momentum.
+    * You can still jump as normal, making jumping the most efficient way of moving.
+    * If you jump kick diagonally onto ground, you'll slide a long way as if on ice.
+
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Very unique and interesting boots, but most consider it too much of a pain to use.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+==== Oleanders ====
+{{..:boots:weap8bit19.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	PoisonSpikeShoes									|||||	12	|	-	|	-			||	-			||
+|	PoisonSpikeShoes2									|||||	25	|	-	|	-			||	-			||
+|	PoisonSpikeShoes3									|||||	36	|	-	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|
+
+> Alchemical shoes designed for guests both welcome and not.
+
+  * 8Bit-Upgradeable
+    - 8bitcoin lets you craft the first one.
+    - 16bitcoin lets you upgrade it to the second form.
+    - 32bitcoin+8bitnightmare lets you upgrade it to the third form.
+
+Acquisition:
+  * Craft
+
+Notes:
+  * All upgradeable weapons with status effects have higher chances to apply as you upgrade the weapon.
+  * As with all poison weapons, you mostly use this to trigger poison, then swap to another more damaging weapon until the poison falls off again.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----

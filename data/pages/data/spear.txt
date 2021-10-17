@@ -1,0 +1,330 @@
+===== Spears =====
+[[start|<Back>]]
+
+> Blank
+
+Spears have the longest range out of all melee weapons, average attack speed. Average damage, and focuses on Stab damage type. Among the normal weapons, it's probably the one that feels closest to Castlevania style whip attacks.
+
+> WIP
+
+To-do:
+  * Links to crafting
+  * Links to techniques
+
+----
+
+==== Table ====
+
+^	Spears									^^^^^
+^	Img	^	-Name-	^	Atk	^	Dmg	^	Special	^
+|	{{..:spear:spear01.png?nolink&30}}	|	[[#Spear]]	|	13	|	{{..:iconstab.png?nolink&20|Stab}}	|		|
+|	{{..:spear:spear02.png?nolink&30}}	|	[[#Lance]]	|	18	|	{{..:iconstab.png?nolink&20|Stab}}	|		|
+|	{{..:spear:spear03.png?nolink&30}}	|	[[#Partisan]]	|	22	|	{{..:iconstab.png?nolink&20|Stab}}	|		|
+|	{{..:spear:spear05.png?nolink&30}}	|	[[#Shovel]]	|	27	|	{{..:iconstab.png?nolink&20|Stab}}	|		|
+|	{{..:spear:spear04.png?nolink&30}}	|	[[#Sanjiegun]]	|	29	|	{{..:iconstrike.png?nolink&20|Strike}}	|	Unique Tech	|
+|	{{..:spear:spear06.png?nolink&30}}	|	[[#Gondo-Shizunori]]	|	33	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconstab.png?nolink&20|Stab}}	|		|
+|	{{..:spear:spear07.png?nolink&30}}	|	[[#Leng Yan Ju]]	|	36	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconstab.png?nolink&20|Stab}}	|		|
+|	{{..:spear:spear08.png?nolink&30}}	|	[[#Areadbhar]]	|	40	|	{{..:iconstab.png?nolink&20|Stab}} {{..:iconflame.png?nolink&20|Fire}}	|		|
+|	{{..:spear:spear09.png?nolink&30}}	|	[[#Niflheim]]	|	45	|	{{..:iconstab.png?nolink&20|Stab}} {{..:iconice.png?nolink&20|Ice}}	|		|
+|	{{..:spear:spear10.png?nolink&30}}	|	[[#Gungnir]]	|	36	|	{{..:iconstab.png?nolink&20|Stab}} {{..:iconthunder.png?nolink&20|Lightning}}	|		|
+|	{{..:spear:spear11.png?nolink&30}}	|	[[#Gae Assail]]	|	46	|	{{..:iconstab.png?nolink&20|Stab}} {{..:iconlight.png?nolink&20|Holy}}	|		|
+|	{{..:spear:weap8bit04.png?nolink&30}}	|	[[#Sculptor's Chisel]]	|	16-32-46	|	{{..:iconstab.png?nolink&20|Stab}} {{..:iconice.png?nolink&20|Ice}} {{..:iconstone.png?nolink&20|Stone}}	|	Upgradeable	|
+|	{{..:spear:weap8bit11.png?nolink&30}}	|	[[#Black Dragon's Ode]]	|	20-40-58	|	{{..:iconstab.png?nolink&20|Stab}}	|	Upgradeable	|
+
+
+----
+
+=====Details=====
+----
+
+====Spear====
+{{..:spear:spear01.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Spear									|||||	13	|	-	|	1200			||	120			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|
+
+
+> A light spear.
+
+Acquisition:
+  * Craft
+  * Shop
+
+Notes:
+  * Used to upgrade Spear Expertise ranks 2-4
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Lance====
+{{..:spear:spear02.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Reims									|||||	18	|	-	|	2700			||	270			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|
+
+
+> A lance used primarily on horseback.
+
+Technique:
+  * Orbital Wheel (2486A)
+
+Acquisition:
+  * Craft
+  * Shop
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Partisan====
+{{..:spear:spear03.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Partizan									|||||	22	|	-	|	4800			||	480			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|
+
+
+> A lance with a large, broad blade.
+
+Acquisition:
+  * Chest: Towers of Twin Dragons (TWR009)
+  * Craft
+  * Drop: Lance Armor (8%)
+  * Shop
+
+Notes:
+  * Used to upgrade Spear Expertise ranks 5-7
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Shovel====
+{{..:spear:spear05.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Excavator									|||||	27	|	-	|	7500			||	750			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|
+
+
+> A shovel that functions as a weapon.
+
+Acquisition:
+  * Craft
+  * Drop: Shovel Armor (6%)
+
+Notes:
+  * Obviously this is a reference to Shovel Knight.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Sanjiegun====
+{{..:spear:spear04.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Triplet									|||||	29	|	-	|	9000			||	900			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> A special three-section staff with extendible joints.
+
+Special:
+  * Unique Tech, can't be mastered or used by other weapons.
+
+
+Technique:
+  * Lunging Serpent (66A)
+
+Acquisition:
+  * Chest: Galleon Minerva (SIP014. top-right, Double Jump)
+  * Craft
+
+Notes:
+  * Only Spear that does Strike damage.
+  * Chinese flail weapon that consists of three wooden or metal staffs connected by metal rings or rope. The weapon is also known as "coiling dragon staff". A more complicated version of the two section staff, the staves can be spun to gather momentum resulting in a powerful strike, or their articulation can be used to strike over or around a shield or other defense. (https://en.wikipedia.org/wiki/Three-section_staff)
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Gondo-Shizunori====
+{{..:spear:spear06.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	ShingoGempo									|||||	33	|	-	|	12600			||	1260			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|
+
+
+> The famous spear wielded by a valiant Eastern general.
+
+Technique:
+  * Penetrate (236A)
+
+Acquisition:
+  * Craft
+  * Quest: Susie (Omurice)
+
+Notes:
+  * Used to upgrade Spear Expertise ranks 8-9
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Leng Yan Ju====
+{{..:spear:spear07.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Coldgrindingsaw									|||||	36	|	-	|	14700			||	1470			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|
+
+
+> The crescent blade a general once used to take on whole armies alone.
+
+Technique:
+  * Penetrate (236A)
+
+Acquisition:
+  * Craft
+  * Shop (After Glutton Train)
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Areadbhar====
+{{..:spear:spear08.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Aradovar									|||||	40	|	40	|	24300			||	2430			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|
+
+
+> A spear that produces flames capable of leveling whole cities.
+
+Acquisition:
+  * Craft
+  * Drop: Zepar (4%)
+
+Notes:
+  * Areadbhar (also Areadbhair), the spear of Lugh, which originally belonged to Pisear, king of Persia. Lugh had no need to wield the spear himself. It was alive and thirsted for blood that was only stayed by steeping its head in a sleeping-draught of pounded fresh poppy seeds. When battle was near, it was drawn out; then it roared and struggled against its thongs, fire blazed from it, and it tore through the ranks of the enemy once slipped from the leash, never tired of slaying. (https://en.wikipedia.org/wiki/List_of_mythological_objects)
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Niflheim====
+{{..:spear:spear09.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Nibbleheim									|||||	45	|	45	|	24300			||	2430			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|
+
+> A spear of ice that was forged in hell.
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Norse cosmology: Niflheim was primarily a realm of primordial ice and cold, with the frozen rivers of Élivágar and the well of Hvergelmir, from which come all the rivers. (https://en.wikipedia.org/wiki/Niflheim)
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Gungnir====
+{{..:spear:spear10.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	GunungNil									|||||	36	|	36	|	24300			||	2430			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|
+
+
+> A thunder god's spear. It always strikes its target.
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Norse mythology: Gungnir is the spear of the god Odin. Old Norse "swaying one",[1] possibly related to the obscure Danish verb "gungre", meaning "to tremble". (https://en.wikipedia.org/wiki/Gungnir)
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Gae Assail====
+{{..:spear:spear11.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Gayalsals									|||||	46	|	46	|	43200			||	4320			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|
+
+
+> A spear of light that purifies the soul of whomever it pierces.
+
+Technique:
+  * Orbital Wheel (2486A)
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Gae Assail (Spear of Assal), another spear belonging to Lugh, the incantation "Ibar (Yew)" made the cast always hit its mark, and "Athibar (Re-Yew)" caused the spear to return. (https://en.wikipedia.org/wiki/List_of_mythological_objects)
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Sculptor's Chisel====
+{{..:spear:weap8bit04.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	IcePillarSpear									|||||	16	|	16	|	-			||	-			||
+|	IcePillarSpear2									|||||	32	|	32	|	-			||	-			||
+|	IcePillarSpear3									|||||	46	|	46	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|	{{..:icon06.png?nolink&20}}	|
+
+
+> An ice lance. Sadly, not a sickle. Chisels away all of your enemies.
+
+Special:
+  * 8Bit-Upgradeable
+    - 8bitcoin lets you craft the first one.
+    - 16bitcoin lets you upgrade it to the second form.
+    - 32bitcoin+8bitnightmare lets you upgrade it to the third form.
+  * All upgradeable weapons with status effects have higher chances to apply as you upgrade the weapon.
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Possibly the best weapon in the game for petrifying enemies that are vulnerable to it.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Black Dragon's Ode====
+{{..:spear:weap8bit11.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	LoveOfFairyDragon									|||||	20	|	-	|	-			||	-			||
+|	LoveOfFairyDragon2									|||||	40	|	-	|	-			||	-			||
+|	LoveOfFairyDragon3									|||||	58	|	-	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|
+
+
+> A weapon made by a black dragon who fell in love with a faerie.
+
+Special:
+  * 8Bit-Upgradeable
+    - 8bitcoin lets you craft the first one.
+    - 16bitcoin lets you upgrade it to the second form.
+    - 32bitcoin+8bitnightmare lets you upgrade it to the third form.
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Highest damage spear.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----

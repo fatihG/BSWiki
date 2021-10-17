@@ -1,0 +1,43 @@
+===== Tutorial: Modifying a 3D Model's Geometry; Step 3. =====
+
+[[.:step2|<- Previous Step]] | [[.:|Tutorial Summary]] | [[.:step4|Next Step ->]] 
+
+----
+
+==== Find the Model You Want To Edit With UE Viewer ====
+
+Now assuming you've already downloaded [[modding:tools#ue_viewer|UE Viewer]], extract the contents of the UE Viewer zip archive you've downloaded anywhere you want. I put it inside of my "extracted" folder that was created in the previous step (that contains all of the game's **.uasset** files which  were extracted from the original **.pak** files).
+
+{{ :modding:modelling:tutorial_ue_viewer_extract.png?nolink&600 |}}
+
+Double click on "umodel_64.exe" to open it. For "Path to game files:", make sure the folder where you've extracted the game's pak files is selected. Check the checkbox for "Override game detection" and select "Unreal engine 4" for the first dropdown and "Unreal engine 4.18" for the second dropdown. Click "OK".
+
+{{ :modding:modelling:tutorial_ue_viewer_startup_settings.png?nolink&600 |}}
+
+You will see a folder structure on the left containing all of the **.uasset** files that were extracted from the **.pak** file. Now you need to find the model you want to edit and open it. This will be guess and check, in the future we may have a guide on where each model is located.
+
+{{ :modding:modelling:tutorial_ue_viewer_choose_package.png?nolink&600 |}}
+
+For this tutorial I'll be modifying Miriam's head, which is located at //BloodstainedRotN -> Content -> Core -> Character -> P0000 -> Mesh//. The filename is SK_Pl01_MiriamHead.uasset.
+
+{{ :modding:modelling:tutorial_ue_viewer_filepath_for_miriam_head.png?nolink&600 |}}
+
+Once you open the file you'll see a preview of the 3D model you're about to edit.
+
+{{ :modding:modelling:tutorial_ue_viewer_miriam_head_preview.png?nolink&600 |}}
+
+Click on //Tools -> Export Current Object// in the menu bar.
+
+{{ :modding:modelling:tutorial_ue_viewer_export_current_object.png?nolink&600 |}}
+
+You can leave all the settings in this dialog at default, but I suggest changing the export folder in this case to something that's specific to your mod, for organizational purposes. In my case, I'm creating a "BloodstainedMods" folder to contain all of my mods, and for this specific step I'm exporting to a "ModelEdits" folder inside of it, because I will be editing the model in that folder.
+
+{{ :modding:modelling:tutorial_ue_viewer_export_current_object_miriam_head_path.png?nolink&600 |}}
+
+Click "OK", and after it's done you can close the UE Viewer program.
+
+Now if you explore the folder you exported to, you'll notice a lot of files were exported, all of them relating to the model you chose. You'll want to look for a **.psk** file that is in the same relative path and filename as the model you chose. In my case this is located at //X:\BloodstainedMods\MiriamHead\ModelEdits\Core\Character\P0000\Mesh\SK_Pl01_MiriamHead.psk//. This is the file I'll be modifying in the next step.
+
+----
+
+[[.:step2|<- Previous Step]] | [[.:|Tutorial Summary]] | [[.:step4|Next Step ->]] 

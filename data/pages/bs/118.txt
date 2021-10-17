@@ -1,0 +1,23 @@
+====== Bloodstained Patch 1.17 -> 1.18 ======
+
+>[[start|<Back>]]
+
+Files that has changed from 1.17 to 1.18 that I've found yet.
+
+ === Changed === 
+  * Enemy\CharacterParameterMaster
+  * Item\ItemMaster
+  * ArmorMaster
+  * ArtsCommandMaster
+  * CoordinateParameter
+  * DropRateMaster
+  * EnchantaParameterInitialSetting
+  * ShardMaster
+  * WeaponMaster
+
+ === Identical === 
+  * CraftMaster
+
+ === New Monster === 
+  * N3048
+

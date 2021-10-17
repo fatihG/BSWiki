@@ -1,0 +1,53 @@
+====== NG+ ======
+>[[start|<Back>]]
+
+Start from the start, with everything you got, excluding these:
+
+==== What gets removed in NG+ ====
+
+Gear:
+  * Waystone
+  * Swordsman
+  * BreastplateofAguilar
+  * Haagentifeather
+Key Items:
+  * Certificationboard
+  * IDphoto
+  * Silverbromide
+  * Keyofbacker1
+  * Keyofbacker2
+  * Keyofbacker3
+  * Keyofbacker4
+  * VillageKey
+Books: (All)
+  * Bookofstiffness
+  * Abookofwisemen
+  * GuardiansBook
+  * Bookoffaith
+  * BookofFortune
+  * BookofFury
+  * Bookofwinter
+  * Heatresistantbook
+  * LightningProtectionBook
+  * Bookoflatency
+  * ShadingBook
+  * Bookoffossilstone
+  * Bookofdetoxification
+  * TheBookofMonster
+  * BookoftheMighty
+  * Abookofthegale
+  * BookofTactics
+  * Bookofexercise
+  * Bookofthechampion
+  * Bookofthefollower
+  * BookofDevils
+Shards:
+  * Bloodsteel
+  * Demoniccapture
+  * Reflectionray
+  * Aquastream
+  * Dimensionshift
+  * Doublejump
+  * Invert
+  * Deepsinker
+  * HighJump

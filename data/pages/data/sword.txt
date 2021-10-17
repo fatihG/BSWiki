@@ -1,0 +1,626 @@
+===== Sword =====
+[[start|<Back>]]
+
+> "Magic is impressive but now Minsc leads. Swords for everyone" -Minsc
+
+Swords have medium range, speed and damage. They focus on Cut damage. They're the largest single type of weapons in the game, even before we add the Maces and Special weapons.
+
+Maces also falls in under Swords, and uses the Sword Expertise shard. They also share the same techniques as swords. They are slightly slower and focus on Strike damage.
+
+Special weapons are ones that functions in unique ways and doesn't work similar to any other weapons. They still use the Sword Expertise shard, but have no techniques. 
+
+Notable that the Force Blast technique have special animations on weapons with elemental damages. This technique can also be found natively on 25 different weapons. Followed by Power Slash on 6 weapons. No other technique exceeds 4.
+
+> WIP
+
+To-do:
+  * Links to crafting
+  * Links to techniques
+  * Double check all Acquisition
+
+----
+==== Table ====
+
+^	Sword									^^^^^
+^	Img	^	-Name-	^	Atk	^	Dmg	^	Special	^
+|	{{ ..:sword:sword01.png?nolink&30}}	|	[[#Short Sword]]	|	12	|	{{..:iconcut.png?nolink&20|Cut}}	|		|
+|	{{ ..:sword:sword25.png?nolink&30}}	|	[[#Long Sword]]	|	18	|	{{..:iconcut.png?nolink&20|Cut}}	|		|
+|	{{ ..:sword:sword02.png?nolink&30}}	|	[[#Ulfberht Sword]]	|	22	|	{{..:iconcut.png?nolink&20|Cut}}	|		|
+|	{{ ..:sword:sword04.png?nolink&30}}	|	[[#Harpé]]	|	29	|	{{..:iconcut.png?nolink&20|Cut}}	|		|
+|	{{ ..:sword:sword05.png?nolink&30}}	|	[[#Invisible Blade]]	|	27	|	{{..:iconcut.png?nolink&20|Cut}}	|		|
+|	{{ ..:sword:sword06.png?nolink&30}}	|	[[#Murgleis]]	|	25	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconstone.png?nolink&20|Stone}}	|		|
+|	{{ ..:sword:sword08.png?nolink&30}}	|	[[#Red Umbrella]]	|	31	|	{{..:iconcut.png?nolink&20|Cut}}	|		|
+|	{{ ..:sword:sword07.png?nolink&30}}	|	[[#Blutgang]]	|	33	|	{{..:iconcut.png?nolink&20|Cut}}	|		|
+|	{{ ..:sword:sword09.png?nolink&30}}	|	[[#Fragarach]]	|	28	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconlight.png?nolink&20|Holy}}	|		|
+|	{{ ..:sword:sword10.png?nolink&30}}	|	[[#Hofud]]	|	32	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconcurse.png?nolink&20|Curse}}	|		|
+|	{{ ..:sword:sword11.png?nolink&30}}	|	[[#Dáinsleif]]	|	47	|	{{..:iconcut.png?nolink&20|Cut}} {{..:icondark.png?nolink&20|Dark}}	|		|
+|	{{ ..:sword:sword12.png?nolink&30}}	|	[[#Florenberg]]	|	42	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconflame.png?nolink&20|Fire}}	|		|
+|	{{ ..:sword:sword13.png?nolink&30}}	|	[[#Almace]]	|	47	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconice.png?nolink&20|Ice}}	|		|
+|	{{ ..:sword:sword14.png?nolink&30}}	|	[[#Caladbolg]]	|	37	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconthunder.png?nolink&20|Lightning}}	|		|
+|	{{ ..:sword:sword15.png?nolink&30}}	|	[[#Ridill]]	|	20	|	{{..:iconcut.png?nolink&20|Cut}}	|		|
+|	{{ ..:sword:sword27.png?nolink&30}}	|	[[#Bandit Blade]]	|	53	|	{{..:iconcut.png?nolink&20|Cut}}	|	Unique Tech	|
+|	{{ ..:sword:sword03.png?nolink&30}}	|	[[#Blue Rose]]	|	58	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconice.png?nolink&20|Ice}}	|		|
+|	{{ ..:sword:sword16.png?nolink&30}}	|	[[#Bloodbringer]]	|	24	|	{{..:iconcut.png?nolink&20|Cut}}	|	Weapon becomes stronger as familiar levels	|
+|	{{ ..:sword:weap8bit06.png?nolink&30}}	|	[[#Gold Cross]]	|	11-23-34	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconlight.png?nolink&20|Holy}} {{..:iconstone.png?nolink&20|Stone}}	|	Upgradeable	|
+|	{{ ..:sword:weap8bit07.png?nolink&30}}	|	[[#Eu's Sword]]	|	20-40-58	|	{{..:iconcut.png?nolink&20|Cut}}	|	Upgradeable	|
+|	{{ ..:sword:weap8bit16.png?nolink&30}}	|	[[#Encrypted Orchid]]	|	16-32-46	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconthunder.png?nolink&20|Lightning}}	|	Upgradeable	|
+|	{{ ..:sword:weap8bit17.png?nolink&30}}	|	[[#Hikari]]	|	16-32-46	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconlight.png?nolink&20|Holy}}	|	Upgradeable	|
+|	{{ ..:sword:weap8bit18.png?nolink&30}}	|	[[#Moonwake]]	|	16-32-46	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconlight.png?nolink&20|Holy}}	|	Upgradeable	|
+|	{{ ..:sword:sword26.png?nolink&30}}	|	[[#Valkyrie Sword]]	|	54	|	{{..:iconcut.png?nolink&20|Cut}}	|	Unique Tech	|
+
+----
+
+===== Details =====
+----
+====Short Sword====
+{{..:sword:sword01.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	ShortSword									|||||	12	|	-	|	600			||	60			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+> A short sword favored by soldiers.
+
+Acquisition:
+  * Chest: Galleon Minerva (SIP011)
+  * Craft
+  * Shop
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Long Sword====
+{{..:sword:sword25.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	LongSword									|||||	18	|	-	|	2700			||	270			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> A long sword favored by soldiers.
+
+Acquisition:
+  * Craft
+  * Drop: Sabnock (8%)
+  * Shop
+
+Notes:
+  * Used to upgrade Sword Expertise ranks 2-4
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Ulfberht Sword====
+{{..:sword:sword02.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	WolfBalt									|||||	22	|	-	|	4800			||	480			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> A longsword favored by Vikings.
+
+Technique:
+  * Power Slash (2146A)
+
+Acquisition:
+  * Craft
+  * Drop: Gieremund (1%)
+  * Wall: Entrance (Wall_ENT012)
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Harpé====
+{{..:sword:sword04.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Halper									|||||	29	|	-	|	9000			||	900			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> A sword with a scythe-like blade.
+
+Acquisition:
+  * Craft
+  * Drop: Malediction (3%)
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Invisible Blade====
+{{..:sword:sword05.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	invisible									|||||	27	|	-	|	7500			||	750			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> A blade that has been made invisible through sorcery.
+
+Acquisition:
+  * Craft
+  * Wall: Towers of Twin Dragons (Wall_TWR013 upper left)
+
+Notes:
+  * Blade is invisible but has longer range ?
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Murgleis====
+{{..:sword:sword06.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Mulgres									|||||	25	|	-	|	10800			||	1080			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|	{{..:icon06.png?nolink&20}}	|
+
+
+> A cursed sword that has been known to turn enemies to stone.
+
+Acquisition:
+  * Craft
+  * Quest: Susie (Classic Spaghetti)
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Red Umbrella====
+{{..:sword:sword08.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Redumbrella									|||||	31	|	-	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> An umbrella that blood-rain has stained a deep red.
+
+Technique:
+  * Force Blast (236A)
+
+Acquisition:
+  * Chest: Dian Cecht Cathedral (SAN024)
+
+Notes:
+  * Have a unique animation for Force Blast.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Blutgang====
+{{..:sword:sword07.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Burtgang									|||||	33	|	-	|	12600			||	1260			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> A precious sword used by a legendary defender and champion.
+
+Technique:
+  * Parry (66A)
+
+Acquisition:
+  * Chest: Hall of Termination (KNG012 top-right, Invert)
+  * Craft
+
+Notes:
+  * Used to upgrade Sword Expertise ranks 5-7
+  * Possible to reach by tricky luring demon to right spot and jump kick off him.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Fragarach====
+{{..:sword:sword09.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Flagarach									|||||	28	|	28	|	14700			||	1470			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|
+
+
+> A holy sword that answers to its master's will.
+
+Technique:
+  * Force Blast (236A)
+
+Acquisition:
+  * Chest: Glacial Tomb (ICE008 middle-right, Reflection Ray)
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Hofud====
+{{..:sword:sword10.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Hoffdo									|||||	32	|	-	|	19200			||	1920			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|
+
+
+> A storied blade that has cracked the skulls of myriad adversaries.
+
+Technique:
+  * Power Slash (2146A)
+
+Acquisition:
+  * Craft
+  * Shop (After Glutton Train)
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Dáinsleif====
+{{..:sword:sword11.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Dineslave									|||||	47	|	47	|	27000			||	2700			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|
+
+> A magical blade that thirsts for the blood of the living.
+
+Technique:
+  * Force Blast (236A)
+
+Acquisition:
+  * Craft
+  * Quest: Susie (Simmered Forneus)
+
+Notes:
+  * Used to upgrade Sword Expertise ranks 8-9
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Florenberg====
+{{..:sword:sword12.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Florenberg									|||||	42	|	42	|	27000			||	2700			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|
+
+
+> A sword imbued with fire and courage.
+
+Technique:
+  * Force Blast (236A)
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Almace====
+{{..:sword:sword13.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Armas									|||||	47	|	47	|	27000			||	2700			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|
+
+
+> A sword that sunders and freezes at a stroke.
+
+Technique:
+  * Force Blast (236A)
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Caladbolg====
+{{..:sword:sword14.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Caradoborg									|||||	37	|	37	|	27000			||	2700			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|
+
+
+> A blade mantled in lightning.
+
+Technique:
+  * Force Blast (236A)
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Ridill====
+{{..:sword:sword15.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Liddyl									|||||	20	|	-	|	43200			||	4320			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> A sword once used to remove a dragon's heart.
+
+Special:
+  * Multi-hit ? (FIXME need to confirm)
+
+Technique:
+  * Power Slash (2146A)
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Bandit Blade====
+{{..:sword:sword27.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	HuntedBrad									|||||	53	|	-	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> A sword with hidden capabilities.
+
+Special:
+  * Unique Tech, can't be mastered or used by other weapons.
+
+Technique:
+  * Back Steal (646A)
+
+Acquisition:
+  * Quest: Lindsay (Revenant 1x)
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Blue Rose====
+{{..:sword:sword03.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Broadsword									|||||	58	|	-	|	43200			||	4320			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|
+
+
+> A Shardbinder's blade that represents the finest in alchemy.
+
+Technique:
+  * Force Blast (236A)
+
+Acquisition:
+  * Craft
+
+Notes:
+  * This is the sword Miriam wears in most art.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Bloodbringer====
+{{..:sword:sword16.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	BradBlingerLv1									|||||	24	|	-	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> An enchanted sword with the potential to grow stronger.
+
+Special:
+  * Increases ATK with the Familiar levels, maxes out at Atk 55.
+  * Also changes appearance with the Familiar levels.
+
+  PB_DT_CoordinateParameter
+  "Key": "WeaponGrowMaxAtk_BloodBringer",
+  "Value": 55.0
+
+Acquisition:
+  * Special: You get it the moment you gain the familiar, but can't use them at the same time.
+
+Notes:
+  * There is a way to bug so you can use both, as usual it involves Shortcut.
+  * Alternative looks:
+
+{{..:sword:sword22.png?nolink}}
+{{..:sword:sword23.png?nolink}}
+{{..:sword:sword24.png?nolink}}
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Gold Cross====
+{{..:sword:weap8bit06.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	XrossBrade									|||||	11	|	11	|	-			||	-			||
+|	XrossBrade2									|||||	23	|	23	|	-			||	-			||
+|	XrossBrade3									|||||	34	|	34	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|	{{..:icon06.png?nolink&20}}	|
+
+
+> A sword imbued with strange powers. Originally created by a secretive brotherhood, gives strength in times of need.
+
+Special:
+  * 8Bit-Upgradeable
+    - 8bitcoin lets you craft the first one.
+    - 16bitcoin lets you upgrade it to the second form.
+    - 32bitcoin+8bitnightmare lets you upgrade it to the third form.
+  * All upgradeable weapons with status effects have higher chances to apply as you upgrade the weapon.
+
+Technique:
+  * Force Blast (236A)
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Eu's Sword====
+{{..:sword:weap8bit07.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	BradeOfEU									|||||	20	|	-	|	-			||	-			||
+|	BradeOfEU2									|||||	40	|	-	|	-			||	-			||
+|	BradeOfEU3									|||||	58	|	-	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> A certain ruler of the universe's sword. Its power has faded.
+
+Special:
+  * 8Bit-Upgradeable
+    - 8bitcoin lets you craft the first one.
+    - 16bitcoin lets you upgrade it to the second form.
+    - 32bitcoin+8bitnightmare lets you upgrade it to the third form.
+
+Technique:
+  * Force Blast (236A)
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Encrypted Orchid====
+{{..:sword:weap8bit16.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	LightSaber									|||||	16	|	16	|	-			||	-			||
+|	LightSaber2									|||||	32	|	32	|	-			||	-			||
+|	LightSaber3									|||||	46	|	46	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|
+
+> 6F20636B6E7077206772646C7A207A77 6B6A207075707365756C2078726B7674
+
+Special:
+  * 8Bit-Upgradeable
+    - 8bitcoin lets you craft the first one.
+    - 16bitcoin lets you upgrade it to the second form.
+    - 32bitcoin+8bitnightmare lets you upgrade it to the third form.
+
+Technique:
+  * Force Blast (236A)
+
+Acquisition:
+  * Craft
+
+Notes:
+  * "It's a Vigenère Cipher. The key was "orchid". The decrypted string is: "a light saber with immense power" "
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Hikari====
+{{..:sword:weap8bit17.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	JodoSwordLight									|||||	16	|	16	|	-			||	-			||
+|	JodoSwordLight2									|||||	32	|	32	|	-			||	-			||
+|	JodoSwordLight3									|||||	46	|	46	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|
+
+
+> A sword that purifies evil with its divine light.
+
+Special:
+  * 8Bit-Upgradeable
+    - 8bitcoin lets you craft the first one.
+    - 16bitcoin lets you upgrade it to the second form.
+    - 32bitcoin+8bitnightmare lets you upgrade it to the third form.
+
+Technique:
+  * Force Blast (236A)
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Moonwake====
+{{..:sword:weap8bit18.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	SpearCutDownAside									|||||	16	|	16	|	-			||	-			||
+|	SpearCutDownAside2									|||||	32	|	32	|	-			||	-			||
+|	SpearCutDownAside3									|||||	46	|	46	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|
+
+
+> Moonlight shaped into a blade Reflecting the heart's true self
+
+Special:
+  * 8Bit-Upgradeable
+    - 8bitcoin lets you craft the first one.
+    - 16bitcoin lets you upgrade it to the second form.
+    - 32bitcoin+8bitnightmare lets you upgrade it to the third form.
+
+Technique:
+  * Force Blast (236A)
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Valkyrie Sword====
+{{..:sword:sword26.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	ValkyrieSword									|||||	54	|	-	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> A warmaiden's weapon of choice.
+
+
+Special:
+  * Unique Tech, can't be mastered or used by other weapons.
+  * Requires you to master all other techniques to use.
+
+Technique:
+  * Force Blast (236A)
+  * Brynhild's Blessing (22A)
+
+Acquisition:
+  * Chest: Towers of Twin Dragons (TWR016 bottom, Dimension Shift)
+
+Notes:
+  * Technique name: "It's listed in the digital manual backer reward which just got sent out."
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----

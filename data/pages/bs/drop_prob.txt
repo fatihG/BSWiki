@@ -1,0 +1,44 @@
+===== Problematic Drops =====
+>[[start|<Back>]]
+
+Been testing out the boss drops, as some of them been causing problems when changed or removed. Here is a list of all of them with any issues:
+
+^	-ID-	^	-Name-	^	-Drop-	^	-Problem-	^
+|	N3006_OpeningDemo_Shard	|		|	Ceruleansplash	|	Specific Shard or cutscene doesn't start.	|
+|	N3005_FireCannon_Shard	|		|	FireCannon	|	Need fire shard to get past cannon, no respawn NG+	|
+|	Shortcut_Shard	|		|	Shortcut	|	Can't Change	|
+|	FamiliaSilverKnight_Shard	|		|	FamiliaSilverKnight	|	Can't Change	|
+|	1001	|	Vepar	|	SwingTentacle 	|	Any shard, or door doesn't open.	|
+^	1011	^	Zangetsu1	^		^		^
+|	1003	|	Craftwork	|	Demoniccapture	|	Specific Shard to open door. Can have it from before	|
+^	2004	^	Andrealphus	^	Doublejump	^		^
+^	1005	^	Valac	^	InfernoBrace	^		^
+^	Treasurebox_TWR019	^		^	Silverbromide	^		^
+|	2001	|	Glutton Train	|	Hammerknuckle	|	Specific Shard, or cutscene doesn't end. Cant Menu.	|
+^	1006	^	Bathin	^	Reflectionray	^		^
+^	2008	^	Abyssal Guardian Boss	^	Voidlay 	^		^
+^	1012	^	Gebel	^		^		^
+|	1002	|	Bloodless	|	Bloodsteel	|	Any shard, or door doesn't open.	|
+^	2014	^	Alfred	^		^		^
+|	Deepsinker_Shard	|		|	Deepsinker	|	Can't Change	|
+^	2007	^	Doppelganger	^	Shadowtracer 	^		^
+|	2006	|	Orobas	|	Invert	|	Any shard, or door doesn't open.	|
+^	1011	^	Zangetsu2	^		^		^
+^	Swordsman	^		^	Swordsman	^		^
+^	1004	^	Valefar	^	GoldBarrett 	^		^
+|	1008	|	Gremory	|	Dimensionshift	|	Any shard, or door doesn't open.	|
+^	1009	^	Dominique	^		^		^
+^	1013	^	Bael	^		^		^
+^	2012	^	Orlok Dracule	^	AccelWorld 	^		^
+|	2013	|	IGA	|	NeverSatisfied 	|	Specific Shard, or door doesn't open.	|
+
+
+
+===== Other Problems =====
+
+Some Cut-scenes get stuck if you enter from the wrong side, or other problems/issues with Drop rates:
+
+  * Fight between Gebel and Alfred, between Towers -> Library (When enter from left side, camera leaves screen and gets stuck)
+  * If you put **"AreaChangeTreasureFlag": true,"** on a monster, it always drops 1 potion. Might have other side effects or req.
+
+

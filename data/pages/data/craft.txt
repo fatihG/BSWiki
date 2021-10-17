@@ -1,0 +1,28 @@
+ ===== Craft ===== 
+[[start|<Back>]]
+
+Gathering all crafting here, to be linked from other pages.
+
+Hmm, some questions about how to organise this:
+	split into groups/weapons
+	is this just going to be a hub page, linking to other?
+	Tables needs proper names, keep item id's in item references
+	Own page for food ?
+	Own page for shard ranks ?
+
+
+
+
+==== Table 1 ====
+
+
+^	-Boot-							^^^^	-Recipe-							^^^^
+|	KungFuShoes							||||	-							||||
+^	Ingrediment1	^	#	^	Ingrediment2	^	#	^	Ingrediment3	^	#	^	Ingrediment4	^	#	^
+|	DemonDogSkin	|	2	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+==== Table 2 ====
+
+^	Kung-Fu-Shoes			||	KungFuShoes			^^	Unlock:			||	-			||
+^	Ingrediment1	^	#	^	Ingrediment2	^	#	^	Ingrediment3	^	#	^	Ingrediment4	^	#	^
+|	DemonDogSkin	|	2	|		|		|		|		|		|		|

@@ -1,0 +1,29 @@
+===== Tutorial: Modifying a 3D Model's Geometry; Step 1. =====
+
+[[.:|Tutorial Summary]] | [[.:step2|Next Step ->]] 
+
+----
+
+==== Download Unreal Engine Version 4.18.3 ====
+
+Unreal Engine takes a while to download, so it's good to set this up first. [[https://www.unrealengine.com/en-US/unreal|Download the Unreal Engine 4 installer and run it]]. This will install the Epic Games launcher. You will need to create an Epic Games account if you do not already have one and sign in.
+
+{{ :modding:modelling:tutorial_epic_games_signin.png?nolink&400 |}}
+
+Once Epic Games launcher opens, click on the "Library" tab.
+
+{{ :modding:modelling:tutorial_epic_games_launcher_home_screen.png?nolink&800 |}}
+
+{{ :modding:modelling:tutorial_epic_games_launcher_library_screen_add_engine.png?nolink&800 |}}
+
+Click the yellow + button next to "Engine Versions". A new item will appear.
+
+{{ :modding:modelling:tutorial_epic_games_launcher_newly_added_engine.png?nolink&400 |}}
+
+Click on the dropdown with the version number and select "4.18.3". Then click "Install". Follow the rest of the prompts until it shows that the engine starts downloading. Let it download in the background and go to the next step.
+
+{{ :modding:modelling:tutorial_epic_games_launcher_pick_unreal_engine_version.png?nolink&400 |}}
+
+----
+
+[[.:|Tutorial Summary]] | [[.:step2|Next Step ->]] 

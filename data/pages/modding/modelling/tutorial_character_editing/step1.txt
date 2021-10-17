@@ -1,0 +1,23 @@
+===== Tutorial: Character Editing Cavats; Step 1. =====
+
+[[.:|Tutorial Summary]] | [[.:step2|Next Step ->]] 
+
+----
+
+==== Use UE Viewer to Extract Miriam's Body Model ====
+
+Open [[modding:tools#ue_viewer|UE Viewer (umodel_64.exe)]] and open Miriam's body model at "BloodstainedRotN -> Content -> Core -> Character -> P0000 -> Mesh". The package name is "SK_P1000".
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_open_umodel_miriam_body.png?nolink&800 |}}
+
+Export the model to a new folder where you want to edit it.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_export_umodel_miriam_body.png?nolink&400 |}}
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_export_umodel_miriam_body_dialog.png?nolink&600 |}}
+
+In my case, the exported **.psk** file that I'll be editing is located at //X:\BloodstainedMods\CharacterEditing\ModelEdits\Core\Character\P0000\Mesh\SK_P10000.psk//.
+
+----
+
+[[.:|Tutorial Summary]] | [[.:step2|Next Step ->]] 

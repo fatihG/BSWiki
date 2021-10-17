@@ -1,0 +1,38 @@
+[[./start|<Back>]]
+
+===== Tutorial: Modifying a 3D Model's Geometry =====
+
+If you've already created a Bloodstained mod before, download any tools you don't have below then [[.:tutorial_mesh:step3|jump to step 3]].
+
+----
+
+==== Required Modding Tools ====
+
+Before you start, you'll need to download the following tools:
+  * [[https://www.unrealengine.com/en-US/unreal|Unreal Engine 4]]
+  * {{ :modding:tool_quickbms.zip |QuickBMS}}
+  * [[https://www.gildor.org/en/projects/umodel|UE Viewer]]
+  * {{ :modding:tool_unrealpak.zip |UnrealPak}}
+  * [[https://github.com/Befzz/blender3d_import_psk_psa|PSK/PSA Importer Addon (for Blender users)]]
+
+You will also need to decide which 3D modelling software you'll use to edit the game's models. If you've never used 3D modelling software before, I recommend learning with **Blender** as it's free. We've successfully modded the game with these 3D modelling tools (Pick One):
+  * [[https://www.blender.org/download/|Blender]] with the [[https://github.com/Befzz/blender3d_import_psk_psa|PSK/PSA Importer Addon Installed]]
+  * [[https://www.autodesk.com/products/3ds-max/free-trial|3DS Max]]
+
+----
+
+==== Steps ====
+
+  - [[.:tutorial_mesh:step1|Download Unreal Engine Version 4.18.3]]
+  - [[.:tutorial_mesh:step2|Extract the Game's Assets]]
+  - [[.:tutorial_mesh:step3|Find the Model You Want To Edit With UE Viewer]]
+  - [[.:tutorial_mesh:step4|Edit the PSK File In Your Favorite 3D Modelling Software]]
+  - [[.:tutorial_mesh:step5|Import the FBX File Into Unreal Engine]]
+  - [[.:tutorial_mesh:step6|Create a New .pak File From the Newly Packaged .uasset Files]]
+
+----
+==== Final Result ====
+
+You'll give Miriam a long nose.
+
+{{:modding:modelling:tutorial_mesh:tutorial_complete_miriam_head.png?nolink|}}

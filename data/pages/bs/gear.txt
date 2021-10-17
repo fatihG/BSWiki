@@ -1,0 +1,151 @@
+===== Gear Stats =====
+>[[start|<Back>]]
+
+^	-Body-	^	Atk	^	Matk	^	Def	^	Mdef	^	Zan	^	Dag	^	Tot	^	Fla	^	Ice	^	Lig	^	Hol	^	Dar	^	Poi	^	Cur	^	Sto	^	Str	^	Con	^	Int	^	Mnd	^	Lck	^	Look	^	Special	^
+|	EmptyBody	|		|		|		|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|		|
+|	Tunic	|		|		|	2	|	1	^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|		|
+|	Skinbreastplate	|		|		|	3	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|		|
+|	Countrydress	|		|		|	3	|	3	^		^		^		|		|		|		|		|		^		^		^		|		|		|	1	|	2	|		^	X	|		|
+|	Copperbreastplate	|		|		|	5	|	1	^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|		|
+|	Chemisedress	|		|		|	4	|	4	^		^		^		|		|		|		|		|		^		^		^		|		|		|	2	|	3	|		^	X	|		|
+|	Scalearmor	|		|		|	7	|	1	^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|		|
+|	Ironbreastplate	|		|		|	11	|	2	^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|		|
+|	Brigandine	|		|		|	9	|	4	^		^	5	^		|		|		|		|		|		^		^		^		|		|	2	|		|	2	|		^	X	|		|
+|	IronMansApron	|		|		|	8	|	8	^		^		^		|	5	|		|		|		|		^		^		^		|		|		|		|		|	1	^	X	|	ApronCraftBonusRate +0.1	|
+|	KungFuBest	|		|		|	9	|	4	^		^		^		|		|		|		|		|		^		^		^		|	2	|		|		|		|		^	X	|		|
+|	Teadress	|		|		|	9	|	9	^		^		^		|		|		|		|		|		^		^		^		|		|		|	2	|	5	|		^	X	|		|
+|	Chainmail	|		|		|	14	|	3	^	3	^	3	^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|		|
+|	Beastleather	|		|		|	13	|	6	^		^		^		|		|		|		|		|		^		^		^		|	3	|		|		|	2	|		^	X	|		|
+|	Maturedress	|		|		|	11	|	11	^		^		^		|		|		|		|		|		^		^		^		|		|		|	3	|	6	|		^	X	|		|
+|	Shovelarmorsarmor	|		|		|	14	|	3	^		^		^		|		|		|		|		|		^		^		^		|		|	2	|		|		|		^		|	Change apperance and move/skillset	|
+|	LamellarArmor	|		|		|	15	|	3	^	5	^	5	^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|		|
+|	CrusadeArmor	|		|		|	16	|	4	^		^		^		|		|		|		|		|		^		^	10	^		|	1	|		|	1	|		|		^	X	|		|
+|	Steelbreastplate	|		|		|	18	|	4	^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|		|
+|	RidingHabit	|		|		|	20	|	10	^		^		^		|		|		|		|		|		^		^		^		|		|	2	|		|		|		^	X	|		|
+|	DuelBrest	|		|		|	22	|	5	^		^		^		|		|		|		|	10	|		^		^		^		|	2	|		|	2	|		|		^	X	|		|
+|	Silverbreastplate	|		|		|	27	|	6	^		^		^		|		|		|		|		|		^		^		^		|		|	3	|		|		|		^	X	|		|
+|	Assassinvest	|		|		|	23	|	11	^	2	^		^		|		|		|		|		|		^	10	^		^		|	1	|		|		|		|		^	X	|	AttackSpeedRate +0.1	|
+|	Featherrobe	|		|		|	30	|	15	^		^		^		|		|		|		|		|		^		^		^		|		|		|	3	|		|		^	X	|	DamageVanishCondition +100	|
+|	VoronezDress	|		|		|	27	|	27	^		^		^		|		|		|		|		|		^		^		^		|		|		|	3	|	5	|		^	X	|		|
+|	Cureus	|		|		|	29	|	7	^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|		|
+|	Crystalscale	|		|		|	30	|	7	^		^		^		|		|		|		|		|	10	^		^		^		|		|		|		|		|		^	X	|		|
+|	BreastplateofAguilar	|		|		|	25	|	6	^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|	GimmickDamageRate +100	|
+|	DragonScale	|		|		|	33	|	8	^		^		^		|	4	|	4	|		|		|		^		^		^		|		|		|		|		|		^	X	|		|
+|	Goldbreastplate	|		|		|	36	|	9	^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|		|
+|	SpikeBreast	|		|		|	36	|	9	^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|	Damages on touch	|
+|	Silkdress	|		|		|	27	|	27	^		^		^		|		|		|		|		|		^		^		^		|		|		|	5	|	8	|		^	X	|		|
+|	GloriousBreast	|		|		|	37	|	9	^		^		^		|		|	5	|		|		|		^		^		^		|		|		|		|		|		^	X	|		|
+|	ShiningBreast	|		|		|	37	|	9	^		^		^		|	10	|		|		|		|		^		^		^		|	8	|		|		|		|		^	X	|		|
+|	Ashinbacostume	|		|		|	39	|	19	^		^		^		|		|		|		|		|	8	^	8	^	8	^	5	|	5	|		|	3	|		|		^	X	|		|
+|	Caracilis	|		|		|	39	|	19	^		^		^		|		|		|		|		|		^		^		^		|		|		|	5	|		|	5	^	X	|		|
+|	Crimsondress	|		|		|	41	|	41	^		^		^		|		|		|		|		|		^		^		^		|		|		|	8	|	10	|		^	X	|		|
+|	ImperialArmor	|		|		|	45	|	11	^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|		|
+|	Shieldless	|		|		|	52	|	13	^	10	^	10	^	10	|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|		|
+|	Coronationdress	|		|		|	48	|	48	^		^		^		|	5	|	5	|	5	|		|		^		^		^		|	5	|	5	|	5	|	5	|		^	X	|		|
+|	Valkyriedress	|		|		|	40	|	40	^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|	7	^		|	Changes apperance	|
+^	-Head-	^	Atk	^	Matk	^	Def	^	Mdef	^	Zan	^	Dag	^	Tot	^	Fla	^	Ice	^	Lig	^	Hol	^	Dar	^	Poi	^	Cur	^	Sto	^	Str	^	Con	^	Int	^	Mnd	^	Lck	^	Look	^	Special	^
+|	DefaultHeadAcs	|		|		|		|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^		|		|
+|	AriesHorns	|		|		|	1	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^		|		|
+|	Headband	|		|		|	2	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|	1	|		|		^		|		|
+|	PirateTriangleCap	|		|		|	3	|		^		^	1	^		|		|	5	|		|		|		^		^		^		|	1	|		|		|		|	2	^		|		|
+|	DurahanMaherm	|		|		|	3	|		^	1	^		^		|		|		|		|		|		^		^		^		|	1	|	1	|		|		|		^		|		|
+|	Circlet	|		|		|	2	|	2	^		^		^		|		|		|		|		|		^		^		^		|		|		|	1	|	1	|		^		|		|
+|	Garbohat	|		|		|	3	|	2	^		^		^		|		|		|		|		|		^		^		^		|		|	2	|		|		|		^		|		|
+|	Santacap	|		|		|	4	|	1	^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|	3	^		|		|
+|	Beastberet	|		|		|	5	|		^	5	^		^		|		|		|		|		|		^		^		^		|	1	|	1	|		|		|		^		|		|
+|	CatEars	|		|		|	5	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|	2	|		|		^		|		|
+|	CowboyHat	|		|		|	5	|		^		^		^		|		|		|		|		|		^		^		^		|	2	|		|		|		|		^		|	GunBulletAttackrate +0.5	|
+|	WolfHood	|		|		|	6	|		^		^	10	^		|		|		|		|		|		^		^		^		|	3	|	2	|		|		|		^		|		|
+|	Circletoffire	|		|		|	5	|	3	^		^		^		|	10	|		|		|		|		^		^		^		|		|		|	3	|	1	|		^		|		|
+|	Icecirclet	|		|		|	5	|	3	^		^		^		|		|	10	|		|		|		^		^		^		|		|		|	3	|	1	|		^		|		|
+|	Thunderscirclet	|		|		|	5	|	3	^		^		^		|		|		|	10	|		|		^		^		^		|		|		|	3	|	1	|		^		|		|
+|	FeatherCrown	|		|		|	5	|		^		^		^		|		|		|		|		|		^		^		^		|	2	|		|		|	3	|		^		|		|
+|	BraveBeret	|		|		|	6	|		^		^		^		|		|		|		|		|		^		^		^		|	5	|		|		|		|		^		|		|
+|	Crowhat	|		|		|	7	|	1	^		^		^		|		|		|		|		|		^		^		^		|		|		|		|	2	|		^		|		|
+|	GadgetBand	|		|		|	7	|		^		^		^		|		|		|		|		|		^		^		^	15	|	2	|		|		|		|		^		|		|
+|	SilverTiara	|		|		|	6	|	5	^		^		^		|		|		|		|		|		^		^		^		|		|		|	4	|		|		^		|		|
+|	Magushat	|		|		|	6	|	9	^		^		^		|		|		|		|		|		^		^		^		|		|		|	6	|		|		^		|	MPRecoverySpeedRate +0.2	|
+|	Cutebeastberet	|		|		|	8	|	5	^		^		^		|		|		|		|		|		^		^		^		|	3	|		|		|		|		^		|		|
+|	BunnyEars	|		|		|	7	|	7	^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|	5	^		|		|
+|	Dentistshat	|		|		|	9	|	15	^		^		^		|		|		|		|		|		^		^		^		|		|		|	8	|		|		^		|		|
+|	Maidheadband	|		|		|	9	|	5	^		^		^		|		|		|		|		|		^		^		^		|		|	4	|		|	4	|		^		|		|
+|	Westernhat	|		|		|	10	|		^		^		^		|		|		|		|		|		^		^		^		|	3	|	1	|		|		|		^		|	GunBulletReduceRate +1, GunBulletAttackrate +1	|
+|	ribbon	|		|		|	10	|		^		^		^		|		|		|		|		|		^	10	^	10	^	10	|		|		|		|		|	7	^		|		|
+|	Flightcapoftraveler	|		|		|	11	|		^		^		^		|		|		|		|		|		^		^		^		|	6	|		|		|		|		^		|		|
+|	HermitsBeret	|		|		|	12	|	15	^		^		^		|		|		|		|		|		^		^		^		|		|		|		|	6	|		^		|		|
+|	KitsuneMask	|		|		|	13	|		^		^		^		|		|		|		|		|		^		^	20	^		|		|		|	5	|	3	|		^		|		|
+|	DemonHorns	|		|		|	13	|		^		^		^		|		|		|		|		|		^		^		^		|	8	|	2	|		|		|		^		|		|
+|	ElderTiara	|		|		|	13	|	20	^		^		^		|		|		|		|		|		^	5	^	5	^	5	|		|		|	7	|	7	|		^		|		|
+|	Recyclehat	|		|		|	5	|		^		^		^		|		|		|		|		|		^		^		^		|	3	|		|		|	3	|		^		|	GunBulletReduceRate -1	|
+|	Pleiades	|		|		|	15	|	15	^		^		^		|		|		|		|		|		^		^		^		|	5	|	5	|	5	|	5	|	5	^		|		|
+|	ValkyrieTiara	|		|		|	12	|	12	^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|	7	^		|		|
+|	HumptyDumpty	|		|		|	5	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^		|		|
+|	LoveOfBenki	|		|		|	5	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^		|		|
+|	Plan9FOSpace	|		|		|	5	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^		|		|
+|	Mega64Head	|		|		|	5	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^		|		|
+^	-Scarf-	^	Atk	^	Matk	^	Def	^	Mdef	^	Zan	^	Dag	^	Tot	^	Fla	^	Ice	^	Lig	^	Hol	^	Dar	^	Poi	^	Cur	^	Sto	^	Str	^	Con	^	Int	^	Mnd	^	Lck	^	Look	^	Special	^
+|	EmptyScarf	|		|		|		|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^		|		|
+|	Muffler	|		|		|	1	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^		|		|
+|	Turbinemuffler	|		|		|	1	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|	1	|		^		|		|
+|	Batwing	|		|		|	2	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|	2	|		|		^		|		|
+|	Outlinestyle	|		|		|	3	|		^		^		^		|		|		|		|		|		^		^		^		|		|	2	|		|		|		^		|	Gun faster	|
+|	Made-to-order	|		|		|	3	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^		|		|
+|	Usagimuffler	|		|		|	3	|		^		^		^		|		|	10	|		|	1	|		^		^		^		|		|		|		|		|	2	^		|		|
+|	FaerieScarf	|		|		|	3	|		^		^		^		|		|		|	10	|		|		^		^		^		|		|		|	3	|		|		^		|		|
+|	Sendomuffler	|		|		|	4	|		^		^		^		|		|		|		|	10	|		^		^		^		|		|		|		|	3	|		^		|		|
+|	Firemuffler	|		|		|	4	|		^		^		^		|	10	|		|		|		|		^		^		^		|	3	|		|		|		|		^		|		|
+|	TalismanScarf	|		|		|	5	|		^		^		^		|		|		|		|		|	10	^		^	10	^		|		|	5	|		|		|		^		|		|
+|	OvertheRainbow	|		|		|	7	|		^		^		^		|	7	|	7	|	7	|	7	|		^		^	7	^	7	|	3	|	3	|	3	|	3	|		^		|		|
+^	-Accessories-	^	Atk	^	Matk	^	Def	^	Mdef	^	Zan	^	Dag	^	Tot	^	Fla	^	Ice	^	Lig	^	Hol	^	Dar	^	Poi	^	Cur	^	Sto	^	Str	^	Con	^	Int	^	Mnd	^	Lck	^	Look	^	Special	^
+|	EmptyAccesory	|		|		|		|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|		|
+|	Elfearcap	|		|		|	1	|	2	^		^		^		|		|		|		|		|		^		^		^		|		|		|	1	|	1	|		^		|		|
+|	Eyeglasses	|		|		|	1	|	1	^		^		^		|		|		|		|		|		^		^		^		|		|		|	1	|		|		^		|		|
+|	Enlargedglasses	|		|		|	1	|	1	^		^		^		|		|		|		|		|		^		^		^		|		|		|	1	|		|		^		|	zoom in	|
+|	Horuseyes	|		|		|	1	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|	1	|		|		^		|	zoom out	|
+|	sunglasses	|		|		|	1	|	1	^		^		^		|		|		|		|		|	5	^		^		^		|		|		|	1	|		|		^		|		|
+|	Bottleglasses	|		|		|	1	|	1	^		^		^		|		|		|		|		|		^		^		^		|		|	1	|	3	|	1	|		^		|		|
+|	Measurementglasses	|		|		|	1	|	1	^		^		^		|		|		|		|		|		^		^		^		|		|		|	1	|		|		^		|	show enemy hp	|
+|	Gebelsglasses	|		|		|	3	|	3	^		^		^		|		|		|		|		|		^		^		^		|		|	2	|	3	|		|		^		|	ShardMpRate -100	|
+|	Stonemask	|		|		|	1	|		^		^		^		|		|		|		|		|		^		^	5	^	5	|		|	1	|		|	1	|	1	^		|		|
+|	Crowmask	|		|		|	1	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|	2	|		|		^		|		|
+|	DanceMask	|		|		|	2	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|	2	|		|		^		|		|
+|	Breathingforcedmask	|		|		|	2	|		^		^		^		|		|		|		|		|		^		^		^		|		|	2	|		|		|		^		|		|
+|	NoseEyeglasses	|		|		|	1	|	1	^		^		^		|		|		|		|		|		^		^		^		|		|		|	3	|		|	3	^		|		|
+|	Transformationmask	|		|		|	1	|		^		^		^		|		|		|		|		|		^		^		^		|		|	2	|		|		|		^		|	change voice	|
+|	OfudaTalisman	|		|		|	2	|		^		^		^		|		|		|		|		|		^		^	5	^		|	1	|	1	|		|		|		^		|		|
+|	HeyI’mGrump	|		|		|		|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^		|		|
+|	I’mNotSoGrump	|		|		|		|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^		|		|
+|	AKindaFunnyMask	|		|		|		|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^		|		|
+|	BigMustache	|		|		|	5	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^		|		|
+|	PlagueDoctorFace	|		|		|	5	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^		|		|
+|	The-BazMask	|		|		|	5	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^		|		|
+|	RustedRing	|		|		|	1	|		^		^		^		|		|		|		|		|		^		^		^		|		|	1	|		|		|		^	X	|		|
+|	Ring	|		|		|	2	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|	1	|		^	X	|		|
+|	Necklace	|		|		|	3	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|	1	|	1	|		^	X	|		|
+|	Safering	|	-10	|		|	15	|	15	^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|		|
+|	UnicornRing	|		|		|	1	|	1	^		^		^		|		|		|		|	5	|		^	5	^		^		|		|		|	1	|	2	|		^	X	|	RecoveryHpRate +0.2	|
+|	Flamering	|		|		|	3	|	3	^		^		^		|	10	|		|		|		|		^		^		^		|		|		|		|		|		^	X	|	FlaDamageRate +0.2	|
+|	Icering	|		|		|	3	|	3	^		^		^		|		|	10	|		|		|		^		^		^		|		|		|		|		|		^	X	|	IceDamageRate +0.2	|
+|	Thunderring	|		|		|	3	|	3	^		^		^		|		|		|	10	|		|		^		^		^		|		|		|		|		|		^	X	|	LigDamageRate +0.2	|
+|	Criticalring	|		|		|	1	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|	CriticalRate +10	|
+|	AssassinsRing	|		|		|		|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|	CriticalRate +5, CriticalDamageRate +0.1	|
+|	LethalityRing	|		|		|	1	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|	CriticalDamageRate +0.2	|
+|	Walkerking	|		|		|	1	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|	MapAchievedAttackRate +1 (+0.2 v 100%)	|
+|	Cursering	|		|		|		|		^		^		^		|		|		|		|	-10	|	10	^	10	^	-10	^		|	10	|		|	10	|		|	-10	^	X	|		|
+|	Striderbelt	|		|		|	3	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|	SlidingRate +0.2	|
+|	Silvermanring	|		|		|		|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|	KillEnemyAttackRate +1 (+0.3 v 9999 kills)	|
+|	RoseRing	|		|		|		|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|	RecoveryMpRate +0.25	|
+|	SkullNecklace	|		|		|		|		^		^		^		|		|		|		|		|	20	^		^	20	^		|		|		|		|		|		^	X	|	ShardAttackRate +0.5, ShardMpRate +1	|
+|	Moonring	|		|		|	3	|	2	^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|	BackStepRate +0.2	|
+|	WeightedRing	|		|		|	1	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|	GainExpRate +0.25	|
+|	Speedstar	|		|		|	3	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|	NormalMoveUpRate +0.15	|
+|	CutpursesRing	|		|		|	1	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|	3	^	X	|	DropMoneyRate +0.1	|
+|	PlunderersRing	|		|		|	1	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|	5	^	X	|	DropItemRate +0.25	|
+|	Goldmanring	|		|		|	1	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|	3	^	X	|	HaveMoneyAttackRate +1 (+0.3 v 1000000gold)	|
+|	Riskring	|		|		|	-50	|	-50	^	-50	^	-50	^	-50	|	-50	|	-50	|	-50	|	-50	|	-50	^	-50	^		^		|	15	|	-30	|	15	|	-30	|		^	X	|		|
+|	DemonNecklace	|		|		|	4	|		^		^		^		|		|		|		|		|	3	^		^		^		|		|		|		|		|		^	X	|	MagicSpeedRate +0.2	|
+|	Adversityring	|	5	|		|	-5	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|		^	X	|	BadStatusAttackRate +1, +0.2 v Poison, +0.2 v Stone, +0.2 v Curse, +0.2 v Slow	|
+|	Blackbelt	|		|		|	5	|		^		^		^		|		|		|		|		|		^		^		^		|	3	|	3	|		|		|		^	X	|	AttackSpeedRate +0.1	|
+|	Gamblersring	|		|		|	1	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|		|		|	7	^	X	|		|
+|	WarlocksNecklace	|		|		|	3	|		^		^		^		|		|		|		|		|		^		^		^		|		|		|	5	|		|		^	X	|	ShardMpRate -0.2	|
+|	RingofSolomon	|		|		|	1	|		^		^		^		|		|		|		|		|		^		^		^		|	6	|		|	6	|		|	6	^	X	|	DropShardRate +0.1	|

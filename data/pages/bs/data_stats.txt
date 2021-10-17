@@ -1,0 +1,24 @@
+====== Data Stats Per Boss ======
+>[[start|<Back>]]
+
+Wrote down stats before fighting each boss in clean Nightmare, using Deathbringer for max damage. Using as reference point for an approximate top/max stats that should be available at each point in the game.
+
+^	-Boss-	^	Atk	^	Def	^	Str	^	Con	^	Int	^	Mnd	^	Lck	^	MP	^	-Tier-	^
+|	Vepar	^	34	^	12	|	7	|	8	|	8	|	11	|	6	|	0	^	1	|
+^	Zangetsu1	^	43	^	24	|	8	|	13	|	9	|	15	|	6	|	0	^	2	|
+^	Craftwork	^	73	^	23	|	28	|	12	|	29	|	13	|	0	|	0	^	2	|
+|	Andrealphus	^	92	^	42	|	40	|	13	|	40	|	13	|	0	|	0	^	3	|
+|	Valac	^	92	^	42	|	40	|	13	|	40	|	13	|	0	|	0	^	3	|
+|	Glutton Train	^	92	^	42	|	40	|	13	|	40	|	13	|	0	|	0	^	3	|
+|	Bathin	^	92	^	42	|	40	|	13	|	40	|	13	|	0	|	0	^	3	|
+^	Bloodless	^	103	^	59	|	37	|	14	|	40	|	22	|	0	|	4	^	4	|
+^	Alfred	^	105	^	64	|	38	|	14	|	48	|	33	|	0	|	4	^	4	|
+^	Doppleganger	^	131	^	64	|	53	|	25	|	74	|	44	|	6	|	6	^	4	|
+^	Orobas	^	150	^	64	|	64	|	25	|	66	|	31	|	6	|	6	^	4	|
+|	Overlord	^	150	^	64	|	64	|	25	|	66	|	31	|	6	|	6	^	5	|
+|	Zangetsu2	^	325	^	80	|	92	|	49	|	73	|	50	|	9	|	8	^	5	|
+|	Gebel	^	325	^	80	|	92	|	49	|	73	|	50	|	9	|	8	^	5	|
+|	Valefar	^	325	^	80	|	92	|	49	|	73	|	50	|	9	|	8	^	5	|
+|	Gremory	^	359	^	102	|	92	|	67	|	78	|	68	|	29	|	8	^	5	|
+|	Dominique	^	359	^	102	|	92	|	67	|	78	|	68	|	29	|	8	^	5	|
+|	Bael	^	359	^	102	|	92	|	67	|	78	|	68	|	29	|	8	^	5	|

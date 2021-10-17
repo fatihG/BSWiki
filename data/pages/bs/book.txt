@@ -1,0 +1,55 @@
+====== Books ======
+>[[start]]
+
+Explained as well as I can.
+
+===== OD =====
+
+Visit him and talk with him to start borrowing books.
+
+----
+
+===== Number of Books =====
+
+The basic principle is that the first time you speak with him he will let you borrow 1 book.
+
+Once you've walked around enough different rooms and areas in the castle, and talk to him again, he will let you borrow another, for total of 2 books.
+
+And same again for walking around more different rooms and areas, for a total of 3.
+
+----
+
+Note: You can get all 3 book allowance before fighting Andrealphus.
+
+Except that this bugs quite a lot, you will usually get at least 2 books, but I've had games where I've been stuck with 1. From my experience fighting bosses seems to have a negative effect on getting more books from him.
+
+NewGame+ will always force set the number to 2, first time you talk with OD will show 0/2 books. And you won't be able to get more or less.
+
+
+----
+
+==== The Books =====
+
+You unlock more books that you can borrow with Map%.
+
+  * Might Tome
+  * Sage's Tome
+  * Sentinel Tome
+  * Believer's Tome
+  * Fortune Tome
+  * Coldstave Tome
+  * Heatstave Tome
+  * Shockstave Tome
+  * Empyreal Tome
+  * Obscurity Tome
+  * Corporeity Tome
+  * Immunity Tome
+  * Blessed Tome
+  * Prowess Tome
+  * Ancillary Tome
+  * Deadeye Tome
+  * Tailwind Tome	(50%)
+  * Tactician's Tome	(60%)
+  * Mastery Tome	(60%)
+  * Godsend Tome	(70%)
+  * Tome of Conquest	(99%)

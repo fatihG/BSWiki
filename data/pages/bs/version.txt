@@ -1,0 +1,45 @@
+====== Bloodstained Patch Notes ======
+>[[start|<Back>]]
+
+WIP
+
+Trying to gather all the patch notes, for easy reference.
+
+----
+
+===== 1.21 =====
+
+1.21.0.1
+  * Game is now loads when using Windows 7/8.
+1.21
+> The 1.21 update that launched February 11 on Steam is starting to clear testing for other platforms. We are aware of the Win 7/8 issue on PC and are working on a fix, but we do not have a time estimate yet. Here is the latest info:
+  * Xbox One 1.0.2.1 will launch on Feb 25 at 10am PST
+  * Switch 1.21 in submission with Nintendo. No ETA yet
+  * PS4 1.21 Submitted, we are hoping to have it out by Thursday morning (Pacific Standard Time). Japan by GSE might fall behind by a few day(s)
+  * PC (GOG, Gamepass, Origin, Luna) 1.21 Delayed due to Win 7/8 issue
+  * Steam 1.22 – No ETA yet. Working on a fix for Win 7/8 issue
+
+  * Final update to randomizer seeds and addressed issues where previous seeds were invalid. NOTE: Seeds begun or saved after 1.20 may no longer work.
+  * Fixed New Game+ crash
+  * Classic Mode: Hit detection remaining on screen
+  * Classic Mode: Miriam walking in the wrong direction after Gremory encounter
+  * Classic Mode: Instances of Gebel not appearing
+  * Classic Mode: Score reaches max then loops to a negative number
+  * Classic Mode: Double KO during Gremory encounter
+  * Classic Mode: Wolfman failing to reset
+  * Classic Mode: Mini Gebel bug
+  * Classic Mode: Jack (Gusion) boss not moving
+  * Classic Mode: Instances where enemies and game gimmicks stop moving
+  * Classic Mode: Disable the Pause Menu during the walking animation transitions
+  * Classic Mode: Miriam softlock after obtaining the heart at the end of a boss battle
+
+----
+
+===== 1.20 =====
+===== 1.18 =====
+===== 1.15 =====
+===== 1.00 =====
+===== 1.00 =====
+===== 1.00 =====
+===== 1.00 =====
+===== 1.00 =====

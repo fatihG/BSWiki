@@ -1,0 +1,39 @@
+===== Tutorial: Modifying a 3D Model's Texture; Step 2. =====
+
+[[.:step1|<- Previous Step]] | [[.:|Tutorial Summary]] | [[.:step3|Next Step ->]] 
+
+----
+
+==== Extract the Game's Assets ====
+
+You will need to locate Bloodstained's install folder.
+  * For **Steam** users, the default install location is //C:\Program Files\Steam\steamapps\common\Bloodstained Ritual of the Night//
+  * For **GOG** users, the default install location is //C:\Program Files (x86)\GOG Galaxy\Games\Bloodstained Ritual of the Night//
+
+Inside of the "Bloodstained Ritual of the Night" folder, navigate to the //BloodstainedRotN\Content\Paks// folder. Inside of this folder you will see multiple files named "pakchunk0-WindowNoEditor.pak", etc. These files contain the game's 3D models and other assets.
+
+{{ :modding:modelling:tutorial_extract_pak_vanilla_pak_folder.png?nolink&600 |}}
+
+We will use [[modding:tools#quickbms|QuickBMS]] to extract the assets from these .pak files. Extract the contents of the QuickBMS zip archive that you downloaded earlier to any folder you want. You can put it inside of the "Paks" folder if it's more convenient. Locate "quickbms_4gb_files.exe" and double click to run it. It will prompt you for 3 things.
+
+{{ :modding:modelling:tutorial_extract_pak_quickbms_in_folder.png?nolink&600 |}}
+
+For "select the BMS script or plugin to use", choose the "bloodstained.bms" file, that should be located next to "quickbms_4gb_files.exe".
+
+{{ :modding:modelling:tutorial_extract_pak_select_bms.png?nolink&800 |}}
+
+For "select the input archives/files to extract", choose the "pakchunk0-WindowsNoEditor.pak" file in the "Paks" folder.
+
+{{ :modding:modelling:tutorial_extract_pak_select_pak.png?nolink&800 |}}
+
+For "select the output folder where extracting the files", pick any folder you want. This is where the extracted assets will be stored. I put them inside of a "extracted" folder inside of the "Paks" directory.
+
+{{ :modding:modelling:tutorial_extract_pak_select_output_folder.png?nolink&800 |}}
+
+You may run into a couple places where it says it's not possible to create a file due to name duplication issues, just keep pressing enter if you run into that.
+
+After the extraction completes, run through the same steps for the "pakchunk2-WindowsNoEditor.pak" file, except use "quickbms.exe" instead of the "quickbms_4gb_files.exe" that you used last time. This program requires you to use different executables based on the size of the **.pak** file.
+
+----
+
+[[.:step1|<- Previous Step]] | [[.:|Tutorial Summary]] | [[.:step3|Next Step ->]] 

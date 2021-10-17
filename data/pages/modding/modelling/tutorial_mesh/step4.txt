@@ -1,0 +1,111 @@
+===== Tutorial: Modifying a 3D Model's Geometry; Step 4. =====
+
+[[.:step3|<- Previous Step]] | [[.:|Tutorial Summary]] | [[.:step5|Next Step ->]] 
+
+----
+
+==== Edit the PSK File In Your Favorite 3D Modelling Software ====
+
+In this step I will demonstrate editing the model using the [[https://www.blender.org/download/|Blender 3D Modelling Software]]. This is free software and thus accessible to anyone.
+
+If you choose to use a different 3D modelling program for this step, the key takeaways are:
+  * Set your "world" or "scene" unit scale to 0.01 meters (or 1 centimeter).
+  * Import the **.psk** model
+  * Make any changes you like to geometry, UV map, and reassign materials to new faces, however do not change the material order or create new materials. Make sure all materials are assigned to at least 1 face.
+  * Export your edits as an **.fbx** file. You may or may not have to make tweaks to these export settings depending on the software.
+
+If you don't need a 3D modelling tutorial, [[.:step5|skip to the next step]]. I recommend Blender users read through this section either way as there are certain things you have to do to make the import work properly.
+
+----
+
+Now, [[https://www.blender.org/download/|download and install Blender]].
+
+Assuming you let Blender install at the default location, the blender addons folder is located at:\\ **C:\Program Files\Blender Foundation\Blender X.XX\X.XX\scripts\addons**,\\ where "X.XX" is whatever version of Blender you downloaded. My Blender version is 2.83, so my path looks like:\\ **C:\Program Files\Blender Foundation\Blender 2.83\2.83\scripts\addons**.
+
+[[https://raw.githubusercontent.com/Befzz/blender3d_import_psk_psa/master/addons/io_import_scene_unreal_psa_psk_280.py|Download the io_import_scene_unreal_psa_psk_280.py file]] (Right click -> Save as...), then copy/paste that "io_import_scene_unreal_psa_psk_280.py" file into the **C:\Program Files\Blender Foundation\Blender X.XX\X.XX\scripts\addons** folder.
+
+Open Blender. On the menu bar, select "Edit -> Preferences". 
+
+{{ :modding:modelling:tutorial_blender_edit_preferences.png?nolink&600 |}}
+
+On the left, click "Add-ons".
+
+{{ :modding:modelling:tutorial_blender_addons_list.png?nolink&600 |}}
+
+In the search bar on the top right, type "psk". You should see an option that says **Import-Export: Import Unreal Skeleton Mesh (.psk)/Animation Set (.psa) (280)**. If you don't see this, you likely put the "io_import_scene_unreal_psa_psk_280.py" file in the wrong place. Make sure the checkbox next to it is checked to enable the addon. Then you can close this window.
+
+{{ :modding:modelling:tutorial_blender_psk_addon.png?nolink&600 |}}
+
+Now if you select "File -> Import" on the menu bar, you should see an option listed "Skeleton Mesh (.psk)". If you don't see this, you may have to restart Blender.
+
+{{ :modding:modelling:tutorial_blender_import_psk.png?nolink&600 |}}
+
+Before you click on that, first let's clear out the scene. Close the "File" menu and hover your mouse over the cube in the center of the screen. Hit "A" on your keyboard, then hit "X". Then click "Delete" with your left mouse button. This will remove all the objects added by default to the scene.
+
+{{ :modding:modelling:tutorial_blender_delete_default_cube.png?nolink&600 |}}
+
+Next, locate the "Scene Properties" tab and click on it. This looks like an icon with 2 circles and a cone. Expand the "Units" section. Change "Unit System" to "Metric" and "Unit Scale" to "0.01".
+
+{{ :modding:modelling:tutorial_blender_locate_scene_properties.png?nolink&800 |}}
+
+Now select "File -> Import -> Skeleton Mesh (.psk)" from the menu bar.
+
+{{ :modding:modelling:tutorial_blender_import_psk.png?nolink&600 |}}
+
+Make sure "Don't invert root bone" is **checked** and "Scale down" is **un**checked. Locate the **.psk** file that you exported in the last step. Select it and click "Import PSK". 
+
+{{ :modding:modelling:tutorial_blender_import_miriam_head_psk.png?nolink&800 |}}
+
+Now the head should be visible on screen.
+
+{{ :modding:modelling:tutorial_blender_miriam_head_zoomed.png?nolink&800 |}}
+
+Left click on the head so it shows an orange outline around it. Hit the "Tab" key then hit the "A", key. With your mouse, select "Mesh -> Shading -> Smooth Faces" in the menu. This will make the faces shade smooth instead of using the default flat (blocky) shading.
+
+{{ :modding:modelling:tutorial_blender_miriam_head_set_smoothing.png?nolink&800 |}}
+
+Click and hold the middle mouse button (the scroll wheel), then move your mouse from left to right while still holding down the button, this lets you rotate the view around the model.
+
+{{ :modding:modelling:tutorial_blender_miriam_head_rotate_mouse_wheel.png?nolink&800 |}}
+
+I'm going to enlarge Miriam's nose so I know right away in-game whether my modding changes took effect or not. Left click on one of the dots (vertices) on miriam's nose to select it. That vertex will turn white to show it is selected while the others will be black to show they are not selected.
+
+{{ :modding:modelling:tutorial_blender_miriam_header_vertex_selected.png?nolink&600 |}}
+
+There is a small button at the top of the screen that looks like an archery target. Click the button so it turns blue. This turns on Proportional Editing so your changes affect the surrounding vertices.
+
+{{ :modding:modelling:tutorial_blender_miriam_head_turn_on_proportional_editing.png?nolink&800 |}}
+
+Verify that one vertex is still white (selected), then hit the "G" key. Scroll your middle mouse wheel up or down to adjust the size of the white circle that appears. This is the size of the area that the proportional editing will affect.
+
+{{ :modding:modelling:tutorial_blender_miriam_head_proportional_editing_size.png?nolink&800 |}}
+
+Now hit the "Y" key and move your mouse back and forth to adjust the size of the nose. Click with the left mouse button to commit to the change when you're satisfied with the size.
+
+{{ :modding:modelling:tutorial_blender_miriam_head_increase_nose_size.png?nolink&800 |}}
+
+Now that you've created a gremlin, the last step inside of Blender is you need to rename the model's armature from "SK_PI01_MiriamHead.ao" to "armature". This step is specific to Blender as Unreal Engine's importer expects this to be the case. Double click on "SK_PI01_MiriamHead.ao" in the Scene Collection window on the top right to rename it.
+
+{{ :modding:modelling:tutorial_blender_miriam_head_scene_collection_selected.png?nolink&400 |}}
+
+{{ :modding:modelling:tutorial_blender_miriam_head_scene_collection_renamed_armature.png?nolink&400 |}}
+
+Finally, click on "File -> Export -> FBX (.fbx)" in the menu bar.
+
+{{ :modding:modelling:tutorial_blender_export_fbx.png?nolink&600 |}}
+
+I recommend exporting to the same folder you imported the **.psk** file from, and with the exact same filename (except with the .fbx extension instead). Copy/paste the filename, don't try to type it out, that leads to mistakes. You'll need to make a couple of changes to the export settings from the defaults:
+  * In the "Geometry" section, set "Smoothing" to "Face".
+  * In the "Armature" section, **un**check "Add Leaf Bones".
+
+Click the "Export FBX" button.
+
+{{ :modding:modelling:tutorial_blender_export_fbx_settings.png?nolink&800 |}}
+
+And with that, you'll have your modified 3D model as an **.fbx** file sitting next to the original model as a **.psk** file.
+
+{{ :modding:modelling:tutorial_blender_exported_fbx_in_filesystem.png?nolink&600 |}}
+
+----
+
+[[.:step3|<- Previous Step]] | [[.:|Tutorial Summary]] | [[.:step5|Next Step ->]] 

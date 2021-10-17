@@ -1,0 +1,370 @@
+===== Bullets =====
+[[start|<Back>]]
+
+> Blank
+
+Bullets are used by Guns, see Guns for info.
+
+> WIP
+
+To-do:
+  * Links to crafting
+  * Links to techniques
+
+Unused:
+{{..:bullet:bullet09.png?nolink}}
+{{..:bullet:bullet18.png?nolink}}
+
+----
+
+==== Table ====
+
+^	Bullets									^^^^^
+^	Img	^	-Name-	^	Atk	^	Dmg	^	Special	^
+|	{{..:bullet:bullet17.png?nolink&30}}	|	[[#Infinite Rounds]]	|	5	|	{{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{..:bullet:bullet01.png?nolink&30}}	|	[[#SP Rounds]]	|	15	|	{{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{..:bullet:bullet02.png?nolink&30}}	|	[[#HP Rounds]]	|	40	|	{{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{..:bullet:bullet03.png?nolink&30}}	|	[[#AP Rounds]]	|	50	|	{{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{..:bullet:bullet04.png?nolink&30}}	|	[[#Flame Rounds]]	|	30	|	{{..:iconstrike.png?nolink&20|Strike}} {{..:iconflame.png?nolink&20|Fire}}	|		|
+|	{{..:bullet:bullet05.png?nolink&30}}	|	[[#Ice Rounds]]	|	60	|	{{..:iconstrike.png?nolink&20|Strike}} {{..:iconice.png?nolink&20|Ice}}	|		|
+|	{{..:bullet:bullet06.png?nolink&30}}	|	[[#Thunder Rounds]]	|	50	|	{{..:iconstrike.png?nolink&20|Strike}} {{..:iconthunder.png?nolink&20|Lightning}}	|		|
+|	{{..:bullet:bullet07.png?nolink&30}}	|	[[#Silver Bullets]]	|	80	|	{{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{..:bullet:bullet15.png?nolink&30}}	|	[[#Weaponbane Rounds]]	|	20	|	{{..:iconstrike.png?nolink&20|Strike}}	|	Debuff ATK	|
+|	{{..:bullet:bullet16.png?nolink&30}}	|	[[#Shieldbane Rounds]]	|	20	|	{{..:iconstrike.png?nolink&20|Strike}}	|	Debuff CON	|
+|	{{..:bullet:bullet11.png?nolink&30}}	|	[[#Poison Rounds]]	|	20	|	{{..:iconstrike.png?nolink&20|Strike}} {{..:iconpoison.png?nolink&20|Poison}}	|		|
+|	{{..:bullet:bullet12.png?nolink&30}}	|	[[#Petrifying Rounds]]	|	20	|	{{..:iconstrike.png?nolink&20|Strike}} {{..:iconstone.png?nolink&20|Stone}}	|		|
+|	{{..:bullet:bullet13.png?nolink&30}}	|	[[#Curse Rounds]]	|	20	|	{{..:iconstrike.png?nolink&20|Strike}} {{..:iconcurse.png?nolink&20|Curse}}	|		|
+|	{{..:bullet:bullet10.png?nolink&30}}	|	[[#Scattershot]]	|	5	|	{{..:iconstrike.png?nolink&20|Strike}}	|	Uses 4 bullets per shot	|
+|	{{..:bullet:bullet14.png?nolink&30}}	|	[[#Critical Rounds]]	|	80	|	{{..:iconstrike.png?nolink&20|Strike}}	|	Improved Critical chance	|
+|	{{..:bullet:bullet08.png?nolink&30}}	|	[[#Diamond Bullets]]	|	120	|	{{..:iconstrike.png?nolink&20|Strike}}	|		|
+
+----
+=====Details=====
+----
+====Infinite Rounds====
+{{..:bullet:bullet17.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Bullet_Defaultbullet									|||||	5	|	-	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> Magical bullets that never deplete. However, they are quite weak.
+
+Special:
+  * Infinite
+
+Notes:
+  * Yup, they suck.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====SP Rounds====
+{{..:bullet:bullet01.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Softpoint									|||||	15	|	-	|	10			||	1			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> Soft-point rounds with no penetrative capability.
+
+Acquisition:
+  * Chest: Galleon Minerva (SIP007)
+  * Chest: Galleon Minerva (SIP011)
+  * Chest: Towers of Twin Dragons (TWR000)
+  * Craft
+  * Drop: Cannon Morte (10% 3x)
+  * Shop
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====HP Rounds====
+{{..:bullet:bullet02.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Hollowpoint									|||||	40	|	-	|	40			||	4			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> Hollow-point rounds used in hunting and good for inflicting damage.
+
+Acquisition:
+  * Chest: Arvantville (VIL006)
+  * Craft
+  * Drop: Cannon Morte (3% 3x)
+  * Drop: Barbatos (12% 3x)
+  * Shop
+
+Notes:
+  * You can farm these in the Galleon if you plan to use guns against Vepar in clean Nightmare.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====AP Rounds====
+{{..:bullet:bullet03.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	ArmorPiercing									|||||	50	|	-	|	90			||	9			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> Armor-piercing rounds with sharp points that penetrate targets.
+
+Acquisition:
+  * Craft
+  * Drop: Barbatos (3% 5x)
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Flame Rounds====
+{{..:bullet:bullet04.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Firebullet									|||||	30	|	-	|	160			||	16			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|
+
+
+> Bullets imbued with fire magic.
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Ice Rounds====
+{{..:bullet:bullet05.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Icebullet									|||||	60	|	-	|	160			||	16			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|
+
+
+> Bullets imbued with ice magic.
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Thunder Rounds====
+{{..:bullet:bullet06.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	ThunderRounds									|||||	50	|	-	|	160			||	16			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|
+
+
+> Bullets imbued with thunder magic.
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Silver Bullets====
+{{..:bullet:bullet07.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	SilverBullets									|||||	80	|	-	|	250			||	25			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> Silver bullets that are especially effective against the forces of evil.
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Weaponbane Rounds====
+{{..:bullet:bullet15.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	WeaponbaneRounds									|||||	20	|	-	|	360			||	36			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> Special bullets that lower the offensive capabilities of targets.
+
+Special:
+  * Reduces enemy ATK on hit.
+  * (FIXME Need details)
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Has a duration, so only need 1 shot, and can change into a different bullet.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Shieldbane Rounds====
+{{..:bullet:bullet16.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	ShieldbaneRounds									|||||	20	|	-	|	360			||	36			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> Special bullets that lower the defensive capabilities of targets.
+
+Special:
+  * Reduces enemy DEF on hit.
+  * (FIXME Need details)
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Has a duration, so only need 1 shot, and can change into a different bullet.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Poison Rounds====
+{{..:bullet:bullet11.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	PoisonRounds									|||||	20	|	-	|	360			||	36			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|
+
+
+> Bullets with poison-laced tips.
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Petrifying Rounds====
+{{..:bullet:bullet12.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	PetrifyingRounds									|||||	20	|	-	|	360			||	36			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|	{{..:icon06.png?nolink&20}}	|
+
+
+> Bullets capable of turning targets to stone.
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Curse Rounds====
+{{..:bullet:bullet13.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	CurseRounds									|||||	20	|	-	|	360			||	36			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|
+
+
+> Bullets that carry a curse.
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Scattershot====
+{{..:bullet:bullet10.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Shotshell									|||||	5	|	-	|	490			||	49			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> Ammunition that fires in a wide spread.
+
+Special:
+  * Uses 4 ammo each time you fire, but also shoot 4 shots.
+
+  PB_DT_EnchantParameterType
+  "Key": "GunBulletReduceNum21",
+  "EPBEquipSpecialAttribute::GunBulletReduceNum",
+  "EquipValue_28_5CFE97924D56254C9B62AF83698220FC": 4.0,
+
+Acquisition:
+  * Craft
+
+Notes:
+  * You'll need at least 4 ammo in your inventory to shoot these, even with the Recyle Hat.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Critical Rounds====
+{{..:bullet:bullet14.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	CriticalBullet									|||||	80	|	-	|	640			||	64			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> Bullets that fragment on impact, dealing frequent critical hits.
+
+Special:
+  * +30% Critical Chance
+
+  PB_DT_CoordinateParameter
+  "Key": "CriticalBulletRate",
+  "Value": 30.0
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Diamond Bullets====
+{{..:bullet:bullet08.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	DiamondBullets									|||||	120	|	-	|	1440			||	144			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> Potent ammunition made from the hardest substance on earth.
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Hardest hitting, craft lots for boss fights.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----

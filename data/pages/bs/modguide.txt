@@ -1,0 +1,61 @@
+====== Basic guide to modding ======
+>[[start|<Back>]]
+
+> WIP
+
+Attempting to make a more detailed/easier guide to using ITAIC's Starting mod package.
+
+  * Tools
+  * Template
+  * Batch
+  * Compile
+
+----
+
+===== 1 =====
+----
+===== Using the Templates and Folders =====
+
+Understanding the "ExampleMod" structure, how to make use of it, and why it makes life much easier when modding.
+
+Note: Remember to copy both the .json and the .uasset files. Both are needed for the serializer.
+
+<code>
+\_meta\Original Files\
+\Edits\
+\PakContents\BloodstainedRotN\Content\Core\DataTable\
+</code>
+
+These are the 3 main folders we'll use.
+
+  * \_meta\Original Files\
+    * Copy the files you want to edit here first, copy both the JSON and UASSET files together. This is your backup, to easy find back the files if you mess up something, or have to check how the file did something originally.
+  * \Edits\
+    * Then copy the same files here, this is the folder you'll be working from most of the time. Edit the files that are here, and when you're done, copy all the files here and paste them into the next one:
+  * \PakContents\BloodstainedRotN\Content\Core\DataTable\
+    * You need to keep the sub folder structure correct or mods won't work.
+    * Paste all the files from your "edits" into the bottom subfolder "DataTable".
+    * It can be very useful to create a shortcut to DataTable folder and keep it at the root of your mod.
+
+=== Folder Structure ===
+
+The game looks for files in specific places, so if the folder-structure isn't right, the mod won't work. This is one of the purposes of why having a separate "Edit" and "PakContent" folder. If you're editing a file like PB_DT_DropRateMaster for example, its folder structure should look like this before using the serializer:
+
+> PakContent\BloodstainedRotN\Content\Cpre\DataTable\PB_DT_DropRateMaster.json
+
+This includes further sub-folders if any, like:
+
+> PakContent\BloodstainedRotN\Content\Cpre\DataTable\Item\PB_DT_ItemMaster.json
+
+----
+===== 3 =====
+
+
+
+
+----
+
+===== 4 =====
+----
+===== 5 =====
+----

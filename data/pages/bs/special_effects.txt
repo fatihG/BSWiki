@@ -1,0 +1,201 @@
+====== Hidden Stats ======
+>[[start|<Back>]]
+
+Originally posted here: [[https://www.reddit.com/r/Bloodstained/comments/dvjctx/hidden_item_effects_master_list/|reddit]]
+
+> Posted by u/ithinkandicode
+> Hidden Item Effects - Master list
+> As requested by dcaseyjones and getsome2198 here, here's a full list of item effects, plus other bonus info the game doesn't tell you.
+
+===== Items =====
+
+For some accessories, you can only wear one of a given type at a time. This includes belts and necklaces.
+
+There are a few items that say they affect movement, but actually don't: Iron Breastplate, Kung Fu Vest, Kung Fu Shoes. The only items that do are Speed Belt and Tailwind Tome (book).
+
+==== Armor ====
+
+  * Apron ─ 10% chance to receive 1 extra item when preparing food
+  * Aegis Plate ─ Immune to all environmental traps. Required to progress
+    * Includes spikes, lava, spikes and lava, iron maidens and traps in the Underground Sorcery Lab (thanks Shadowman621!)
+  * Assassin's Vest ─ Attack Speed +10%
+  * Feather Robe ─ Receive massive knockback
+    * Tip by KefkeWren: There's a trick that involves backdashing into spikes to get flung in the direction you want to go
+  * Spiked Breastplate ─ Enemies that touch you receive thorn damage
+
+==== Headwear ====
+
+  * Witch's Hat ─ MP regen speed +20%
+  * Gebel's Glasses ─ Infinite MP (note: you must still have enough MP to cast, but your MP won't deplete)
+  * Gauge Glasses ─ On hit, show enemy's remaining health, instead of damage amount
+  * Cowboy Hat ─ Bullet damage +50%
+  * Gunslinger's Hat ─ Bullet damage x2, but ammo cost x2
+  * Recycle Hat ─ Infinite ammo
+  * Convex Glasses ─ Zooms in view
+  * Eye of Horus ─ Zooms out view
+  * Voice Changer ─ Distorts Miriam's voice
+
+==== Belts ====
+
+  * Black Belt ─ Attack Speed +10%
+  * Speed Belt ─ Movement speed +15%
+  * Strider Belt ─ Slide distance +20%
+  * Moon Belt ─ Backstep distance +20%
+
+==== Necklaces ====
+
+  * Demon Necklace ─ Directional shard fire rate +20%
+  * Skull Necklace ─ Shard damage +50%, but MP cost x2
+  * Warlock's Necklace ─ MP cost -20%
+
+==== Rings ====
+
+  * Adversity Ring ─ ATK +20% while afflicted with: curse, slow, poison, stone (not sure if this stacks)
+  * Assassin's Ring ─ Crit chance +5%, and crit damage +10%
+  * Critical Ring ─ Crit chance +10%
+  * Lethality Ring ─ Crit damage +20%
+  * Flame Ring ─ +20% damage with FIRE
+  * Ice Ring ─ +20% damage with ICE
+  * Thunder Ring ─ +20% damage with LIGHTNING
+  * Cutpurse's Ring ─ Gold drop chance +10%
+  * Plunderer's Ring ─ Item drop chance +25%
+  * Solomon's Ring ─ Shard drop chance +10%
+  * Gold Power Ring ─ Up to +30% ATK at 1,000,000g (1 million) - thanks RLutz!
+  * Silver Power Ring ─ Up to +30% ATK at 9999 enemies killed
+  * Traverser's Ring ─ Up to +20% ATK at 100% map completion
+  * Rose Ring ─ MP recovery from mana roses +25%
+  * Unicorn Ring ─ Healing items recover +20% more HP
+  * Weighted Ring ─ EXP gain +25%
+
+==== Scarves ====
+
+  * Order-made Scarf ─ Can be dyed different colours by Todd (the demon barber)
+
+==== Misc ====
+
+  * Scattershot (bullet type) ─ Spread shot: Bullet count x4, but ammo cost x4
+  * Discount Card (bought from shop) ─ 10% shop discount
+
+===== Weapons =====
+==== Weapons that level ====
+
+  * Bloodbringer ─ +55 ATK at max Bloodbringer familiar level
+  * Grand Izayoi ─ +58 ATK at 4444 blood
+  * Redbeast's Edge ─ +52 ATK at 30 dishes eaten
+    * Needs testing to confirm
+    * Also changes from a dagger to a rapier, but I'm not sure if this is from coin upgrades or from dishes eaten
+
+==== Weapons with unique attacks/effects ====
+
+  * Flying Edge ─ Weapon flies forward to attack enemies
+  * Oracle Blade ─ Weapon flies forward to attack enemies
+  * Rhava Búral ─ Prior to the Balance Update #1 patch, could auto attack like Rhava Velar
+  * Rhava Velar ─ Auto attacks when the attack button is held (like Crissaegrim)
+  * Steam Boots ─ Makes a machine sound! (thanks Nephiel and Niakshin!)
+  * Toy Boots - Squeaks!
+  * Hell's Knells ─ Decapitates!
+  * Boreal Rime Boots ─ Slippery movement with no benefits
+
+===== Weapons - Techniques =====
+==== Weapons with unique techniques ====
+
+  * Sanjiegun ─ Lunging Serpent
+  * Bandit Blade ─ Back Steal
+  * Blutgang ─ Parry
+
+==== Weapons with unlisted techniques ====
+
+  * Valkyrie Sword ─ Secret technique at 100% mastery (Down, Down, Attack)
+
+==== Cheat code weapon techniques ====
+Many cheat code weapons can perform Force Blast:
+
+  * Clockwork Blade
+  * Darkness Descends
+  * Dominus
+  * Dungeonite Sword
+  * Encrypted Orchid
+  * Eu's Sword
+  * Final Hour
+  * Game Sack Strip
+  * Gold Cross
+  * Hikari
+  * Moonwake
+  * Prismatic Heart ─ can also perform Power Slash
+  * Sicilian Slicer
+  * Vine Sword
+
+==== Weapons that can't perform techniques ====
+These weapons can't use the techniques of their weapon types, even after mastery:
+
+  * Oracle Blade
+  * Flying Edge
+  * Shield Weapon
+  * Rhava Velar
+  * Rhava Búral
+
+==== Weapons - Status Effects ====
+Status afflictions have 3 chance levels:
+
+  * Low: ~30% chance
+  * Often: ~50% chance
+  * Always: 100% chance
+
+Most weapons have a low chance for affliction.
+
+The exceptions are Kazikli, which often afflicts curse; Swordbreaker, which always debuffs enemy STR; and coin weapons (8/16/32bit).
+
+Coin weapon affliction chances are based on their level:
+
+  * 8bit: Low (~30%)
+  * 16bit: Often (~50%)
+  * 32bit: Always (100%)
+
+=== Curse ===
+
+  * Hofud ─ Low
+  * Kazikli ─ Often
+  * Blood Grinder ─ Depends on level
+
+=== Stone ===
+
+  * Kaladanda ─ Low
+  * Murgleis ─ Low
+  * Gold Cross ─ Depends on level
+  * Sculptor's Chisel ─ Depends on level
+  * Silent Calamity ─ Depends on level
+
+=== Poison ===
+
+  * Poison Kukri ─ Low
+  * Snakebite ─ Low
+  * Stinger ─ Low
+  * Oleanders ─ Depends on level
+
+=== Debuff enemy STR ===
+
+  * Swordbreaker ─ Always
+
+===== Library Books =====
+I added the effects of OD's Library books to the fextralife wiki. Exact stats and required map completion % are listed there.
+
+https://bloodstainedritualofthenight.wiki.fextralife.com/Orlok+Fahrenheit+Dracule+(O.D)
+
+The main takeaways are:
+
+Effects that aren't shown in-game (attack speed, EXP etc) all increase their stat by 20%.
+
+The Tome Of Conquest actually incorporates 4 books, not just 3. The secret book is Tactician's Tome, which gives +20% EXP gain.
+
+===== Keys =====
+Details of what each key does, and where it's used.
+
+  * Carpenter's Key ─ Boss room in Oriental Sorcery Lab: Carpenter
+  * Warhorse's Key ─ Boss room in Garden of Silence: Revenant
+  * Millionaire's Key ─ Boss room in Hall of Termination: Millionaire’s Bane
+  * Celeste's Key ─ Unlock Celeste's room in Livre Ex Machina.
+
+===== Shards =====
+Bonus shard info.
+
+  * Money is Power ─ Up to +10% ATK at 1,000,000g (1 million)

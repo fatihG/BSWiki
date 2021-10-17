@@ -1,0 +1,337 @@
+====== Bloodstained Stats ======
+
+>[[start|<Back>]]
+
+>Bloody Heck !
+
+Still need:
+  * Int Scaling, not correct.
+  * Gun ATK scaling...
+  * Luck , dun wanna!
+  * Stat scaling/level formula is off, need to fix.
+
+
+
+----
+
+====== Primary Stats ======
+
+|	STR	|	Strength	|	Increases ATK	|
+|	INT	|	Inteligence	|	Increases MATK	|
+|	CON	|	Constitution	|	Increases DEF	|
+|	MND	|	Mind	|	Increases MDEF	|
+|	LCK	|	Luck	|	Increases DropRate and Critical Chance	|
+
+=== Str ===
+
+Will add Str/5 to the damage formula
+
+=== Int ===
+
+Will add approximately Int/2.5 to spell damage
+
+=== Con ===
+
+Will add Con/2 to DEF
+
+=== Mnd ===
+
+Will add Mnd/2 to MDEF
+
+=== Lck ===
+
+Don't know the numbers
+
+> ccat: it's 0.5 chance per 2 lck
+> ccat: caps at 50 chance
+> ccat: @joneirik nah I was testing the stat alone, I might be confusing the cap with crit rate but the scaling is the same for both iirc
+
+----
+====== Secondary Stats ======
+
+|	ATK	|	Attack	|	Actual Physical Damage Number	|
+|	MATK	|	Magic Attack	|	Actual Magic Damage Number	|
+|	DEF	|	Defence	|	Physical Damage Reduction	|
+|	MDEF	|	Magic Defence	|	Magic Damage Reduction	|
+|	RES	|	Resistance	|	Damage Resistance	|
+
+=== Atk ===
+
+This is the actual number you do in damage with your weapon, if the enemy have no Defence or affected by Resistances, you will do this number is straight damage with each attack. There is no Random to the damage.
+
+The actual number is created using a formula that includes WA (Weapon Attack) and Str (Strength):
+
+> (WA/2)+(S/5)*(1+(WA/10))
+> Note: Always round decimals down.
+
+TLDR: The formula uses half of your WA, and a fifth of your Str and add it together. And then it multiplies this with a variable that will increase as your WA increases. Thus higher Atk weapons will scale higher and make better use of Str.
+
+>Except for guns, fuck guns. I made a formula that worked for the Musketon (starter gun) but it doesn't apply for the rest, and I just couldn't be arsed to deal with them any more.
+>> Musketon: (WA/2)+(S/5)*(0+(WA/20))
+
+----
+
+=== MAtk ===
+
+> Note: MAtk is never shown inside the game.
+
+After initial testing of spells, I'm struggling to come up with a formula that works, since the int scaling seems irregular.
+
+> Example: Ceruleansplash scales: 0, +3, +5, +3, +5, +4, with int from 0-50).
+
+This is an approximate formula, that gets very close to the correct numbers.
+
+> B+(Int/2.5)
+
+  * B = Base number, the Magic Attack stat from the spell/shard, which also depends on Grade for most of them. Example Ceruleansplash ranges from 18-27 MAtk.
+  * Spells do their Base damage as a straight damage number if you have no Int. So a grade 1 Ceruleansplash would do 18 damage, while a grade 9 would so 27 damage.
+
+----
+
+=== Def ===
+
+Defence works as a simple Damage Reduction, it reduces all Physical damage taken with X amount. This means it doesn't scale very well and will make you feel almost invulnerable when you go back to older areas, but will not help you much at all if you get hit when wandering into a higher level area.
+
+> Damage Reduction = Def/2
+> Note: You'll always take minimum 1 damage.
+
+Defence works against all Physical Attacks: Slashing, Blunt, Piercing.
+
+----
+
+=== MDef ===
+
+> Note: MDef is never displayed inside the game. Neither will items show if they give an MDef bonus or not.
+
+Magical Defence works the same way as Defence does, except that it affects the Magical Damage types instead of the Physical.
+
+> Damage Reduction = MDef/2
+
+MDef works against all Magical Attacks: Fire, Ice, Lightning, Holy, Dark, Poison, Curse, Stone. Though it will not help against catching the status effects from Poison, Curse, Stone. It will just reduce damage from attacks with those damage types listed.
+
+----
+
+=== Res ===
+
+Resistances works very straight forward, reduce any attack taken by X%. So if you take 100 fire damage, but have 25% fire resist, you take 75% damage. Poison/Curse/Stone also has a % chance to negate the status effect from affecting you.
+
+Just cause these three names makes no sense:
+  * Zan - Slashing
+  * Dag - Blunt
+  * Tot - Piercing
+
+
+----
+
+=== Weapon MAtk testing ===
+
+Been doing some more tests on the Weapon's MAtk stat, to see if I can figure out anything more about it. So far no success.
+
+Testing: Enemy def/mdef
+  * mdef reduces all shard damage, no weapon/type
+  * def reduses all weapon/type damage, no shard.
+
+Testing: Weapon Matk/ice
+  * doesn't work on shards (Physical/Elemental)
+  * doesn't work on weapon (Physical/Elemental)
+  * doesn't work on techniques (Physical/Elemental)
+  * doesn't change damage on same element (ice)
+	
+Testing: Weapon Matk/fire
+  * doesn't work on shards (Physical/Elemental)
+  * doesn't work on weapon (Physical/Elemental)
+  * doesn't work on techniques (Physical/Elemental)
+
+More to test:
+  * Fire/Lightning
+  * GEAR matk
+
+Supposedly the MAtk stat works on GEAR (everything in PB_DT_ArmorMaster) to boost Spell Damage, in similar way to what INT does. But to my knowledge I can't find that the stat does anything at all on Weapons.
+
+----
+====== Monster Stats ======
+
+Unlike the player, monsters uses mostly the Primary stats, and doesn't always make sense with the Secondary stats.
+
+Primary Stats:
+  * Health
+  * Mana (probably useless)
+  * Strength
+  * Constitution
+  * Intelligence
+  * Mind
+  * Luck (probably useless)
+
+Secondary Stats:
+  * Attack
+  * Magic Attack
+  * Defence
+  * Magic Defence
+  * Resistances
+
+Monsters also have their stats listed as level 1 and level 99, and dynamically scales the numbers between.
+
+How to determine Monster effective stats:
+  * Determine level (X)
+  * Subtract Level1 (Y) stat from Level99 stat (A)
+  * Divide (A) by 98 (Z)
+  * ((X-1) * Z) + Y
+  * Repeat for each stat.
+
+  * Str/Int: is straight out damage. If a Seama has Str10 and Int10 it will do 10 physical damage and 10 magical damage with its Ceruleansplash. (Special attacks have own scaling, like Dullahammer's charge up attack does 1.25 Str damage).
+  * Con/Mnd: should work like for player, so every 4 reduces 1 damage from Physical/Magical damage taken.
+  * Luck: No clue, might affect critical hits? (Do monsters even make critical attacks?)
+  * Health/Mana: just flat out numbers.
+  * Resistances obviously works as normal.
+
+----
+
+====== Bloodless ======
+
+Bloodless Alternative Mode have a few extra parameters:
+
+  * HPMax - 15
+  * MPMax - 3
+  * STR Up - 6
+  * INT Up - 4
+  * CON Up - 6
+  * MND Up - 4
+  * LCK Up - 4
+  * Crit/Luck - 0.5
+  * Mp reg Up - 0.5
+  * Base Def - 5
+
+----
+====== Player Stat Bonuses ======
+
+Maximum obtainable Passive Stats, and from what sources you can get them. This does not include changeable things like Gear and equipping yellow shards for doubling the effect. Just all the passives that you can always have on in the background.
+
+==== Miriam ====
+
+^	Miriam	^	1	^	99	^	MaxUp	^	Food	^	SkillAug	^	Tome	^	Tot1	^	Tot99	^
+|	maxhp	^	120	|	1296	|	500	|	375	|	100	|		^	1095	|	2271	^
+|	maxmp	^	78	|	862	|	300	|	235	|	50	|		^	663	|	1447	^
+|	str	^	6	|	104	|		|	40	|	10	|	10	^	66	|	164	^
+|	con	^	5	|	93	|		|	42	|	10	|	10	^	67	|	155	^
+|	int	^	7	|	114	|		|	43	|	10	|	10	^	70	|	177	^
+|	mdn	^	7	|	105	|		|	43	|	10	|	10	^	70	|	168	^
+|	lck	^	5	|	29	|		|	24	|	10	|	20	^	59	|	83	^
+|	XP bon	^		|		|		|	10	|		|	40	^	50	|	50	^
+|	MP reg	^		|		|		|	8	|		|		^	8	|	8	^
+^	Level	^	1	^	99	^	MaxUp	^	Food	^	SkillAug	^	Tome	^	Tot1	^	Tot99	^
+|	AtkSpd	^		|		|		|		|		|	40	^	40	|	40	^
+|	Familiar	^		|		|		|		|		|	20	^	20	|	20	^
+|	DirShard	^		|		|		|		|		|	20	^	20	|	20	^
+|	MoveSpd	^		|		|		|		|		|	40	^	40	|	40	^
+|	WepProf	^		|		|		|		|		|	40	^	40	|	40	^
+|	ResZan	^		|		|		|		|	15	|		^	15	|	15	^
+|	ResDag	^		|		|		|		|	15	|		^	15	|	15	^
+|	ResTot	^		|		|		|		|	15	|		^	15	|	15	^
+|	ResFla	^		|		|		|		|	25	|	15	^	40	|	40	^
+|	ResIce	^		|		|		|		|	25	|	15	^	40	|	40	^
+|	ResLig	^		|		|		|		|	25	|	15	^	40	|	40	^
+|	ResHol	^		|		|		|		|	25	|	15	^	40	|	40	^
+|	ResDar	^		|		|		|		|	25	|	15	^	40	|	40	^
+|	ResPet	^		|		|		|		|	15	|	15	^	30	|	30	^
+|	ResPoi	^		|		|		|		|	15	|	15	^	30	|	30	^
+|	ResCur	^		|		|		|		|	15	|	15	^	30	|	30	^
+|	Slow	^		|		|		|		|		|		^		|		^
+
+==== Zangetsu ====
+
+^	Zangie	^	1	^	99	^	MaxUp	^	Tot1	^	Tot99	^
+|	maxhp	^	300	|	1770	|	500	^	800	|	2270	^
+|	maxmp	^	200	|	1180	|	300	^	500	|	1480	^
+|	str	^	8	|	155	|		^	8	|	155	^
+|	con	^	10	|	186	|		^	10	|	186	^
+|	int	^	8	|	155	|		^	8	|	155	^
+|	mdn	^	9	|	176	|		^	9	|	176	^
+|	lck	^	1	|	25	|		^	1	|	25	^
+|	XP bon	^		|		|		^		|		^
+|	MP reg	^		|		|		^		|		^
+^	Level	^	1	^	99	^	MaxUp	^	Tot1	^	Tot99	^
+|	AtkSpd	^		|		|		^		|		^
+|	Familiar	^		|		|		^		|		^
+|	DirShard	^		|		|		^		|		^
+|	MoveSpd	^		|		|		^		|		^
+|	WepProf	^		|		|		^		|		^
+|	Slash	^	50	|		|		^	50	|	50	^
+|	Blunt	^	50	|		|		^	50	|	50	^
+|	Pierce	^	50	|		|		^	50	|	50	^
+|	Fire	^	50	|		|		^	50	|	50	^
+|	Ice	^	50	|		|		^	50	|	50	^
+|	Lightning	^	50	|		|		^	50	|	50	^
+|	Holy	^	50	|		|		^	50	|	50	^
+|	Dark	^	25	|		|		^	25	|	25	^
+|	Poison	^	50	|		|		^	50	|	50	^
+|	Curse	^	50	|		|		^	50	|	50	^
+|	Stone	^	50	|		|		^	50	|	50	^
+|	Slow	^	0	|		|		^	0	|	0	^
+
+==== Bloodless ====
+
+^	Bloodless	^	1	^	99	^	MaxUp	^	Tot1	^	Tot99	^
+|	maxhp	^	250	|	1230	|	500 (34)	^	750	|	1730	|
+|	maxmp	^	130	|	326	|	300 (100)	^	430	|	626	|
+|	str	^	9	|	131	|	48 (8)	^	57	|	179	|
+|	con	^	10	|	108	|	32 (8)	^	42	|	140	|
+|	int	^	6	|	128	|	48 (8)	^	54	|	176	|
+|	mdn	^	4	|	102	|	32 (8)	^	36	|	134	|
+|	lck	^	1	|	25	|	12 (3)	^	13	|	37	|
+|	XP bon	^		|		|		^		|		|
+|	MP reg	^	1	|	1	|	1,5 (3)	^	2,5	|	2.5	|
+^	Level	^	1	^	99	^	MaxUp	^	Tot1	^	Tot99	^
+|	AtkSpd	^		|		|		^		|		|
+|	Familiar	^		|		|		^		|		|
+|	DirShard	^		|		|		^		|		|
+|	MoveSpd	^		|		|		^		|		|
+|	WepProf	^		|		|		^		|		|
+|	Slash	^		|		|		^		|		|
+|	Blunt	^		|		|		^		|		|
+|	Pierce	^		|		|		^		|		|
+|	Fire	^		|		|		^		|		|
+|	Ice	^		|		|	30	^	30	|	30	|
+|	Lightning	^		|		|		^		|		|
+|	Holy	^	-25	|		|		^	-25	|	-25	|
+|	Dark	^	25	|		|		^	25	|	25	|
+|	Poison	^		|		|		^		|		|
+|	Curse	^	100	|		|		^	100	|	100	|
+|	Stone	^	100	|		|		^	100	|	100	|
+|	Slow	^	50	|		|		^	50	|	50	|
+
+
+
+----
+
+====== Stats Per Level ======
+
+^	Miriam	^	1	^	X	^	1	^	2	^	3	^	4	^	5	^	6	^	7	^	8	^	9	^	10	^	11	^	20	^	30	^	40	^	50	^	60	^	70	^	80	^	90	^	99	^
+|	HP	|	120	|	12	|	120	|	132	|	144	|	156	|	168	|	180	|	192	|	204	|	216	|	228	|	240	|	348	|	468	|	588	|	708	|	828	|	948	|	1068	|	1188	|	1296	|
+|	MP	|	78	|	8	|	78	|	86	|	94	|	102	|	110	|	118	|	126	|	134	|	142	|	150	|	158	|	230	|	310	|	390	|	470	|	550	|	630	|	710	|	790	|	862	|
+|	Str	|	6	|	1	|	6	|	7	|	8	|	9	|	10	|	11	|	12	|	13	|	14	|	15	|	16	|	25	|	35	|	45	|	55	|	65	|	75	|	85	|	95	|	104	|
+|	Con	|	5	|	0.9	|	5	|	5.9	|	6.8	|	7.7	|	8.6	|	9.5	|	10.4	|	11.3	|	12.2	|	13.1	|	14	|	22.1	|	31.1	|	40.1	|	49.1	|	58.1	|	67.1	|	76.1	|	85.1	|	93.2	|
+|	Int	|	7	|	1.1	|	7	|	8.1	|	9.2	|	10.3	|	11.4	|	12.5	|	13.6	|	14.7	|	15.8	|	16.9	|	18	|	27.9	|	38.9	|	49.9	|	60.9	|	71.9	|	82.9	|	93.9	|	104.9	|	114.8	|
+|	Mind	|	7	|	1	|	7	|	8	|	9	|	10	|	11	|	12	|	13	|	14	|	15	|	16	|	17	|	26	|	36	|	46	|	56	|	66	|	76	|	86	|	96	|	105	|
+|	Luck	|	5	|	0.25	|	5	|	5.25	|	5.5	|	5.75	|	6	|	6.25	|	6.5	|	6.75	|	7	|	7.25	|	7.5	|	9.75	|	12.25	|	14.75	|	17.25	|	19.75	|	22.25	|	24.75	|	27.25	|	29.5	|
+^	Zangetsu	^	1	^	X	^	1	^	2	^	3	^	4	^	5	^	6	^	7	^	8	^	9	^	10	^	11	^	20	^	30	^	40	^	50	^	60	^	70	^	80	^	90	^	99	^
+|	HP	|	300	|	15	|	300	|	315	|	330	|	345	|	360	|	375	|	390	|	405	|	420	|	435	|	450	|	585	|	735	|	885	|	1035	|	1185	|	1335	|	1485	|	1635	|	1770	|
+|	MP	|	200	|	10	|	200	|	210	|	220	|	230	|	240	|	250	|	260	|	270	|	280	|	290	|	300	|	390	|	490	|	590	|	690	|	790	|	890	|	990	|	1090	|	1180	|
+|	Str	|	8	|	1.5	|	8	|	9.5	|	11	|	12.5	|	14	|	15.5	|	17	|	18.5	|	20	|	21.5	|	23	|	36.5	|	51.5	|	66.5	|	81.5	|	96.5	|	111.5	|	126.5	|	141.5	|	155	|
+|	Con	|	10	|	1.8	|	10	|	11.8	|	13.6	|	15.4	|	17.2	|	19	|	20.8	|	22.6	|	24.4	|	26.2	|	28	|	44.2	|	62.2	|	80.2	|	98.2	|	116.2	|	134.2	|	152.2	|	170.2	|	186.4	|
+|	Int	|	8	|	1.5	|	8	|	9.5	|	11	|	12.5	|	14	|	15.5	|	17	|	18.5	|	20	|	21.5	|	23	|	36.5	|	51.5	|	66.5	|	81.5	|	96.5	|	111.5	|	126.5	|	141.5	|	155	|
+|	Mind	|	9	|	1.7	|	9	|	10.7	|	12.4	|	14.1	|	15.8	|	17.5	|	19.2	|	20.9	|	22.6	|	24.3	|	26	|	41.3	|	58.3	|	75.3	|	92.3	|	109.3	|	126.3	|	143.3	|	160.3	|	175.6	|
+|	Luck	|	1	|	0.25	|	1	|	1.25	|	1.5	|	1.75	|	2	|	2.25	|	2.5	|	2.75	|	3	|	3.25	|	3.5	|	5.75	|	8.25	|	10.75	|	13.25	|	15.75	|	18.25	|	20.75	|	23.25	|	25.5	|
+^	Bloodless	^	1	^	X	^	1	^	2	^	3	^	4	^	5	^	6	^	7	^	8	^	9	^	10	^	11	^	20	^	30	^	40	^	50	^	60	^	70	^	80	^	90	^	99	^
+|	HP	|	250	|	10	|	250	|	260	|	270	|	280	|	290	|	300	|	310	|	320	|	330	|	340	|	350	|	440	|	540	|	640	|	740	|	840	|	940	|	1040	|	1140	|	1230	|
+|	MP	|	130	|	2	|	130	|	132	|	134	|	136	|	138	|	140	|	142	|	144	|	146	|	148	|	150	|	168	|	188	|	208	|	228	|	248	|	268	|	288	|	308	|	326	|
+|	Str	|	9	|	1.25	|	9	|	10.25	|	11.5	|	12.75	|	14	|	15.25	|	16.5	|	17.75	|	19	|	20.25	|	21.5	|	32.75	|	45.25	|	57.75	|	70.25	|	82.75	|	95.25	|	107.75	|	120.25	|	131.5	|
+|	Con	|	10	|	1	|	10	|	11	|	12	|	13	|	14	|	15	|	16	|	17	|	18	|	19	|	20	|	29	|	39	|	49	|	59	|	69	|	79	|	89	|	99	|	108	|
+|	Int	|	6	|	1.25	|	6	|	7.25	|	8.5	|	9.75	|	11	|	12.25	|	13.5	|	14.75	|	16	|	17.25	|	18.5	|	29.75	|	42.25	|	54.75	|	67.25	|	79.75	|	92.25	|	104.75	|	117.25	|	128.5	|
+|	Mind	|	4	|	1	|	4	|	5	|	6	|	7	|	8	|	9	|	10	|	11	|	12	|	13	|	14	|	23	|	33	|	43	|	53	|	63	|	73	|	83	|	93	|	102	|
+|	Luck	|	1	|	0.25	|	1	|	1.25	|	1.5	|	1.75	|	2	|	2.25	|	2.5	|	2.75	|	3	|	3.25	|	3.5	|	5.75	|	8.25	|	10.75	|	13.25	|	15.75	|	18.25	|	20.75	|	23.25	|	25.5	|
+
+This table shows how much stats you'll have on each level.
+> Note: Always round down.
+
+----
+

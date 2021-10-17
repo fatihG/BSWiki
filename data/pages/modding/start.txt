@@ -1,0 +1,43 @@
+[[../start|<Back>]]
+
+===== Modding =====
+
+----
+
+==== Topics ====
+
+Pick a category for what type of modding you want to do to the game:
+
+| [[modding:animation:start|Animation]]			| Replace animations attached to 3D models |
+| [[modding:datatable:start|Data Table Editing]]	| Modify various game rules and item/equipment properties |
+| [[modding:level:start|Level Editing]]				| Edit the game's rooms; object and enemy placement |
+| [[modding:modelling:start|Modelling]]			| Replace the game's 3D models and textures |
+| [[modding:sound_music:start|Sound & Music]]	| Replace the game's sounds & music |
+
+----
+
+==== See Also ====
+
+  * [[modding:tools|Modding Tools]]
+
+----
+==== Basic Concepts ====
+
+**Bloodstained: Ritual of the Night** is a game built in Unreal Engine version 4.18.3. Unreal Engine provides a built-in way for developers to update their games after release, we utilize this to mod the game.
+
+**Game Assets** - When I use the word **asset** from this point forward, it means anything the game uses to work - 3D models, animations,  sounds, blueprint scripts, etc. We want to replace these assets during modding.
+
+**.pak files** - Unreal Engine stores all of the game's assets in large files with the **.pak** extension. Bloodstained automatically loads all **.pak** files that are placed inside the //BloodstainedRotN/Content/Paks// folder, in alphabetical order according to the file and folder name. During modding, your ultimate goal will be to create a new **.pak** file which can be placed in this folder in order to override the assets in the game's other pre-existing **.pak** files.
+
+**.uasset files** - A **.pak** file holds multiple **.uasset** files. Each of the game's assets are stored in individual files with the **.uasset** extension. It is possible to store more than one asset in a single **.uasset** file, however it is usually 1 asset = 1 uasset file. A **.uasset** file could hold anything, such as a 3D model or a DataTable that defines weapon stats. Depending on what type of asset you're modifying you will use different tools to extract that asset from the **.uasset** file, modify it, then rebuild the **.uasset** file with the modified asset.
+
+**The basic process for creating any mod is as follows:**
+  - Unpack the **.pak** files containing the game's existing assets.
+  - In the unpacked directory, locate the **.uasset** file containing the game asset you want to modify.
+  - Modify the **.uasset** file depending on what type of asset it is. Pick one of the [[modding:start#topics|categories above]] for tutorials based on what type of asset is being modified.
+  - Set up a blank project in Unreal Engine and import the modified asset, package (cook) the project to generate new **.uasset** files.
+  - Use one of the modding tools such as [[modding:tools#unrealpak|UnrealPak]] to generate a new **.pak** file that contains your modified **.uasset** files.
+  - Copy your new **.pak** file into the game's //Paks// folder.
+  - Run the game to test.
+
+This is just a high-level overview. [[modding:start#topics|Choose a category above]] for detailed tutorials on modding the game.

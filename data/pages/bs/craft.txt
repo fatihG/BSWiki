@@ -1,0 +1,956 @@
+====== Craft ======
+>[[start]]
+
+===== Names =====
+
+^	-Recipe-	^	-Name-	^	Tier	^
+|	ArmsRecipe003 	|	Steel Equipment	|	2	|
+^	ArmsRecipe004 	^	Obsidian Equipment	^	2	|
+|	ArmsRecipe005	|	Damascus Equipment	|	3	|
+^	ArmsRecipe007	^	Gold Equipment	^	3	|
+|	ArmsRecipe009	|	Crimson Equipment	|	5	|
+^	ArmsRecipe012	^	Cashmere Equipment	^	5	|
+|	ArmsRecipe018	|	Fine Equipment	|	3	|
+^	ArmsRecipe019	^	Very Fine Equipment	^	5	|
+|	ArmsRecipe020	|	Legendary Equipment	|	5	|
+^	BalletRecipe001	^	Elemental Ammunition	^	3	|
+|	BalletRecipe002	|	Special Ammunition	|	3	|
+^	BalletRecipe003	^	Potent Ammunition	^	4	|
+|	BalletRecipe004 	|	Ultimate Ammunition	|	4	|
+^	DishRecipe002	^	Ramen	^	5	|
+|	DishRecipe003	|	Curry	|	3	|
+^	DishRecipe004	^	Pasta	^	3	|
+|	DishRecipe005	|	Meat Dish	|	3	|
+^	DishRecipe006	^	Fish Dish	^	3	|
+|	DishRecipe007	|	Sweets	|	3	|
+^	DishRecipe008	^	Cookies	^	3	|
+|	DishRecipe010	|	Cake	|	3	|
+^	DishRecipe011	^	Drink	^	3	|
+|	DishRecipe014	|	Ultimate Dish	|	4	|
+^	DishRecipe015	^	Supreme Dish	^	5	|
+|	ItemRecipe001	|	Fine Healing Item	|	2	|
+^	ItemRecipe002	^	Ultimate Healing Item	^	3	|
+|	ItemRecipe003	|	Faerie Healing Item	|	2	|
+
+===== Stuff =====
+
+^	-Potion-	^	-Recipe-	^	Ingrediment1	^	#	^	Ingrediment2	^	#	^	Ingrediment3	^	#	^	Ingrediment4	^	#	^
+|	Potion	|	-	|	BatFeather	^	1	|	MeltedBone	^	1	|	None	^	0	|	None	^	0	|
+|	Ether	|	-	|	Giantrattail	^	1	|	MonsterBirdTears	^	1	|	None	^	0	|	None	^	0	|
+|	HighPotion	|	ItemRecipe001	|	Potion	^	4	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	HighEther	|	ItemRecipe001	|	Ether	^	4	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ExPotion	|	ItemRecipe002	|	HighPotion	^	4	|	Panacea	^	3	|	None	^	0	|	None	^	0	|
+|	ExEther	|	ItemRecipe002	|	HighEther	^	4	|	Panacea	^	3	|	None	^	0	|	None	^	0	|
+|	HolyWater	|	-	|	MonsterBirdTears	^	1	|	Halite	^	5	|	None	^	0	|	None	^	0	|
+|	Mithridate	|	-	|	MonsterBirdTears	^	1	|	Poisontoadeye	^	1	|	None	^	0	|	None	^	0	|
+|	Stonethaw	|	-	|	MonsterBirdTears	^	1	|	MeltedBone	^	1	|	None	^	0	|	None	^	0	|
+|	Panacea	|	-	|	HolyWater	^	1	|	Mithridate	^	1	|	Stonethaw	^	1	|	None	^	0	|
+|	Poison	|	-	|	MonsterBirdTears	^	1	|	TytaniaPoisonedNeedle	^	1	|	None	^	0	|	None	^	0	|
+|	FaerieMedicine	|	ItemRecipe003	|	Potion	^	1	|	FairyPowder	^	1	|	None	^	0	|	None	^	0	|
+|	FaerieElixir	|	ItemRecipe003	|	HighPotion	^	1	|	FairyPowder	^	1	|	None	^	0	|	None	^	0	|
+|	FaerieAllheal	|	ItemRecipe003	|	ExPotion	^	1	|	FairyPowder	^	1	|	None	^	0	|	None	^	0	|
+|	FaeriePanacea	|	ItemRecipe003	|	Panacea	^	1	|	FairyPowder	^	1	|	None	^	0	|	None	^	0	|
+|	Gunpowder	|	-	|	Sulfur	^	1	|	Saltpeter	^	1	|	None	^	0	|	None	^	0	|
+|	Gold	|	-	|	Mercury	^	50	|	DarkMatter	^	10	|	None	^	0	|	None	^	0	|
+^	-Sword-	^	-Recipe-	^	Ingrediment1	^	#	^	Ingrediment2	^	#	^	Ingrediment3	^	#	^	Ingrediment4	^	#	^
+|	ShortSword	|	-	|	Bronze	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	LongSword	|	-	|	Iron	^	3	|	Bronze	^	2	|	None	^	0	|	None	^	0	|
+|	WolfBalt	|	ArmsRecipe004	|	LongSword	^	1	|	Obsidian	^	2	|	DemonDogSkin	^	2	|	None	^	0	|
+|	Halper	|	ArmsRecipe003	|	WolfBalt	^	1	|	Steel	^	2	|	None	^	0	|	None	^	0	|
+|	invisible	|	-	|	Ectoplasm	^	9	|	Steel	^	3	|	Silver	^	1	|	Mercury	^	5	|
+|	Mulgres	|	ArmsRecipe005	|	Gargoyledebris	^	1	|	DamascusSteel	^	2	|	Mithril	^	1	|	None	^	0	|
+|	Burtgang	|	ArmsRecipe018	|	Mimicshell	^	1	|	Platinum	^	2	|	Clystal	^	1	|	None	^	0	|
+|	Flagarach	|	ArmsRecipe018	|	deathBringerDebris	^	1	|	Gold	^	2	|	HolyWater	^	7	|	None	^	0	|
+|	Hoffdo	|	ArmsRecipe018	|	deathBringerDebris	^	1	|	Gold	^	2	|	Gusionfang	^	2	|	None	^	0	|
+|	Dineslave	|	ArmsRecipe018	|	Hoffdo	^	1	|	Dragonclaw	^	1	|	DarkMatter	^	1	|	None	^	0	|
+|	Florenberg	|	ArmsRecipe019	|	Hoffdo	^	1	|	Marbasfang	^	1	|	Bixbite	^	1	|	Flamering	^	1	|
+|	Armas	|	ArmsRecipe019	|	Hoffdo	^	1	|	Marbasfang	^	1	|	Diamond	^	1	|	Icering	^	1	|
+|	Caradoborg	|	ArmsRecipe019	|	Hoffdo	^	1	|	Marbasfang	^	1	|	Emerald	^	3	|	Thunderring	^	1	|
+|	Liddyl	|	ArmsRecipe020	|	Florenberg	^	1	|	Armas	^	1	|	Caradoborg	^	1	|	AbyssguardianHeart	^	1	|
+|	Broadsword	|	ArmsRecipe020	|	Florenberg	^	1	|	Armas	^	1	|	Caradoborg	^	1	|	Gieremundfang	^	1	|
+|	OracleBlade	|	RemoteDart	|	RemoteDart	^	1	|	Hihiirokane	^	1	|	Gaapwing	^	2	|	WindFeathers	^	2	|
+|	ValralAltar	|	ArmsRecipe020	|	WalalSoulimo	^	4	|	Hihiirokane	^	1	|	Gieremundfang	^	1	|	SharpRazor	^	4	|
+^	-GreatSword-	^	-Recipe-	^	Ingrediment1	^	#	^	Ingrediment2	^	#	^	Ingrediment3	^	#	^	Ingrediment4	^	#	^
+|	Claymore	|	-	|	Bronze	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Perex	|	-	|	Iron	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Flanders	|	ArmsRecipe004	|	Iron	^	2	|	Obsidian	^	2	|	None	^	0	|	None	^	0	|
+|	OutsiderKnightSword	|	ArmsRecipe003	|	Flanders	^	1	|	Steel	^	1	|	Obsidian	^	1	|	None	^	0	|
+|	Valdish	|	ArmsRecipe005	|	Perex	^	1	|	DamascusSteel	^	1	|	Silver	^	1	|	None	^	0	|
+|	Gram	|	ArmsRecipe005	|	Mithril	^	1	|	DamascusSteel	^	1	|	Silver	^	1	|	None	^	0	|
+|	Gambanttain	|	ArmsRecipe018	|	Perex	^	1	|	MahoganyLumber	^	1	|	Platinum	^	1	|	None	^	0	|
+|	Lohengrin	|	ArmsRecipe018	|	Gram	^	1	|	Clystal	^	1	|	Flamering	^	1	|	None	^	0	|
+|	Sherdar	|	ArmsRecipe018	|	Gram	^	1	|	Clystal	^	1	|	Icering	^	1	|	None	^	0	|
+|	LightningBolt	|	ArmsRecipe018	|	Gram	^	1	|	Clystal	^	1	|	Thunderring	^	1	|	None	^	0	|
+|	Karadanda	|	ArmsRecipe007	|	Gambanttain	^	1	|	MahoganyLumber	^	1	|	Gold	^	1	|	None	^	0	|
+|	Durandal	|	ArmsRecipe019	|	Lohengrin	^	1	|	Sherdar	^	1	|	LightningBolt	^	1	|	None	^	0	|
+|	DiesIle	|	ArmsRecipe009	|	Durandal	^	1	|	Hihiirokane	^	1	|	Marbasfang	^	1	|	None	^	0	|
+|	TurmericBasara	|	ArmsRecipe020	|	DiesIle	^	1	|	LightningBolt	^	1	|	Orichalcum	^	1	|	CypressLumber	^	1	|
+|	Exactor	|	ArmsRecipe020	|	DiesIle	^	1	|	Orichalcum	^	2	|	Gieremundfang	^	1	|	None	^	0	|
+^	-Knife-	^	-Recipe-	^	Ingrediment1	^	#	^	Ingrediment2	^	#	^	Ingrediment3	^	#	^	Ingrediment4	^	#	^
+|	Knife	|	-	|	Bronze	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Baselard	|	-	|	Iron	^	4	|	Bronze	^	1	|	None	^	0	|	None	^	0	|
+|	Kukuri	|	-	|	Iron	^	4	|	OakLumber	^	2	|	None	^	0	|	None	^	0	|
+|	PoisonKukri	|	-	|	Kukuri	^	1	|	Poison	^	2	|	None	^	0	|	None	^	0	|
+|	Swordbreaker	|	ArmsRecipe005	|	Mithril	^	2	|	DamascusSteel	^	1	|	None	^	0	|	None	^	0	|
+|	ManGauche	|	ArmsRecipe007	|	Swordbreaker	^	1	|	Gold	^	1	|	Steel	^	1	|	None	^	0	|
+|	Calnwenan	|	ArmsRecipe009	|	ManGauche	^	1	|	Hihiirokane	^	1	|	None	^	0	|	None	^	0	|
+|	Mandaupasar	|	ArmsRecipe020	|	Calnwenan	^	1	|	Orichalcum	^	1	|	Bloodybone	^	1	|	None	^	0	|
+^	-Rapier-	^	-Recipe-	^	Ingrediment1	^	#	^	Ingrediment2	^	#	^	Ingrediment3	^	#	^	Ingrediment4	^	#	^
+|	Rapier	|	-	|	Bronze	^	3	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Epe	|	-	|	Iron	^	2	|	Obsidian	^	2	|	None	^	0	|	None	^	0	|
+|	Stinger	|	ArmsRecipe003	|	Epe	^	1	|	Steel	^	2	|	Poison	^	1	|	None	^	0	|
+|	Miserikorde	|	ArmsRecipe018	|	Clystal	^	2	|	Ruby	^	1	|	Sapphire	^	1	|	Emerald	^	1	|
+|	Cazilk	|	Miserikorde	|	Miserikorde	^	1	|	Clystal	^	1	|	Gold	^	1	|	None	^	0	|
+|	Juwuse	|	ArmsRecipe020	|	Cazilk	^	1	|	Gold	^	1	|	Orichalcum	^	1	|	Bixbite	^	1	|
+^	-Katana-	^	-Recipe-	^	Ingrediment1	^	#	^	Ingrediment2	^	#	^	Ingrediment3	^	#	^	Ingrediment4	^	#	^
+|	Dull	|	-	|	Bronze	^	3	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Noda	|	-	|	Iron	^	3	|	Bronze	^	1	|	None	^	0	|	None	^	0	|
+|	Tsurumaru	|	ArmsRecipe004	|	Obsidian	^	3	|	Iron	^	2	|	None	^	0	|	None	^	0	|
+|	ShiroTorujiro	|	ArmsRecipe003	|	DamascusSteel	^	1	|	Steel	^	1	|	Morgenstern	^	1	|	None	^	0	|
+|	Lightningoff	|	ArmsRecipe005	|	DamascusSteel	^	3	|	Thunderring	^	1	|	None	^	0	|	None	^	0	|
+|	Tadanako	|	ArmsRecipe019	|	Clystal	^	1	|	Platinum	^	1	|	Mithril	^	1	|	None	^	0	|
+|	MikazukiMaen	|	ArmsRecipe009	|	Tadanako	^	1	|	Hihiirokane	^	1	|	MahoganyLumber	^	1	|	None	^	0	|
+|	Truesixteenthnight	|	ArmsRecipe020	|	MikazukiMaen	^	1	|	Orichalcum	^	1	|	CypressLumber	^	1	|	None	^	0	|
+^	-Boot-	^	-Recipe-	^	Ingrediment1	^	#	^	Ingrediment2	^	#	^	Ingrediment3	^	#	^	Ingrediment4	^	#	^
+|	KungFuShoes	|	-	|	DemonDogSkin	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	BattleBoots	|	-	|	Hemp	^	3	|	DemonDogSkin	^	3	|	ManeLion	^	1	|	None	^	0	|
+|	KillerBoots	|	BattleBoots	|	BattleBoots	^	1	|	Baselard	^	1	|	Hemp	^	2	|	None	^	0	|
+|	Toyshoes	|	-	|	Cotton	^	2	|	Decarabialeather	^	1	|	Giantratteeth	^	1	|	None	^	0	|
+|	Assaultsollette	|	ArmsRecipe005	|	DamascusSteel	^	2	|	Steel	^	2	|	None	^	0	|	None	^	0	|
+|	Rabbitboots	|	Toyshoes	|	Toyshoes	^	1	|	Lilimtail	^	2	|	Lilimear	^	1	|	None	^	0	|
+|	Dragonshoes	|	ArmsRecipe019	|	Felt	^	2	|	Dragonbone	^	2	|	Dragonscales	^	2	|	Flamering	^	1	|
+|	Hermesshoes	|	Dragonshoes	|	Dragonshoes	^	1	|	Apenail	^	1	|	WalalSoulimo	^	1	|	None	^	0	|
+|	Decapitator	|	ArmsRecipe020	|	Hermesshoes	^	1	|	Marbasfang	^	1	|	Dineslave	^	1	|	None	^	0	|
+^	-Spear-	^	-Recipe-	^	Ingrediment1	^	#	^	Ingrediment2	^	#	^	Ingrediment3	^	#	^	Ingrediment4	^	#	^
+|	Spear	|	-	|	ElmLumber	^	1	|	Bronze	^	2	|	None	^	0	|	None	^	0	|
+|	Reims	|	-	|	ElmLumber	^	2	|	Iron	^	3	|	None	^	0	|	None	^	0	|
+|	Partizan	|	ArmsRecipe003	|	OakLumber	^	1	|	Steel	^	1	|	None	^	0	|	None	^	0	|
+|	Excavator	|	ArmsRecipe005	|	DamascusSteel	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Triplet	|	ArmsRecipe018	|	WalnutLumber	^	3	|	Obsidian	^	1	|	None	^	0	|	None	^	0	|
+|	ShingoGempo	|	ShiroTorujiro	|	ShiroTorujiro	^	1	|	MahoganyLumber	^	2	|	None	^	0	|	None	^	0	|
+|	Coldgrindingsaw	|	ShingoGempo	|	ShingoGempo	^	1	|	Diamond	^	1	|	None	^	0	|	None	^	0	|
+|	Aradovar	|	ArmsRecipe009	|	CypressLumber	^	1	|	Hihiirokane	^	1	|	Flamering	^	1	|	None	^	0	|
+|	Nibbleheim	|	ArmsRecipe009	|	CypressLumber	^	1	|	Hihiirokane	^	1	|	Icering	^	1	|	None	^	0	|
+|	GunungNil	|	ArmsRecipe009	|	CypressLumber	^	1	|	Hihiirokane	^	1	|	Thunderring	^	1	|	None	^	0	|
+|	Gayalsals	|	ArmsRecipe020	|	Aradovar	^	1	|	Nibbleheim	^	1	|	GunungNil	^	1	|	None	^	0	|
+^	-Mace-	^	-Recipe-	^	Ingrediment1	^	#	^	Ingrediment2	^	#	^	Ingrediment3	^	#	^	Ingrediment4	^	#	^
+|	Mace	|	-	|	ElmLumber	^	1	|	Bronze	^	2	|	None	^	0	|	None	^	0	|
+|	Morgenstern	|	ArmsRecipe004	|	ElmLumber	^	2	|	Iron	^	2	|	Obsidian	^	1	|	None	^	0	|
+|	McAutil	|	ArmsRecipe005	|	OakLumber	^	2	|	Obsidian	^	2	|	DamascusSteel	^	1	|	None	^	0	|
+|	Yagurushi	|	ArmsRecipe018	|	WalnutLumber	^	2	|	Thunderring	^	1	|	None	^	0	|	None	^	0	|
+|	Aimur	|	ArmsRecipe019	|	MahoganyLumber	^	1	|	Gold	^	1	|	None	^	0	|	None	^	0	|
+|	Charwell	|	Aimur	|	Aimur	^	1	|	Bixbite	^	1	|	Icering	^	1	|	None	^	0	|
+|	Mistrutein	|	ArmsRecipe020	|	Charwell	^	1	|	Karadanda	^	1	|	Bloodybone	^	1	|	None	^	0	|
+^	-Whip-	^	-Recipe-	^	Ingrediment1	^	#	^	Ingrediment2	^	#	^	Ingrediment3	^	#	^	Ingrediment4	^	#	^
+|	Awhip	|	-	|	DemonDogSkin	^	2	|	Hemp	^	1	|	None	^	0	|	None	^	0	|
+|	Ibarakaswhip	|	-	|	DemonDogSkin	^	3	|	Batfang	^	4	|	ManeLion	^	2	|	None	^	0	|
+|	FireWhip	|	-	|	Decarabialeather	^	2	|	DemonCloth	^	2	|	Ruby	^	1	|	None	^	0	|
+|	BlackRockHell	|	ArmsRecipe018	|	Decarabialeather	^	3	|	MonsterBirdHair	^	4	|	MocoOil	^	3	|	MeltingSkull	^	1	|
+|	Snakebyte	|	ArmsRecipe018	|	DevilBookLeather	^	2	|	Lerajecloth	^	2	|	DevilRoyalTail	^	3	|	Dragonscales	^	1	|
+|	BeastKiller	|	ArmsRecipe019	|	Decimaleather	^	2	|	Lamastutail	^	3	|	Silverwolffur	^	3	|	None	^	0	|
+|	Albireo	|	BeastKiller	|	BeastKiller	^	1	|	Glashtynhair	^	2	|	Icering	^	1	|	None	^	0	|
+|	Andromeda	|	ArmsRecipe020	|	Albireo	^	1	|	Abyssguardianbastard	^	2	|	Diamond	^	1	|	Bloodyskull	^	1	|
+^	-Gun-	^	-Recipe-	^	Ingrediment1	^	#	^	Ingrediment2	^	#	^	Ingrediment3	^	#	^	Ingrediment4	^	#	^
+|	Musketon	|	-	|	ElmLumber	^	1	|	Bronze	^	1	|	None	^	0	|	None	^	0	|
+|	Branderbus	|	-	|	ElmLumber	^	2	|	Iron	^	3	|	None	^	0	|	None	^	0	|
+|	Tanegasima	|	ArmsRecipe003	|	OakLumber	^	1	|	Steel	^	2	|	None	^	0	|	None	^	0	|
+|	Trador	|	ArmsRecipe005	|	WalnutLumber	^	1	|	DamascusSteel	^	1	|	None	^	0	|	None	^	0	|
+|	Carvalin	|	ArmsRecipe018	|	WalnutLumber	^	1	|	Platinum	^	1	|	Mithril	^	1	|	None	^	0	|
+|	Betelgeuse	|	ArmsRecipe007	|	MahoganyLumber	^	1	|	Gold	^	1	|	Clystal	^	1	|	None	^	0	|
+|	Ursula	|	Betelgeuse	|	Betelgeuse	^	1	|	CypressLumber	^	1	|	Hihiirokane	^	1	|	None	^	0	|
+|	Adrastea	|	ArmsRecipe020	|	Ursula	^	1	|	Orichalcum	^	2	|	Bloodyskull	^	1	|	None	^	0	|
+^	-8Bit-	^	-Recipe-	^	Ingrediment1	^	#	^	Ingrediment2	^	#	^	Ingrediment3	^	#	^	Ingrediment4	^	#	^
+|	CrystalSword	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	CrystalSword2	|	CrystalSword	|	CrystalSword	^	1	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	CrystalSword3	|	CrystalSword2	|	CrystalSword2	^	1	|	32BitCoin	^	1	|	Medal022	^	1	|	None	^	0	|
+|	WhipsOfLightDarkness	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	WhipsOfLightDarkness2	|	WhipsOfLightDarkness	|	WhipsOfLightDarkness	^	1	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	WhipsOfLightDarkness3	|	WhipsOfLightDarkness2	|	WhipsOfLightDarkness2	^	1	|	32BitCoin	^	1	|	Medal022	^	1	|	None	^	0	|
+|	ShieldWeapon	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ShieldWeapon2	|	ShieldWeapon	|	ShieldWeapon	^	1	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	ShieldWeapon3	|	ShieldWeapon2	|	ShieldWeapon2	^	1	|	32BitCoin	^	1	|	Medal022	^	1	|	None	^	0	|
+|	DeathBringer	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	DeathBringer2	|	DeathBringer	|	DeathBringer	^	1	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	DeathBringer3	|	DeathBringer2	|	DeathBringer2	^	1	|	32BitCoin	^	1	|	Medal022	^	1	|	None	^	0	|
+|	IcePillarSpear	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	IcePillarSpear2	|	IcePillarSpear	|	IcePillarSpear	^	1	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	IcePillarSpear3	|	IcePillarSpear2	|	IcePillarSpear2	^	1	|	32BitCoin	^	1	|	Medal022	^	1	|	None	^	0	|
+|	SacredSword	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SacredSword2	|	SacredSword	|	SacredSword	^	1	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	SacredSword3	|	SacredSword2	|	SacredSword2	^	1	|	32BitCoin	^	1	|	Medal022	^	1	|	None	^	0	|
+|	XrossBrade	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	XrossBrade2	|	XrossBrade	|	XrossBrade	^	1	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	XrossBrade3	|	XrossBrade2	|	XrossBrade2	^	1	|	32BitCoin	^	1	|	Medal022	^	1	|	None	^	0	|
+|	BradeOfEU	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	BradeOfEU2	|	BradeOfEU	|	BradeOfEU	^	1	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	BradeOfEU3	|	BradeOfEU2	|	BradeOfEU2	^	1	|	32BitCoin	^	1	|	Medal022	^	1	|	None	^	0	|
+|	TrustMusket	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	TrustMusket2	|	TrustMusket	|	TrustMusket	^	1	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	TrustMusket3	|	TrustMusket2	|	TrustMusket2	^	1	|	32BitCoin	^	1	|	Medal022	^	1	|	None	^	0	|
+|	ChargeWideEnd	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ChargeWideEnd2	|	ChargeWideEnd	|	ChargeWideEnd	^	1	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	ChargeWideEnd3	|	ChargeWideEnd2	|	ChargeWideEnd2	^	1	|	32BitCoin	^	1	|	Medal022	^	1	|	None	^	0	|
+|	LoveOfFairyDragon	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	LoveOfFairyDragon2	|	LoveOfFairyDragon	|	LoveOfFairyDragon	^	1	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	LoveOfFairyDragon3	|	LoveOfFairyDragon2	|	LoveOfFairyDragon2	^	1	|	32BitCoin	^	1	|	Medal022	^	1	|	None	^	0	|
+|	StickOfMagiGirl	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	StickOfMagiGirl2	|	StickOfMagiGirl	|	StickOfMagiGirl	^	1	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	StickOfMagiGirl3	|	StickOfMagiGirl2	|	StickOfMagiGirl2	^	1	|	32BitCoin	^	1	|	Medal022	^	1	|	None	^	0	|
+|	DrillWideEnd	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	DrillWideEnd2	|	DrillWideEnd	|	DrillWideEnd	^	1	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	DrillWideEnd3	|	DrillWideEnd2	|	DrillWideEnd2	^	1	|	32BitCoin	^	1	|	Medal022	^	1	|	None	^	0	|
+|	CoolShoesOfMrNarita	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	CoolShoesOfMrNarita2	|	CoolShoesOfMrNarita	|	CoolShoesOfMrNarita	^	1	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	CoolShoesOfMrNarita3	|	CoolShoesOfMrNarita2	|	CoolShoesOfMrNarita2	^	1	|	32BitCoin	^	1	|	Medal022	^	1	|	None	^	0	|
+|	IceSlewShoes	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	IceSlewShoes2	|	IceSlewShoes	|	IceSlewShoes	^	1	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	IceSlewShoes3	|	IceSlewShoes2	|	IceSlewShoes2	^	1	|	32BitCoin	^	1	|	Medal022	^	1	|	None	^	0	|
+|	LightSaber	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	LightSaber2	|	LightSaber	|	LightSaber	^	1	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	LightSaber3	|	LightSaber2	|	LightSaber2	^	1	|	32BitCoin	^	1	|	Medal022	^	1	|	None	^	0	|
+|	JodoSwordLight	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	JodoSwordLight2	|	JodoSwordLight	|	JodoSwordLight	^	1	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	JodoSwordLight3	|	JodoSwordLight2	|	JodoSwordLight2	^	1	|	32BitCoin	^	1	|	Medal022	^	1	|	None	^	0	|
+|	SpearCutDownAside	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SpearCutDownAside2	|	SpearCutDownAside	|	SpearCutDownAside	^	1	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	SpearCutDownAside3	|	SpearCutDownAside2	|	SpearCutDownAside2	^	1	|	32BitCoin	^	1	|	Medal022	^	1	|	None	^	0	|
+|	PoisonSpikeShoes	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	PoisonSpikeShoes2	|	PoisonSpikeShoes	|	PoisonSpikeShoes	^	1	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	PoisonSpikeShoes3	|	PoisonSpikeShoes2	|	PoisonSpikeShoes2	^	1	|	32BitCoin	^	1	|	Medal022	^	1	|	None	^	0	|
+|	PetrifactionSword	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	PetrifactionSword2	|	PetrifactionSword	|	PetrifactionSword	^	1	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	PetrifactionSword3	|	PetrifactionSword2	|	PetrifactionSword2	^	1	|	32BitCoin	^	1	|	Medal022	^	1	|	None	^	0	|
+^	-Head-	^	-Recipe-	^	Ingrediment1	^	#	^	Ingrediment2	^	#	^	Ingrediment3	^	#	^	Ingrediment4	^	#	^
+|	Headband	|	-	|	Hemp	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	PirateTriangleCap	|	-	|	Hemp	^	1	|	Recklesslimb	^	1	|	None	^	0	|	None	^	0	|
+|	Beastberet	|	-	|	Buerfur	^	1	|	DemonDogSkin	^	1	|	None	^	0	|	None	^	0	|
+|	CowboyHat	|	-	|	Hemp	^	1	|	DemonCloth	^	1	|	ArmorPiercing	^	5	|	None	^	0	|
+|	Circletoffire	|	Circlet	|	Circlet	^	1	|	Ruby	^	1	|	None	^	0	|	None	^	0	|
+|	Icecirclet	|	Circlet	|	Circlet	^	1	|	Sapphire	^	1	|	None	^	0	|	None	^	0	|
+|	Thunderscirclet	|	Circlet	|	Circlet	^	1	|	Emerald	^	1	|	None	^	0	|	None	^	0	|
+|	BraveBeret	|	ArmsRecipe018	|	Cotton	^	1	|	DevilBookLeather	^	1	|	None	^	0	|	None	^	0	|
+|	FeatherCrown	|	ArmsRecipe018	|	Steel	^	1	|	ThunderbirdFeathers	^	1	|	None	^	0	|	None	^	0	|
+|	SilverTiara	|	ArmsRecipe018	|	Silver	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Magushat	|	ArmsRecipe018	|	Cotton	^	1	|	Cyhyraethtear	^	1	|	DevilBookPaperStrip	^	1	|	None	^	0	|
+|	Cutebeastberet	|	Beastberet	|	Beastberet	^	1	|	Lilimtail	^	1	|	Dineseawing	^	1	|	None	^	0	|
+|	BunnyEars	|	Headband	|	Headband	^	1	|	Lilimear	^	1	|	Assasincloth	^	1	|	None	^	0	|
+|	Westernhat	|	ArmsRecipe019	|	Felt	^	1	|	Assasincloth	^	1	|	SilverBullets	^	5	|	None	^	0	|
+|	HermitsBeret	|	ArmsRecipe019	|	Silverwolffur	^	1	|	Lerajecloth	^	2	|	Evileye	^	2	|	None	^	0	|
+|	DemonHorns	|	ArmsRecipe019	|	Gaaphorn	^	2	|	Platinum	^	1	|	None	^	0	|	None	^	0	|
+|	ElderTiara	|	ArmsRecipe009	|	Hihiirokane	^	1	|	Gold	^	1	|	Bixbite	^	1	|	None	^	0	|
+|	Pleiades	|	ArmsRecipe020	|	Orichalcum	^	1	|	Alexandrite	^	1	|	Diamond	^	6	|	None	^	0	|
+^	-Body-	^	-Recipe-	^	Ingrediment1	^	#	^	Ingrediment2	^	#	^	Ingrediment3	^	#	^	Ingrediment4	^	#	^
+|	Tunic	|	-	|	Hemp	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Skinbreastplate	|	-	|	DemonDogSkin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Countrydress	|	-	|	Hemp	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Copperbreastplate	|	-	|	DemonDogSkin	^	1	|	Bronze	^	2	|	None	^	0	|	None	^	0	|
+|	Chemisedress	|	-	|	Hemp	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Scalearmor	|	-	|	Iron	^	3	|	Bronze	^	1	|	None	^	0	|	None	^	0	|
+|	Ironbreastplate	|	-	|	MonkeyFur	^	1	|	Iron	^	2	|	None	^	0	|	None	^	0	|
+|	Brigandine	|	MonkeyFur	|	MonkeyFur	^	2	|	Bronze	^	1	|	None	^	0	|	None	^	0	|
+|	IronMansApron	|	Cotton	|	Hemp	^	3	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	KungFuBest	|	MonkeyFur	|	MonkeyFur	^	2	|	DemonCloth	^	2	|	None	^	0	|	None	^	0	|
+|	Teadress	|	DemonCloth	|	Hemp	^	2	|	DemonCloth	^	3	|	None	^	0	|	None	^	0	|
+|	Chainmail	|	Buerfur	|	Buerfur	^	1	|	Steel	^	1	|	None	^	0	|	None	^	0	|
+|	Beastleather	|	Buerfur	|	Buerfur	^	3	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Maturedress	|	Buerfur	|	Buerfur	^	2	|	DemonCloth	^	2	|	None	^	0	|	None	^	0	|
+|	LamellarArmor	|	Silver	|	Silver	^	1	|	Steel	^	1	|	None	^	0	|	None	^	0	|
+|	Steelbreastplate	|	ArmsRecipe003	|	Decarabialeather	^	1	|	Steel	^	2	|	None	^	0	|	None	^	0	|
+|	RidingHabit	|	Gamiginhoof	|	Gamiginhoof	^	1	|	Gamiginhair	^	1	|	Assasincloth	^	1	|	None	^	0	|
+|	DuelBrest	|	ArmsRecipe005	|	Decarabialeather	^	2	|	DamascusSteel	^	2	|	None	^	0	|	None	^	0	|
+|	Silverbreastplate	|	Lerajecloth	|	Lerajecloth	^	1	|	Silver	^	2	|	None	^	0	|	None	^	0	|
+|	Assassinvest	|	Lerajecloth	|	Lerajecloth	^	2	|	Dragonscales	^	1	|	None	^	0	|	None	^	0	|
+|	Featherrobe	|	WindFeathers	|	WindFeathers	^	2	|	ThunderbirdFeathers	^	1	|	None	^	0	|	None	^	0	|
+|	VoronezDress	|	Felt	|	Felt	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Cureus	|	Platinum	|	Platinum	^	2	|	Mithril	^	1	|	None	^	0	|	None	^	0	|
+|	Crystalscale	|	Clystal	|	Clystal	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	DragonScale	|	Dragonscales	|	Platinum	^	1	|	Dragonscales	^	4	|	EligosHeart	^	1	|	None	^	0	|
+|	Goldbreastplate	|	ArmsRecipe007	|	Gold	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SpikeBreast	|	ArmsRecipe018	|	Platinum	^	2	|	Gusionfang	^	4	|	None	^	0	|	None	^	0	|
+|	Silkdress	|	ArmsRecipe018	|	Silk	^	3	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	GloriousBreast	|	ArmsRecipe018	|	Silverwolffur	^	1	|	Bixbite	^	2	|	None	^	0	|	None	^	0	|
+|	ShiningBreast	|	ArmsRecipe007	|	Gold	^	1	|	Bixbite	^	1	|	Firebullet	^	5	|	Flamering	^	4	|
+|	Ashinbacostume	|	ArmsRecipe019	|	Ninjacloth	^	2	|	Silk	^	2	|	None	^	0	|	None	^	0	|
+|	Caracilis	|	ArmsRecipe019	|	Silk	^	2	|	Silverwolffur	^	2	|	Glashtynhair	^	1	|	None	^	0	|
+|	Crimsondress	|	Silkdress	|	Silkdress	^	1	|	AbyssguardianHeart	^	1	|	EligosHeart	^	2	|	Lamastutear	^	1	|
+|	ImperialArmor	|	Crystalscale	|	Crystalscale	^	1	|	Hihiirokane	^	1	|	Diamond	^	1	|	None	^	0	|
+|	Shieldless	|	ArmsRecipe009	|	Orichalcum	^	2	|	Hihiirokane	^	1	|	Ninjacloth	^	1	|	Bloodyskull	^	1	|
+|	Coronationdress	|	ArmsRecipe012	|	Silkdress	^	1	|	Leather	^	1	|	Alexandrite	^	1	|	None	^	0	|
+^	-Scarf-	^	-Recipe-	^	Ingrediment1	^	#	^	Ingrediment2	^	#	^	Ingrediment3	^	#	^	Ingrediment4	^	#	^
+|	Turbinemuffler	|	-	|	Hemp	^	1	|	Giantratteeth	^	1	|	None	^	0	|	None	^	0	|
+|	Batwing	|	-	|	Hemp	^	1	|	BatFeather	^	2	|	None	^	0	|	None	^	0	|
+|	Outlinestyle	|	-	|	Cotton	^	1	|	Hollowpoint	^	1	|	None	^	0	|	None	^	0	|
+|	Usagimuffler	|	-	|	Cotton	^	1	|	Lilimtail	^	1	|	None	^	0	|	None	^	0	|
+|	FaerieScarf	|	ArmsRecipe018	|	Felt	^	1	|	Dineseawing	^	1	|	None	^	0	|	None	^	0	|
+|	Sendomuffler	|	ArmsRecipe019	|	Felt	^	1	|	Mimicshell	^	1	|	Tytaniawing	^	1	|	None	^	0	|
+|	Firemuffler	|	ArmsRecipe019	|	Silk	^	1	|	Bixbite	^	1	|	None	^	0	|	None	^	0	|
+|	OvertheRainbow	|	ArmsRecipe012	|	Leather	^	3	|	None	^	0	|	None	^	0	|	None	^	0	|
+^	-Ring-	^	-Recipe-	^	Ingrediment1	^	#	^	Ingrediment2	^	#	^	Ingrediment3	^	#	^	Ingrediment4	^	#	^
+|	Ring	|	-	|	Bronze	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	RustedRing	|	-	|	Ring	^	1	|	Sulfate	^	1	|	None	^	0	|	None	^	0	|
+|	Safering	|	-	|	Ring	^	1	|	Iron	^	1	|	None	^	0	|	None	^	0	|
+|	UnicornRing	|	ItemRecipe002	|	Ring	^	1	|	Potion	^	1	|	HighPotion	^	1	|	HolyWater	^	1	|
+|	Flamering	|	-	|	Ring	^	1	|	Ruby	^	1	|	None	^	0	|	None	^	0	|
+|	Icering	|	-	|	Ring	^	1	|	Sapphire	^	1	|	None	^	0	|	None	^	0	|
+|	Thunderring	|	-	|	Ring	^	1	|	Emerald	^	1	|	None	^	0	|	None	^	0	|
+^	-Bullet-	^	-Recipe-	^	Ingrediment1	^	#	^	Ingrediment2	^	#	^	Ingrediment3	^	#	^	Ingrediment4	^	#	^
+|	Softpoint	|	-	|	Gunpowder	^	1	|	Bronze	^	1	|	None	^	0	|	None	^	0	|
+|	Hollowpoint	|	-	|	Gunpowder	^	1	|	Iron	^	1	|	None	^	0	|	None	^	0	|
+|	ArmorPiercing	|	-	|	Gunpowder	^	1	|	Obsidian	^	1	|	None	^	0	|	None	^	0	|
+|	Firebullet	|	BalletRecipe001	|	Gunpowder	^	1	|	Ruby	^	1	|	None	^	0	|	None	^	0	|
+|	Icebullet	|	BalletRecipe001	|	Gunpowder	^	1	|	Sapphire	^	1	|	None	^	0	|	None	^	0	|
+|	ThunderRounds	|	BalletRecipe001	|	Gunpowder	^	1	|	Emerald	^	1	|	None	^	0	|	None	^	0	|
+|	SilverBullets	|	Silver	|	Gunpowder	^	1	|	Silver	^	1	|	HolyWater	^	1	|	None	^	0	|
+|	WeaponbaneRounds	|	BalletRecipe002	|	Gunpowder	^	1	|	DamascusSteel	^	1	|	None	^	0	|	None	^	0	|
+|	ShieldbaneRounds	|	BalletRecipe002	|	Gunpowder	^	1	|	DamascusSteel	^	1	|	None	^	0	|	None	^	0	|
+|	PoisonRounds	|	BalletRecipe002	|	Gunpowder	^	1	|	Steel	^	1	|	Poison	^	1	|	None	^	0	|
+|	PetrifyingRounds	|	BalletRecipe002	|	Gunpowder	^	1	|	Steel	^	1	|	None	^	0	|	None	^	0	|
+|	CurseRounds	|	BalletRecipe002	|	Gunpowder	^	1	|	Steel	^	1	|	None	^	0	|	None	^	0	|
+|	Shotshell	|	BalletRecipe003	|	Gunpowder	^	1	|	Steel	^	1	|	None	^	0	|	None	^	0	|
+|	CriticalBullet	|	BalletRecipe003	|	Gunpowder	^	1	|	Mithril	^	1	|	None	^	0	|	None	^	0	|
+|	DiamondBullets	|	BalletRecipe004	|	Gunpowder	^	1	|	Diamond	^	1	|	None	^	0	|	None	^	0	|
+^	-Shard-	^	-Recipe-	^	Ingrediment1	^	#	^	Ingrediment2	^	#	^	Ingrediment3	^	#	^	Ingrediment4	^	#	^
+|	HighJump	|	Doublejump	|	Doublejump	^	1	|	Haagentifeather	^	1	|	None	^	0	|	None	^	0	|
+|	LigaDoin	|	LigaStreyma	|	LigaStreyma	^	1	|	Ruby	^	1	|	None	^	0	|	None	^	0	|
+|	VaSka	|	VaIsha	|	VaIsha	^	1	|	Sapphire	^	1	|	None	^	0	|	None	^	0	|
+|	TepsSalenda	|	TepesOsius	|	TepesOsius	^	1	|	Emerald	^	1	|	None	^	0	|	None	^	0	|
+|	TissRosain	|	TissLeif	|	TissLeif	^	1	|	Diamond	^	1	|	None	^	0	|	None	^	0	|
+|	FoldingTurb	|	FoldShiu	|	FoldShiu	^	1	|	DarkMatter	^	1	|	None	^	0	|	None	^	0	|
+|	Venomsmog	|	PetraBless	|	PetraBless	^	1	|	Poison	^	1	|	Tytaniawing	^	1	|	TytaniaPoisonedNeedle	^	1	|
+|	Resistmagic	|	Resistice	|	Resistice	^	1	|	ResistFire	^	1	|	ResistThunder	^	1	|	MurmurHeart	^	1	|
+|	EnhancedGOLD	|	LUKEnhance	|	LUKEnhance	^	1	|	Gold	^	1	|	None	^	0	|	None	^	0	|
+|	GreatSwordMastery	|	SwordMastery	|	SwordMastery	^	1	|	Claymore	^	1	|	None	^	0	|	None	^	0	|
+|	JapanSwordMastery	|	SwordMastery	|	SwordMastery	^	1	|	Dull	^	1	|	None	^	0	|	None	^	0	|
+|	Regeneration	|	Healing	|	Healing	^	1	|	HighPotion	^	1	|	Dineseawing	^	1	|	DevilRoyalTail	^	1	|
+
+===== Food =====
+
+^	-Food-	^	-Recipe-	^	Ingrediment1	^	#	^	Ingrediment2	^	#	^	Ingrediment3	^	#	^	Ingrediment4	^	#	^
+|	Pasta	|	-	|	Flour	^	1	|	Egg	^	1	|	Halite	^	1	|	None	^	0	|
+|	Soda	|	-	|	BakingSoda	^	1	|	Lemon	^	1	|	None	^	0	|	None	^	0	|
+|	ChineseNoodles	|	-	|	Flour	^	1	|	BakingSoda	^	1	|	None	^	0	|	None	^	0	|
+|	PieDough	|	-	|	Flour	^	1	|	Butter	^	1	|	Cookies	^	1	|	None	^	0	|
+|	Bread	|	-	|	Flour	^	1	|	Butter	^	1	|	Halite	^	1	|	None	^	0	|
+|	Cocoa	|	-	|	CacaoBean	^	1	|	MilkofZagan	^	1	|	Sugar	^	1	|	None	^	0	|
+|	HeavyCream	|	-	|	MilkofZagan	^	1	|	Sugar	^	1	|	None	^	0	|	None	^	0	|
+|	Butter	|	-	|	Milk	^	1	|	Halite	^	1	|	None	^	0	|	None	^	0	|
+|	PizzaDough	|	-	|	Flour	^	1	|	MocoOil	^	1	|	Sugar	^	1	|	Halite	^	1	|
+|	Cheese	|	-	|	Milk	^	1	|	Rennet	^	1	|	None	^	0	|	None	^	0	|
+|	CrepeDough	|	-	|	Flour	^	1	|	Sugar	^	1	|	MilkofZagan	^	1	|	DragonsEgg	^	1	|
+|	Consommé	|	-	|	ZaganMeat	^	1	|	MocoOnion	^	1	|	Halite	^	1	|	Pepper	^	1	|
+|	RedBeanPaste	|	-	|	RedBean	^	1	|	Sugar	^	1	|	Halite	^	1	|	None	^	0	|
+|	WhiteSauce	|	-	|	Butter	^	1	|	MilkofZagan	^	1	|	Flour	^	1	|	Halite	^	1	|
+|	CurrySauce	|	DishRecipe003	|	CurryPowder	^	1	|	MocoOnion	^	1	|	MocoOil	^	1	|	Halite	^	1	|
+|	VongoleSauce	|	DishRecipe002	|	Garlic	^	1	|	MocoOil	^	1	|	Halite	^	1	|	Clam	^	1	|
+|	SoyBroth	|	DishRecipe002	|	SoySauce	^	1	|	G-LabolasFilet	^	2	|	DaturaLeaf	^	1	|	Ginger	^	1	|
+|	TonkotsuBroth	|	DishRecipe002	|	YorktonMeat	^	2	|	DaturaLeaf	^	2	|	Garlic	^	1	|	Ginger	^	1	|
+|	MisoBroth	|	DishRecipe002	|	Miso	^	1	|	G-LabolasFilet	^	2	|	Garlic	^	1	|	Ginger	^	1	|
+|	SaltBroth	|	DishRecipe002	|	Halite	^	1	|	Clam	^	1	|	ForneusFilet	^	1	|	DeeseamaFilet	^	1	|
+|	DarkMatter	|	-	|	Giantrattail	^	1	|	Poisontoadeye	^	1	|	Cyhyraethtear	^	1	|	CerberaLeaf	^	1	|
+|	RiceBall	|	-	|	Paddy	^	1	|	Halite	^	1	|	None	^	0	|	None	^	0	|
+|	FriedPotatoes	|	-	|	Potato	^	1	|	Halite	^	1	|	Flour	^	1	|	MocoOil	^	1	|
+|	CornChowder	|	-	|	Corn	^	1	|	Milk	^	1	|	Bread	^	1	|	Potato	^	1	|
+|	AppleRisotto	|	-	|	Apple	^	3	|	Paddy	^	3	|	Halite	^	1	|	Pepper	^	1	|
+|	UniDon	|	-	|	Paddy	^	3	|	Uni	^	2	|	SoySauce	^	1	|	None	^	0	|
+|	Pizza	|	-	|	PizzaDough	^	4	|	Cheese	^	2	|	None	^	0	|	None	^	0	|
+|	FriedEgg	|	-	|	Egg	^	1	|	MocoOil	^	1	|	Halite	^	1	|	None	^	0	|
+|	RolledOmelette	|	-	|	Egg	^	2	|	Sugar	^	1	|	None	^	0	|	None	^	0	|
+|	EggonRice	|	-	|	Egg	^	1	|	Paddy	^	1	|	SoySauce	^	1	|	None	^	0	|
+|	ScrambledEggs	|	-	|	DragonsEgg	^	1	|	MocoOil	^	1	|	Butter	^	1	|	None	^	0	|
+|	EggSoufflé	|	-	|	DragonsEgg	^	1	|	HeavyCream	^	1	|	Sugar	^	1	|	Butter	^	1	|
+|	Omurice	|	-	|	Egg	^	2	|	Paddy	^	1	|	Tomato	^	1	|	Consommé	^	1	|
+|	FriedFish	|	DishRecipe006	|	DragonsEgg	^	1	|	ForneusFilet	^	1	|	Flour	^	1	|	MocoOil	^	1	|
+|	FishAndChips	|	DishRecipe006	|	FriedFish	^	1	|	FriedPotatoes	^	3	|	None	^	0	|	None	^	0	|
+|	ForneusMeunière	|	DishRecipe006	|	Flour	^	1	|	ForneusFilet	^	1	|	Halite	^	1	|	Pepper	^	1	|
+|	ForneusinGarlic	|	DishRecipe006	|	Garlic	^	1	|	Butter	^	1	|	ForneusFilet	^	1	|	Flour	^	1	|
+|	SimmeredForneus	|	DishRecipe006	|	ForneusFilet	^	1	|	SoySauce	^	1	|	Sugar	^	1	|	None	^	0	|
+|	FishHotPot	|	DishRecipe006	|	ForneusFilet	^	1	|	DeeseamaFilet	^	1	|	Consommé	^	1	|	SoySauce	^	1	|
+|	MacaroniGratin	|	-	|	WhiteSauce	^	1	|	MocoOnion	^	1	|	Pasta	^	2	|	Cheese	^	1	|
+|	MacaroniAndCheese	|	-	|	WhiteSauce	^	1	|	MocoOnion	^	1	|	Pasta	^	3	|	Cheese	^	1	|
+|	ClassicSpaghetti	|	DishRecipe004	|	Tomato	^	1	|	Pasta	^	1	|	MocoOnion	^	3	|	Consommé	^	1	|
+|	PastaCarbonara	|	DishRecipe004	|	Pasta	^	1	|	HeavyCream	^	1	|	DragonsEgg	^	1	|	Halite	^	1	|
+|	PastaVongole	|	DishRecipe004	|	Pasta	^	4	|	VongoleSauce	^	1	|	DaturaLeaf	^	3	|	None	^	0	|
+|	SeaUrchinPasta	|	DishRecipe004	|	Pasta	^	3	|	Uni	^	2	|	WhiteSauce	^	1	|	Egg	^	1	|
+|	SaltRamen	|	DishRecipe002	|	ChineseNoodles	^	1	|	SaltBroth	^	1	|	DragonsEgg	^	1	|	CerberaLeaf	^	1	|
+|	SoyRamen	|	DishRecipe002	|	ChineseNoodles	^	1	|	SoyBroth	^	1	|	YorktonMeat	^	2	|	CerberaLeaf	^	1	|
+|	TonkotsuRamen	|	DishRecipe002	|	ChineseNoodles	^	1	|	TonkotsuBroth	^	1	|	YorktonMeat	^	1	|	MocoOnion	^	1	|
+|	MisoRamen	|	DishRecipe002	|	ChineseNoodles	^	1	|	MisoBroth	^	1	|	Butter	^	2	|	Corn	^	5	|
+|	ChickenCasserole	|	DishRecipe005	|	WhiteSauce	^	1	|	G-LabolasFilet	^	1	|	Paddy	^	1	|	Cheese	^	1	|
+|	ChickenSauté	|	DishRecipe005	|	G-LabolasFilet	^	2	|	Halite	^	1	|	Pepper	^	2	|	Butter	^	2	|
+|	GarlicChicken	|	DishRecipe005	|	G-LabolasFilet	^	2	|	Garlic	^	2	|	Halite	^	2	|	Pepper	^	2	|
+|	GingerPork	|	DishRecipe005	|	YorktonMeat	^	2	|	Ginger	^	1	|	SoySauce	^	1	|	MocoOil	^	1	|
+|	Tonkatsu	|	DishRecipe005	|	YorktonMeat	^	2	|	Egg	^	2	|	Flour	^	1	|	MocoOil	^	1	|
+|	MisoCutlet	|	DishRecipe005	|	YorktonMeat	^	2	|	DragonsEgg	^	1	|	Miso	^	2	|	MocoOil	^	1	|
+|	Steak	|	DishRecipe005	|	ZaganMeat	^	2	|	Halite	^	1	|	Pepper	^	1	|	Butter	^	1	|
+|	ExquisiteSteak	|	DishRecipe015	|	HaagentiFilet	^	2	|	Halite	^	1	|	Pepper	^	1	|	Butter	^	1	|
+|	Sukiyaki	|	DishRecipe005	|	G-LabolasFilet	^	4	|	MocoOnion	^	4	|	SoySauce	^	2	|	Sugar	^	2	|
+|	MeatHotPot	|	DishRecipe005	|	G-LabolasFilet	^	1	|	HaagentiFilet	^	1	|	YorktonMeat	^	1	|	SoySauce	^	1	|
+|	Curry&Rice	|	DishRecipe003	|	CurrySauce	^	1	|	Paddy	^	1	|	None	^	0	|	None	^	0	|
+|	PorkCurry	|	DishRecipe003	|	CurrySauce	^	1	|	Paddy	^	1	|	YorktonMeat	^	1	|	None	^	0	|
+|	ChickenCurry	|	DishRecipe003	|	CurrySauce	^	1	|	Paddy	^	1	|	G-LabolasFilet	^	3	|	None	^	0	|
+|	SeafoodCurry	|	DishRecipe003	|	CurrySauce	^	1	|	Paddy	^	1	|	ForneusFilet	^	1	|	None	^	0	|
+|	BeefCurry	|	DishRecipe014	|	CurrySauce	^	1	|	Paddy	^	1	|	HaagentiFilet	^	2	|	None	^	0	|
+|	ApplePie	|	-	|	Apple	^	2	|	Sugar	^	1	|	Cinnamon	^	3	|	PieDough	^	2	|
+|	LemonPie	|	-	|	Lemon	^	2	|	Sugar	^	1	|	DragonsEgg	^	1	|	PieDough	^	2	|
+|	StrawberryPie	|	DishRecipe015	|	Strawberry	^	2	|	Sugar	^	1	|	HeavyCream	^	2	|	PieDough	^	2	|
+|	Manju	|	-	|	RedBeanPaste	^	1	|	Flour	^	1	|	BakingSoda	^	1	|	Sugar	^	1	|
+|	Cookies	|	DishRecipe008	|	Butter	^	1	|	Sugar	^	1	|	Egg	^	1	|	Flour	^	1	|
+|	ChocolateCookies	|	DishRecipe008	|	Cocoa	^	1	|	Cookies	^	1	|	BakingSoda	^	1	|	None	^	0	|
+|	CinnamonCookies	|	DishRecipe008	|	Cinnamon	^	1	|	Cookies	^	1	|	BakingSoda	^	1	|	None	^	0	|
+|	Flan	|	-	|	DragonsEgg	^	1	|	MilkofZagan	^	1	|	Sugar	^	1	|	None	^	0	|
+|	SpongeCake	|	-	|	Egg	^	1	|	Flour	^	1	|	Sugar	^	1	|	MilkofZagan	^	1	|
+|	ChiffonCake	|	DishRecipe010	|	DragonsEgg	^	1	|	Flour	^	1	|	Sugar	^	1	|	MocoOil	^	1	|
+|	CheeseCake	|	DishRecipe010	|	Cheese	^	1	|	HeavyCream	^	1	|	Lemon	^	1	|	Cookies	^	1	|
+|	ChocolateCake	|	DishRecipe010	|	Cocoa	^	1	|	HeavyCream	^	1	|	Butter	^	1	|	DragonsEgg	^	1	|
+|	StrawberryCake	|	DishRecipe010	|	Strawberry	^	1	|	HeavyCream	^	1	|	SpongeCake	^	1	|	None	^	0	|
+|	ChocolateCrepe	|	DishRecipe007	|	Cocoa	^	1	|	HeavyCream	^	1	|	CrepeDough	^	1	|	None	^	0	|
+|	StrawberryCrepe	|	DishRecipe007	|	Strawberry	^	4	|	HeavyCream	^	1	|	CrepeDough	^	1	|	None	^	0	|
+|	BerrySpaghetti	|	DishRecipe007	|	Pasta	^	3	|	Strawberry	^	2	|	HeavyCream	^	4	|	None	^	0	|
+|	ShirukoSpaghetti	|	DishRecipe007	|	Pasta	^	3	|	RedBeanPaste	^	2	|	HeavyCream	^	4	|	None	^	0	|
+|	Lemonade	|	DishRecipe011	|	Lemon	^	1	|	Soda	^	1	|	Sugar	^	1	|	None	^	0	|
+|	AppleJuice	|	DishRecipe011	|	Apple	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	StrawberryAuLait	|	DishRecipe011	|	Strawberry	^	1	|	MilkofZagan	^	1	|	None	^	0	|	None	^	0	|
+|	Smoothie	|	DishRecipe011	|	Strawberry	^	1	|	Apple	^	1	|	MilkofZagan	^	1	|	Sugar	^	1	|
+|	FruitJuice	|	DishRecipe015	|	Apple	^	1	|	Strawberry	^	1	|	Lemon	^	1	|	Sugar	^	1	|
+|	Nectar	|	DishRecipe014	|	Ambrosia	^	1	|	MilkofZagan	^	1	|	Butter	^	1	|	Flour	^	1	|
+
+===== Rank =====
+
+|	-Rank-	|	-Recipe-	|	Ingrediment1	^	#	|	Ingrediment2	^	#	|	Ingrediment3	^	#	|	Ingrediment4	^	#	|
+|	SwingTentacle00	|	-	|	Recklesslimb	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SwingTentacle01	|	-	|	Decimaleather	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SwingTentacle02	|	-	|	Lamastutear	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Bloodsteel00	|	-	|	Toadfluid	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Bloodsteel01	|	-	|	Cyhyraethtear	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Bloodsteel02	|	-	|	Misteriousfluid	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Demoniccapture00	|	-	|	CannonDebris	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Demoniccapture01	|	-	|	Gargoyledebris	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Demoniccapture02	|	-	|	Mimicchairdebris	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	GoldBarrett00	|	-	|	Gold	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	GoldBarrett01	|	-	|	Gold	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	GoldBarrett02	|	-	|	Gold	^	3	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	InfernoBrace00	|	-	|	Jeneralskull	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	InfernoBrace01	|	-	|	Dragonbone	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	InfernoBrace02	|	-	|	Warriorskull	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Reflectionray00	|	-	|	Haagentifeather	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Reflectionray01	|	-	|	Haagentifeather	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Reflectionray02	|	-	|	Haagentifeather	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Dimensionshift00	|	-	|	MonsterBirdTears	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Dimensionshift01	|	-	|	Cyhyraethtear	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Dimensionshift02	|	-	|	Lamastutear	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Hammerknuckle00	|	-	|	Iron	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Hammerknuckle01	|	-	|	DamascusSteel	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Hammerknuckle02	|	-	|	Clystal	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Doublejump00	|	-	|	Dineseawing	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Doublejump01	|	-	|	Tytaniawing	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Doublejump02	|	-	|	Haagentifeather	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Deepsinker00	|	-	|	Decimaleather	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Deepsinker01	|	-	|	Misteriousfluid	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Deepsinker02	|	-	|	Glashtynhair	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	HighJump00	|	-	|	Haagentifeather	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	HighJump01	|	-	|	Haagentifeather	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	HighJump02	|	-	|	Haagentifeather	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Aquastream00	|	-	|	Misteriousfluid	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Aquastream01	|	-	|	Misteriousfluid	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Aquastream02	|	-	|	Misteriousfluid	^	1	|	Lamastutear	^	1	|	None	^	0	|	None	^	0	|
+|	Invert00	|	-	|	MeltedBone	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Invert01	|	-	|	Jeneralskull	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Invert02	|	-	|	Knightbone	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Accelerator00	|	-	|	WindFeathers	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Accelerator01	|	-	|	Gamiginhair	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Accelerator02	|	-	|	Gamiginhoof	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Shadowtracer00	|	-	|	Cookies	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Shadowtracer01	|	-	|	StrawberryAuLait	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Shadowtracer02	|	-	|	Curry&Rice	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Beastguard00	|	-	|	Wolfmanfur	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Beastguard01	|	-	|	Wolfmanfur	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Beastguard02	|	-	|	Gusionfur	^	1	|	Silverwolffur	^	1	|	None	^	0	|	None	^	0	|
+|	WildScratch00	|	-	|	Wolfclaw	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	WildScratch01	|	-	|	Wolfclaw	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	WildScratch02	|	-	|	Apenail	^	1	|	Dragonclaw	^	1	|	None	^	0	|	None	^	0	|
+|	Voidlay00	|	-	|	Dragonscales	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Voidlay01	|	-	|	Dragonscales	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Voidlay02	|	-	|	AbyssguardianHeart	^	1	|	DarkMatter	^	1	|	None	^	0	|	None	^	0	|
+|	DragonicRage00	|	-	|	Dragonclaw	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	DragonicRage01	|	-	|	Dragonclaw	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	DragonicRage02	|	-	|	AbyssguardianHeart	^	1	|	Dragonbone	^	1	|	None	^	0	|	None	^	0	|
+|	AxStrike00	|	-	|	Perex	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	AxStrike01	|	-	|	Valdish	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	AxStrike02	|	-	|	Gambanttain	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	BoonsLore00	|	-	|	MeltedBone	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	BoonsLore01	|	-	|	Knightbone	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	BoonsLore02	|	-	|	Knightbone	^	1	|	Jeneralskull	^	1	|	None	^	0	|	None	^	0	|
+|	FireCannon00	|	-	|	Gunpowder	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	FireCannon01	|	-	|	Gunpowder	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	FireCannon02	|	-	|	Ruby	^	1	|	CannonDebris	^	1	|	None	^	0	|	None	^	0	|
+|	Ceruleansplash00	|	-	|	Recklesslimb	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Ceruleansplash01	|	-	|	Recklesslimb	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Ceruleansplash02	|	-	|	Glashtynhoof	^	1	|	Misteriousfluid	^	1	|	None	^	0	|	None	^	0	|
+|	Raginggirl00	|	-	|	MonsterBirdTears	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Raginggirl01	|	-	|	MonsterBirdTears	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Raginggirl02	|	-	|	WindFeathers	^	1	|	MonsterBirdHair	^	1	|	None	^	0	|	None	^	0	|
+|	SummonAme00	|	-	|	Ectoplasm	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SummonAme01	|	-	|	Ectoplasm	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SummonAme02	|	-	|	Warriorskull	^	1	|	Jeneralskull	^	1	|	None	^	0	|	None	^	0	|
+|	Headfail00	|	-	|	Bronze	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Headfail01	|	-	|	Steel	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Headfail02	|	-	|	DamascusSteel	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SummonButt00	|	-	|	BatFeather	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SummonButt01	|	-	|	Batfang	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SummonButt02	|	-	|	Gusionfang	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Releasetoade00	|	-	|	Gusionfang	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Releasetoade01	|	-	|	ToadHeart	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Releasetoade02	|	-	|	Toadwing	^	1	|	ToadHeart	^	1	|	None	^	0	|	None	^	0	|
+|	EntangleBind00	|	-	|	MocoOil	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	EntangleBind01	|	-	|	MocoOil	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	EntangleBind02	|	-	|	MocoOil	^	1	|	MocoOnion	^	1	|	None	^	0	|	None	^	0	|
+|	KnifeMastery00	|	-	|	Knife	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	KnifeMastery01	|	-	|	Kukuri	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	KnifeMastery02	|	-	|	Swordbreaker	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SwordMastery00	|	-	|	LongSword	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SwordMastery01	|	-	|	Burtgang	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SwordMastery02	|	-	|	Dineslave	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	GunMastery00	|	-	|	Musketon	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	GunMastery01	|	-	|	Tanegasima	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	GunMastery02	|	-	|	Carvalin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	WhipMastery00	|	-	|	Awhip	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	WhipMastery01	|	-	|	FireWhip	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	WhipMastery02	|	-	|	Snakebyte	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	KickMastery00	|	-	|	KungFuShoes	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	KickMastery01	|	-	|	KillerBoots	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	KickMastery02	|	-	|	Assaultsollette	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SpearMastery00	|	-	|	Spear	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SpearMastery01	|	-	|	Partizan	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SpearMastery02	|	-	|	ShingoGempo	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	GreatSwordMastery00	|	-	|	Perex	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	GreatSwordMastery01	|	-	|	Flanders	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	GreatSwordMastery02	|	-	|	Gram	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	JapanSwordMastery00	|	-	|	Noda	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	JapanSwordMastery01	|	-	|	Tsurumaru	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	JapanSwordMastery02	|	-	|	Lightningoff	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	CraftMastery00	|	-	|	Silver	^	9	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	CraftMastery01	|	-	|	Gold	^	9	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	CraftMastery02	|	-	|	Alexandrite	^	4	|	Bixbite	^	4	|	None	^	0	|	None	^	0	|
+|	optimizer00	|	-	|	ThunderbirdFeathers	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	optimizer01	|	-	|	WindFeathers	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	optimizer02	|	-	|	Haagentifeather	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ResistBrow00	|	-	|	Copperbreastplate	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ResistBrow01	|	-	|	Ironbreastplate	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ResistBrow02	|	-	|	Steelbreastplate	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Resistedge00	|	-	|	Copperbreastplate	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Resistedge01	|	-	|	Ironbreastplate	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Resistedge02	|	-	|	Steelbreastplate	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Resistthrust00	|	-	|	Copperbreastplate	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Resistthrust01	|	-	|	Ironbreastplate	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Resistthrust02	|	-	|	Steelbreastplate	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ResistFire00	|	-	|	Ruby	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ResistFire01	|	-	|	Ruby	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ResistFire02	|	-	|	Ruby	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Resistice00	|	-	|	Sapphire	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Resistice01	|	-	|	Sapphire	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Resistice02	|	-	|	Sapphire	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ResistThunder00	|	-	|	Emerald	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ResistThunder01	|	-	|	Emerald	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ResistThunder02	|	-	|	Emerald	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Resistdark00	|	-	|	DarkMatter	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Resistdark01	|	-	|	DarkMatter	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Resistdark02	|	-	|	DarkMatter	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ResistHorley00	|	-	|	Diamond	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ResistHorley01	|	-	|	Diamond	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ResistHorley02	|	-	|	Diamond	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Resistmagic00	|	-	|	Ruby	^	1	|	Sapphire	^	1	|	Emerald	^	1	|	None	^	0	|
+|	Resistmagic01	|	-	|	Ruby	^	1	|	Sapphire	^	1	|	Emerald	^	1	|	None	^	0	|
+|	Resistmagic02	|	-	|	Ruby	^	1	|	Sapphire	^	1	|	Emerald	^	1	|	None	^	0	|
+|	ResistPoison00	|	-	|	Mithridate	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ResistPoison01	|	-	|	Mithridate	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ResistPoison02	|	-	|	Mithridate	^	1	|	Panacea	^	1	|	None	^	0	|	None	^	0	|
+|	Resistcurse00	|	-	|	HolyWater	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Resistcurse01	|	-	|	HolyWater	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Resistcurse02	|	-	|	HolyWater	^	1	|	Panacea	^	1	|	None	^	0	|	None	^	0	|
+|	ResistPetri00	|	-	|	Stonethaw	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ResistPetri01	|	-	|	Stonethaw	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ResistPetri02	|	-	|	Stonethaw	^	1	|	Panacea	^	1	|	None	^	0	|	None	^	0	|
+|	STREnhance00	|	-	|	Ectoplasm	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	STREnhance01	|	-	|	Ectoplasm	^	1	|	HolyWater	^	1	|	None	^	0	|	None	^	0	|
+|	STREnhance02	|	-	|	Ectoplasm	^	1	|	Marbasfang	^	1	|	None	^	0	|	None	^	0	|
+|	CONEnhance00	|	-	|	Ectoplasm	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	CONEnhance01	|	-	|	Ectoplasm	^	1	|	HolyWater	^	1	|	None	^	0	|	None	^	0	|
+|	CONEnhance02	|	-	|	Ectoplasm	^	1	|	Marbasmane	^	1	|	None	^	0	|	None	^	0	|
+|	INTEnhance00	|	-	|	Ectoplasm	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	INTEnhance01	|	-	|	Ectoplasm	^	1	|	HolyWater	^	1	|	None	^	0	|	None	^	0	|
+|	INTEnhance02	|	-	|	Ectoplasm	^	1	|	DevilRoyalEyeball	^	1	|	None	^	0	|	None	^	0	|
+|	MNDEnhance00	|	-	|	Ectoplasm	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	MNDEnhance01	|	-	|	Ectoplasm	^	1	|	HolyWater	^	1	|	None	^	0	|	None	^	0	|
+|	MNDEnhance02	|	-	|	Ectoplasm	^	1	|	Gusionfur	^	1	|	None	^	0	|	None	^	0	|
+|	LUKEnhance00	|	-	|	Ectoplasm	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	LUKEnhance01	|	-	|	Ectoplasm	^	1	|	HolyWater	^	1	|	None	^	0	|	None	^	0	|
+|	LUKEnhance02	|	-	|	Ectoplasm	^	1	|	Abyssguardianbastard	^	1	|	None	^	0	|	None	^	0	|
+|	EnhancedGOLD00	|	-	|	Ectoplasm	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	EnhancedGOLD01	|	-	|	Ectoplasm	^	1	|	HolyWater	^	1	|	None	^	0	|	None	^	0	|
+|	EnhancedGOLD02	|	-	|	Ectoplasm	^	1	|	Gold	^	1	|	None	^	0	|	None	^	0	|
+|	Healing00	|	-	|	Potion	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Healing01	|	-	|	HighPotion	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Healing02	|	-	|	ExPotion	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Regeneration00	|	-	|	Potion	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Regeneration01	|	-	|	HighPotion	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Regeneration02	|	-	|	ExPotion	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Shovelshooter00	|	-	|	Excavator	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Shovelshooter01	|	-	|	Excavator	^	1	|	Mithril	^	1	|	None	^	0	|	None	^	0	|
+|	Shovelshooter02	|	-	|	Excavator	^	1	|	Hihiirokane	^	1	|	None	^	0	|	None	^	0	|
+|	StraightArrow00	|	-	|	Softpoint	^	3	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	StraightArrow01	|	-	|	DemonCloth	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	StraightArrow02	|	-	|	Lerajecloth	^	1	|	SilverBullets	^	1	|	None	^	0	|	None	^	0	|
+|	ChaseArrow00	|	-	|	Hollowpoint	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ChaseArrow01	|	-	|	DemonCloth	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ChaseArrow02	|	-	|	Lerajecloth	^	1	|	SilverBullets	^	1	|	None	^	0	|	None	^	0	|
+|	ShootingDagger00	|	-	|	DemonCloth	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ShootingDagger01	|	-	|	Assasincloth	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ShootingDagger02	|	-	|	Ninjacloth	^	1	|	Hihiirokane	^	1	|	None	^	0	|	None	^	0	|
+|	HiddenDart00	|	-	|	DemonCloth	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	HiddenDart01	|	-	|	Assasincloth	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	HiddenDart02	|	-	|	Ninjacloth	^	1	|	Hihiirokane	^	1	|	None	^	0	|	None	^	0	|
+|	BaudRideBlast00	|	-	|	Gunpowder	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	BaudRideBlast01	|	-	|	Gunpowder	^	1	|	Ruby	^	1	|	None	^	0	|	None	^	0	|
+|	BaudRideBlast02	|	-	|	Gunpowder	^	1	|	FairyPowder	^	1	|	EligosHeart	^	1	|	None	^	0	|
+|	SummonApe00	|	-	|	MonkeyFur	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SummonApe01	|	-	|	Wolfmanfur	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SummonApe02	|	-	|	Silverwolffur	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	LuckyDrop00	|	-	|	Lilimtail	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	LuckyDrop01	|	-	|	Lilimtail	^	1	|	Cyhyraethtear	^	1	|	None	^	0	|	None	^	0	|
+|	LuckyDrop02	|	-	|	Lilimtail	^	1	|	Lamastutear	^	1	|	None	^	0	|	None	^	0	|
+|	SamonSamHiggin00	|	-	|	Toadwing	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SamonSamHiggin01	|	-	|	Toadwing	^	1	|	Gusionfang	^	1	|	None	^	0	|	None	^	0	|
+|	SamonSamHiggin02	|	-	|	Toadwing	^	1	|	Marbasfang	^	1	|	None	^	0	|	None	^	0	|
+|	Tornadoslicer00	|	-	|	WindFeathers	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Tornadoslicer01	|	-	|	WindFeathers	^	1	|	Gaapwing	^	1	|	None	^	0	|	None	^	0	|
+|	Tornadoslicer02	|	-	|	WindFeathers	^	1	|	DevilRoyalEyeball	^	1	|	None	^	0	|	None	^	0	|
+|	Venomsmog00	|	-	|	Chicomecoatlhorn	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Venomsmog01	|	-	|	Chicomecoatlhorn	^	1	|	Poison	^	1	|	None	^	0	|	None	^	0	|
+|	Venomsmog02	|	-	|	Gaaphorn	^	1	|	Poison	^	3	|	None	^	0	|	None	^	0	|
+|	CurseDray00	|	-	|	Poisontoadeye	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	CurseDray01	|	-	|	Evileye	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	CurseDray02	|	-	|	SeekerEye	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Petrey00	|	-	|	Poisontoadeye	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Petrey01	|	-	|	Evileye	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Petrey02	|	-	|	DevilRoyalEyeball	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Wisdomwords00	|	-	|	BelialHeart	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Wisdomwords01	|	-	|	EligosHeart	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Wisdomwords02	|	-	|	MurmurHeart	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ChangeBunny00	|	-	|	Lilimear	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ChangeBunny01	|	-	|	Lilimear	^	1	|	Lilimtail	^	1	|	None	^	0	|	None	^	0	|
+|	ChangeBunny02	|	-	|	Lilimear	^	1	|	Lamastutail	^	1	|	None	^	0	|	None	^	0	|
+|	CircleRipper00	|	-	|	SharpRazor	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	CircleRipper01	|	-	|	SharpRazor	^	1	|	Mithril	^	0	|	None	^	0	|	None	^	0	|
+|	CircleRipper02	|	-	|	SharpRazor	^	1	|	Hihiirokane	^	1	|	None	^	0	|	None	^	0	|
+|	SummonYorkton00	|	-	|	YorktonMeat	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SummonYorkton01	|	-	|	Tonkatsu	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SummonYorkton02	|	-	|	PorkCurry	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Moneyispower00	|	-	|	Gold	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Moneyispower01	|	-	|	Hihiirokane	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Moneyispower02	|	-	|	Orichalcum	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SummonChair00	|	-	|	Mimicchairdebris	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SummonChair01	|	-	|	Mimicchairdebris	^	1	|	WalnutLumber	^	1	|	None	^	0	|	None	^	0	|
+|	SummonChair02	|	-	|	Mimicchairdebris	^	1	|	MahoganyLumber	^	1	|	None	^	0	|	None	^	0	|
+|	SummonGilemund00	|	-	|	DemonDogFang	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SummonGilemund01	|	-	|	DemonDogFang	^	1	|	Devilsfang	^	1	|	None	^	0	|	None	^	0	|
+|	SummonGilemund02	|	-	|	DemonDogFang	^	1	|	Marbasfang	^	1	|	None	^	0	|	None	^	0	|
+|	PetraBless00	|	-	|	Gargoyledebris	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	PetraBless01	|	-	|	Gargoyledebris	^	1	|	Mimicchairdebris	^	1	|	None	^	0	|	None	^	0	|
+|	PetraBless02	|	-	|	Gargoyledebris	^	1	|	DarkMatter	^	1	|	None	^	0	|	None	^	0	|
+|	Submariner00	|	-	|	Glashtynhair	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Submariner01	|	-	|	Glashtynhair	^	1	|	Glashtynhoof	^	1	|	None	^	0	|	None	^	0	|
+|	Submariner02	|	-	|	Glashtynhair	^	1	|	DeeseamaFilet	^	1	|	None	^	0	|	None	^	0	|
+|	drain00	|	-	|	Devilsfang	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	drain01	|	-	|	Devilsfang	^	1	|	Ivory	^	1	|	Toadfluid	^	1	|	None	^	0	|
+|	drain02	|	-	|	Devilsfang	^	1	|	MurmurHeart	^	1	|	None	^	0	|	None	^	0	|
+|	SummonBuell00	|	-	|	Ivory	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SummonBuell01	|	-	|	Ivory	^	1	|	ManeLion	^	1	|	None	^	0	|	None	^	0	|
+|	SummonBuell02	|	-	|	Ivory	^	1	|	Marbasmane	^	1	|	None	^	0	|	None	^	0	|
+|	RapidSpear00	|	-	|	Spear	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	RapidSpear01	|	-	|	Reims	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	RapidSpear02	|	-	|	Partizan	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Deadhowling00	|	-	|	Cyhyraethtear	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Deadhowling01	|	-	|	Cyhyraethtear	^	1	|	Lamastutear	^	1	|	None	^	0	|	None	^	0	|
+|	Deadhowling02	|	-	|	Cyhyraethtear	^	1	|	Warriorskull	^	1	|	None	^	0	|	None	^	0	|
+|	SummonTracer00	|	-	|	Poisontoadeye	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SummonTracer01	|	-	|	Evileye	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SummonTracer02	|	-	|	SeekerEye	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Detectiveeye00	|	-	|	Poisontoadeye	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Detectiveeye01	|	-	|	Evileye	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Detectiveeye02	|	-	|	SeekerEye	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	GratefulAssist00	|	-	|	OakLumber	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	GratefulAssist01	|	-	|	OakLumber	^	1	|	WalnutLumber	^	1	|	None	^	0	|	None	^	0	|
+|	GratefulAssist02	|	-	|	OakLumber	^	1	|	MahoganyLumber	^	1	|	None	^	0	|	None	^	0	|
+|	RedDowther00	|	-	|	Dethtrapshell	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	RedDowther01	|	-	|	Dethtrapshell	^	1	|	Toadfluid	^	1	|	None	^	0	|	None	^	0	|
+|	RedDowther02	|	-	|	Dethtrapshell	^	1	|	Gaaphorn	^	1	|	None	^	0	|	None	^	0	|
+|	Sacredshade00	|	-	|	Diamond	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Sacredshade01	|	-	|	Bixbite	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Sacredshade02	|	-	|	Alexandrite	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Acidgouache00	|	-	|	Sulfate	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Acidgouache01	|	-	|	Sulfate	^	1	|	Poison	^	1	|	None	^	0	|	None	^	0	|
+|	Acidgouache02	|	-	|	Sulfate	^	1	|	DarkMatter	^	1	|	None	^	0	|	None	^	0	|
+|	HelleTicalGrinder00	|	-	|	Iron	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	HelleTicalGrinder01	|	-	|	Steel	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	HelleTicalGrinder02	|	-	|	deathBringerDebris	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Chiselbalage00	|	-	|	Steel	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Chiselbalage01	|	-	|	Steel	^	1	|	DamascusSteel	^	1	|	None	^	0	|	None	^	0	|
+|	Chiselbalage02	|	-	|	Steel	^	1	|	Platinum	^	1	|	None	^	0	|	None	^	0	|
+|	RuinBeak00	|	-	|	Steel	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	RuinBeak01	|	-	|	Mithril	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	RuinBeak02	|	-	|	Clystal	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Jackpot00	|	-	|	Silver	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Jackpot01	|	-	|	Platinum	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Jackpot02	|	-	|	Gold	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Upbeatheat00	|	-	|	Gunpowder	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Upbeatheat01	|	-	|	Gunpowder	^	1	|	BelialHeart	^	1	|	None	^	0	|	None	^	0	|
+|	Upbeatheat02	|	-	|	Gunpowder	^	1	|	EligosHeart	^	1	|	None	^	0	|	None	^	0	|
+|	Toxicstorm00	|	-	|	Poison	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Toxicstorm01	|	-	|	Poison	^	1	|	WindFeathers	^	1	|	None	^	0	|	None	^	0	|
+|	Toxicstorm02	|	-	|	Poison	^	1	|	Gaapwing	^	1	|	None	^	0	|	None	^	0	|
+|	Aimingshield00	|	-	|	Iron	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Aimingshield01	|	-	|	Steel	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Aimingshield02	|	-	|	Mithril	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SummonBugs00	|	-	|	Mimicshell	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SummonBugs01	|	-	|	TytaniaPoisonedNeedle	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SummonBugs02	|	-	|	Dethtrapshell	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ThrowAxe00	|	-	|	Perex	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ThrowAxe01	|	-	|	Valdish	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	ThrowAxe02	|	-	|	Valdish	^	1	|	Clystal	^	1	|	None	^	0	|	None	^	0	|
+|	HellHound00	|	-	|	Gunpowder	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	HellHound01	|	-	|	Ruby	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	HellHound02	|	-	|	Gusionfur	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	FireThrower00	|	-	|	Gunpowder	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	FireThrower01	|	-	|	Gunpowder	^	1	|	MeltingSkull	^	3	|	None	^	0	|	None	^	0	|
+|	FireThrower02	|	-	|	Gunpowder	^	1	|	Knightbone	^	1	|	None	^	0	|	None	^	0	|
+|	SummonRat00	|	-	|	Giantratteeth	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SummonRat01	|	-	|	Giantratteeth	^	1	|	Giantrattail	^	1	|	None	^	0	|	None	^	0	|
+|	SummonRat02	|	-	|	Giantratteeth	^	1	|	DevilRoyalTail	^	1	|	None	^	0	|	None	^	0	|
+|	Zombie8Bit00	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Zombie8Bit01	|	-	|	8BitCoin	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Zombie8Bit02	|	-	|	8BitCoin	^	2	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	Ghost8Bit00	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Ghost8Bit01	|	-	|	8BitCoin	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Ghost8Bit02	|	-	|	8BitCoin	^	2	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	EightBitFire00	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	EightBitFire01	|	-	|	8BitCoin	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	EightBitFire02	|	-	|	8BitCoin	^	2	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	Nightmare8Bit00	|	-	|	8BitCoin	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Nightmare8Bit01	|	-	|	8BitCoin	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	Nightmare8Bit02	|	-	|	8BitCoin	^	2	|	16BitCoin	^	1	|	None	^	0	|	None	^	0	|
+|	NeverSatisfied00	|	-	|	Lemonade	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	NeverSatisfied01	|	-	|	AppleJuice	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	NeverSatisfied02	|	-	|	Nectar	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	LigaStreyma00	|	-	|	Ruby	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	LigaStreyma01	|	-	|	Ruby	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	LigaStreyma02	|	-	|	Ruby	^	2	|	Gold	^	1	|	None	^	0	|	None	^	0	|
+|	VaIsha00	|	-	|	Sapphire	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	VaIsha01	|	-	|	Sapphire	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	VaIsha02	|	-	|	Sapphire	^	2	|	Gold	^	1	|	None	^	0	|	None	^	0	|
+|	FoldShiu00	|	-	|	DarkMatter	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	FoldShiu01	|	-	|	DarkMatter	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	FoldShiu02	|	-	|	DarkMatter	^	2	|	Gold	^	1	|	None	^	0	|	None	^	0	|
+|	TepesOsius00	|	-	|	Emerald	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	TepesOsius01	|	-	|	Emerald	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	TepesOsius02	|	-	|	Emerald	^	2	|	Gold	^	1	|	None	^	0	|	None	^	0	|
+|	TissLeif00	|	-	|	Silver	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	TissLeif01	|	-	|	Platinum	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	TissLeif02	|	-	|	Diamond	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	VaSka00	|	-	|	Sapphire	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	VaSka01	|	-	|	Sapphire	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	VaSka02	|	-	|	Sapphire	^	2	|	Gold	^	1	|	None	^	0	|	None	^	0	|
+|	TissRosain00	|	-	|	Silver	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	TissRosain01	|	-	|	Platinum	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	TissRosain02	|	-	|	Diamond	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	TepsSalenda00	|	-	|	Emerald	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	TepsSalenda01	|	-	|	Emerald	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	TepsSalenda02	|	-	|	Emerald	^	2	|	Gold	^	1	|	None	^	0	|	None	^	0	|
+|	FoldingTurb00	|	-	|	DarkMatter	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	FoldingTurb01	|	-	|	DarkMatter	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	FoldingTurb02	|	-	|	DarkMatter	^	2	|	Gold	^	1	|	None	^	0	|	None	^	0	|
+|	LigaDoin00	|	-	|	Ruby	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	LigaDoin01	|	-	|	Ruby	^	2	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	LigaDoin02	|	-	|	Ruby	^	2	|	Gold	^	1	|	None	^	0	|	None	^	0	|
+|	FamiliaBradBringer00	|	-	|	deathBringerDebris	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	FamiliaBradBringer01	|	-	|	deathBringerDebris	^	1	|	DamascusSteel	^	1	|	None	^	0	|	None	^	0	|
+|	FamiliaBradBringer02	|	-	|	deathBringerDebris	^	1	|	Orichalcum	^	1	|	None	^	0	|	None	^	0	|
+|	FamiliaCarabos00	|	-	|	FairyPowder	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	FamiliaCarabos01	|	-	|	FairyPowder	^	1	|	Dineseawing	^	1	|	None	^	0	|	None	^	0	|
+|	FamiliaCarabos02	|	-	|	FairyPowder	^	1	|	Lamastutail	^	1	|	None	^	0	|	None	^	0	|
+|	FamiliaDantalion00	|	-	|	DevilBookPaperStrip	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	FamiliaDantalion01	|	-	|	DevilBookPaperStrip	^	1	|	BelialHeart	^	1	|	None	^	0	|	None	^	0	|
+|	FamiliaDantalion02	|	-	|	DevilBookPaperStrip	^	1	|	MurmurHeart	^	1	|	None	^	0	|	None	^	0	|
+|	SummonDurahanMaHead00	|	-	|	Stonethaw	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	SummonDurahanMaHead01	|	-	|	Stonethaw	^	1	|	MonsterBirdHair	^	1	|	None	^	0	|	None	^	0	|
+|	SummonDurahanMaHead02	|	-	|	Stonethaw	^	1	|	Marbasmane	^	1	|	None	^	0	|	None	^	0	|
+|	FamiliaBuell00	|	-	|	Buerfur	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	FamiliaBuell01	|	-	|	Wolfmanfur	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	FamiliaBuell02	|	-	|	Silverwolffur	^	1	|	Marbasmane	^	1	|	None	^	0	|	None	^	0	|
+|	FamiliaSilverKnight00	|	-	|	Silver	^	1	|	None	^	0	|	None	^	0	|	None	^	0	|
+|	FamiliaSilverKnight01	|	-	|	Silver	^	1	|	Mithril	^	1	|	None	^	0	|	None	^	0	|
+|	FamiliaSilverKnight02	|	-	|	Silver	^	1	|	Orichalcum	^	1	|	None	^	0	|	None	^	0	|
+
+
+===== Recipe Books =====
+
+^	-Recipe-	^	-Item-	^	Tier	^	-Req-	^	-Location-	^
+^	ArmsRecipe003 	|	Halper	^	2	^	Craftwork	^	Forbidden Underground Waterway, near save over waterline	|
+|	Steel Equipment	|	OutsiderKnightSword	|		|		|		|
+|		|	Stinger	|		|		|		|
+|		|	ShiroTorujiro	|		|		|		|
+|		|	Partizan	|		|		|		|
+|		|	Tanegasima	|		|		|		|
+|		|	Steelbreastplate	|		|		|		|
+^	ArmsRecipe004 	|	WolfBalt	^	2	^	Vepar	^	Garden of Silence, big room with chariot	|
+|	Obsidian Equipment	|	Flanders	|		|		|		|
+|		|	Tsurumaru	|		|		|		|
+|		|	Morgenstern	|		|		|		|
+^	ArmsRecipe005	|	Mulgres	^	3	^	Invert	^	Underground Sorcery Lab, opposite save room can't double jump	|
+|	Damascus Equipment	|	Valdish	|		|	Tricky: Jump Kick Candles or enemy	|		|
+|		|	Gram	|		|	NG+ Accelerator or upgraded Reflector	|		|
+|		|	Swordbreaker	|		|		|		|
+|		|	Lightningoff	|		|		|		|
+|		|	Assaultsollette	|		|		|		|
+|		|	Excavator	|		|		|		|
+|		|	McAutil	|		|		|		|
+|		|	Trador	|		|		|		|
+|		|	DuelBrest	|		|		|		|
+^	ArmsRecipe007	|	Karadanda	^	3	^	Bathin or Bloodless	^	Livre Ex Machina, room with dragon above the teleport near OD	|
+|	Gold Equipment	|	ManGauche	|		|		|		|
+|		|	Betelgeuse	|		|		|		|
+|		|	Goldbreastplate	|		|		|		|
+|		|	ShiningBreast	|		|		|		|
+^	ArmsRecipe009	|	DiesIle	^	5	^	Invert and Aegis	^	Oriental Sorcery Lab, room through portals almost right under the teleport	|
+|	Crimson Equipment	|	Calnwenan	|		|		|		|
+|		|	MikazukiMaen	|		|		|		|
+|		|	Aradovar	|		|		|		|
+|		|	Nibbleheim	|		|		|		|
+|		|	GunungNil	|		|		|		|
+|		|	ElderTiara	|		|		|		|
+|		|	Shieldless	|		|		|		|
+^	ArmsRecipe012	|	Coronationdress	^	5	^	Zangetsuto2	^	Den of Behemoths, go left from the second big open room	|
+|	Cashmere Equipment	|	OvertheRainbow	|		|		|		|
+^	ArmsRecipe018	|	Burtgang	^	3	^	Abyssal Guardian	^	Hall of Termination, room down and to right from the room with the switch for the door	|
+|	Fine Equipment 	|	Flagarach	|		|		|		|
+|		|	Hoffdo	|		|		|		|
+|		|	Dineslave	|		|		|		|
+|		|	Gambanttain	|		|		|		|
+|		|	Lohengrin	|		|		|		|
+|		|	Sherdar	|		|		|		|
+|		|	LightningBolt	|		|		|		|
+|		|	Miserikorde	|		|		|		|
+|		|	Triplet	|		|		|		|
+|		|	Yagurushi	|		|		|		|
+|		|	BlackRockHell	|		|		|		|
+|		|	Snakebyte	|		|		|		|
+|		|	Carvalin	|		|		|		|
+|		|	BraveBeret	|		|		|		|
+|		|	FeatherCrown	|		|		|		|
+|		|	SilverTiara	|		|		|		|
+|		|	Magushat	|		|		|		|
+|		|	SpikeBreast	|		|		|		|
+|		|	Silkdress	|		|		|		|
+|		|	GloriousBreast	|		|		|		|
+|		|	FaerieScarf	|		|		|		|
+^	ArmsRecipe019	|	Florenberg	^	5	^	Invert	^	Dian Cecht Cathedral, top of the room with falling bells	|
+|	Very Fine Equipment 	|	Armas	|		|	Tricky: Jump Kick summon buer or enemy	|		|
+|		|	Caradoborg	|		|	ReflectionRay should also work	|		|
+|		|	Durandal	|		|		|		|
+|		|	Tadanako	|		|		|		|
+|		|	Dragonshoes	|		|		|		|
+|		|	Aimur	|		|		|		|
+|		|	BeastKiller	|		|		|		|
+|		|	Westernhat	|		|		|		|
+|		|	HermitsBeret	|		|		|		|
+|		|	DemonHorns	|		|		|		|
+|		|	Ashinbacostume	|		|		|		|
+|		|	Caracilis	|		|		|		|
+|		|	Sendomuffler	|		|		|		|
+|		|	Firemuffler	|		|		|		|
+^	ArmsRecipe020	|	Liddyl	^	5	^	Invert	^	Hall of Termination, room outside Gebel	|
+|	Legendary Equipment 	|	Broadsword	|		|	NG+ Accelerator	|		|
+|		|	ValralAltar	|		|	Tricky: Boot tripple attacks in air	|		|
+|		|	TurmericBasara	|		|		|		|
+|		|	Exactor	|		|		|		|
+|		|	Mandaupasar	|		|		|		|
+|		|	Juwuse	|		|		|		|
+|		|	Truesixteenthnight	|		|		|		|
+|		|	Decapitator	|		|		|		|
+|		|	Gayalsals	|		|		|		|
+|		|	Mistrutein	|		|		|		|
+|		|	Andromeda	|		|		|		|
+|		|	Adrastea	|		|		|		|
+|		|	Pleiades	|		|		|		|
+^	BalletRecipe001	|	Firebullet	^	3	^	Craftwork	^	Forbidden Underground Waterway, room near save under the east entry from banshee	|
+|	Elemental Ammunition 	|	Icebullet	|		|		|		|
+|		|	ThunderRounds	|		|		|		|
+^	BalletRecipe002	|	WeaponbaneRounds	^	3	^	DoubleJump	^	Towers of Twin Dragons, room before elevator	|
+|	Special Ammunition 	|	ShieldbaneRounds	|		|		|		|
+|		|	PoisonRounds	|		|		|		|
+|		|	PetrifyingRounds	|		|		|		|
+|		|	CurseRounds	|		|		|		|
+^	BalletRecipe003	|	Shotshell	^	4	^	ReflectionRay or Invert	^	Hidden Desert, middle between both teleporters	|
+|	Potent Ammunition 	|	CriticalBullet	|		|	JumpKick buer or enemies (hard/nm)	|		|
+^	BalletRecipe004 	|	DiamondBullets 	^	4	^	ReflectionRay or Invert	^	Inferno Cave, room almost above the save point	|
+^	DishRecipe002	|	VongoleSauce	^	5	^	Invert and Aegis	^	Oriental Sorcery Lab, portal room, middle left exit	|
+|	Ramen 	|	SoyBroth	|		|		|		|
+|		|	TonkotsuBroth	|		|		|		|
+|		|	MisoBroth	|		|		|		|
+|		|	SaltBroth	|		|		|		|
+|		|	SaltRamen	|		|		|		|
+|		|	SoyRamen	|		|		|		|
+|		|	TonkotsuRamen	|		|		|		|
+|		|	MisoRamen	|		|		|		|
+^	DishRecipe003	|	CurrySauce	^	3	^	DoubleJump	^	Forbidden Underground Waterway, other side of the waterfall	|
+|	Curry 	|	Curry&Rice	|		|	NG+ Accelerator	|		|
+|		|	PorkCurry	|		|		|		|
+|		|	ChickenCurry	|		|		|		|
+|		|	SeafoodCurry	|		|		|		|
+^	DishRecipe004	|	ClassicSpaghetti	^	3	^	Invert	^	Towers of Twin Dragons, upper left tower	|
+|	Pasta 	|	PastaCarbonara	|		|	Tricky: JumpKick candles	|		|
+|		|	PastaVongole	|		|		|		|
+|		|	SeaUrchinPasta	|		|		|		|
+^	DishRecipe005	|	ChickenCasserole	^	3	^	ReflectionRay	^	Enterance, room above the big room with lionman	|
+|	Meat Dish 	|	ChickenSauté	|		|	Tricky: Jump Kick enemy	|		|
+|		|	GarlicChicken	|		|		|		|
+|		|	GingerPork	|		|		|		|
+|		|	Tonkatsu	|		|		|		|
+|		|	MisoCutlet	|		|		|		|
+|		|	Steak	|		|		|		|
+|		|	Sukiyaki	|		|		|		|
+|		|	MeatHotPot	|		|		|		|
+^	DishRecipe006	|	FriedFish	^	3	^	Invert	^	Forbidden Underground Waterway, Big room in middle of all saverooms	|
+|	Fish Dish 	|	FishAndChips	|		|	Tricky: JumpKick candles	|		|
+|		|	ForneusMeunière	|		|		|		|
+|		|	ForneusinGarlic	|		|		|		|
+|		|	SimmeredForneus	|		|		|		|
+|		|	FishHotPot	|		|		|		|
+^	DishRecipe007	|	ChocolateCrepe	^	3	^	DoubleJump	^	Towers of Twin Dragons, upper left tower, middle left on the map slider under a cog	|
+|	Sweets 	|	StrawberryCrepe	|		|		|		|
+|		|	BerrySpaghetti	|		|		|		|
+|		|	ShirukoSpaghetti	|		|		|		|
+^	DishRecipe008	|	Cookies	^	3	^	Craftwork	^	Livre Ex Machina, long room above zanetsu fight	|
+|	Cookies 	|	ChocolateCookies	|		|		|		|
+|		|	CinnamonCookies	|		|		|		|
+^	DishRecipe010	|	ChiffonCake	^	3	^	Zangetsuto1	^	Dian Cecht Cathedral, hall with closed door and banshee between two big rooms, left of bell room	|
+|	Cake 	|	CheeseCake	|		|		|		|
+|		|	ChocolateCake	|		|		|		|
+|		|	StrawberryCake	|		|		|		|
+^	DishRecipe011	|	Lemonade	^	3	^	Bathin or Bloodless	^	Livre Ex Machina, two rooms left of the big room with spikes at bottom, room has a dragon	|
+|	Drink 	|	AppleJuice	|		|		|		|
+|		|	StrawberryAuLait	|		|		|		|
+|		|	Smoothie	|		|		|		|
+^	DishRecipe014	|	BeefCurry	^	4	^	Aquastream/Deepsinker	^	Forbidden Underground Waterway, teleport at end of desert, two rooms up	|
+|	Ultimate Dish 	|	Nectar	|		|		|		|
+^	DishRecipe015	|	ExquisiteSteak	^	5	^	Invert	^	Forbidden Underground Waterway, exit from inferno cave hidden in wall before you jump down toward teleport	|
+|	Supreme Dish 	|	StrawberryPie	|		|	NG+ R9 ReflectorRay from the underside	|		|
+|		|	FruitJuice	|		|		|		|
+^	ItemRecipe001	|	HighPotion	^	2	^	Vepar	^	Enterance, outside Zangetsu1	|
+|	Fine Fealing Item 	|	HighEther	|		|		|		|
+^	ItemRecipe002	|	ExPotion	^	3	^	Abyssal Guardian	^	Hall of Termination, room over the bottom save	|
+|	Ultimate Healing Item 	|	ExEther	|		|		|		|
+|		|	UnicornRing	|		|		|		|
+^	ItemRecipe003	|	FaerieMedicine	^	2	^	Craftwork	^	Garden of Silence, Big room after the Teleport	|
+|	Faerie Healing Item 	|	FaerieElixir	|		|		|		|
+|		|	FaerieAllheal	|		|		|		|
+|		|	FaeriePanacea	|		|		|		|

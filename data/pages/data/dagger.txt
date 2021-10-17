@@ -1,0 +1,398 @@
+===== Dagger/Rapier =====
+[[start|<Back>]]
+
+> Blank
+
+Daggers are fast but short range and low damage. As such they require better positioning and reactions to enemy movement to avoid getting hit. 
+
+Rapiers have longer range, about same as swords, and are slightly slower but can compensate for that using the Hundred Kiss technique.
+
+Both weapons are considered daggers by the game and both are buffed by the "Dagger Experise" Yellow shard. However Daggers and Rapiers have separate Techniques, even if you master a Dagger technique you can't use it on Rapier, or vice versa.
+
+> WIP
+
+To-do:
+  * Links to crafting
+  * Links to techniques
+  * Double check all Acquisition
+
+----
+====Table====
+
+^	Dagger/Rapier									^^^^^
+^	Img	^	-Name-	^	Atk	^	Dmg	^	Special	^
+|	{{..:dagger:dagger01.png?nolink&30}}	|	[[#Knife]]	|	8	|	{{..:iconstab.png?nolink&20|Stab}}	|		|
+|	{{..:dagger:dagger02.png?nolink&30}}	|	[[#Baselard]]	|	14	|	{{..:iconstab.png?nolink&20|Stab}}	|		|
+|	{{..:dagger:dagger03.png?nolink&30}}	|	[[#Kukri]]	|	19	|	{{..:iconstab.png?nolink&20|Stab}}	|		|
+|	{{..:dagger:dagger04.png?nolink&30}}	|	[[#Poison Kukri]]	|	16	|	{{..:iconstab.png?nolink&20|Stab}} {{..:iconpoison.png?nolink&20|Poison}}	|		|
+|	{{..:dagger:dagger05.png?nolink&30}}	|	[[#Swordbreaker]]	|	24	|	{{..:iconstab.png?nolink&20|Stab}}	|	Debuff enemy Atk	|
+|	{{..:dagger:dagger06.png?nolink&30}}	|	[[#Main Gauche]]	|	29	|	{{..:iconstab.png?nolink&20|Stab}}	|	Increases Def	|
+|	{{..:dagger:dagger07.png?nolink&30}}	|	[[#Carnwennan]]	|	30	|	{{..:iconstab.png?nolink&20|Stab}} {{..:iconlight.png?nolink&20|Holy}}	|		|
+|	{{..:dagger:dagger08.png?nolink&30}}	|	[[#Mandau Pasir]]	|	45	|	{{..:iconstab.png?nolink&20|Stab}}	|		|
+|	{{..:rapier:rapier01.png?nolink&30}}	|	[[#Rapier]]	|	12	|	{{..:iconstab.png?nolink&20|Stab}}	|		|
+|	{{..:rapier:rapier02.png?nolink&30}}	|	[[#Epée]]	|	16	|	{{..:iconstab.png?nolink&20|Stab}}	|		|
+|	{{..:rapier:rapier03.png?nolink&30}}	|	[[#Stinger]]	|	19	|	{{..:iconstab.png?nolink&20|Stab}} {{..:iconpoison.png?nolink&20|Poison}}	|		|
+|	{{..:rapier:rapier04.png?nolink&30}}	|	[[#Misericorde]]	|	25	|	{{..:iconstab.png?nolink&20|Stab}} {{..:iconlight.png?nolink&20|Holy}}	|		|
+|	{{..:rapier:rapier05.png?nolink&30}}	|	[[#Kazikli]]	|	32	|	{{..:iconstab.png?nolink&20|Stab}} {{..:iconcurse.png?nolink&20|Curse}}	|		|
+|	{{..:rapier:rapier06.png?nolink&30}}	|	[[#Joyeuse]]	|	52	|	{{..:iconstab.png?nolink&20|Stab}}	|		|
+|	{{..:rapier:weap8bit02.png?nolink&30}}	|	[[#Redbeast's Edge]]	|	18	|	{{..:iconstab.png?nolink&20|Stab}}	|	Upgradeable, #Food increase Atk, Upgrade reach	|
+
+
+----
+
+===== Details =====
+
+----
+
+==== Knife ====
+{{..:dagger:dagger01.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Knife									|||||	8	|	-	|	600			||	60			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|
+
+
+> A knife for self-defense.
+
+Acquisition:
+  * Chest: Galleon Minerva (SIP000)
+  * Craft
+  * Shop
+
+Notes:
+  * Used to Rank 2-4 for Knife Mastery yellow shard.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Baselard====
+{{..:dagger:dagger02.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Baselard									|||||	14	|	-	|	2700			||	270			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|
+
+> A standard, double-edged dagger.
+
+Technique:
+  * Surprise Gift (236A)
+
+Acquisition:
+  * Chest: Arvantville (VIL007)
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Kukri====
+{{..:dagger:dagger03.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Kukuri									|||||	19	|	-	|	6000			||	600			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|
+
+
+> A knife with an inwardly curved blade.
+
+Technique:
+  * Assassinate (2146A)
+
+Acquisition:
+  * Craft
+  * Quest: Susie (Macaroni Gratin)
+
+Notes:
+  * Used to Rank 5-7 for Knife Mastery yellow shard.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Poison Kukri====
+{{..:dagger:dagger04.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	PoisonKukri									|||||	16	|	-	|	7500			||	750			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|
+
+
+> A curved knife that has been laced with a deadly poison.
+
+Acquisition:
+  * Craft
+  * Drop: Blood Bug (4%)
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Swordbreaker====
+{{..:dagger:dagger05.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Swordbreaker									|||||	24	|	-	|	10800			||	1080			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|
+
+
+> A dagger for damaging opponents' weapons. Lowers enemy attack power.
+
+Special:
+  * Gives a debuff that reduces enemy ATK by -10
+  * Unconfirmed, but I think this is the right entry:
+
+  PB_DT_SpecialEffectDefinitionMaster
+  "Key": "DEBUFF_STR_WITH_EFFECT",
+  "DefId": "DEBUFF_STR_WITH_EFFECT",
+  "Type": "EPBSpecialEffect::StatusDownWithEffect",
+  "Parameter01": 12.0,
+  "Parameter02": -10.0,
+
+Technique:
+  * Assassinate (2146A)
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Used to Rank 8-9 for Knife Mastery yellow shard.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Main Gauche====
+{{..:dagger:dagger06.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	ManGauche									|||||	29	|	-	|	16800			||	1680			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|
+
+
+> A dagger useful for both offense and defense.
+
+Special:
+  * Gives a DEF bonus +10
+  * (FIXME can't find ability linked to value)
+
+  PB_DT_WeaponMaster
+  "UniqeValue": 10.0,
+
+Technique:
+  * Surprise Gift (236A)
+
+Acquisition:
+  * Craft
+  * Shop (After Glutton Train)
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Carnwennan====
+{{..:dagger:dagger07.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Calnwenan									|||||	30	|	30	|	30000			||	3000			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|
+
+
+> A holy dagger once wielded by an ancient king.
+
+Technique:
+  * Assassinate (2146A)
+  * Surprise Gift (236A)
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Mandau Pasir====
+{{..:dagger:dagger08.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Mandaupasar									|||||	45	|	-	|	43200			||	4320			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|
+
+
+> A large dagger used in headhunting.
+
+Technique:
+  * Assassinate (2146A)
+  * Surprise Gift (236A)
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Rapier====
+{{..:rapier:rapier01.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Rapier									|||||	12	|	-	|	1200			||	120			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|
+
+
+> A single-handed sword designed for thrusting.
+
+Technique:
+  * Thousand Blossoms (AAA)
+
+Acquisition:
+  * Craft
+  * Shop
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Epée====
+{{..:rapier:rapier02.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Epe									|||||	16	|	-	|	2700			||	270			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|
+
+
+> A rapier used in duels.
+
+Acquisition:
+  * Craft
+  * Shop
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Stinger====
+{{..:rapier:rapier03.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Stinger									|||||	17	|	-	|	7500			||	750			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|
+
+
+> A thrusting weapon modeled after a bee's stinger and tipped with poison.
+
+Technique:
+  * Thousand Blossoms (AAA)
+
+Acquisition:
+  * Craft
+  * Drop: Sidhe (4%)
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Misericorde====
+{{..:rapier:rapier04.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Miserikorde									|||||	25	|	25	|	14700			||	1470			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|
+
+
+> A thrusting weapon known as the "sword of mercy."
+
+Technique:
+  * Lasting Wound (646A)
+
+Acquisition:
+  * Craft
+  * Quest: Susie (Egg Soufflé)
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Kazikli====
+{{..:rapier:rapier05.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Cazilk									|||||	32	|	-	|	24300			||	2430			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|
+
+
+> A thrusting weapon caked with blood from the many fiends it has impaled.
+
+Technique:
+  * Thousand Blossoms (AAA)
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Joyeuse====
+{{..:rapier:rapier06.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Juwuse									|||||	52	|	-	|	43200			||	4320			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|
+
+
+> A treasured sword that shines with all the colors of the rainbow.
+
+Technique:
+  * Lasting Wound (646A)
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Redbeast's Edge====
+{{..:rapier:weap8bit02.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	CrystalSword									|||||	18	|	-	|	-			||	-			||
+|	CrystalSword2									|||||	36	|	-	|	-			||	-			||
+|	CrystalSword3									|||||	52	|	-	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|
+
+
+> A mysterious, broken longsword fused together with the magi-crystal curse.
+
+Special:
+  * 8Bit-Upgradeable
+    - 8bitcoin lets you craft the first one.
+    - 16bitcoin lets you upgrade it to the second form.
+    - 32bitcoin+8bitnightmare lets you upgrade it to the third form.
+  * This weapon increases its Attack Animation Range as it gets upgraded. (FIXME req confirm)
+  * This weapon increases its ATK with the number of Food eaten, max ATK 52.
+
+  PB_DT_CoordinateParameter
+  "Key": "WeaponGrowMaxAtk_RedbeastEdge",
+  "Value": 52.0
+  "Key": "GrowNeedEatingDishesType_RedbeastEdge",
+  "Value": 30.0
+
+Acquisition:
+  * Craft
+
+Notes:
+  * One of the most Unique weapons in the game.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----

@@ -1,0 +1,392 @@
+ ===== Potions ===== 
+[[start|<Back>]]
+
+> Starting writing up all potions and effects.
+
+ ==== Table ====
+
+^	Name	^	Heal	^	Mana	^	Special	^
+|	[[#Potion]]	|	50	|		|		|
+|	[[#High Potion]]	|	250	|		|		|
+|	[[#Ex Potion]]	|	9999	|		|		|
+|	[[#Ether]]	|		|	30	|		|
+|	[[#High Ether]]	|		|	150	|		|
+|	[[#Ex Ether]]	|		|	9999	|		|
+|	[[#Mithridate]]	|		|		|	ClearPoison	|
+|	[[#Holy Water]]	|		|		|	ClearCurse	|
+|	[[#Stonethaw]]	|		|		|	ClearStone	|
+|	[[#Poison]]	|		|		|	Poison	|
+|	[[#Waystone]]	|		|		|	WayStone	|
+|	[[#Panacea]]	|		|		|	ClearAll	|
+|	[[#Faerie Medicine]]	|	50	|		|		|
+|	[[#Faerie Elixir]]	|	250	|		|		|
+|	[[#Faerie Allheal]]	|	9999	|		|		|
+|	[[#Faerie Panacea]]	|		|		|	ClearAll	|
+
+----
+ ==== Potion ==== 
+{{..:potion:consumable05.png?nolink }}
+
+^	Name	|	Potion	|
+^	ID	|	Potion	|
+^	Faerie	|	No	|
+^	Buy	|	200	|
+^	Sell	|	20	|
+
+> Medicine for restoring a small amount of health.
+
+Special:
+  * Heals:	50 health
+
+Acquisition:
+  * Chest
+  * Craft
+  * Store
+
+Notes:
+  * -
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+ ==== High Potion ==== 
+{{..:potion:consumable06.png?nolink }}
+
+^	Name	|	High Potion	|
+^	ID	|	HighPotion	|
+^	Faerie	|	No	|
+^	Buy	|	1000	|
+^	Sell	|	100	|
+
+> Medicine for restoring a large amount of health.
+
+Special:
+  * Heals:	250 health
+
+Acquisition:
+  * Chest
+  * Craft
+  * Store
+
+Notes:
+  * -
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+ ==== Ex Potion ==== 
+{{..:potion:consumable07.png?nolink }}
+
+^	Name	|	Ex Potion	|
+^	ID	|	ExPotion	|
+^	Faerie	|	No	|
+^	Buy	|	10000	|
+^	Sell	|	1000	|
+
+> Medicine for fully restoring health.
+
+Special:
+  * Heals:	9999 health
+
+Acquisition:
+  * Craft
+
+Notes:
+  * -
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+ ==== Ether ==== 
+{{..:potion:consumable08.png?nolink }}
+
+^	Name	|	Ether	|
+^	ID	|	Ether	|
+^	Faerie	|	No	|
+^	Buy	|	100	|
+^	Sell	|	10	|
+
+> Medicine for restoring a small amount of magic.
+
+Special:
+  * Heals:	150 Mana
+
+Acquisition:
+  * Chest
+  * Craft
+  * Store
+
+Notes:
+  * -
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+ ==== High Ether ==== 
+{{..:potion:consumable09.png?nolink }}
+
+^	Name	|	High Ether	|
+^	ID	|	HighEther	|
+^	Faerie	|	No	|
+^	Buy	|	500	|
+^	Sell	|	50	|
+
+> Medicine for restoring a large amount of magic.
+
+Special:
+  * Heals:	150 Mana
+
+Acquisition:
+  * Chest
+  * Craft
+  * Store
+
+Notes:
+  * -
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+ ==== Ex Ether ==== 
+{{..:potion:consumable10.png?nolink }}
+
+^	Name	|	Ex Ether	|
+^	ID	|	ExEther	|
+^	Faerie	|	No	|
+^	Buy	|	5000	|
+^	Sell	|	500	|
+
+> Medicine for fully restoring magic.
+
+
+Special:
+  * Heals:	9999 Mana
+
+Acquisition:
+  * Craft
+
+Notes:
+  * -
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+ ==== Mithridate ==== 
+{{..:potion:consumable11.png?nolink }}
+^	Name	|	Mithridate	|
+^	ID	|	Mithridate	|
+^	Faerie	|	No	|
+^	Effect	|	ClearPoison	|
+
+
+> 
+
+Special:
+  * 
+
+Acquisition:
+  * 
+
+Notes:
+  * -
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+ ==== Holy Water ==== 
+{{..:potion:consumable12.png?nolink }}
+^	Name	|	Holy Water	|
+^	ID	|	HolyWater	|
+^	Faerie	|	No	|
+^	Effect	|	ClearCurse	|
+
+
+> 
+
+Special:
+  * 
+
+Acquisition:
+  * 
+
+Notes:
+  * -
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+ ==== Stonethaw ==== 
+{{..:potion:consumable13.png?nolink }}
+^	Name	|	Stonethaw	|
+^	ID	|	Stonethaw	|
+^	Faerie	|	No	|
+^	Effect	|	ClearStone	|
+
+
+> 
+
+Special:
+  * 
+
+Acquisition:
+  * 
+
+Notes:
+  * -
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+ ==== Poison ==== 
+{{..:potion:consumable15.png?nolink }}
+^	Name	|	Poison	|
+^	ID	|	Poison	|
+^	Faerie	|	No	|
+^	Effect	|	Poison	|
+
+
+> 
+
+Special:
+  * 
+
+Acquisition:
+  * 
+
+Notes:
+  * -
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+ ==== Waystone ==== 
+{{..:potion:consumable18.png?nolink }}
+^	Name	|	Waystone	|
+^	ID	|	Waystone	|
+^	Faerie	|	No	|
+^	Effect	|	WayStone	|
+
+
+> 
+
+Special:
+  * 
+
+Acquisition:
+  * 
+
+Notes:
+  * -
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+ ==== Panacea ==== 
+{{..:potion:consumable19.png?nolink }}
+^	Name	|	Panacea	|
+^	ID	|	Panacea	|
+^	Faerie	|	No	|
+^	Effect	|	ClearAll	|
+
+
+> 
+
+Special:
+  * 
+
+Acquisition:
+  * 
+
+Notes:
+  * -
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+ ==== Faerie Medicine ==== 
+{{..:potion:consumable20.png?nolink }}
+^	Name	|	Faerie Medicine	|
+^	ID	|	FaerieMedicine	|
+^	Faerie	|	Yes	|
+^	Effect	|	Heal 50	|
+
+
+> 
+
+Special:
+  * 
+
+Acquisition:
+  * 
+
+Notes:
+  * -
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+ ==== Faerie Elixir ==== 
+{{..:potion:consumable21.png?nolink }}
+^	Name	|	Faerie Elixir	|
+^	ID	|	FaerieElixir	|
+^	Faerie	|	Yes	|
+^	Effect	|	Heal 250	|
+
+
+> 
+
+Special:
+  * 
+
+Acquisition:
+  * 
+
+Notes:
+  * -
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+ ==== Faerie Allheal ==== 
+{{..:potion:consumable22.png?nolink }}
+^	Name	|	Faerie Allheal	|
+^	ID	|	FaerieAllheal	|
+^	Faerie	|	Yes	|
+^	Effect	|	Heal 9999	|
+
+
+> 
+
+Special:
+  * 
+
+Acquisition:
+  * 
+
+Notes:
+  * -
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+ ==== Faerie Panacea ==== 
+{{..:potion:consumable23.png?nolink }}
+^	Name	|	Faerie Panacea	|
+^	ID	|	FaeriePanacea	|
+^	Faerie	|	Yes	|
+^	Effect	|	ClearAll	|
+
+
+> 
+
+Special:
+  * 
+
+Acquisition:
+  * 
+
+Notes:
+  * -
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+ ==== Unused ====
+
+These where unused:
+
+{{..:potion:consumable01.png?nolink }}
+{{..:potion:consumable02.png?nolink }}
+{{..:potion:consumable03.png?nolink }}
+{{..:potion:consumable04.png?nolink }}
+{{..:potion:consumable14.png?nolink }}
+{{..:potion:consumable16.png?nolink }}
+{{..:potion:consumable17.png?nolink }}
+{{..:potion:consumable18.png?nolink }}
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----

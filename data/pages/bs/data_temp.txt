@@ -1,0 +1,39 @@
+====== Temp's Data ======
+>[[start|back]]
+
+==== Purple Shards ====
+
+Here is a list of directional shards that are affected by Ambivalence
+
+These were all tested on the bone morte outside of Arrantville.
+
+  * Flame Cannon
+  * True Arrow
+  * Inferno Breath
+  * Chaser Arrow
+  * Flying Dagger
+  * Teps Oceus
+  * Aqua Stream
+  * Acid Jet
+  * Venom Mist
+  * Flamethrower
+  * Chisel Barrage
+  * Riga Dohin
+  * Fald Ciu
+  * 8-bit fireball
+
+Some interesting things to note:
+
+  * One thing I noticed was that fire spells did not get an attack boost with the light ambivalence but did get a decrease in attack power when converted to dark
+  * Fald Ciu is a dark spell normally but did increased damage when converted to light
+  * The two poison shards did more damage by themselves without Ambivalence but the light whip still does more damage than the dark one as expected
+
+==== Red Shards ====
+
+Temp: here's the list:
+  * Cerulean Splash
+  * Shuriken
+  * Upbeat Heat
+  * Va Ischa
+  * Va Schia
+  * Tis Raiff

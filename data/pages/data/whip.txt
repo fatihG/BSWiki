@@ -1,0 +1,229 @@
+===== Whips =====
+[[start|<Back>]]
+
+> Blank
+
+Whips are above average reach and damage, focused on Strike. Slightly slower than average attack speed.
+
+They act nothing like traditional Castlevania whips. Whips are one of the best weapons in the early game, as a lot of enemies has weakness to Strike damage.
+
+> WIP
+
+To-do:
+  * Links to crafting
+  * Links to techniques
+
+----
+
+==== Table ====
+
+^	Whips									^^^^^
+^	Img	^	-Name-	^	Atk	^	Dmg	^	Special	^
+|	{{..:whip:whip01.png?nolink&30}}	|	[[#Whip]]	|	13	|	{{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{..:whip:whip02.png?nolink&30}}	|	[[#Thorn Whip]]	|	20	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{..:whip:whip03.png?nolink&30}}	|	[[#Flame Whip]]	|	27	|	{{..:iconstrike.png?nolink&20|Strike}} {{..:iconflame.png?nolink&20|Fire}}	|		|
+|	{{..:whip:whip04.png?nolink&30}}	|	[[#Black Cords]]	|	35	|	{{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{..:whip:whip05.png?nolink&30}}	|	[[#Snakebite]]	|	32	|	{{..:iconstrike.png?nolink&20|Strike}} {{..:iconpoison.png?nolink&20|Poison}}	|		|
+|	{{..:whip:whip06.png?nolink&30}}	|	[[#Beast Killer]]	|	45	|	{{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{..:whip:whip07.png?nolink&30}}	|	[[#Albireo]]	|	50	|	{{..:iconstrike.png?nolink&20|Strike}} {{..:iconice.png?nolink&20|Ice}}	|		|
+|	{{..:whip:whip08.png?nolink&30}}	|	[[#Andromeda]]	|	52	|	{{..:iconstrike.png?nolink&20|Strike}} {{..:iconlight.png?nolink&20|Holy}}	|		|
+|	{{..:whip:weap8bit09.png?nolink&30}}	|	[[#Ambivalence]]	|	18-36-52	|	{{..:iconstrike.png?nolink&20|Strike}}	|	Upgradeable, Change Holy/Dark	|
+
+
+----
+ ===== Details ===== 
+----
+====Whip====
+{{..:whip:whip01.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Awhip									|||||	13	|	-	|	600			||	60			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> A sturdy leather whip.
+
+Acquisition:
+  * Chest: Galleon Minerva (SIP018)
+  * Craft
+  * Shop
+
+Notes:
+  * Used to upgrade Whip Mastery rank 2-4
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Thorn Whip====
+{{..:whip:whip02.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Ibarakaswhip									|||||	20	|	-	|	2700			||	270			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> A whip lined with thorn-like spikes.
+
+Technique:
+  * Critical Swing (236A)
+
+Acquisition:
+  * Craft
+  * Quest: Susie (Rice Ball)
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Flame Whip====
+{{..:whip:whip03.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	FireWhip									|||||	27	|	27	|	7500			||	750			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|
+
+
+> A whip that leaves an arc of fire in its wake.
+
+Acquisition:
+  * Craft
+  * Drop: Rul'sha (4%)
+  * Drop: Vul'sha (10%)
+
+Notes:
+  * Used to upgrade Whip Mastery rank 5-7
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Black Cords====
+{{..:whip:whip04.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	BlackRockHell									|||||	35	|	-	|	10800			||	1080			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> A whip woven from raven hair and bound together by a unique spell.
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Snakebite====
+{{..:whip:whip05.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Snakebyte									|||||	32	|	-	|	14700			||	1470			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|
+
+
+> A poison-laced whip fashioned after a serpent's fangs.
+
+Technique:
+  * Critical Swing (236A)
+
+Acquisition:
+  * Craft
+  * Shop (After Glutton Train)
+
+Notes:
+  * Used to upgrade Whip Mastery rank 8-9
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Beast Killer====
+{{..:whip:whip06.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	BeastKiller									|||||	45	|	-	|	19200			||	1920			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> A whip that brings any beast to bay.
+
+Acquisition:
+  * Craft
+  * Drop: Lamashtu (4%)
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Albireo====
+{{..:whip:whip07.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Albireo									|||||	50	|	50	|	24300			||	2430			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|
+
+
+> A magical whip found locked away beneath the permafrost.
+
+Technique:
+  * Critical Swing (236A)
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Andromeda====
+{{..:whip:whip08.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Andromeda									|||||	52	|	52	|	43200			||	4320			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|
+
+
+> A holy chain that drives off evil.
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Ambivalence====
+{{..:whip:weap8bit09.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	WhipsOfLightDarkness									|||||	18	|	-	|	-			||	-			||
+|	WhipsOfLightDarkness2									|||||	36	|	-	|	-			||	-			||
+|	WhipsOfLightDarkness3									|||||	52	|	-	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> A whip bound by powers of darkness. Charge it to release its light.
+
+Special:
+  * 8Bit-Upgradeable
+    - 8bitcoin lets you craft the first one.
+    - 16bitcoin lets you upgrade it to the second form.
+    - 32bitcoin+8bitnightmare lets you upgrade it to the third form.
+  * Hold attack button to charge it and change the element of the weapon.
+    * Changes between Holy and Dark element.
+    * This affects the element damage of several shards.
+    * (FIXME This needs more research)
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Possibly the best weapon for a spell-caster Miriam, being able to change spells element between holy and dark to abuse enemy weakness.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----

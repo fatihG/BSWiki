@@ -1,0 +1,135 @@
+====== Difficulty ======
+>[[start|<Back>]]
+
+Just trying to list/explain the differences between the different difficulty modes.
+
+Usually you have to complete the game in Normal to unlock Hard, and then complete the game in Hard to unlock Nightmare. Or you can use the cheat-code and start a new game and call it: NIGHTMARE to just unlock all of them straight away.
+
+Note: Bosses have a SET HitPoints, and doesn't change through any of the difficulty modes. Even if the boss changes levels, the HitPoints will still be the same, though it's Con/Mnd might increase slightly thus increasing defences so you might have to attack a couple of extra times.
+
+----
+
+==== Normal =====
+
+The default mode with no real modifiers.
+
+  * The Default
+  * No Damage modifiers
+  * Uses the Normal levels for enemies
+  * Uses the base animation speed for enemies
+
+> "DefaultEnemyLevel": 3,
+> "AnimaionPlayRateNormal": 1.0,
+
+----
+
+===== Hard =====
+
+Hard largely makes everything more deadly, sometimes faster, non bosses usually gain a little bit of health. Also adds more monsters to most rooms, and some monsters gain more attacks.
+
+  * Some new enemies placed in many rooms.
+  * Some enemies and bosses gain new attacks or variations.
+  * Uses the Hard level entry for enemies.
+  * Uses the Hard animation play rate for enemies.
+  * Damage modifiers:
+    - Monster: +15 damage, *1.1
+    - Bosses: +30 damage, *1.1
+    - Gimmick: *2
+
+> "HardEnemyLevel": 5,
+> "AnimaionPlayRateHard": 1.25,
+
+----
+
+===== Nightmare =====
+
+Nightmare is identical to Hard except for two things: That you're stuck on level 1 only, and that the damage modifiers are higher. It's identical to hard in every other way.
+
+  * Sets your level to level 1 max.
+  * Still gain XP in the background, including familiar.
+  * (Hard) Some new enemies placed in many rooms.
+  * (Hard) Some enemies and bosses gain new attacks or variations.
+  * Own entry for Nightmare level, but same as hard.
+  * Own entry for Nightmare animation rate, but same as hard.
+  * Damage Modifiers:
+    - Monster: +25, *1.2
+    - Bosses: +50, *1.2
+    - Gimmick: *3
+
+> "NightmareEnemyLevel": 5,
+> "AnimaionPlayRateNightmare": 1.25,
+
+----
+
+===== Enemy Level =====
+
+Each enemy have a level set by the number in:
+
+> "DefaultEnemyLevel": 3,
+> "HardEnemyLevel": 5,
+> "NightmareEnemyLevel": 5,
+
+The short version is that this determines their stats of all types, so if you set an enemy level to higher, it automatically scale up and gain more stats. This is what Hard/Nightmare does. 
+
+Even if bosses actually gain new levels on Hard/Nightmare, and gain more stats etc, they do not gain more HitPoints, as this is set specifically.
+
+And despite Hard and Nightmare having different entries, and supposedly could have different levels, they never do. They always have the same levels.
+
+----
+
+===== Animation Rate =====
+
+Some claim that all enemies are faster in Hard/Nightmare, this is false. It varies greatly from enemy to enemy. Half the bosses are unchanged as an example.
+
+Animation Rate affects how fast the actual attack animations plays out, most of the time, and sometimes works on other things. But it's pretty random. So a Dullahammer for example can walk around as normal speed, attack at normal intervals, and then suddenly the attack is super fast if you jack up the animation rate.
+
+Some enemies gets pretty weird if you change the animation rate too much, like Vepar's jetstream attacks can get cut of early before she's done sweeping the room.
+
+They're also always identical between Hard and Nightmare. Even if it has a own entry, and could be set differently, the base game always have the same values for these two.
+
+> "AnimaionPlayRateNormal": 1.0,
+> "AnimaionPlayRateHard": 1.25,
+> "AnimaionPlayRateNightmare": 1.25,
+
+----
+
+===== Gimmick Damage =====
+
+This is stuff like spikes, lava, and those annoying spears under water etc. Basically Hard and Nightmare makes you take more damage from them.
+
+----
+----
+
+===== Rant =====
+
+Just a bit of space for me to rant on how much I dislike the way the game handles the bonus damage.
+
+Basically, the game adds a passive number to an enemy, like in Nightmare Vepar would get +50 damage as a flat bonus on top of the base damage, and then multiplying it with x1.2 for +20% damage. This means that everything in the game gets a lot of front heavy damage bonus at the start of the game, while everything at the end of the game gets relatively small damage bonuses.
+
+In effect, you're ramping up the difficulty at the start, while not really affecting the end.
+
+Example Vepar base damage:
+  * Normal: 22
+  * Hard: 63
+  * Nightmare: 93
+
+Nightmare damage is +322% of normal damage.
+
+Miriam starts with 120 HP, and can gain +20 from a HP Max in a hidden wall for 140. And can't gain levels in Nightmare. You find a set amount of potions and don't have access to the town-shop to buy more, or to find any variety in shards or gear to deal with her.
+
+Compared to Bael base damage:
+  * Normal: 132
+  * Hard: 193
+  * Nightmare: 235
+
+Nightmare damage is +78% of normal damage.
+
+At this point of the game you have access to every piece of gear, food, shards, etc. Making it possible to just completely ignore that damage difference.
+
+----
+
+I wish that instead of making the damage modifier a flat addition to damage, they instead focused on the multiplier, so that the damage scaled/increased the further out you got into the game.
+
+Example:
+  * Damage +0
+  * Multiplier: x2

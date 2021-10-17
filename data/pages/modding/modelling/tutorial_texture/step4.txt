@@ -1,0 +1,147 @@
+===== Tutorial: Modifying a 3D Model's Texture; Step 4. =====
+
+[[.:step3|<- Previous Step]] | [[.:|Tutorial Summary]] | [[.:step5|Next Step ->]] 
+
+----
+
+==== Edit the Texture, While Previewing In Your Favorite 3D Modelling Software ====
+
+In this step I will demonstrate editing the texture while previewing it on the 3D model, using the [[https://www.blender.org/download/|Blender 3D Modelling Software]]. This is free software and thus accessible to anyone.
+
+You can use any 3D modelling program for this step. If you choose to use a different application, go ahead and do your edits to the **T_Face01_Color.tga** file mentioned in the last step, and [[.:step5|skip to the next step]].
+
+----
+
+Now, [[https://www.blender.org/download/|download and install Blender]].
+
+Assuming you let Blender install at the default location, the blender addons folder is located at:\\ **C:\Program Files\Blender Foundation\Blender X.XX\X.XX\scripts\addons**,\\ where "X.XX" is whatever version of Blender you downloaded. My Blender version is 2.83, so my path looks like:\\ **C:\Program Files\Blender Foundation\Blender 2.83\2.83\scripts\addons**.
+
+[[https://raw.githubusercontent.com/Befzz/blender3d_import_psk_psa/master/addons/io_import_scene_unreal_psa_psk_280.py|Download the io_import_scene_unreal_psa_psk_280.py file]] (Right click -> Save as...), then copy/paste that "io_import_scene_unreal_psa_psk_280.py" file into the **C:\Program Files\Blender Foundation\Blender X.XX\X.XX\scripts\addons** folder.
+
+Open Blender. On the menu bar, select "Edit -> Preferences". 
+
+{{ :modding:modelling:tutorial_blender_edit_preferences.png?nolink&600 |}}
+
+On the left, click "Add-ons".
+
+{{ :modding:modelling:tutorial_blender_addons_list.png?nolink&600 |}}
+
+In the search bar on the top right, type "psk". You should see an option that says **Import-Export: Import Unreal Skeleton Mesh (.psk)/Animation Set (.psa) (280)**. If you don't see this, you likely put the "io_import_scene_unreal_psa_psk_280.py" file in the wrong place. Make sure the checkbox next to it is checked to enable the addon. Then you can close this window.
+
+{{ :modding:modelling:tutorial_blender_psk_addon.png?nolink&600 |}}
+
+Now let's clear out the scene. Move your mouse over the cube in the center of the screen. Hit "A" on your keyboard, then hit "X". Then click "Delete" with your left mouse button. This will remove all the objects added by default to the scene.
+
+{{ :modding:modelling:tutorial_blender_delete_default_cube.png?nolink&600 |}}
+
+Now if you select "File -> Import" on the menu bar, you should see an option listed "Skeleton Mesh (.psk)". If you don't see this, you may have to restart Blender. Click on it.
+
+{{ :modding:modelling:tutorial_blender_import_psk.png?nolink&600 |}}
+
+Make sure "Don't invert root bone" is **checked** and "Scale down" is **un**checked. Locate the **.psk** file that you exported in the last step. Select it and click "Import PSK". 
+
+{{ :modding:modelling:tutorial_blender_import_miriam_head_psk.png?nolink&800 |}}
+
+Now the head should be visible on screen.
+
+{{ :modding:modelling:tutorial_blender_miriam_head_zoomed.png?nolink&800 |}}
+
+Here are a couple of keyboard shortcuts that will make navigating Blender easier. Your mouse must be placed on the 3D viewport (not hovering over one of the menus) for these shortcuts to work.
+
+  * **Scroll Middle Mouse Wheel Up/Down** - Zoom in and out.
+  * **Press And Hold Middle Mouse Button, Move Mouse** - Rotate the view around the object.
+  * **Press and Hold Shift + Middle Mouse Button, Move Mouse** - Pan the view left/right/up/down.
+  * **Left Click** - Select an object.
+
+Test all of these out and make sure you're used to using them before you continue, as navigation in the viewport will be critical.
+
+Now **Left Click** on the head to select it. You will see an orange outline surround it. Click on the "Material Properties" tab, which is a tiny red circle icon with a checkerboard texture. Click on "M_Face01" in the list of materials. Then click on the "Use Nodes" button.
+
+{{ :modding:modelling:tutorial_texture:tutorial_blender_texture_miriam_head_use_nodes_on_face.png?nolink&800 |}}
+
+At the very top of the screen there are a bunch of tabs that represent pre-defined workspaces (Layout, Modeling, Sculpting, etc.). Click on the "Shading" tab.
+
+{{ :modding:modelling:tutorial_texture:tutorial_blender_texture_switch_shading_tab.png?nolink&800 |}}
+
+At the bottom of the "Shading" workspace is a section called the "Shader Editor" it has a couple of boxes in it labeled "PrincipledBSDF" and "MaterialOutput". These are called nodes. Resize this section to be larger if it's too small on your screen. 
+
+{{ :modding:modelling:tutorial_texture:tutorial_blender_texture_focus_nodes_on_shading_tab.png?nolink&800 |}}
+
+Similar mouse controls allow you to move around in this "Shader Editor" view:
+
+  * **Scroll Middle Mouse Wheel Up/Down** - Zoom in and out.
+  * **Press And Hold Middle Mouse Button, Move Mouse** - Pan the view left/right/up/down.
+
+With your mouse moved inside of this "Shader Editor" view, press and hold **Shift** on your keyboard, then press **A**. That's **Shift + A**. This will bring up a menu that adds nodes. Choose "Texture -> Image Texture".
+
+{{ :modding:modelling:tutorial_texture:tutorial_blender_texture_shader_editor_add_image_texture.png?nolink&800 |}}
+
+The **Image Texture** node will be attached to your mouse until you **Left Click** to place it. Place it to the left of the **Principled BSDF** node. Then click on the "Open" button inside of the **Image Texture** node.
+
+{{ :modding:modelling:tutorial_texture:tutorial_blender_texture_place_image_texture.png?nolink&600 |}}
+
+Navigate to the path that contains Miriam's face texture **.tga** file. Select it and click "Open Image".
+
+{{ :modding:modelling:tutorial_texture:tutorial_blender_texture_import_miriam_face_texture.png?nolink&800 |}}
+
+Now look at the yellow dot next to "Color" in the **Image Texture** node, and the yellow dot next to "Base Color" in the **Principled BSDF** node. Left click on the yellow dot next to "Color" and hold the left mouse button down, drag your mouse to the yellow dot next to "Base Color", then release the left mouse button.
+
+{{ :modding:modelling:tutorial_texture:tutorial_blender_texture_attach_image_texture_to_bsdf.png?nolink&600 |}}
+
+If done correctly, you will see a gray line attaching to two yellow dots.
+
+{{ :modding:modelling:tutorial_texture:tutorial_blender_texture_attach_image_texture_to_bsdf_attached.png?nolink&600 |}}
+
+Now look at the workspace tabs at the top again, and click on the **Texture Paint** tab.
+
+{{ :modding:modelling:tutorial_texture:tutorial_blender_texture_switch_texture_paint.png?nolink&800 |}}
+
+On the left you should see the face texture, and on the right is the view of the 3D model. This 3D model view might be displaying at a weird angle, so use the shortcuts I mentioned earlier with the **Middle Mouse Wheel/Button** to fix the 3D View so you can properly see Miriam's face.
+
+In case the face texture isn't showing on the left, you can click the dropdown at the top to change the selected texture.
+
+{{ :modding:modelling:tutorial_texture:tutorial_blender_texture_paint_view_explanation_miriam_face.png?nolink&800 |}}
+
+As you can see in this screenshot, most of Miriam's face is purple. This is because the mesh that creates Miriam's black outline is blocking our view so we can't see the face completely. Hit **Tab** on your keyboard to go into Edit Mode.
+
+{{ :modding:modelling:tutorial_texture:tutorial_blender_texture_remove_miriam_face_outline_edit_mode.png?nolink&800 |}}
+
+The purple parts of the 3D model turn gray when you're in Edit Mode, and all of the individual polygons are outlined. Move your mouse over Miriam's forehead, or any spot on the face that was previously purple, then hit **L** on your keyboard. This selects all of those polygons (they turn orange).
+
+{{ :modding:modelling:tutorial_texture:tutorial_blender_texture_remove_miriam_face_outline_edit_mode_outline_selected.png?nolink&800 |}}
+
+Hit **X** on your keyboard, then click "Vertices" in the popup that displays.
+
+{{ :modding:modelling:tutorial_texture:tutorial_blender_texture_remove_miriam_face_outline_edit_mode_outline_delete_prompt.png?nolink&800 |}}
+
+That deletes the outline mesh, and now you can properly see Miriam's face texture. Hit **Tab** on your keyboard again to exit Edit Mode. Miriam's eyes are still purple because we haven't loaded that texture, but that doesn't matter because we're not editing it.
+
+{{ :modding:modelling:tutorial_texture:tutorial_blender_texture_remove_miriam_face_outline_removed.png?nolink&800 |}}
+
+Zoom in (**Middle Mouse Wheel**) on the texture view on the left and start drawing (**Left Click**).  You can click on the white box at the top to change the drawing color. The brush size adjustment is next to that. I'm going to use green.
+
+{{ :modding:modelling:tutorial_texture:tutorial_blender_texture_draw_explanation.png?nolink&600 |}}
+
+You can see the 3D view update when you draw on the texture. You can also draw on the 3D view directly if you like.
+
+{{ :modding:modelling:tutorial_texture:tutorial_blender_texture_draw_miriam_green_star_cheek.png?nolink&800 |}}
+
+When you're done with your image editing changes in Blender, click "Image -> Save" in the top menu. This will save your changes back to the **.tga** file that you loaded.
+
+{{ :modding:modelling:tutorial_texture:tutorial_blender_texture_save_image.png?nolink&500 |}}
+
+----
+
+=== External Texture Editing ===
+
+Now in case you want to use a more advanced image editor like **GIMP** or **Photoshop** to edit the texture and preview it on the 3D model in Blender, you can always use one of those programs to edit the **.tga** file directly. Then after you save the file in **GIMP** or **Photoshop**, just use the "Image -> Reload" option in the top menu to update the texture in Blender.
+
+{{ :modding:modelling:tutorial_texture:tutorial_blender_texture_reload_image.png?nolink&500 |}}
+
+----
+
+Now that you've edited the **.tga** texture, this step is complete. Go to the next step to put the texture in the game.
+
+----
+
+[[.:step3|<- Previous Step]] | [[.:|Tutorial Summary]] | [[.:step5|Next Step ->]] 

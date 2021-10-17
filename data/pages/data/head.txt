@@ -1,0 +1,940 @@
+ ===== Head ===== 
+[[start|<Back>]]
+
+> Blank
+
+> WIP
+
+Stuff
+
+----
+
+==== Table ==== 
+
+^	Img	^	-Head-	^	Def	^	Res	^	Str	^	Con	^	Int	^	Mnd	^	Lck	^	Special	^
+|	-	|	[[#DefaultHeadAcs]]	|		|		|		|		|		|		|		|		|
+|	{{..:head:head01.png?nolink&30}}	|	[[#Aries' Horns]]	|	1	|		|		|		|		|		|		|		|
+|	{{..:head:head02.png?nolink&30}}	|	[[#Hairband]]	|	2	|		|		|		|	1	|		|		|		|
+|	{{..:head:head03.png?nolink&30}}	|	[[#Pirate Hat]]	|	3	|	{{..:iconstrike.png?nolink&20}} {{..:iconice.png?nolink&20}}	|	1	|		|		|		|	2	|		|
+|	{{..:head:head06.png?nolink&30}}	|	[[#Dullahammer Helm]]	|	3	|	{{..:iconcut.png?nolink&20}}	|	1	|	1	|		|		|		|		|
+|	{{..:head:head05.png?nolink&30}}	|	[[#Circlet]]	|	2	|		|		|		|	1	|	1	|		|		|
+|	{{..:head:head04.png?nolink&30}}	|	[[#Garbo Hat]]	|	3	|		|		|	2	|		|		|		|		|
+|	{{..:head:head07.png?nolink&30}}	|	[[#Santa Hat]]	|	4	|		|		|		|		|		|	3	|		|
+|	{{..:head:head09.png?nolink&30}}	|	[[#Beast Beret]]	|	5	|	{{..:iconcut.png?nolink&20}}	|	1	|	1	|		|		|		|		|
+|	{{..:head:head19.png?nolink&30}}	|	[[#Cat Ears]]	|	5	|		|		|		|	2	|		|		|		|
+|	{{..:head:head17.png?nolink&30}}	|	[[#Cowboy Hat]]	|	5	|		|	2	|		|		|		|		|	Gun Attack Rate	|
+|	{{..:head:head13.png?nolink&30}}	|	[[#Wolf Hood]]	|	6	|	{{..:iconstrike.png?nolink&20}}	|	3	|	2	|		|		|		|		|
+|	{{..:head:head21.png?nolink&30}}	|	[[#Flame Circlet]]	|	5	|	{{..:iconflame.png?nolink&20}}	|		|		|	3	|	1	|		|		|
+|	{{..:head:head22.png?nolink&30}}	|	[[#Ice Circlet]]	|	5	|	{{..:iconice.png?nolink&20}}	|		|		|	3	|	1	|		|		|
+|	{{..:head:head23.png?nolink&30}}	|	[[#Thunder Circlet]]	|	5	|	{{..:iconthunder.png?nolink&20}}	|		|		|	3	|	1	|		|		|
+|	{{..:head:head30.png?nolink&30}}	|	[[#Beret of Bravery]]	|	5	|		|	2	|		|		|	3	|		|		|
+|	{{..:head:head10.png?nolink&30}}	|	[[#Crow Hat]]	|	6	|		|	5	|		|		|		|		|		|
+|	{{..:head:head12.png?nolink&30}}	|	[[#Gadget Band]]	|	7	|	{{..:iconstone.png?nolink&20}}	|		|		|		|	2	|		|		|
+|	{{..:head:head15.png?nolink&30}}	|	[[#Feather Crown]]	|	7	|		|	2	|		|		|		|		|		|
+|	{{..:head:head18.png?nolink&30}}	|	[[#Silver Tiara]]	|	6	|		|		|		|	4	|		|		|		|
+|	{{..:head:head28.png?nolink&30}}	|	[[#Witch's Hat]]	|	6	|		|		|		|	6	|		|		|	MP Rate	|
+|	{{..:head:head08.png?nolink&30}}	|	[[#Cute Beast Beret]]	|	8	|		|	3	|		|		|		|		|		|
+|	{{..:head:head11.png?nolink&30}}	|	[[#Bunny Ears]]	|	7	|		|		|		|		|		|	5	|		|
+|	{{..:head:head26.png?nolink&30}}	|	[[#Diabolist's Cap]]	|	9	|		|		|		|	8	|		|		|		|
+|	{{..:head:head24.png?nolink&30}}	|	[[#Maid's Hairband]]	|	9	|		|		|	4	|		|	4	|		|		|
+|	{{..:head:head25.png?nolink&30}}	|	[[#Gunslinger's Hat]]	|	10	|		|	3	|	1	|		|		|		|	Gun Ammo vs Rate	|
+|	{{..:head:head27.png?nolink&30}}	|	[[#Ribbon]]	|	10	|	{{..:iconpoison.png?nolink&20}} {{..:iconcurse.png?nolink&20}} {{..:iconstone.png?nolink&20}}	|		|		|		|		|	7	|		|
+|	{{..:head:head20.png?nolink&30}}	|	[[#Traveler's Hat]]	|	11	|		|	6	|		|		|		|		|		|
+|	{{..:head:head14.png?nolink&30}}	|	[[#Hermit's Beret]]	|	12	|		|		|		|		|	6	|		|		|
+|	{{..:head:head29.png?nolink&30}}	|	[[#Kitsune Mask]]	|	13	|	{{..:iconcurse.png?nolink&20}}	|		|		|	5	|	3	|		|		|
+|	{{..:head:head16.png?nolink&30}}	|	[[#Demon Horns]]	|	13	|		|	8	|	2	|		|		|		|		|
+|	{{..:head:head31.png?nolink&30}}	|	[[#Ancient Tiara]]	|	13	|	{{..:iconpoison.png?nolink&20}} {{..:iconcurse.png?nolink&20}} {{..:iconstone.png?nolink&20}}	|		|		|	7	|	7	|		|		|
+|	{{..:head:head32.png?nolink&30}}	|	[[#Recycle Hat]]	|	5	|		|	3	|		|		|	3	|		|	Gun no Ammo	|
+|	{{..:head:head33.png?nolink&30}}	|	[[#Pleiades]]	|	15	|		|	5	|	5	|	5	|	5	|	5	|		|
+|	{{..:head:head34.png?nolink&30}}	|	[[#Valkyrie Tiara]]	|	12	|		|		|		|		|		|	7	|		|
+|	X	|	[[#Crown of Creation]]	|	1	|		|		|		|		|		|		|	Use gold instead of HP	|
+
+
+----
+===== Details =====
+----
+==== DefaultHeadAcs ====
+
+{{..:tech.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	DefaultHeadAcs													|||||||	-			||	-			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	0			||	0			||	-	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+Visible:
+  * No
+
+Notes:
+  * This is what is used when you have no head gear equipped.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+==== Aries' Horns ====
+{{..:head:head01.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	AriesHorns 													|||||||	-			||	-			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	1			||	0			||	-	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A hair accessory that resembles ram horns. Miriam's favorite.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Starting Gear
+
+Notes:
+  * Miriam starts with this equipped.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Hairband====
+{{..:head:head02.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Headband 													|||||||	100			||	10			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	2			||	0			||	-	|	-	|	1	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A simple hairband that keeps hair away from the wearer's eyes.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Chest: Galleon Minerva (SIP006 bottom)
+  * Shop
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Pirate Hat====
+{{..:head:head03.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	PirateTriangleCap 													|||||||	900			||	90			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	3			||	0			||	1	|	-	|	-	|	-	|	2	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	1	|	-	|	-	|	5	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A hat worn by pirates.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Chest: Galleon Minerva (SIP026 Double Jump)
+  * Craft
+
+Notes:
+  * You can reach it before Double Jump by using Kung-Fu-Shoes triple kick in the air to extend horizontal distance.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Dullahammer Helm====
+{{..:head:head06.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	DurahanMaherm 													|||||||	400			||	40			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	3			||	0			||	1	|	1	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	1	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A dullahammer head that has been refashioned into human armor.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Drop: Dullahammer (3%)
+  * Drop: Dullahammer Head (5%)
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Circlet====
+{{..:head:head05.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Circlet 													|||||||	400			||	40			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	2			||	2			||	-	|	-	|	1	|	1	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A crown encrusted with cheap jewels.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Shop
+
+Notes:
+  * Used to Craft the elemental circlets
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Garbo Hat====
+{{..:head:head04.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Garbohat 													|||||||	900			||	90			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	3			||	2			||	-	|	2	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> An elegant hat with a billowed brim.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Shop
+
+Notes:
+  * 
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Santa Hat====
+{{..:head:head07.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Santacap 													|||||||	900			||	90			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	4			||	1			||	-	|	-	|	-	|	-	|	3	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> Just what you need to get into the Christmas spirit.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Chest: Dian Cecht Cathedral (ENT020)
+
+Notes:
+  * 
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Beast Beret====
+{{..:head:head09.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Beastberet 													|||||||	1600			||	160			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	5			||	0			||	1	|	1	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	5	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A cap fashioned from leather.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Chest: Garden of Silence (GDN006 bottom right, Craftwork)
+  * Craft
+
+Notes:
+  * As always (with all characters in the game) you can get past Iron Maiden's without using Craftwork shard, by luring/pushing an enemy into the maiden.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Cat Ears====
+{{..:head:head19.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	CatEars 													|||||||	1600			||	160			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	5			||	0			||	-	|	-	|	2	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> An adorable accessory that gives the wearer cat ears.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Drop: Nyabon (6%)
+
+Notes:
+  * 
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+====Cowboy Hat====
+{{..:head:head17.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	CowboyHat 													|||||||	1600			||	160			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	5			||	0			||	2	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A hat worn by cowboys. Increases the power of firearms.
+
+Special:
+  * Increases damage with guns
+
+  PB_DT_EnchantParameterType
+  "Key": "GunBulletAttackrate18",
+  "EPBEquipSpecialAttribute::GunBulletAttackrate",
+  "EquipValue_28_5CFE97924D56254C9B62AF83698220FC": 0.5,
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Craft
+  * Quest: Abigail (Hound Vest)
+
+Notes:
+  * 
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Wolf Hood====
+{{..:head:head13.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	WolfHood 													|||||||	2500 			||	250 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	6			||	0			||	3	|	2	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	10	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A hood designed to resemble a wolf.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Drop: Wolfman (6%)
+
+Notes:
+  * 
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Flame Circlet====
+{{..:head:head21.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Circletoffire 													|||||||	2500 			||	250 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	5			||	3			||	-	|	-	|	3	|	1	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	10	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A circlet under the protection of fire.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Craft
+  * Used in Quest
+
+Notes:
+  * 
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Ice Circlet====
+{{..:head:head22.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Icecirclet 													|||||||	2500 			||	250 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	5			||	3			||	-	|	-	|	3	|	1	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	10	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A circlet under the protection of ice.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Craft
+
+Notes:
+  * 
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Thunder Circlet====
+{{..:head:head23.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Thunderscirclet 													|||||||	2500 			||	250 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	5			||	3			||	-	|	-	|	3	|	1	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	10	|	-	|	-	|	-	|	-	|	-	|
+
+> A circlet under the protection of thunder.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Chest: Livre Ex Machina (LIB022 Reflection Ray)
+  * Craft
+
+Notes:
+  * 
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Beret of Bravery====
+{{..:head:head30.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	BraveBeret 													|||||||	3600 			||	360 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	6			||	0			||	5	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A cap that grants the wearer courage in the face of difficulty.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Craft'
+  * Shop (After Glutton Train)
+
+Notes:
+  * 
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Crow Hat====
+{{..:head:head10.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Crowhat 													|||||||	3600 			||	360 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	7			||	1			||	-	|	-	|	-	|	2	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A jet black hat.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Chest: Entrance (ENT022 Invert/Aegis Plate)
+
+Notes:
+  * 
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Gadget Band====
+{{..:head:head12.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	GadgetBand 													|||||||	3600 			||	360 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	7			||	0			||	2	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	15	|
+
+> A hairband fitted with gadgetry.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Chest: Towers of Twin Dragons (TWR005 Reflection Ray)
+
+Notes:
+  * You can also reach it with Double Jump air kick a Dullahead.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Feather Crown====
+{{..:head:head15.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	FeatherCrown 													|||||||	3600 			||	360 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	5			||	0			||	2	|	-	|	-	|	3	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A hair accessory adorned with beautiful plumage.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Chest: Libre Ex Machine (LIB011)
+
+Notes:
+  * 
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Silver Tiara====
+{{..:head:head18.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	SilverTiara 													|||||||	3600 			||	360 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	6			||	5			||	-	|	-	|	4	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A stunning piece of silverwork.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Craft
+  * Drop: Tamako-Death (8%)
+
+Notes:
+  * Used in Quest
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Witch's Hat====
+{{..:head:head28.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Magushat 													|||||||	4900 			||	490 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	6			||	9			||	-	|	-	|	6	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A witch's hat that aids concentration and hastens magic recovery.
+
+Special:
+  * Increases MP regen with +20%
+
+  PB_DT_EnchantParameterType
+  "Key": "MPRecoverySpeedRate28",
+  "EPBEquipSpecialAttribute::MPRecoverySpeedRate",
+  "EquipValue_28_5CFE97924D56254C9B62AF83698220FC": 0.2,
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Craft
+
+Notes:
+  * 
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Cute Beast Beret====
+{{..:head:head08.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Cutebeastberet 													|||||||	4900 			||	490 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	8			||	5			||	3	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A cap made to resemble an adorable puppy.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Craft
+
+Notes:
+  * 
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Bunny Ears====
+{{..:head:head11.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	BunnyEars 													|||||||	4900 			||	490 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	7			||	7			||	-	|	-	|	-	|	-	|	5	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> An accessory that adorns the wearer with the ears of a rabbit.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Craft
+
+Notes:
+  * 
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Diabolist's Cap====
+{{..:head:head26.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Dentistshat 													|||||||	6400 			||	640			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	9			||	15			||	-	|	-	|	8	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A hat worn by Eastern necromancers.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Chest: Livre Ex Machina (LIB040 Double Jump)
+
+Notes:
+  * ItemID names this a "Dentists Hat", name says Diabolist, and the description says Necromaners. Guess IGA or someone on his team really hates dentists.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Maid's Hairband====
+{{..:head:head24.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Maidheadband 													|||||||	-			||	-			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	9			||	5			||	-	|	4	|	-	|	4	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A hairband with cute frills that can only be described as "maid to order."
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Quest: Abigail (Silk Dress)
+
+Notes:
+  * 
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+====Gunslinger's Hat====
+{{..:head:head25.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Westernhat 													|||||||	8100 			||	810 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	10			||	0			||	3	|	1	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A hat that doubles the ammunition you use but makes firearms stronger.
+
+Special:
+  * Uses 2x ammo, deals +50% more damage?
+  * WIP
+
+  PB_DT_EnchantParameterType
+  "Key": "GunBulletReduceRate16",
+  "EPBEquipSpecialAttribute::GunBulletReduceRate",
+  "EquipValue_28_5CFE97924D56254C9B62AF83698220FC": 1.0,
+  "Key": "GunBulletAttackrate17",
+  "EPBEquipSpecialAttribute::GunBulletAttackrate",
+  "EquipValue_28_5CFE97924D56254C9B62AF83698220FC": 1.0,
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Craft
+
+Notes:
+  * If you have no bullets, it still increases the damage of the infinite ammo.
+  * Best hat for guns, against bosses.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Ribbon====
+{{..:head:head27.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	ribbon 													|||||||	8100 			||	810 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	10			||	0			||	-	|	-	|	-	|	-	|	7	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	10	|	10	|	10	|
+
+> A hair accessory reminiscent of butterfly wings.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Drop: Titania (4%)
+
+Notes:
+  * Tied for best Luck head-gear.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Traveler's Hat====
+{{..:head:head20.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Flightcapoftraveler 													|||||||	10000 			||	1000 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	11			||	0			||	6	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A wide-brimmed hat that is ideal for extended journeys.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Chest: Hidden Desert (SND003)
+
+Notes:
+  * 
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Hermit's Beret====
+{{..:head:head14.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	HermitsBeret 													|||||||	14400 			||	1440 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	12			||	15			||	-	|	-	|	-	|	6	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A cap that helps mask the wearer's presence.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Craft
+
+Notes:
+  * 
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Kitsune Mask====
+{{..:head:head29.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	KitsuneMask 													|||||||	19600 			||	1960 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	13			||	0			||	-	|	-	|	5	|	3	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	20	|	-	|
+
+> A gift from a fox spirit that holds supernatural powers.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Chest: Oriental Sorcrey Lab (JPN018)
+
+Notes:
+  * 
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+====Demon Horns====
+{{..:head:head16.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	DemonHorns 													|||||||	19600 			||	1960 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	13			||	0			||	8	|	2	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A hair accessory inspired by demon horns.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Top physical damage.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Ancient Tiara====
+{{..:head:head31.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	ElderTiara 													|||||||	22500 			||	2250 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	13			||	20			||	-	|	-	|	7	|	7	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	5	|	5	|	5	|	-	|	-	|	-	|	-	|	-	|
+
+> A crown passed down since times of yore.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Used in Quest
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Recycle Hat====
+{{..:head:head32.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Recyclehat 													|||||||	-			||	-			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	5			||	0			||	3	|	-	|	-	|	3	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A strange hat that stops ammunition from depleting.
+
+Special:
+  * Doesn't remove bullets when you shoot with guns.
+  * WIP
+
+  PB_DT_EnchantParameterType
+  "Key": "GunBulletReduceRate19",
+  "EPBEquipSpecialAttribute::GunBulletReduceRate",
+  "EquipValue_28_5CFE97924D56254C9B62AF83698220FC": -1.0,
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Quest: Susie (Exquisite Steak)
+
+Notes:
+  * Best hat for guns, against non bosses.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Pleiades====
+{{..:head:head33.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Pleiades 													|||||||	25600 			||	2560 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	15			||	15			||	5	|	5	|	5	|	5	|	5	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A precious crown adorned with jewels arranged like the stars.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Best stats overall
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Valkyrie Tiara====
+{{..:head:head34.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	ValkyrieTiara 													|||||||	-			||	-			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	12			||	12			||	-	|	-	|	-	|	-	|	7	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A tiara to grace a warmaiden's brow.
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Chest: Den of Behemoths (BIG011 Hidden behind the red chest)
+
+Notes:
+  * Tied highest luck.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+ ==== Crown of Creation ==== 
+{{..:icon01.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	MonarchCrown													|||||||	1			||	1			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	1			||	0			||	-	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> Uses Gold to reduce damage. With proper training, allows one to secure a distant kingdom.
+
+Special:
+  * You lose gold instead of health.
+  * Ration 1:1
+
+  PB_DT_CoordinateParameter
+  "Key": "MonarchCrownCoinCostRatio",
+  "Value": 1.0
+  PB_DT_EnchantParameterType
+  "Key": "MonarchCrownShieldRate20",
+  "EPBEquipSpecialAttribute::MonarchCrownShieldRate",
+  "EquipValue_28_5CFE97924D56254C9B62AF83698220FC": 2.0,
+
+Visible:
+  * Yes
+
+Acquisition:
+  * Shop: After killed Bathin
+
+Notes:
+  * Crossover content with Kingdoms: Two Crowns
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----

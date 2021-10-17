@@ -1,0 +1,96 @@
+===== Tutorial: Character Editing Cavats; Step 3. =====
+
+[[.:step2|<- Previous Step]] | [[.:|Tutorial Summary]] | [[.:step4|Next Step ->]] 
+
+----
+
+==== Generate a Mirror Table in Unreal Engine ====
+
+**This is the important step to prevent animation bugs. Read closely.**
+
+Launch Unreal Engine 4.18.3 and create a new blank project. **Remember the folder location that you entered where the project will be stored**. In my case, it's located at //X:\BloodstainedMods\CharacterEditing\CharacterEditUnreal//.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_create_unreal_project.png?nolink&800 |}}
+
+After the project is created and Unreal Engine loads, **immediately close Unreal Engine**. Navigate to the folder where the Unreal Engine project is stored. It should have "Config", "Content", "Intermediate", etc. folders inside of it already. Create a **new folder** in this directory and name it **Plugins**.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_unreal_create_plugin_folder.png?nolink&600 |}}
+
+Download the {{ :modding:tool_mirror_plugin_toolbar.zip |Mirror Plugin Toolbar}} tool and extract the contents of the **.zip** file. Copy the "MirrorPluginToolbar" folder and paste it inside of the **Plugins** folder you just created.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_unreal_copy_mirror_plugin.png?nolink&800 |}}
+
+Now if you open the **MirrorPluginToolbar** folder you just pasted inside of the **Plugins** folder, it should contain a file called **MirrorPluginToolbar.uplugin**. If it does not, you did something wrong. Make sure the folder structure matches the screenshot below.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_unreal_verify_mirror_plugin_install.png?nolink&600 |}}
+
+Open up **Unreal Engine** again, and load the project you just created.
+
+You should see a "Create Mirror Table" button in the toolbar at the top of the 3D view, this is the plugin you just installed.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_unreal_locate_mirror_table_button.png?nolink&800 |}}
+
+**At this point, modify the Project Settings to disable the Event Driven Loader and disable Use Pak File, just like in the introductory tutorial**.
+
+Import Miriam's body model **SK_P1000.fbx** the same way we did in the introductory tutorial. As a reminder:
+
+  * Find the path of the original **SK_P1000.uasset** file and create it in Unreal Engine.
+  * Drag & Drop **SK_P1000.fbx** into Unreal Engine at that path, import with default settings.
+  * Move/rename the materials, physics asset, and skeleton to their original file path and filename. Reference the exported **.uasset** files from the original game.
+  * Create material instances for each of the materials, delete the original material, rename the material instance to match the original filename of the **.uasset** containing the original material. Then re-assign the new material instances to the 3D model, in the original order they were referenced.
+
+Your Content Browser folder structure in Unreal Engine (in this particular example) should end up like this:
+
+<code>
+Content
+  Core
+    Character
+      P0000
+        Material
+          Body
+            M_Body06_06 (Material Instance)
+          Outline
+            M_Outline_PI001_Inst (Material Instance)
+          Skin
+            M_Skin01 (Material Instance)
+          M_PI01_Rose1_Inst (Material Instance)
+          M_PI01_Rose2_Inst (Material Instance)
+        Mesh
+          PhysicsAsset_P0000 (Physics Asset)
+          SK_P10000 (Skeletal Mesh)
+          Skeleton_P0000 (Skeleton)
+</code>
+
+Now that you've set everything up similar to the way we did in the previous tutorial, next you'll generate a **Mirror Table** for Miriam's 3D model. This part prevents weird animation bugs when Miriam faces left.
+
+Click on Miriam's Skeletal Mesh (SK_P1000), then click the **Create Mirror Table** button.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_generate_mirror_table_click_mesh.png?nolink&800 |}}
+
+You will see a confirmation message that says the Mirror table was created.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_generate_mirror_table_confirmation.png?nolink&600 |}}
+
+Now, this plugin does its best job to generate the **Mirror Table** based on assumptions on the names of the Skeleton's bones. But there may be some 3D models where it doesn't work out of the box. You don't have to do any tweaking for Miriam, but I will show you where to do this in case you ever need to tweak the mirror table.
+
+Right click on Miriam's Skeletal Mesh (SK_P1000), then go to "Asset Actions -> Bulk Edit via Property Matrix...".
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_mirror_table_edit_menu.png?nolink&600 |}}
+
+On the right, expand "Mirroring", then expand "Skel Mirror Table". These are all of the entries for each bone in the skeleton (in order). It contains the index to another bone in the skeleton that is its mirrored bone. When the bone doesn't need to be mirrored (bones in the center of the body), the index and "Source Index" will be the same number. Otherwise, the "Source Index" will be the index of the bone that is equivalent on the opposite side of the character's body.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_mirror_table_property_matrix.png?nolink&800 |}}
+
+Close the Property Matrix window. Do "File -> Save All".
+
+{{ :modding:modelling:tutorial_texture:tutorial_unreal_file_save_all.png?nolink&400 |}}
+
+Package the project to generate the **.uasset** files.
+
+{{ :modding:modelling:tutorial_texture:tutorial_unreal_package_project.png?nolink&600 |}}
+
+In the next step you will create the final **.pak** file for the mod, just like in the introductory tutorial. There is no change to this part of the process.
+
+----
+
+[[.:step2|<- Previous Step]] | [[.:|Tutorial Summary]] | [[.:step4|Next Step ->]] 

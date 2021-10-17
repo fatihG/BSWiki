@@ -1,0 +1,65 @@
+===== Tutorial: Modifying a 3D Model's Texture; Step 5. =====
+
+[[.:step4|<- Previous Step]] | [[.:|Tutorial Summary]] | [[.:step6|Next Step ->]] 
+
+----
+
+==== Import the Texture Into Unreal Engine ====
+
+Return to the Epic Games Launcher. Once Unreal Engine version 4.18.3 has finished installing, click the yellow "Launch" button to open it.
+
+{{ :modding:modelling:tutorial_unreal_import_launch_button.png?nolink&300 |}}
+
+Once it's loaded, create a new blank project with no starter content. I placed this project next to my "ModelEdits" folder which contains the **.tga** texture file I'll be importing.
+
+{{ :modding:modelling:tutorial_unreal_import_new_project_miriam_head.png?nolink&800 |}}
+
+After that's created, select "Edit -> Project Settings..." from the menu bar.
+
+{{ :modding:modelling:tutorial_unreal_import_edit_project_settings.png?nolink&800 |}}
+
+Search for "pak" and **un**check "Use Pak File".
+
+{{ :modding:modelling:tutorial_unreal_uncheck_use_pak_file.png?nolink&800 |}}
+
+Search for "event driven" and **un**check "Event Driven Loader Enabled". Then close this window.
+
+{{ :modding:modelling:tutorial_unreal_uncheck_event_driven_loader.png?nolink&800 |}}
+
+In the Content Browser section, click the button on the left next to "Filters" to show the sources panel.
+
+{{ :modding:modelling:tutorial_unreal_show_sources_panel.png?nolink&800 |}}
+
+You will see an empty "Content" folder. Right click on it and create a new folder.
+
+{{ :modding:modelling:tutorial_unreal_empty_content_folder.png?nolink&400 |}}
+
+Your goal here will be to mimic the file path of the original **.uasset** file that contains the **.tga** texture you've modified, starting with "Core". Check your "extracted" folder from step 3 to verify the original path of the texture.
+
+{{ :modding:modelling:tutorial_texture:tutorial_unreal_texture_create_path.png?nolink&400 |}}
+
+Drag and drop your **.tga** texture file into Unreal's content browser inside of the deepest folder, "Face" folder in this case.
+
+{{ :modding:modelling:tutorial_texture:tutorial_unreal_texture_drag_in_content_browser.png?nolink&800 |}}
+
+Verify that the both the file path and texture name match the original **.uasset** path and filename (from the folder where you originally extracted the game's **.pak** file). If these don't match exactly, your edits won't show up in game.
+
+On the menu bar, click "File -> Save All".
+
+{{ :modding:modelling:tutorial_unreal_file_save_all.png?nolink&500 |}}
+
+Now you are ready to package the project and create the new **.uasset** files which will replace the old ones. On the menu bar, click "File -> Package Project -> Windows -> Windows (64-bit)".
+
+{{ :modding:modelling:tutorial_unreal_package_project.png?nolink&500 |}}
+
+In the dialog that pops up, create a "Cooked" folder and select it.
+
+{{ :modding:modelling:tutorial_unreal_package_project_select_location_dialog.png?nolink&700 |}}
+
+A popup notification will show, and will disappear when the packaging is complete.
+
+{{ :modding:modelling:tutorial_unreal_package_project_notification.png?nolink&600 |}}
+
+----
+
+[[.:step4|<- Previous Step]] | [[.:|Tutorial Summary]] | [[.:step6|Next Step ->]] 

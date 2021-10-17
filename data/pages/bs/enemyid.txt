@@ -1,0 +1,374 @@
+====== Bloodstained EnemyID ======
+
+>[[start|<Back>]]
+
+===== Base =====
+
+^	#	^	-Name-	^	-ID-	^	-Location-	^	N	^	H	^	NM	^	HP	^	BN	^	BH	^	BNM	^	HP	^	Medal	^
+|	1	|	Morte	|	N3003	|	Galleon	^	2	|	4	|	4	|		^	14	|	16	|	16	|		|		|
+|	2	|	Seama	|	N3006	|	Galleon	^	3	|	5	|	5	|		^	15	|	17	|	17	|		|		|
+|	3	|	Cannon Morte	|	N3005	|	Galleon	^	3	|	5	|	5	|		^	15	|	17	|	17	|		|		|
+|	4	|	Aello	|	N3007	|	Galleon	^	4	|	6	|	6	|		^	16	|	18	|	18	|		|		|
+|	5	|	Ghost	|	N3013	|	Galleon	^	4	|	6	|	6	|		^	13	|	15	|	15	|		|		|
+|	6	|	Dullahammer	|	N3015	|	Galleon	^	5	|	7	|	7	|		^	18	|	20	|	20	|		|		|
+|	7	|	Giant Rat	|	N3051	|	Arvantville	^	5	|	7	|	7	|		^	13	|	15	|	15	|		|		|
+|	8	|	Bone Morte	|	N3004	|	Arvantville	^	6	|	8	|	8	|		^	13	|	15	|	15	|		|		|
+|	9	|	Bat	|	N3029	|	Arvantville	^	5	|	7	|	7	|		^	9	|	11	|	11	|		|		|
+|	10	|	Gieremund	|	N3073	|	Entrance	^	6	|	8	|	8	|		^	10	|	12	|	12	|		|		|
+|	11	|	Blood Grinder Knight	|	N3105	|	Entrance	^	7	|	9	|	9	|		^	12	|	14	|	14	|		|		|
+|	12	|	Sabnock	|	N3080	|	Entrance	^	8	|	10	|	10	|		^	13	|	15	|	15	|		|		|
+|	13	|	Moco Weed	|	N3066	|	Garden of Silence	^	7	|	9	|	9	|		^	10	|	12	|	12	|		|		|
+|	14	|	Toad	|	N3042	|	Garden of Silence	^	8	|	10	|	10	|		^	11	|	13	|	13	|		|		|
+|	15	|	Plume Parma	|	N3065	|	Garden of Silence	^	8	|	10	|	10	|		^	11	|	13	|	13	|		|		|
+|	16	|	Barbatos	|	N3011	|	Garden of Silence	^	9	|	11	|	11	|		^	12	|	14	|	14	|		|		|
+|	17	|	Carabosse	|	N3091	|	Garden of Silence	^	9	|	11	|	11	|		^	12	|	14	|	14	|		|		|
+|	18	|	Simian	|	N3034	|	Garden of Silence	^	10	|	12	|	12	|		^	8	|	10	|	10	|		|		|
+|	19	|	Zagan	|	N3075	|	Garden of Silence	^	11	|	13	|	13	|		^	13	|	15	|	15	|		|		|
+|	20	|	Poltergeist	|	N3100	|	Dian Cecht Cathedral	^	12	|	14	|	14	|		^	9	|	11	|	11	|		|		|
+|	21	|	Ordog	|	N3104	|	Dian Cecht Cathedral	^	11	|	13	|	13	|		^	8	|	10	|	10	|		|		|
+|	22	|	Gargoyle	|	N3053	|	Dian Cecht Cathedral	^	10	|	12	|	12	|		^	5	|	7	|	7	|		|		|
+|	23	|	Killer Barber	|	N3079	|	Dian Cecht Cathedral	^	11	|	13	|	13	|		^	10	|	12	|	12	|		|		|
+|	24	|	Demon	|	N3055	|	Dian Cecht Cathedral	^	11	|	13	|	13	|		^	9	|	11	|	11	|		|		|
+|	25	|	Buer	|	N3001	|	Dian Cecht Cathedral	^	12	|	14	|	14	|		^	12	|	14	|	14	|		|		|
+|	26	|	Nyabon	|	N3116	|	Dian Cecht Cathedral	^	13	|	15	|	15	|		^	9	|	11	|	11	|		|		|
+|	27	|	Scythe Mite	|	N3082	|	Towers of Twin Dragons	^	12	|	14	|	14	|		^	13	|	15	|	15	|		|		|
+|	28	|	Dullahammer Head	|	N3090	|	Towers of Twin Dragons	^	13	|	25	|	50	|		^	6	|	25	|	50	|		|		|
+|	29	|	Buer Armor	|	N3084	|	Towers of Twin Dragons	^	14	|	16	|	16	|		^	16	|	18	|	18	|		|		|
+|	30	|	Wolfman	|	N2002	|	Towers of Twin Dragons	^	15	|	17	|	17	|		^	17	|	19	|	19	|		|		|
+|	31	|	Thunder Elemental	|	N3033	|	Livre Ex Machina	^	14	|	16	|	16	|		^	12	|	14	|	14	|		|		|
+|	32	|	Carriage Morte	|	N3017	|	Livre Ex Machina	^	15	|	17	|	17	|		^	13	|	15	|	15	|		|		|
+|	33	|	Dantalion	|	N3063	|	Livre Ex Machina	^	15	|	17	|	17	|		^	13	|	15	|	15	|		|		|
+|	34	|	Rul'sha	|	N3103	|	Livre Ex Machina	^	16	|	18	|	18	|		^	15	|	17	|	17	|		|		|
+|	35	|	Decarabia	|	N3064	|	Forbidden Underground Waterway	^	17	|	19	|	19	|		^	16	|	18	|	18	|		|		|
+|	36	|	Shovel Armor	|	N3010	|	Forbidden Underground Waterway	^	18	|	20	|	20	|		^	17	|	19	|	19	|		|		|
+|	37	|	Malediction	|	N3099	|	Livre Ex Machina	^	17	|	25	|	50	|		^	5	|	25	|	50	|		|		|
+|	38	|	Celaeno	|	N3008	|	Towers of Twin Dragons	^	18	|	20	|	20	|		^	15	|	17	|	17	|		|		|
+|	39	|	Shield Outsider	|	N3111	|	Towers of Twin Dragons	^	19	|	21	|	21	|		^	7	|	9	|	9	|		|		|
+|	?	|	Crow	|	N3048	|	Entrance	^	18	|	20	|	20	|		^	18	|	20	|	20	|		|		|
+|	40	|	Puppy	|	N3114	|	Bridge of Evil	^	21	|	24	|	24	|		^	21	|	24	|	24	|		|		|
+|	41	|	Lili	|	N3058	|	Bridge of Evil	^	18	|	20	|	20	|		^	18	|	20	|	20	|		|		|
+|	42	|	Assassin	|	N3019	|	Bridge of Evil	^	20	|	23	|	23	|		^	20	|	23	|	23	|		|		|
+|	43	|	Dragon	|	N2009	|	Livre Ex Machina	^	24	|	27	|	27	|		^	12	|	14	|	14	|		|		|
+|	44	|	Kunekune	|	N3025	|	Bridge of Evil	^	66	|	71	|	71	|		^	44	|	48	|	48	|		|		|
+|	45	|	Poison Toad	|	N3043	|	Towers of Twin Dragons	^	16	|	18	|	18	|		^	16	|	18	|	18	|		|		|
+|	46	|	Sidhe	|	N3092	|	Underground Sorcery Lab	^	17	|	19	|	19	|		^	17	|	19	|	19	|		|		|
+|	47	|	Bomber Morte	|	N3024	|	Underground Sorcery Lab	^	20	|	23	|	23	|		^	20	|	23	|	23	|		|		|
+|	48	|	Mimic	|	N3070	|	Underground Sorcery Lab	^	21	|	24	|	24	|		^	21	|	24	|	24	|		|		|
+|	49	|	Light Elemental	|	N3102	|	Dian Cecht Cathedral	^	24	|	27	|	27	|		^	5	|	7	|	7	|		|		|
+|	50	|	Ocypete	|	N3009	|	Dian Cecht Cathedral	^	25	|	28	|	28	|		^	6	|	8	|	8	|		|		|
+|	51	|	Cyhyraeth	|	N3087	|	Dian Cecht Cathedral	^	26	|	29	|	29	|		^	9	|	11	|	11	|		|		|
+|	52	|	Chair Mimic	|	N3072	|	Livre Ex Machina	^	23	|	26	|	26	|		^	6	|	8	|	8	|		|		|
+|	53	|	Leraje	|	N3012	|	Dian Cecht Cathedral	^	24	|	27	|	27	|		^	4	|	6	|	6	|		|		|
+|	54	|	Bloodbringer	|	N3052	|	Dian Cecht Cathedral	^	24	|	27	|	27	|		^	11	|	13	|	13	|		|		|
+|	55	|	Lance Armor	|	N3085	|	Dian Cecht Cathedral	^	25	|	28	|	28	|		^	6	|	8	|	8	|		|		|
+|	56	|	Tamako-Death	|	N3109	|	Livre Ex Machina	^	26	|	29	|	29	|		^	9	|	11	|	11	|		|		|
+|	57	|	Triwheel Buer	|	N3037	|	Livre Ex Machina	^	26	|	29	|	29	|		^	9	|	11	|	11	|		|		|
+|	58	|	Gamigin	|	N3077	|	Dian Cecht Cathedral	^	26	|	29	|	29	|		^	6	|	8	|	8	|		|		|
+|	59	|	Titania	|	N3093	|	Hall of Termination	^	26	|	29	|	29	|		^	10	|	12	|	12	|		|		|
+|	60	|	Axe Outsider	|	N3110	|	Livre Ex Machina	^	27	|	30	|	30	|		^	12	|	14	|	14	|		|		|
+|	61	|	Scylla	|	N3098	|	Forbidden Underground Waterway	^	27	|	30	|	30	|		^	22	|	25	|	25	|		|		|
+|	62	|	Forneus	|	N3078	|	Forbidden Underground Waterway	^	27	|	30	|	30	|		^	22	|	25	|	25	|		|		|
+|	63	|	Deeseama	|	N3022	|	Forbidden Underground Waterway	^	27	|	30	|	30	|		^	22	|	25	|	25	|		|		|
+|	64	|	Water Leaper	|	N3044	|	Forbidden Underground Waterway	^	28	|	31	|	31	|		^	23	|	26	|	26	|		|		|
+|	65	|	Glashtyn	|	N3076	|	Forbidden Underground Waterway	^	28	|	31	|	31	|		^	23	|	26	|	26	|		|		|
+|	66	|	Seeker	|	N3089	|	Forbidden Underground Waterway	^	28	|	31	|	31	|		^	23	|	26	|	26	|		|		|
+|	67	|	Archdemon	|	N3056	|	Dian Cecht Cathedral	^	29	|	32	|	32	|		^	13	|	21	|	21	|		|		|
+|	68	|	Amy	|	N3014	|	Hidden Desert	^	30	|	33	|	33	|		^	23	|	26	|	26	|		|		|
+|	69	|	Allocer	|	N3002	|	Hidden Desert	^	30	|	33	|	33	|		^	23	|	26	|	26	|		|		|
+|	70	|	Vul'sha	|	N3112	|	Hidden Desert	^	31	|	34	|	34	|		^	24	|	27	|	27	|		|		|
+|	71	|	Living Fossil	|	N2010	|	Hidden Desert	^	34	|	37	|	37	|		^	27	|	30	|	30	|		|		|
+|	72	|	Rocky	|	N3115	|	Hidden Desert	^	32	|	35	|	35	|		^	25	|	28	|	28	|		|		|
+|	73	|	Dark Elemental	|	N3101	|	Secret Sorcery Lab	^	33	|	36	|	36	|		^	26	|	29	|	29	|		|		|
+|	74	|	Lamashtu	|	N3059	|	Secret Sorcery Lab	^	34	|	37	|	37	|		^	27	|	30	|	30	|		|		|
+|	75	|	Macaron	|	N3113	|	Secret Sorcery Lab	^	35	|	38	|	38	|		^	28	|	31	|	31	|		|		|
+|	76	|	Blood Bug	|	N3083	|	Inferrno Cave	^	33	|	36	|	36	|		^	26	|	29	|	29	|		|		|
+|	77	|	Fire Elemental	|	N3032	|	Inferrno Cave	^	34	|	37	|	37	|		^	27	|	30	|	30	|		|		|
+|	78	|	Volcano Morte	|	N3119	|	Inferrno Cave	^	34	|	37	|	37	|		^	27	|	30	|	30	|		|		|
+|	79	|	Hellhound	|	N3123	|	Inferrno Cave	^	35	|	38	|	38	|		^	28	|	31	|	31	|		|		|
+|	80	|	Zepar	|	N3086	|	Hidden Desert	^	35	|	38	|	38	|		^	28	|	31	|	31	|		|		|
+|	81	|	Deathtrap	|	N3071	|	Inferrno Cave	^	35	|	38	|	38	|		^	28	|	31	|	31	|		|		|
+|	82	|	Gusion	|	N3035	|	Oriental Sorcery Lab	^	35	|	38	|	38	|		^	28	|	31	|	31	|		|		|
+|	83	|	Gaap	|	N3054	|	Oriental Sorcery Lab	^	36	|	39	|	39	|		^	29	|	32	|	32	|		|		|
+|	84	|	Haagenti	|	N3074	|	Oriental Sorcery Lab	^	36	|	39	|	39	|		^	29	|	32	|	32	|		|		|
+|	85	|	Kamikaze	|	N3117	|	Oriental Sorcery Lab	^	37	|	40	|	40	|		^	30	|	33	|	33	|		|		|
+|	86	|	Ninja	|	N3020	|	Oriental Sorcery Lab	^	36	|	39	|	39	|		^	29	|	32	|	32	|		|		|
+|	87	|	Giant Moco	|	N3067	|	Den of Behemoths	^	37	|	40	|	40	|		^	31	|	34	|	34	|		|		|
+|	88	|	Giant Bat	|	N3030	|	Den of Behemoths	^	37	|	40	|	40	|		^	31	|	34	|	34	|		|		|
+|	89	|	Giant Toad	|	N3045	|	Den of Behemoths	^	37	|	40	|	40	|		^	31	|	34	|	34	|		|		|
+|	90	|	Giant Cannon	|	N3016	|	Den of Behemoths	^	37	|	40	|	40	|		^	31	|	34	|	34	|		|		|
+|	91	|	Giant Morte	|	N3023	|	Den of Behemoths	^	37	|	40	|	40	|		^	31	|	34	|	34	|		|		|
+|	92	|	Giant Buer	|	N3028	|	Den of Behemoths	^	38	|	41	|	41	|		^	32	|	35	|	35	|		|		|
+|	93	|	Chariot Buer	|	N3038	|	Den of Behemoths	^	37	|	40	|	40	|		^	31	|	34	|	34	|		|		|
+|	94	|	Marbas	|	N3081	|	Den of Behemoths	^	39	|	42	|	42	|		^	33	|	36	|	36	|		|		|
+|	95	|	Silver Wolfman	|	N2003	|	Den of Behemoths	^	38	|	41	|	41	|		^	32	|	35	|	35	|		|		|
+|	96	|	Abyssal Guardian	|	N2008	|	Den of Behemoths	^	40	|	44	|	44	|		^	34	|	37	|	37	|		|		|
+|	97	|	Harrier	|	N3021	|	Den of Behemoths	^	40	|	44	|	44	|		^	34	|	37	|	37	|		|		|
+|	98	|	Ice Elemental	|	N3031	|	Glacial Tomb	^	40	|	44	|	44	|		^	33	|	36	|	36	|		|		|
+|	99	|	Tracer	|	N3088	|	Glacial Tomb	^	41	|	45	|	45	|		^	34	|	37	|	37	|		|		|
+|	100	|	Gusion Cannon	|	N3018	|	Glacial Tomb	^	42	|	46	|	46	|		^	35	|	38	|	38	|		|		|
+|	101	|	G Axe Outsider	|	N3120	|	Glacial Tomb	^	43	|	47	|	47	|		^	36	|	39	|	39	|		|		|
+|	102	|	Demon Lord	|	N3057	|	Glacial Tomb	^	44	|	48	|	48	|		^	37	|	40	|	40	|		|		|
+|	103	|	Eight Bit Zombie	|	N3121	|	8-bit Nightmare	^	40	|	44	|	44	|		^	32	|	35	|	35	|		|		|
+|	104	|	Eight Bit Ghost	|	N3122	|	8-bit Nightmare	^	40	|	44	|	44	|		^	38	|	41	|	41	|		|		|
+|	105	|	Eight Bit Skull	|	N3124	|	8-bit Nightmare	^	40	|	44	|	44	|		^	36	|	39	|	39	|		|		|
+^	#	^	-Name-	^	-ID-	^	-Location-	^	N	^	H	^	NM	^	HP	^	BN	^	BH	^	BNM	^	BHP	^	Medal	^
+|	106	|	Eight Bit Overlord	|	N2015	|	8-bit Nightmare	^	50	|	55	|	55	|	6660	^	45	|	50	|	50	|	4000	|	Medal021	|
+|	107	|	Master Carpenter	|	N3106	|	Oriental Sorcery Lab	^	50	|	54	|	54	|	6666	^	30	|	33	|	33	|	3000	|	-	|
+|	108	|	Revenant	|	N3107	|	Garden of Silence	^	50	|	54	|	54	|	6666	^	20	|	23	|	23	|	2000	|	-	|
+|	109	|	Millionaire's Bane	|	N3108	|	Hall of Termination	^	50	|	54	|	54	|	6666	^	15	|	17	|	17	|	777	|	-	|
+|	110	|	Vepar	|	N1001	|	Galleon	^	6	|	8	|	8	|	600	^	27	|	35	|	35	|	3000	|	Medal001	|
+|	111	|	Zangetsu1	|	N1011	|	Entrance	^	11	|	16	|	16	|	1000	^	12	|	17	|	17	|	n	|	Medal002	|
+|	112	|	Craftwork	|	N1003	|	Dian Cecht Cathedral	^	15	|	18	|	18	|	1200	^	13	|	18	|	18	|	1100	|	Medal003	|
+|	113	|	Andrealphus	|	N2004	|	Livre Ex Machina	^	17	|	20	|	20	|	1500	^	17	|	22	|	22	|	1900	|	Medal004	|
+|	114	|	Valac	|	N1005Manager	|	Towers of Twin Dragons	^	19	|	24	|	24	|	2500	^	28	|	33	|	33	|	3500	|	Medal006	|
+|	115	|	Glutton Train	|	N2001	|	Bridge of Evil	^	20	|	25	|	25	|	2200	^	25	|	30	|	30	|	n	|	Medal005	|
+|	116	|	Bathin	|	N1006	|	Underground Sorcery Lab	^	22	|	27	|	27	|	2400	^	28	|	33	|	33	|	n	|	Medal007	|
+|		|	Abyssal Guardian Boss	|	N2008_BOSS	|	Livre Ex Machina	^	40	|	44	|	44	|	v	^	16	|	18	|	18	|	v	|	Medal008	|
+|	117	|	Gebel	|	N1012	|	Hall of Termination	^	25	|	30	|	30	|	2800	^	25	|	30	|	30	|	n	|	Medal009	|
+|	118	|	Bloodless	|	N1002	|	Dian Cecht Cathedral	^	30	|	35	|	35	|	3200	^	30	|	35	|	35	|	n	|	Medal010	|
+|	119	|	Alfred	|	N2014	|	Hidden Desert	^	35	|	40	|	40	|	3500	^	28	|	33	|	33	|	3100	|	Medal011	|
+|	120	|	Doppelganger	|	N2007	|	Secret Sorcery Lab	^	38	|	43	|	43	|	4000	^	30	|	35	|	35	|	3300	|	Medal023	|
+|	121	|	Orobas	|	N2006	|	Inferrno Cave	^	40	|	45	|	45	|	4500	^	32	|	37	|	37	|	3600	|	Medal012	|
+|	122	|	Zangetsu2	|	N1011_STRONG	|	Oriental Sorcery Lab	^	45	|	50	|	50	|	5963	^	40	|	45	|	45	|	4500	|	Medal013	|
+|	123	|	Valefar	|	N1004	|	Den of Behemoths	^	40	|	45	|	45	|	3000	^	34	|	39	|	39	|	4000	|	Medal014	|
+|	124	|	Gremory	|	N1008	|	Glacial Tomb	^	44	|	49	|	49	|	6666	^	38	|	43	|	43	|	4200	|	Medal015	|
+|	125	|	Dominique	|	N1009_Enemy	|	Glacial Tomb	^	42	|	47	|	47	|	4989	^	38	|	43	|	43	|	3000	|	Medal016	|
+|	126	|	Bael	|	N1013_Dominique	|	Glacial Tomb	^	45	|	50	|	50	|	7000	^	40	|	45	|	45	|	3000	|	Medal017	|
+|	127	|	Orlok Dracule	|	N2012	|	Glacial Tomb	^	66	|	71	|	71	|	10000	^	50	|	55	|	55	|	5600	|	Medal018	|
+|	128	|	IGA	|	N2013	|	Hall of Termination	^	66	|	71	|	71	|	10000	^	50	|	55	|	55	|	5600	|	Medal020	|
+^	#	^	-Name-	^	-ID-	^	-Location-	^	N	^	H	^	NM	^	HP	^	BN	^	BH	^	BNM	^	BHP	^	Medal	^
+|		|	Miriam (VS Zangetsu)	|	N0000	|	Hall of Termination	^	66	|	71	|	71	|	12000	^	50	|	50	|	55	|		|		|
+|		|	Breeder (Crossover	|	N2016	|	Bridge of Evil	^	30	|	33	|	33	|	3200	^	30	|	33	|	33	|		|		|
+|		|	Greedling (Crossover)	|	N3125	|	Bridge of Evil	^	2	|	4	|	4	|	11	^	2	|	4	|	4	|		|		|
+
+----
+
+===== Expanded =====
+
+^	- ID -	^	- Name -	^
+|	Squid	|		|
+|	GreenGuy	|		|
+|	Squid2	|		|
+|	Squid3	|		|
+|	Squid4	|		|
+|	P0000	|	Miriam	|
+|	P0001	|	Zangetsu	|
+|	P0003	|	(Unusued)	|
+|	P0004	|	Andrealphus 	|
+|	P0005	|	Bathin 	|
+|	P0006	|	Bloodless 	|
+|	P0007	|	Gremory 	|
+|	N3003	|	Morte	|
+|	N3006	|	Seama	|
+|	N3005	|	Cannon Morte	|
+|	N3007	|	Aello	|
+|	N3013	|	Ghost	|
+|	N3015	|	Dullahammer	|
+|	N3015_HEAD	|		|
+|	N3051	|	Giant Rat	|
+|	N3051_CHILE	|		|
+|	N3004	|	Bone Morte	|
+|	N3029	|	Bat	|
+|	N3073	|	Gieremund	|
+|	N3105	|	Blood Grinder Knight	|
+|	N3080	|	Sabnock	|
+|	N3066	|	Moco Weed	|
+|	N3042	|	Toad	|
+|	N3065	|	Plume Parma	|
+|	N3011	|	Barbatos	|
+|	N3091	|	Carabosse	|
+|	N3034	|	Simian	|
+|	N3075	|	Zagan	|
+|	N3100	|	Poltergeist	|
+|	N3104	|	Ordog	|
+|	N3053	|	Gargoyle	|
+|	N3079	|	Killer Barber	|
+|	N3055	|	Demon	|
+|	N3001	|	Buer	|
+|	N3001_EX	|		|
+|	N3116	|	Nyabon	|
+|	N3082	|	Scythe Mite	|
+|	N3090	|	Dullahammer Head	|
+|	N3090_Generator	|		|
+|	N3084	|	Buer Armor	|
+|	N3001_Armor	|		|
+|	N2002	|	Wolfman	|
+|	N2002_GUARD	|		|
+|	N3033	|	Thunder Elemental	|
+|	N3017	|	Carriage Morte	|
+|	N3063	|	Dantalion	|
+|	N3103	|	Rul'sha	|
+|	N3064	|	Decarabia	|
+|	N3010	|	Shovel Armor	|
+|	N3099	|	Malediction	|
+|	N3008	|	Celaeno	|
+|	N3111	|	Shield Outsider	|
+|	N3111_GUARD	|		|
+|	N3048	|	?	|
+|	N3058	|	Lili	|
+|	N3019	|	Assassin	|
+|	N2009	|	Dragon	|
+|	N3025	|	Kunekune	|
+|	N3043	|	Poison Toad	|
+|	N3092	|	Sidhe	|
+|	N3024	|	Bomber Morte	|
+|	N3024_RHAND	|		|
+|	N3070	|	Mimic	|
+|	N3114	|	Puppy	|
+|	N3102	|	Light Elemental	|
+|	N3009	|	Ocypete	|
+|	N3087	|	Cyhyraeth	|
+|	N3072	|	Chair Mimic	|
+|	N3012	|	Leraje	|
+|	N3052	|	Bloodbringer	|
+|	N3085	|	Lance Armor	|
+|	N3109	|	Tamako-Death	|
+|	N3037	|	Triwheel Buer	|
+|	N3077	|	Gamigin	|
+|	N3093	|	Titania	|
+|	N3110	|	Axe Outsider	|
+|	N3098	|	Scylla	|
+|	N3078	|	Forneus	|
+|	N3098_Guard	|		|
+|	N3022	|	Deeseama	|
+|	N3044	|	Water Leaper	|
+|	N3076	|	Glashtyn	|
+|	N3089	|	Seeker	|
+|	N3056	|	Archdemon	|
+|	N3014	|	Amy	|
+|	N3002	|	Allocer	|
+|	N3112	|	Vul'sha	|
+|	N3115	|	Rocky	|
+|	N2010	|	Living Fossil	|
+|	N3101	|	Dark Elemental	|
+|	N3059	|	Lamashtu	|
+|	N3113	|	Macaron	|
+|	N3083	|	Blood Bug	|
+|	N3032	|	Fire Elemental	|
+|	N3119	|	Volcano Morte	|
+|	N3123	|	Hellhound	|
+|	N3086	|	Zepar	|
+|	N3071	|	Deathtrap	|
+|	N3035	|	Gusion	|
+|	N3054	|	Gaap	|
+|	N3074	|	Haagenti	|
+|	N3020	|	Ninja	|
+|	N3117	|	Kamikaze	|
+|	N3038	|	Chariot Buer	|
+|	N3067	|	Giant Moco	|
+|	N3030	|	Giant Bat	|
+|	N3045	|	Giant Toad	|
+|	N3016	|	Giant Cannon	|
+|	N3023	|	Giant Morte	|
+|	N3028	|	Giant Buer	|
+|	N3028_Leg	|		|
+|	N2003	|	Silver Wolfman	|
+|	N2003_GUARD	|		|
+|	N3081	|	Marbas	|
+|	N2008	|	Abyssal Guardian	|
+|	N2008_BOSS	|	Abyssal Guardian Boss	|
+|	N3021	|	Harrier	|
+|	N3031	|	Ice Elemental	|
+|	N3088	|	Tracer	|
+|	N3018	|	Gusion Cannon	|
+|	N3120	|	G Axe Outsider	|
+|	N3057	|	Demon Lord	|
+|	N3121	|	Eight Bit Zombie	|
+|	N3122	|	Eight Bit Ghost	|
+|	N3124	|	Eight Bit Skull	|
+|	N3106	|	Master Carpenter	|
+|	N3107	|	Revenant	|
+|	N3106_Second	|		|
+|	N3108	|	Millionaire's Bane	|
+|	N3108_Second	|		|
+|	N3108_GUARD	|		|
+|	N3108_BOMB	|		|
+|	JuckPod	|		|
+|	N1001	|	Vepar	|
+|	N1001_HEAD	|		|
+|	N1001_Tentacle	|		|
+|	N1003	|	Craftwork	|
+|	P1003	|		|
+|	N2004	|	Andrealphus	|
+|	N1005	|		|
+|	N1005Manager	|	Valac	|
+|	N2001	|	Glutton Train	|
+|	N2001_HEAD	|		|
+|	N2001_ARMOR	|		|
+|	N1006	|	Bathin	|
+|	N1012	|	Gebel	|
+|	N2015	|	Eight Bit Overlord	|
+|	N1002	|	Bloodless	|
+|	N1002_Umbrella	|		|
+|	N2014	|	Alfred	|
+|	N2007	|	Doppelganger	|
+|	N2006	|	Orobas	|
+|	N1004	|	Valefar	|
+|	N1008	|	Gremory	|
+|	N1009_Enemy	|	Dominique	|
+|	N1011	|	Zangetsu1	|
+|	N1011_STRONG	|	Zangetsu2	|
+|	N1011_COOP	|		|
+|	N1011_PL	|		|
+|	N2011	|		|
+|	N2012	|	Orlok Dracule	|
+|	N2013	|	IGA	|
+|	N2014_HEAD	|		|
+|	N1013_Cat	|		|
+|	N1013_Cat	|		|
+|	N1013_Frog	|		|
+|	N1009_Bael	|		|
+|	N3049	|		|
+|	N3050	|		|
+|	N3068	|		|
+|	N1013_BaelHead	|		|
+|	N1013_Dominique	|	Bael	|
+|	N0000	|	Zangetsu VS Miriam	|
+|	NEVER_STAISFY	|		|
+|	N5001EX	|		|
+|	N5002	|		|
+|	N5011	|		|
+|	N5005	|		|
+|	N9000	|		|
+|	N3060	|		|
+|	N2016	|	Breeder	|
+|	N3125	|	Greedling	|
+|	N2017	|		|
+|	N3126	|		|
+|	SubChar	|		|
+|	Dummy	|		|
+|	Dummy_Pawn	|		|
+|	N3001_SHARD	|		|
+|	N3082_SHARD	|		|
+|	N3073_Gebel	|		|
+|	N3073_SHARD	|		|
+|	N3044_SHARD	|		|
+|	N3065_SHARD	|		|
+|	N3066_SHARD	|		|
+|	N3042_SHARD	|		|
+|	N3010_SHARD	|		|
+|	N3034_SHARD	|		|
+|	N3013_SHARD	|		|
+|	N3029_SHARD	|		|
+|	SummonTracer	|		|
+|	N3121_SHARD	|		|
+|	N3122_SHARD	|		|
+|	N2015_SHARD	|		|
+|	N3123_SHARD	|		|
+|	N3051_SHARD	|		|
+|	RaigingGail	|		|
+|	GratefulAssist	|		|
+|	N3001_Familia	|		|
+|	N3052_Familia	|		|
+|	N3091_Familia	|		|
+|	N3063_Familia	|		|
+|	N3090_Familia	|		|
+|	N6001	|		|
+|	Archer_Familia	|		|
+|	N5020	|		|
+|	N5001	|		|
+|	N3079_Event	|		|
+|	N1001_Sip	|		|
+|	SIP_Cannon	|		|
+|	N5011_Rock	|		|
+|	N3003_Event	|		|

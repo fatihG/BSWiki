@@ -1,0 +1,52 @@
+[[./start|<Back>]]
+
+===== Modding Tools =====
+
+This page contains a list of tools that can be used for modding. Some are duplicates, we have many options for different tasks.
+
+----
+
+==== Unreal Engine 4 ====
+
+**Used For**: All Modding\\
+**Download**: [[https://www.unrealengine.com/en-US/unreal]]
+
+Unreal Engine is bundled with the Epic Game Store software. You'll need to specifically install version 4.18.3 of Unreal Engine in order to mod Bloodstained.
+
+----
+
+==== Mirror Plugin Toolbar ====
+
+**Used For**: 3D Modelling\\
+**Download**:  {{ :modding:tool_mirror_plugin_toolbar.zip |MirrorPluginToolbar v1.2}}
+
+This is an Unreal Engine plugin that generates a "mirror table" for 3D character models. This is necessary for modifying characters and enemy 3D models in the game that flip left/right (almost ALL of them), in order for the animation to not break.
+
+----
+
+==== QuickBMS ====
+
+**Used For**: All Modding\\
+**Download**: {{ :modding:tool_quickbms.zip |QuickBMS}}
+
+The first step to any mod of the game is to extract the game's pak file into a directory of uasset files so you can replace the uasset files individually. The QuickBMS software does this.
+
+----
+
+==== UE Viewer ====
+
+**Used For**: 3D Modelling, Animation\\
+**Download**:  [[https://www.gildor.org/en/projects/umodel]]
+
+UE Viewer allows previewing the game's 3D models and animations (that are stored in uasset files). It also lets you extract them to psk/psa files which can be edited in your 3D model editor of choice.
+
+----
+
+==== UnrealPak ====
+
+**Used For**: All Modding\\
+**Download**: {{ :modding:tool_unrealpak.zip |UnrealPak}}
+
+UnrealPak is one of many options to bundle your modified uasset files back into a pak file which can be used by the game.
+
+----

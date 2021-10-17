@@ -1,0 +1,213 @@
+===== Weapon Stats =====
+>[[start|<Back>]]
+
+^	-Boots-	^	Atk	^	Matk	^	Zan	^	Dag	^	Tot	^	Fla	^	Ice	^	Lig	^	Hol	^	Dar	^	Poi	^	Cur	^	Sto	^	Special	^
+|	DefaultBoots	|	0	|		^		^	X	^		|		|		|		|		|		^		^		^		|		|
+|	KungFuShoes	|	8	|		^		^	X	^		|		|		|		|		|		^		^		^		|		|
+|	BattleBoots	|	12	|		^		^	X	^		|		|		|		|		|		^		^		^		|		|
+|	KillerBoots	|	14	|		^	X	^		^		|		|		|		|		|		^		^		^		|	small daggers come out of feet, doing less damage but longer reach	|
+|	Toyshoes	|	17	|		^		^	X	^		|		|		|		|		|		^		^		^		|	they squeak (annoying)	|
+|	Assaultsollette	|	21	|		^		^	X	^		|		|		|		|		|		^		^		^		|	steam sounds ?	|
+|	Rabbitboots	|	24	|		^		^	X	^		|		|		|		|		|		^		^		^		|		|
+|	Dragonshoes	|	28	|	28	^		^	X	^		|	X	|		|		|		|		^		^		^		|		|
+|	Hermesshoes	|	38	|		^	X	^	X	^		|		|		|		|		|		^		^		^		|		|
+|	Decapitator	|	45	|		^	X	^	X	^		|		|		|		|		|	X	^		^		^		|	same type of daggers as killerboots?	|
+|	CoolShoesOfMrNarita	|	15	|		^		^	X	^		|		|		|		|		|		^		^		^		|		|
+|	CoolShoesOfMrNarita2	|	31	|		^		^	X	^		|		|		|		|		|		^		^		^		|		|
+|	CoolShoesOfMrNarita3	|	45	|		^		^	X	^		|		|		|		|		|		^		^		^		|		|
+|	IceSlewShoes	|	15	|	15	^		^	X	^		|		|	X	|		|		|		^		^		^		|	moves like on ice, can slide longer	|
+|	IceSlewShoes2	|	31	|	31	^		^	X	^		|		|	X	|		|		|		^		^		^		|	moves like on ice, can slide longer	|
+|	IceSlewShoes3	|	45	|	45	^		^	X	^		|		|	X	|		|		|		^		^		^		|	moves like on ice, can slide longer	|
+|	PoisonSpikeShoes	|	12	|		^		^	X	^		|		|		|		|		|		^	X	^		^		|		|
+|	PoisonSpikeShoes2	|	25	|		^		^	X	^		|		|		|		|		|		^	X	^		^		|		|
+|	PoisonSpikeShoes3	|	36	|		^		^	X	^		|		|		|		|		|		^	X	^		^		|		|
+^	-Daggers-	^	Atk	^	Matk	^	Zan	^	Dag	^	Tot	^	Fla	^	Ice	^	Lig	^	Hol	^	Dar	^	Poi	^	Cur	^	Sto	^	Special	^
+|	Knife	|	8	|		^		^		^	X	|		|		|		|		|		^		^		^		|		|
+|	Baselard	|	14	|		^		^		^	X	|		|		|		|		|		^		^		^		|		|
+|	Kukuri	|	19	|		^		^		^	X	|		|		|		|		|		^		^		^		|		|
+|	PoisonKukri	|	16	|		^		^		^	X	|		|		|		|		|		^	X	^		^		|		|
+|	Swordbreaker	|	24	|		^		^		^	X	|		|		|		|		|		^		^		^		|	gives an ATK debuff on hit	|
+|	ManGauche	|	29	|		^		^		^	X	|		|		|		|		|		^		^		^		|	gives a defense bonus to user	|
+|	Calnwenan	|	30	|	30	^		^		^	X	|		|		|		|	X	|		^		^		^		|		|
+|	Mandaupasar	|	45	|		^		^		^	X	|		|		|		|		|		^		^		^		|		|
+^	-Rapiers-	^	Atk	^	Matk	^	Zan	^	Dag	^	Tot	^	Fla	^	Ice	^	Lig	^	Hol	^	Dar	^	Poi	^	Cur	^	Sto	^	Special	^
+|	Rapier	|	12	|		^		^		^	X	|		|		|		|		|		^		^		^		|		|
+|	Epe	|	16	|		^		^		^	X	|		|		|		|		|		^		^		^		|		|
+|	Stinger	|	19	|		^		^		^	X	|		|		|		|		|		^	X	^		^		|		|
+|	Miserikorde	|	25	|	25	^		^		^	X	|		|		|		|	X	|		^		^		^		|		|
+|	Cazilk	|	32	|		^		^		^	X	|		|		|		|		|		^		^	X	^		|		|
+|	Juwuse	|	52	|		^		^		^	X	|		|		|		|		|		^		^		^		|		|
+|	CrystalSword	|	18	|		^		^		^	X	|		|		|		|		|		^		^		^		|	WeaponGrowMaxAtk_RedbeastEdge 52, GrowNeedEatingDishesType_RedbeastEdge 30	|
+|	CrystalSword2	|	36	|		^		^		^	X	|		|		|		|		|		^		^		^		|	WeaponGrowMaxAtk_RedbeastEdge 52, GrowNeedEatingDishesType_RedbeastEdge 30	|
+|	CrystalSword3	|	52	|		^		^		^	X	|		|		|		|		|		^		^		^		|	WeaponGrowMaxAtk_RedbeastEdge 52, GrowNeedEatingDishesType_RedbeastEdge 30	|
+^	-Swords-	^	Atk	^	Matk	^	Zan	^	Dag	^	Tot	^	Fla	^	Ice	^	Lig	^	Hol	^	Dar	^	Poi	^	Cur	^	Sto	^	Special	^
+|	ShortSword	|	12	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+|	LongSword	|	18	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+|	WolfBalt	|	22	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+|	Halper	|	29	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+|	invisible	|	27	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+|	Mulgres	|	25	|		^	X	^		^		|		|		|		|		|		^		^		^	X	|		|
+|	Redumbrella	|	31	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+|	Burtgang	|	33	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+|	Flagarach	|	28	|	28	^	X	^		^		|		|		|		|	X	|		^		^		^		|		|
+|	Hoffdo	|	32	|		^	X	^		^		|		|		|		|		|		^		^	X	^		|		|
+|	Dineslave	|	47	|	47	^	X	^		^		|		|		|		|		|	X	^		^		^		|		|
+|	Florenberg	|	42	|	42	^	X	^		^		|	X	|		|		|		|		^		^		^		|		|
+|	Armas	|	47	|	47	^	X	^		^		|		|	X	|		|		|		^		^		^		|		|
+|	Caradoborg	|	37	|	37	^	X	^		^		|		|		|	X	|		|		^		^		^		|		|
+|	Liddyl	|	20	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+|	HuntedBrad	|	53	|		^	X	^		^		|		|		|		|		|		^		^		^		|	Unique Tech	|
+|	Broadsword	|	58	|		^	X	^		^		|		|		|	X	|		|		^		^		^		|		|
+|	SwordWhip	|	23	|		^	X	^		^	X	|		|		|		|		|		^		^		^		|		|
+|	BradBlingerLv1	|	24	|		^	X	^		^		|		|		|		|		|		^		^		^		|	WeaponGrowMaxAtk_BloodBringer 55	|
+|	ShieldWeapon	|	20	|		^	X	^		^		|		|		|		|		|		^		^		^		|	can block attacks during its animation	|
+|	ShieldWeapon2	|	40	|		^	X	^		^		|		|		|		|		|		^		^		^		|	can block attacks during its animation	|
+|	ShieldWeapon3	|	58	|		^	X	^		^		|		|		|		|		|		^		^		^		|	can block attacks during its animation	|
+|	XrossBrade	|	11	|	11	^	X	^		^		|		|		|		|	X	|		^		^		^	X	|		|
+|	XrossBrade2	|	23	|	23	^	X	^		^		|		|		|		|	X	|		^		^		^	X	|		|
+|	XrossBrade3	|	34	|	34	^	X	^		^		|		|		|		|	X	|		^		^		^	X	|		|
+|	BradeOfEU	|	20	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+|	BradeOfEU2	|	40	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+|	BradeOfEU3	|	58	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+|	LightSaber	|	16	|	16	^	X	^		^		|		|		|	X	|		|		^		^		^		|		|
+|	LightSaber2	|	32	|	32	^	X	^		^		|		|		|	X	|		|		^		^		^		|		|
+|	LightSaber3	|	46	|	46	^	X	^		^		|		|		|	X	|		|		^		^		^		|		|
+|	JodoSwordLight	|	16	|	16	^	X	^		^		|		|		|		|	X	|		^		^		^		|		|
+|	JodoSwordLight2	|	32	|	32	^	X	^		^		|		|		|		|	X	|		^		^		^		|		|
+|	JodoSwordLight3	|	46	|	46	^	X	^		^		|		|		|		|	X	|		^		^		^		|		|
+|	SpearCutDownAside	|	16	|	16	^	X	^		^		|		|		|		|	X	|		^		^		^		|		|
+|	SpearCutDownAside2	|	32	|	32	^	X	^		^		|		|		|		|	X	|		^		^		^		|		|
+|	SpearCutDownAside3	|	46	|	46	^	X	^		^		|		|		|		|	X	|		^		^		^		|		|
+|	ClockSowrd	|	15	|		^	X	^		^		|		|		|		|		|		^		^		^		|	Cheat/Backer Item	|
+|	LoveOfPizza	|	15	|		^	X	^		^		|		|		|		|		|		^		^		^		|	Cheat/Backer Item	|
+|	KongSword	|	15	|		^	X	^		^		|		|		|		|		|		^		^		^		|	Cheat/Backer Item	|
+|	SwordOfTheMushroom	|	15	|		^	X	^		^		|		|		|		|		|		^		^		^		|	Cheat/Backer Item	|
+|	PowerSword	|	15	|		^	X	^		^		|		|		|		|		|		^		^		^		|	Cheat/Backer Item	|
+|	SilverAndBlackSword	|	15	|		^	X	^		^		|		|		|		|		|		^		^		^		|	Cheat/Backer Item	|
+|	DungeonNightSword	|	15	|		^	X	^		^		|		|		|		|		|		^		^		^		|	Cheat/Backer Item	|
+|	EvilTheSword	|	15	|		^	X	^		^		|		|		|		|		|		^		^		^		|	Cheat/Backer Item	|
+|	ValkyrieSword	|	54	|		^	X	^		^		|		|		|		|		|		^		^		^		|	Unique Tech	|
+^	-Maces-	^	Atk	^	Matk	^	Zan	^	Dag	^	Tot	^	Fla	^	Ice	^	Lig	^	Hol	^	Dar	^	Poi	^	Cur	^	Sto	^	Special	^
+|	Mace	|	15	|		^		^	X	^		|		|		|		|		|		^		^		^		|		|
+|	Morgenstern	|	20	|		^	X	^	X	^		|		|		|		|		|		^		^		^		|		|
+|	McAutil	|	30	|		^	X	^	X	^		|		|		|		|		|		^		^		^		|		|
+|	Yagurushi	|	32	|	32	^		^	X	^		|		|		|	X	|		|		^		^		^		|		|
+|	Aimur	|	45	|		^		^	X	^		|		|		|		|		|		^		^		^		|		|
+|	Charwell	|	50	|	50	^		^	X	^		|		|	X	|		|		|		^		^		^		|		|
+|	Mistrutein	|	52	|	52	^		^	X	^		|		|		|		|	X	|		^		^		^		|		|
+|	StickOfMagiGirl	|	18	|	18	^		^	X	^		|		|		|		|	X	|		^		^		^		|		|
+|	StickOfMagiGirl2	|	36	|	36	^		^	X	^		|		|		|		|	X	|		^		^		^		|		|
+|	StickOfMagiGirl3	|	52	|	52	^		^	X	^		|		|		|		|	X	|		^		^		^		|		|
+^	-Special-	^	Atk	^	Matk	^	Zan	^	Dag	^	Tot	^	Fla	^	Ice	^	Lig	^	Hol	^	Dar	^	Poi	^	Cur	^	Sto	^	Special	^
+|	RemoteDart	|	16	|		^	X	^		^	X	|		|		|		|		|		^		^		^		|		|
+|	OracleBlade	|	30	|		^	X	^		^	X	|		|		|		|		|		^		^		^		|		|
+|	WalalSoulimo	|	12	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+|	ValralAltar	|	14	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+^	-GreatSwords-	^	Atk	^	Matk	^	Zan	^	Dag	^	Tot	^	Fla	^	Ice	^	Lig	^	Hol	^	Dar	^	Poi	^	Cur	^	Sto	^	Special	^
+|	Claymore	|	17	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+|	Perex	|	22	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+|	Flanders	|	29	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+|	OutsiderKnightSword	|	13	|		^	X	^		^		|		|		|		|		|		^		^		^		|	can hit multiple times	|
+|	Valdish	|	35	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+|	SteamFlatWideEnd	|	39	|		^	X	^		^		|		|		|		|		|		^		^		^		|	can charge up attacks	|
+|	Gram	|	42	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+|	Gambanttain	|	45	|		^		^	X	^		|		|		|		|		|		^		^		^		|	gives resistances	|
+|	Lohengrin	|	43	|	43	^	X	^		^		|	X	|		|		|		|		^		^		^		|		|
+|	Sherdar	|	48	|	48	^	X	^		^		|		|	X	|		|		|		^		^		^		|		|
+|	LightningBolt	|	39	|	39	^	X	^		^		|		|		|	X	|		|		^		^		^		|		|
+|	Karadanda	|	46	|		^	X	^		^		|		|		|		|		|		^		^		^	X	|		|
+|	Durandal	|	65	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+|	DiesIle	|	57	|	57	^	X	^		^		|		|		|		|	X	|	X	^		^		^		|		|
+|	TurmericBasara	|	67	|	67	^	X	^		^		|		|		|	X	|		|		^		^		^		|		|
+|	Exactor	|	84	|	84	^	X	^		^		|		|	X	|		|		|		^		^		^		|		|
+|	DeathBringer	|	26	|	26	^	X	^		^		|	X	|		|		|		|		^		^		^		|		|
+|	DeathBringer2	|	52	|	52	^	X	^		^		|	X	|		|		|		|		^		^		^		|		|
+|	DeathBringer3	|	75	|	75	^	X	^		^		|	X	|		|		|		|		^		^		^		|		|
+|	SacredSword	|	23	|	23	^	X	^		^		|		|		|		|	X	|		^		^		^		|		|
+|	SacredSword2	|	46	|	46	^	X	^		^		|		|		|		|	X	|		^		^		^		|		|
+|	SacredSword3	|	67	|	67	^	X	^		^		|		|		|		|	X	|		^		^		^		|		|
+|	ChargeWideEnd	|	23	|	23	^	X	^		^		|		|		|		|	X	|		^		^		^		|		|
+|	ChargeWideEnd2	|	46	|	46	^	X	^		^		|		|		|		|	X	|		^		^		^		|		|
+|	ChargeWideEnd3	|	67	|	67	^	X	^		^		|		|		|		|	X	|		^		^		^		|		|
+|	DrillWideEnd	|	23	|		^	X	^		^		|		|		|		|		|	X	^		^	X	^		|		|
+|	DrillWideEnd2	|	46	|		^	X	^		^		|		|		|		|		|	X	^		^	X	^		|		|
+|	DrillWideEnd3	|	67	|		^	X	^		^		|		|		|		|		|	X	^		^	X	^		|		|
+|	PetrifactionSword	|	17	|	17	^	X	^		^		|		|		|		|		|	X	^		^		^	X	|		|
+|	PetrifactionSword2	|	35	|	35	^	X	^		^		|		|		|		|		|	X	^		^		^	X	|		|
+|	PetrifactionSword3	|	50	|	50	^	X	^		^		|		|		|		|		|	X	^		^		^	X	|		|
+^	-Katanas-	^	Atk	^	Matk	^	Zan	^	Dag	^	Tot	^	Fla	^	Ice	^	Lig	^	Hol	^	Dar	^	Poi	^	Cur	^	Sto	^	Special	^
+|	Dull	|	13	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+|	Noda	|	18	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+|	Tsurumaru	|	22	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+|	ShiroTorujiro	|	27	|		^	X	^	X	^		|		|		|		|		|		^		^		^		|		|
+|	Lightningoff	|	25	|	25	^	X	^		^		|		|		|	X	|		|		^		^		^		|		|
+|	OgreWoodenSword	|	36	|		^	X	^	X	^		|		|		|		|		|		^		^		^		|		|
+|	Tadanako	|	40	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+|	Swordsman	|	45	|		^	X	^		^		|		|		|		|		|		^		^		^		|	key itm,, cut moon, auto crit gremory	|
+|	MikazukiMaen	|	49	|		^	X	^		^		|		|		|		|		|		^		^		^		|		|
+|	Truesixteenthnight	|	49	|		^	X	^		^		|		|		|		|		|		^		^		^		|	WeaponGrowMaxAtk_Izayoi 58, GrowNeedBloodAmount_Izayoi 4444	|
+^	-Spears-	^	Atk	^	Matk	^	Zan	^	Dag	^	Tot	^	Fla	^	Ice	^	Lig	^	Hol	^	Dar	^	Poi	^	Cur	^	Sto	^	Special	^
+|	Spear	|	13	|		^		^		^	X	|		|		|		|		|		^		^		^		|		|
+|	Reims	|	18	|		^		^		^	X	|		|		|		|		|		^		^		^		|		|
+|	Partizan	|	22	|		^		^		^	X	|		|		|		|		|		^		^		^		|		|
+|	Excavator	|	27	|		^		^		^	X	|		|		|		|		|		^		^		^		|		|
+|	Triplet	|	29	|		^		^	X	^		|		|		|		|		|		^		^		^		|	Unique Tech	|
+|	ShingoGempo	|	33	|		^	X	^		^	X	|		|		|		|		|		^		^		^		|		|
+|	Coldgrindingsaw	|	36	|		^	X	^		^	X	|		|		|		|		|		^		^		^		|		|
+|	Aradovar	|	40	|	40	^		^		^	X	|	X	|		|		|		|		^		^		^		|		|
+|	Nibbleheim	|	45	|	45	^		^		^	X	|		|	X	|		|		|		^		^		^		|		|
+|	GunungNil	|	36	|	36	^		^		^	X	|		|		|	X	|		|		^		^		^		|		|
+|	Gayalsals	|	46	|	46	^		^		^	X	|		|		|		|	X	|		^		^		^		|		|
+|	IcePillarSpear	|	16	|	16	^		^		^	X	|		|	X	|		|		|		^		^		^	X	|		|
+|	IcePillarSpear2	|	32	|	32	^		^		^	X	|		|	X	|		|		|		^		^		^	X	|		|
+|	IcePillarSpear3	|	46	|	46	^		^		^	X	|		|	X	|		|		|		^		^		^	X	|		|
+|	LoveOfFairyDragon	|	20	|		^		^		^	X	|		|		|		|		|		^		^		^		|		|
+|	LoveOfFairyDragon2	|	40	|		^		^		^	X	|		|		|		|		|		^		^		^		|		|
+|	LoveOfFairyDragon3	|	58	|		^		^		^	X	|		|		|		|		|		^		^		^		|		|
+^	-Whips-	^	Atk	^	Matk	^	Zan	^	Dag	^	Tot	^	Fla	^	Ice	^	Lig	^	Hol	^	Dar	^	Poi	^	Cur	^	Sto	^	Special	^
+|	Awhip	|	13	|		^		^	X	^		|		|		|		|		|		^		^		^		|		|
+|	Ibarakaswhip	|	20	|		^	X	^	X	^		|		|		|		|		|		^		^		^		|		|
+|	FireWhip	|	27	|	27	^		^	X	^		|	X	|		|		|		|		^		^		^		|		|
+|	BlackRockHell	|	35	|		^		^	X	^		|		|		|		|		|		^		^		^		|		|
+|	Snakebyte	|	32	|		^		^	X	^		|		|		|		|		|		^	X	^		^		|		|
+|	BeastKiller	|	45	|		^		^	X	^		|		|		|		|		|		^		^		^		|		|
+|	Albireo	|	50	|	50	^		^	X	^		|		|	X	|		|		|		^		^		^		|		|
+|	Andromeda	|	52	|	52	^		^	X	^		|		|		|		|	X	|		^		^		^		|		|
+|	WhipsOfLightDarkness	|	18	|		^		^	X	^		|		|		|		|		|		^		^		^		|	change holy/dark, affects certain directional shards	|
+|	WhipsOfLightDarkness2	|	36	|		^		^	X	^		|		|		|		|		|		^		^		^		|	change holy/dark, affects certain directional shards	|
+|	WhipsOfLightDarkness3	|	52	|		^		^	X	^		|		|		|		|		|		^		^		^		|	change holy/dark, affects certain directional shards	|
+^	-Guns-	^	Atk	^	Matk	^	Zan	^	Dag	^	Tot	^	Fla	^	Ice	^	Lig	^	Hol	^	Dar	^	Poi	^	Cur	^	Sto	^	Special	^
+|	Musketon	|	5	|		^		^	X	^		|		|		|		|		|		^		^		^		|		|
+|	Branderbus	|	10	|		^		^	X	^		|		|		|		|		|		^		^		^		|		|
+|	Tanegasima	|	12	|		^		^	X	^		|		|		|		|		|		^		^		^		|		|
+|	Trador	|	15	|		^		^	X	^		|		|		|		|		|		^		^		^		|		|
+|	Carvalin	|	20	|		^		^	X	^		|		|		|		|		|		^		^		^		|		|
+|	Betelgeuse	|	23	|		^		^	X	^		|		|		|		|		|		^		^		^		|		|
+|	Ursula	|	25	|		^		^	X	^		|		|		|		|		|		^		^		^		|		|
+|	Adrastea	|	26	|		^		^	X	^		|		|		|		|		|		^		^		^		|	can track enemies to some extent, not always good at it	|
+|	TrustMusket	|	11	|		^		^	X	^		|		|		|		|		|		^		^		^		|		|
+|	TrustMusket2	|	22	|		^		^	X	^		|		|		|		|		|		^		^		^		|		|
+|	TrustMusket3	|	32	|		^		^	X	^		|		|		|		|		|		^		^		^		|		|
+^	-Bullets-	^	Atk	^	Matk	^	Zan	^	Dag	^	Tot	^	Fla	^	Ice	^	Lig	^	Hol	^	Dar	^	Poi	^	Cur	^	Sto	^	Special	^
+|	Bullet_Defaultbullet	|	5	|		^		^		^		|		|		|		|		|		^		^		^		|		|
+|	Softpoint	|	15	|		^		^		^		|		|		|		|		|		^		^		^		|		|
+|	Hollowpoint	|	40	|		^		^		^		|		|		|		|		|		^		^		^		|		|
+|	ArmorPiercing	|	50	|		^		^		^		|		|		|		|		|		^		^		^		|		|
+|	Firebullet	|	30	|		^		^		^		|		|		|		|		|		^		^		^		|		|
+|	Icebullet	|	60	|		^		^		^		|		|		|		|		|		^		^		^		|		|
+|	ThunderRounds	|	50	|		^		^		^		|		|		|		|		|		^		^		^		|		|
+|	SilverBullets	|	80	|		^		^		^		|		|		|		|		|		^		^		^		|		|
+|	WeaponbaneRounds	|	20	|		^		^		^		|		|		|		|		|		^		^		^		|		|
+|	ShieldbaneRounds	|	20	|		^		^		^		|		|		|		|		|		^		^		^		|		|
+|	PoisonRounds	|	20	|		^		^		^		|		|		|		|		|		^		^		^		|		|
+|	PetrifyingRounds	|	20	|		^		^		^		|		|		|		|		|		^		^		^		|		|
+|	CurseRounds	|	20	|		^		^		^		|		|		|		|		|		^		^		^		|		|
+|	Shotshell	|	5	|		^		^		^		|		|		|		|		|		^		^		^		|	GunBulletReduceNum: 4	|
+|	CriticalBullet	|	80	|		^		^		^		|		|		|		|		|		^		^		^		|		|
+|	DiamondBullets	|	120	|		^		^		^		|		|		|		|		|		^		^		^		|		|
+^	-Special-	^	Atk	^	Matk	^	Zan	^	Dag	^	Tot	^	Fla	^	Ice	^	Lig	^	Hol	^	Dar	^	Poi	^	Cur	^	Sto	^	Special	^
+|	ChangeBunnyWeaponAtk	|	0	|		^		^		^		|		|		|		|		|		^		^		^		|		|
+|	ShovelArmorWeaponAtk	|	30	|		^		^		^		|		|		|		|		|		^		^		^		|		|
+
+
+  * CrystalSword - The food growth mechanic means that it gains +1 atk for each food items you've eaten. Up to the max. This means that it can have a higher ATK rating than it's listed value. And if you NG+ with all foods eaten, the first 8bit version will have max ATK of 52.

@@ -1,0 +1,26 @@
+====== Changes from v1.18 to v1.20 ======
+>[[start|<Back>]]
+
+Just checked the files I use for own mods
+
+----
+
+===== Table =====
+
+^	-File Name -	^	-Change-	^
+|	Enemy\PB_DT_CharacterParameterMaster.json	|	n2017 lost medal and achivement entries.	|
+|		|	Archer_Familia got stats reduced when released	|
+|	Item\PB_DT_ItemMaster.json	|	New entries	|
+|		|	New option to all items "IsDLC"	|
+|	PB_DT_ArmorMaster.json	|	1 new scarf entry	|
+|	PB_DT_ArtsCommandMaster.json	|	New Entry	|
+^	PB_DT_BookMaster.json	^	<No Change>	|
+^	PB_DT_CoordinateParameter.json	^	<No Change>	|
+|	PB_DT_CraftMaster.json	|	Rank upgrade for Archer_Familia	|
+|	PB_DT_DropRateMaster.json	|	1 new container option, "DropSpecialFlags": all with same option "None"	|
+|		|	New entries at the bottom, seems unused	|
+^	PB_DT_EnchantaParameterInitialSetting.json	^	<No Change>	|
+|	PB_DT_EnchantParameterType.json	|	Deleted 2 entries: IgnoreMagicRate124 IgnoreMagicRate179	|
+|		|	Added several new entires at bottom	|
+|	PB_DT_ShardMaster.json	|	Complete reshuffling of entries of deleted some in all shards	|
+|	PB_DT_WeaponMaster.json	|	1 New entry near bottom	|

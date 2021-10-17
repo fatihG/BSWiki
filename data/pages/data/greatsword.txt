@@ -1,0 +1,522 @@
+===== Great Swords =====
+[[start|<Back>]]
+
+> Blank
+
+Words
+
+> WIP
+
+To-do:
+  * Links to crafting
+  * Links to techniques
+  * Double check all Acquisition
+
+----
+==== Table ====
+
+^	GreatSword									^^^^^
+^	Img	^	-Name-	^	Atk	^	Dmg	^	Special	^
+|	{{..:gsword:gsword01.png?nolink&30}}	|	[[#Claymore]]	|	17	|	{{..:iconcut.png?nolink&20|Cut}}	|		|
+|	{{..:gsword:gsword03.png?nolink&30}}	|	[[#Pelekus]]	|	22	|	{{..:iconcut.png?nolink&20|Cut}}	|		|
+|	{{..:gsword:gsword04.png?nolink&30}}	|	[[#Flamberge]]	|	29	|	{{..:iconcut.png?nolink&20|Cut}}	|		|
+|	{{..:gsword:gsword15.png?nolink&30}}	|	[[#Spiral Sword]]	|	13	|	{{..:iconcut.png?nolink&20|Cut}}	|	Multi-hit	|
+|	{{..:gsword:gsword05.png?nolink&30}}	|	[[#Berdiche]]	|	35	|	{{..:iconcut.png?nolink&20|Cut}}	|		|
+|	{{..:gsword:gsword16.png?nolink&30}}	|	[[#Carnot's Rebuke]]	|	39	|	{{..:iconcut.png?nolink&20|Cut}}	|	Charge-attack	|
+|	{{..:gsword:gsword06.png?nolink&30}}	|	[[#Gram]]	|	42	|	{{..:iconcut.png?nolink&20|Cut}}	|		|
+|	{{..:gsword:gsword12.png?nolink&30}}	|	[[#Gambanteinn]]	|	45	|	{{..:iconstrike.png?nolink&20|Strike}}	|	Resistances	|
+|	{{..:gsword:gsword07.png?nolink&30}}	|	[[#Lohengrin]]	|	43	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconflame.png?nolink&20|Fire}}	|		|
+|	{{..:gsword:gsword08.png?nolink&30}}	|	[[#Schedar]]	|	48	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconice.png?nolink&20|Ice}}	|		|
+|	{{..:gsword:gsword09.png?nolink&30}}	|	[[#Steel Lightning]]	|	39	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconthunder.png?nolink&20|Lightning}}	|		|
+|	{{..:gsword:gsword13.png?nolink&30}}	|	[[#Kaladanda]]	|	46	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconstone.png?nolink&20|Stone}}	|		|
+|	{{..:gsword:gsword10.png?nolink&30}}	|	[[#Durandal]]	|	65	|	{{..:iconcut.png?nolink&20|Cut}}	|		|
+|	{{..:gsword:gsword11.png?nolink&30}}	|	[[#Dies Irae]]	|	57	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconlight.png?nolink&20|Holy}} {{..:icondark.png?nolink&20|Dark}}	|		|
+|	{{..:gsword:gsword14.png?nolink&30}}	|	[[#Ukonvasara]]	|	67	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconthunder.png?nolink&20|Lightning}}	|		|
+|	{{..:gsword:gsword02.png?nolink&30}}	|	[[#Eternal Blue]]	|	84	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconice.png?nolink&20|Ice}}	|		|
+|	{{..:gsword:weap8bit03.png?nolink&30}}	|	[[#Deathbringer]]	|	26-52-75	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconflame.png?nolink&20|Fire}}	|	Upgradeable	|
+|	{{..:gsword:weap8bit05.png?nolink&30}}	|	[[#Dawn Blade]]	|	23-46-67	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconlight.png?nolink&20|Holy}}	|	Upgradeable	|
+|	{{..:gsword:weap8bit10.png?nolink&30}}	|	[[#Claw of Onmoraki]]	|	23-46-67	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconlight.png?nolink&20|Holy}}	|	Upgradeable	|
+|	{{..:gsword:weap8bit13.png?nolink&30}}	|	[[#Blood Grinder]]	|	23-46-67	|	{{..:iconcut.png?nolink&20|Cut}} {{..:icondark.png?nolink&20|Dark}} {{..:iconcurse.png?nolink&20|Curse}}	|	Upgradeable	|
+|	{{..:gsword:weap8bit20.png?nolink&30}}	|	[[#Silent Calamity]]	|	17-35-50	|	{{..:iconcut.png?nolink&20|Cut}} {{..:icondark.png?nolink&20|Dark}} {{..:iconstone.png?nolink&20|Stone}}	|	Upgradeable	|
+
+----
+=====Details=====
+----
+
+====Claymore====
+{{..:gsword:gsword01.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Claymore									|||||	17	|	-	|	600			||	60			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> A common, two-handed greatsword.
+
+Acquisition:
+  * Chest: Galleon Minerva (SIP016)
+  * Craft
+  * Shop
+
+Notes:
+  * Used to craft Greatsword Mastery shard.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Pelekus====
+{{..:gsword:gsword03.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Perex									|||||	22	|	-	|	1800			||	180			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> A double-bladed greataxe originally designed for harvesting wood.
+
+Technique:
+  * Trucidating Gyre (2146A)
+
+Acquisition:
+  * Craft
+  * Shop
+
+Notes:
+  * Used to upgrade Rank 2-4 of Greatsword Mastery
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Flamberge====
+{{..:gsword:gsword04.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Flanders									|||||	29	|	-	|	3600			||	360			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> A greatsword with a wavy blade designed to deal fatal blows.
+
+Acquisition:
+  * Chest: Cian Cecht Cathedral (SAN000)
+  * Craft
+  * Shop
+
+Notes:
+  * Used to upgrade Rank 5-7 of Greatsword Mastery
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Spiral Sword====
+{{..:gsword:gsword15.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	OutsiderKnightSword									|||||	13	|	-	|	4800			||	480			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+> A large sword with a blade that rotates like a drill.
+
+Special:
+  * Multi-hit
+
+Acquisition:
+  * Drop: Blood Grinder Knight (2%)
+
+Notes:
+  * Surprisingly good damage if you use the multi-hits.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Berdiche====
+{{..:gsword:gsword05.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Valdish									|||||	35	|	-	|	6000			||	600			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+> A greataxe destructive enough to split boulders in twain.
+
+Technique:
+  * Trucidating Gyre (2146A)
+
+Acquisition:
+  * Craft
+  * Drop: Axe Outsider (4%)
+  * Quest: Susie (Curry & Rice)
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Carnot's Rebuke====
+{{..:gsword:gsword16.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	SteamFlatWideEnd									|||||	39	|	-	|	7500			||	750			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> A greatsword whose internal steam engine adds incredible power to each swing.
+
+Special:
+  * Charge-attack, hold button to charge for more damage.
+
+Acquisition:
+  * Chest: Towers of Twin Dragons (TWR018)
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Gram====
+{{..:gsword:gsword06.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Gram									|||||	42	|	-	|	9000			||	900			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> A hero's greatsword. Answers only to those it deems worthy.
+
+Technique:
+  * Sickle Moon (236A)
+
+Acquisition:
+  * Chest: Hall of Termination (KNG017)
+  * Craft
+
+Notes:
+  * Used to upgrade Rank 8-9 of Greatsword Mastery
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Gambanteinn====
+{{..:gsword:gsword12.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Gambanttain									|||||	45	|	-	|	10800			||	1080			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> An enchanted staff that grants resistance to magic.
+
+Special:
+  * Increases Fire/Ice/Lightning resistances with +5
+  * (FIXME Need to find the actual ability this modifies)
+
+  PB_DT_WeaponMaster
+  "UniqeValue": 5.0,
+
+Acquisition:
+  * Craft
+  * Quest
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Lohengrin====
+{{..:gsword:gsword07.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Lohengrin									|||||	43	|	43	|	12600			||	1260			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|
+
+
+> A knight's greatsword that was forged in holy fire.
+
+Acquisition:
+  * Chest: Inferno Cave (RVA011)
+
+Notes:
+  * Remember that MAtk does nothing on weapons.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Schedar====
+{{..:gsword:gsword08.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Sherdar									|||||	48	|	48	|	12600			||	1260			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|
+
+
+> A greatsword imbued with the power of ice.
+
+Technique:
+  * Sickle Moon (236A)
+
+Acquisition:
+  * Craft
+  * Shop (After Glutton Train)
+
+Notes:
+  * Remember that MAtk does nothing on weapons.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Steel Lightning====
+{{..:gsword:gsword09.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	LightningBolt									|||||	39	|	39	|	12600			||	1260			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|
+
+
+> A wondrous greatsword that was struck by lightning and retained its charge.
+
+Acquisition:
+  * Chest: Forbidden Underground Waterway (UGD051)
+  * Craft
+
+Notes:
+  * Remember that MAtk does nothing on weapons.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Kaladanda====
+{{..:gsword:gsword13.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Karadanda									|||||	46	|	-	|	19200			||	1920			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|	{{..:icon06.png?nolink&20}}	|
+
+
+> A staff the lord of the underworld used to preside over the dead.
+
+Acquisition:
+  * Craft
+  * Quest: Susie (Chicken Sauté)
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Durandal====
+{{..:gsword:gsword10.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Durandal									|||||	65	|	-	|	24300			||	2430			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> A champion's greatsword, capable of sundering all things in the universe.
+
+Technique:
+  * Sickle Moon (236A)
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Dies Irae====
+{{..:gsword:gsword11.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	DiesIle									|||||	57	|	57	|	30000			||	3000			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|	{{..:icon06.png?nolink&20}}	|	{{..:icon06.png?nolink&20}}	|		|		|		|
+
+
+> A greatsword that leads victims to their demise.
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Remember that MAtk does nothing on weapons.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Ukonvasara====
+{{..:gsword:gsword14.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	TurmericBasara									|||||	67	|	67	|	43200			||	4320			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|
+
+
+> A thunder god's axe.
+
+Technique:
+  * Trucidating Gyre (2146A)
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Remember that MAtk does nothing on weapons.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Eternal Blue====
+{{..:gsword:gsword02.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Exactor									|||||	84	|	84	|	43200			||	4320			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|
+
+
+> A Shardbinder's greatsword that represents the finest in alchemy.
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Remember that MAtk does nothing on weapons.
+  * Gebel's weapon.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Deathbringer====
+{{..:gsword:weap8bit03.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	DeathBringer									|||||	26	|	26	|				||				||
+|	DeathBringer2									|||||	52	|	52	|				||				||
+|	DeathBringer3									|||||	75	|	75	|				||				||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|
+
+
+> Crafted by an orc warlord. Forged in hellfire.
+
+Special:
+  * 8Bit-Upgradeable
+    - 8bitcoin lets you craft the first one.
+    - 16bitcoin lets you upgrade it to the second form.
+    - 32bitcoin+8bitnightmare lets you upgrade it to the third form.
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Overall highest damage weapon in the game, because of how fire works and adds extra hit.
+  * Remember that MAtk does nothing on weapons.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Dawn Blade====
+{{..:gsword:weap8bit05.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	SacredSword									|||||	23	|	23	|				||				||
+|	SacredSword2									|||||	46	|	46	|				||				||
+|	SacredSword3									|||||	67	|	67	|				||				||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|
+
+> A greatsword containing the power of dawn.
+
+Special:
+  * 8Bit-Upgradeable
+    - 8bitcoin lets you craft the first one.
+    - 16bitcoin lets you upgrade it to the second form.
+    - 32bitcoin+8bitnightmare lets you upgrade it to the third form.
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Remember that MAtk does nothing on weapons.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Claw of Onmoraki====
+{{..:gsword:weap8bit10.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	ChargeWideEnd									|||||	23	|	23	|				||				||
+|	ChargeWideEnd2									|||||	46	|	46	|				||				||
+|	ChargeWideEnd3									|||||	67	|	67	|				||				||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|
+
+
+> A weapon forged by souls seeking purification.
+
+Special:
+  * Charge-attack, hold button to charge for more damage.
+  * 8Bit-Upgradeable
+    - 8bitcoin lets you craft the first one.
+    - 16bitcoin lets you upgrade it to the second form.
+    - 32bitcoin+8bitnightmare lets you upgrade it to the third form.
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Remember that MAtk does nothing on weapons.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Blood Grinder====
+{{..:gsword:weap8bit13.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	DrillWideEnd									|||||	23	|	-	|				||				||
+|	DrillWideEnd2									|||||	46	|	-	|				||				||
+|	DrillWideEnd3									|||||	67	|	-	|				||				||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|	{{..:icon06.png?nolink&20}}	|		|
+
+
+> A cruel and bloody sword of death. Merciless upon the flesh.
+
+Special:
+  * 8Bit-Upgradeable
+    - 8bitcoin lets you craft the first one.
+    - 16bitcoin lets you upgrade it to the second form.
+    - 32bitcoin+8bitnightmare lets you upgrade it to the third form.
+
+Acquisition:
+  * Craft
+
+Notes:
+  * All upgradeable weapons with status effects have higher chances to apply as you upgrade the weapon.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Silent Calamity====
+{{..:gsword:weap8bit20.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	PetrifactionSword									|||||	17	|	17	|				||				||
+|	PetrifactionSword2									|||||	35	|	35	|				||				||
+|	PetrifactionSword3									|||||	50	|	50	|				||				||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|	{{..:icon06.png?nolink&20}}	|
+
+
+> A weapon that crushes opponents and ushers in silence.
+
+Special:
+  * 8Bit-Upgradeable
+    - 8bitcoin lets you craft the first one.
+    - 16bitcoin lets you upgrade it to the second form.
+    - 32bitcoin+8bitnightmare lets you upgrade it to the third form.
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Remember that MAtk does nothing on weapons.
+  * All upgradeable weapons with status effects have higher chances to apply as you upgrade the weapon.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----

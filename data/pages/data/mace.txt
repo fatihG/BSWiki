@@ -1,0 +1,385 @@
+===== Maces/Special =====
+[[start|<Back>]]
+
+> Blank
+
+Maces and Special weapons all counts as swords, and thus uses Sword Mastery shard for buffs. The ones that can use techniques also uses sword techniques.
+
+> WIP
+
+To-do:
+  * Links to crafting
+  * Links to techniques
+  * Double check all Acquisition
+
+----
+====Table====
+
+^	Mace									^^^^^
+^	Img	^	-Name-	^	Atk	^	Dmg	^	Special	^
+|	{{ ..:mace:mace01.png?nolink&30}}	|	[[#Mace]]	|	15	|	{{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{ ..:mace:mace02.png?nolink&30}}	|	[[#Morgenstern]]	|	20	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{ ..:mace:mace03.png?nolink&30}}	|	[[#Macuahuitl]]	|	30	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{ ..:mace:mace04.png?nolink&30}}	|	[[#Yagrush]]	|	32	|	{{..:iconstrike.png?nolink&20|Strike}} {{..:iconthunder.png?nolink&20|Lightning}}	|		|
+|	{{ ..:mace:mace05.png?nolink&30}}	|	[[#Ayamur]]	|	45	|	{{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{ ..:mace:mace06.png?nolink&30}}	|	[[#Sharur]]	|	50	|	{{..:iconstrike.png?nolink&20|Strike}} {{..:iconice.png?nolink&20|Ice}}	|		|
+|	{{ ..:mace:mace07.png?nolink&30}}	|	[[#Mistilteinn]]	|	52	|	{{..:iconstrike.png?nolink&20|Strike}} {{..:iconlight.png?nolink&20|Holy}}	|		|
+|	{{ ..:mace:weap8bit12.png?nolink&30}}	|	[[#Prismatic Heart]]	|	18-36-52	|	{{..:iconstrike.png?nolink&20|Strike}} {{..:iconlight.png?nolink&20|Holy}}	|	Upgradeable	|
+^	Special									^^^^^
+^	Img	^	-Name-	^	Atk	^	Dmg	^	Special	^
+|	{{ ..:sword:sword18.png?nolink&30}}	|	[[#Flying Edge]]	|	16	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconstab.png?nolink&20|Stab}}	|	Unique Weapon	|
+|	{{ ..:sword:sword19.png?nolink&30}}	|	[[#Oracle Blade]]	|	30	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconstab.png?nolink&20|Stab}}	|	Unique Weapon	|
+|	{{ ..:sword:sword20.png?nolink&30}}	|	[[#Rhava Búral]]	|	12	|	{{..:iconcut.png?nolink&20|Cut}}	|	Unique Weapon	|
+|	{{ ..:sword:sword21.png?nolink&30}}	|	[[#Rhava Velar]]	|	14	|	{{..:iconcut.png?nolink&20|Cut}}	|	Unique Weapon	|
+|	{{ ..:sword:weap8bit01.png?nolink&30}}	|	[[#Shield Weapon]]	|	20-40-58	|	{{..:iconcut.png?nolink&20|Cut}}	|	Upgradeable, Unique weapon, Can block attacks	|
+|	{{ ..:sword:sword17.png?nolink&30}}	|	[[#Sword Whip]]	|	23	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconstab.png?nolink&20|Stab}}	|	IGA Backpack DLC exclusive	|
+
+
+
+----
+===== Details =====
+----
+
+====Mace====
+{{..:mace:mace01.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Mace									|||||	15	|	-	|	1200			||	120			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> A type of club used in war.
+
+Acquisition:
+  * Craft
+  * Shop
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+====Morgenstern====
+{{..:mace:mace02.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Morgenstern									|||||	20	|	-	|	2700			||	270			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> A spiked mace that somewhat resembles a star.
+
+Acquisition:
+  * Chest: Garden of Silence (GDN004)
+  * Craft
+  * Shop
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Macuahuitl====
+{{..:mace:mace03.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	McAutil									|||||	30	|	-	|	7500			||	750			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> A lethal cudgel embedded with obsidian blades.
+
+Acquisition:
+  * Chest: Dian Cecht Cathedral (SAN003 bottom-right, Reflection Ray)
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Yagrush====
+{{..:mace:mace04.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Yagurushi									|||||	32	|	32	|	14700			||	1470			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|
+
+> A thunderous club once wielded by a storm god.
+
+Technique:
+  * Force Blast (236A)
+
+Acquisition:
+  * Craft
+  * Shop (After Glutton Train)
+
+Notes:
+  * MAtk does nothing on weapons.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Ayamur====
+{{..:mace:mace05.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Aimur									|||||	45	|	-	|	19200			||	1920			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+> A club once used to slay a wicked sea-god. Effective underwater.
+
+Special:
+  * Unknown special modifier: (FIXME)
+
+  PB_DT_WeaponMaster
+  "UniqeValue": 20.0,
+
+Acquisition:
+  * Craft
+  * Drop: Glashtyn (4%)
+
+Notes:
+  * Dismantle for Gold ingredient.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Sharur====
+{{..:mace:mace06.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Charwell									|||||	50	|	50	|	24300			||	2430			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|
+
+
+> An icy club that was discovered in the permafrost.
+
+Technique:
+  * Force Blast (236A)
+
+Acquisition:
+  * Craft
+
+Notes:
+  * MAtk does nothing on weapons.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Mistilteinn====
+{{..:mace:mace07.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Mistrutein									|||||	52	|	52	|	43200			||	4320			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|
+
+
+> A holy staff carved from a sacred tree.
+
+Technique:
+  * Force Blast (236A)
+
+Acquisition:
+  * Craft
+
+Notes:
+  * MAtk does nothing on weapons.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Prismatic Heart====
+{{..:mace:weap8bit12.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	StickOfMagiGirl									|||||	18	|	18	|	-			||	-			||
+|	StickOfMagiGirl2									|||||	36	|	36	|	-			||	-			||
+|	StickOfMagiGirl3									|||||	52	|	52	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|
+
+> A strange rod from another world. The jewel emits a magical light.
+
+Special:
+  * 8Bit-Upgradeable
+    - 8bitcoin lets you craft the first one.
+    - 16bitcoin lets you upgrade it to the second form.
+    - 32bitcoin+8bitnightmare lets you upgrade it to the third form.
+
+Technique:
+  * Force Blast (236A)
+
+Acquisition:
+  * Craft
+
+Notes:
+  * MAtk does nothing on weapons.
+  * You can be a magical princess Miriam too!
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Flying Edge====
+{{..:sword:sword18.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	RemoteDart									|||||	16	|	-	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|
+
+
+> A blade that has been magically endowed with flight capabilities.
+
+Special:
+  * Unique Weapon
+    * This weapon has own unique attacks and animations.
+    * Throws a sword forward like a missile, that boomerangs back.
+
+Acquisition:
+  * Chest: Towers of Twin Dragons (TWR017)
+
+Notes:
+  * Basically a ranged attack, for people that doesn't like guns.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Oracle Blade====
+{{..:sword:sword19.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	OracleBlade									|||||	30	|	-	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|
+
+
+> An improved flying edge.
+
+Special:
+  * Unique Weapon
+    * This weapon has own unique attacks and animations.
+    * Throws a sword forward like a missile, that boomerangs back.
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Basically a ranged attack, for people that doesn't like guns.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Rhava Búral====
+{{..:sword:sword20.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	WalalSoulimo									|||||	12	|	-	|	4800			||	480			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> A sword that uses a wind spirit's power to rip foes apart.
+
+Special:
+  * Unique Weapon
+    * This weapon has own unique attacks and animations.
+    * Fast small blade in front of the user, doesn't stop movement, and can be attacked rapidly by mashing the button.
+
+
+Acquisition:
+  * Drop: Killer Barber (4%)
+
+Notes:
+  * Basically mobile mixmaster.
+  * One of the most popular weapons in the game.
+  * Inspired byValmanway/Crissaegrim from Castlevania games.
+  * Was changed in patch v1.04 reduced ATM from 14 to 12
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Rhava Velar====
+{{..:sword:sword21.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	ValralAltar									|||||	14	|	-	|	50700			||	5070			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> A sword that uses divine power to generate an eviscerating wind.
+
+Special:
+  * Unique Weapon
+    * This weapon has own unique attacks and animations.
+    * Fast small blade in front of the user, doesn't stop movement, and can be attacked rapidly by mashing the button.
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Basically mobile mixmaster.
+  * One of the most popular weapons in the game.
+  * Inspired byValmanway/Crissaegrim from Castlevania games.
+  * Was changed in patch v1.04 reduced ATM from 16 to 14
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Shield Weapon====
+{{..:sword:weap8bit01.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	ShieldWeapon									|||||	20	|	-	|	-			||	-			||
+|	ShieldWeapon2									|||||	40	|	-	|	-			||	-			||
+|	ShieldWeapon3									|||||	58	|	-	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> A weapon that functions as a shield.
+
+Special:
+  * Unique Weapon
+    * This weapon has own unique attacks and animations.
+    * Short swing forward and leaves the weapon out for a few seconds after the attack unless you move/attack.
+    * During the after animation, it will block any attacks that touches it.
+    * (Needs clarification and testing, as I don't remember the details well enough)
+  * 8Bit-Upgradeable
+    - 8bitcoin lets you craft the first one.
+    - 16bitcoin lets you upgrade it to the second form.
+    - 32bitcoin+8bitnightmare lets you upgrade it to the third form.
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Possibly one of the best weapons in the game if you learn the block/animation timing and match it up against the enemies. You can cancel out just about all damage.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Sword Whip====
+{{..:sword:sword17.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	SwordWhip									|||||	23	|	-	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|
+
+
+> A sword with a flexible blade reminiscent of a whip.
+
+Special:
+  * DLC only (Iga's Backpack)
+  * Unique Weapon
+    * This weapon has own unique attacks and animations.
+    * As a normal sword swing, but the blade extends a very long distance.
+    * Is multi-hit, and can hit for 1-2-3 hits depending on distance and how long you hold in the button.
+
+Acquisition:
+  * Quest: Lindsay (IGA 1x, DLC "Iga's Backpack" required)
+
+Notes:
+  * One of the longest ranged attacks in the game.
+  * Does deceptively more damage than you'd think, once you start abusing the multi-hits.
+  * Is the weapons that resembles the traditional Castlevania whips the most.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+

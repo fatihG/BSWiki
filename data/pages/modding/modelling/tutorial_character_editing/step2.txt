@@ -1,0 +1,204 @@
+===== Tutorial: Character Editing Cavats; Step 2. =====
+
+[[.:step1|<- Previous Step]] | [[.:|Tutorial Summary]] | [[.:step3|Next Step ->]] 
+
+----
+
+==== Modify Miriam's Body ====
+
+It isn't critical to complete everything in this step. So long as you make **any visual change** to Miriam's body and correctly export it as **.fbx** (reference the introductory tutorial) you should be good.
+
+I will be demonstrating some common scenarios for editing the model. If you're not well versed in 3D modelling software I suggest you follow along to the end before moving to the next step.
+
+As a reminder in Blender, adjust the units to "Metric", and "0.01". Remove all existing objects from the scene.
+
+{{ :modding:modelling:tutorial_blender_locate_scene_properties.png?nolink&800 |}}
+
+Import SK_P1000.psk. Just a reminder for Blender import settings, uncheck the "Scale down" option before importing. 
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_blender_import_psk_menu.png?nolink&400 |}}
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_blender_import_miriam_body.png?nolink&900 |}}
+
+Adjust the view using the **Middle Mouse Wheel/Button** to scroll in/out and pan so Miriam's body is in view.
+
+Just a reminder in Blender:
+
+  * **Scroll Middle Mouse Wheel Up/Down** - Zoom in and out.
+  * **Press And Hold Middle Mouse Button, Move Mouse** - Rotate the view around the object.
+  * **Press and Hold Shift + Middle Mouse Button, Move Mouse** - Pan the view left/right/up/down.
+
+ Left click on Miriam's body to select it, then click "Object -> Shade Smooth" in the menu at the top. This "Shade Smooth" step may not be necessary in other 3D modelling software.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_blender_shade_smooth.png?nolink&800 |}}
+
+----
+
+=== Deleting Part of the Mesh ===
+
+I'm going to make some obvious changes to the model so we know the update works. Hit the **Tab** key to enter edit mode. The entire model will be orange (selected).
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_blender_enter_edit_mode_to_remove_shoulder.png?nolink&800 |}}
+
+Hit the **Alt + A** keys (Hold Alt, tap A) to deselect everything. Hit the number **3** on the top of your keyboard to enter face selection mode. Then move your mouse over the left chestplate piece and press the **L** key to select each piece one-by-one. (Keep pressing **L** when you hover your mouse over each piece). If you accidentally selected something you didn't mean to, press **Ctrl + Z** to undo. Your selection should look something like this:
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_blender_select_miriam_chestplate.png?nolink&800 |}}
+
+Hit the **X** key, then click on "Vertices", this will delete the **outline mesh** of the chestplate, which makes it look like you didn't really delete anything, but don't worry, you did. 
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_blender_delete_miriam_chestplate.png?nolink&400 |}}
+
+Do it all again, press **L** to select each piece. This time you're selecting the actual armor, and not its outline mesh.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_blender_select_miriam_chestplate_again.png?nolink&800 |}}
+
+Hit the **X** key, then click on "Vertices". Now it should be (mostly) gone if you did a good job selecting.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_blender_delete_miriam_chestplate_again.png?nolink&800 |}}
+
+Now there is a gap between Miriam's right arm and her armor.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_arm_gap_problem.png?nolink&800 |}}
+
+Hit the number **2** key at the top of your keyboard to enter edge selection mode. Scroll with the **Middle Mouse Wheel** to zoom in close to the gap. Hold both the **Alt** and **Shift** keys at the same time, then **Left Click** (while still holding those keys) on the edges of both her arm mesh and the outline mesh that surrounds it to select those two edges.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_arm_gap_edges_selected.png?nolink&800 |}}
+
+Hit the **E** key, then hit the **X** key, then move your mouse to the left to //extrude// the arm and fill the gap. **Left Click** to finish moving the arm. It's ok if it doesn't look perfect, this is just for learning.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_arm_gap_extrude.png?nolink&800 |}}
+
+----
+
+=== Re-assigning Materials ===
+
+Press **Alt + A** to deselect everything. Now zoom back out. Move your mouse over Miriam's chest area and press the **L** key to select the outline mesh that surrounds it.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_change_material_hide_outline.png?nolink&800 |}}
+
+Press the **H** key to hide the outline mesh.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_change_material_hide_outline_hidden.png?nolink&800 |}}
+
+Now move your mouse over Miriam's chest area again and press the **L** key to select it. This time you've selected the actual body mesh that shows the skin material/texture.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_change_material_select_chest.png?nolink&800 |}}
+
+Select the "Material Properties" tab on the bottom right to show the list of materials. You can see that **M_Skin01** is the current material assigned to this part of the mesh.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_change_material_open_material_properties.png?nolink&800 |}}
+
+Click on the **M_PI01_Rose1_Inst** material in the list, then click on the "Assign" button below.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_change_material_reassign_chest_material.png?nolink&800 |}}
+
+Now this area of Miriam's skin will shine just like the rose on her back, as we've reassigned the material for that part of the model.
+
+**IMPORTANT:** When reassigning materials, make sure that every material is used on at least one face in the model. If a material is unused, it will be excluded from the **.fbx** export and the original material order will not be preserved, which can screw everything up.
+
+In this case we're still OK, because Miriam's legs still have the M_Skin01 material assigned to them.
+
+----
+
+=== Adding New Armor ===
+
+Now I'm going to add a simple piece of armor around her arm. Press **Alt + A** to delselect everything. Hit the number **1** key on the top of your keyboard to enter vertex selection mode. While holding the **Shift** key, select one vertex on the top and one vertex on the bottom of her arm, reference the screenshot below.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_add_armor_select_insert_area.png?nolink&800 |}}
+
+Press **Shift + S** on your keyboard. A menu will appear, click on "Cursor to Selected".
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_add_armor_move_cursor_to_arm.png?nolink&800 |}}
+
+Now press **Shift + A** on your keyboard. A menu will appear, click on "Cylinder".
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_add_armor_add_cylinder.png?nolink&800 |}}
+
+It may look like nothing happened because the cylinder you just added is small, and inside the arm. Move your mouse to the center of the area you just selected, then hit the **S** key. move your mouse away, towards the edge of the screen. The cylinder will grow larger. **Left Click** to commit to the size of the cylinder.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_add_armor_scale_cylinder.png?nolink&800 |}}
+
+With the cylinder still selected, hit the **R** key, then hit the **Y** key, then type **90** on your keyboard, then press **Enter**. This rotates the cylinder 90 degrees around the Y axis.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_add_armor_rotate_cylinder.png?nolink&800 |}}
+
+Press **Ctrl + R** on your keyboard, then move your mouse over the cylinder so you see a yellow vertical line like the screenshot below. Scroll up with your **Middle Mouse Wheel** to add more lines (I added 4). Then **Left Click**, then press the **Enter** key on your keyboard.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_add_armor_loop_cut_start_cylinder.png?nolink&800 |}}
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_add_armor_loop_cut_more_loops_cylinder.png?nolink&800 |}}
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_add_armor_loop_cut_complete_cylinder.png?nolink&800 |}}
+
+This is called a loop cut, we've just added more faces to the cylinder so it can bend with the arm during animation.
+
+Move your mouse over the cylinder and press **L** to select it.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_weight_paint_armor_select_cylinder.png?nolink&800 |}}
+
+Hit the **P** key, a menu will appear. Click "Selection".
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_weight_paint_armor_part_cylinder_object.png?nolink&800 |}}
+
+Now press the **Tab** key to exit edit mode. You've just parted the cylinder into a separate object. This will be useful for transferring the animation weights to the cylinder automatically, so you don't have to do it manually.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_weight_paint_exit_edit_mode_after_part.png?nolink&800 |}}
+
+**Left Click** on Miriam's body to select it. An orange outline will appear around it.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_weight_paint_select_original_body.png?nolink&800 |}}
+
+Hold **Shift** and **Left Click** on the cylinder. The cylinder should have a bright orange outline, and Miriam's body should have a darker orange outline.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_weight_paint_select_new_armor.png?nolink&800 |}}
+
+Press **Ctrl + Tab** on your keyboard. A menu will appear; click on the "Weight Paint" option.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_weight_enter_weight_paint_mode.png?nolink&800 |}}
+
+Click "Weights -> Transfer Weights" in the menu bar at the top.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_weight_start_weight_transfer.png?nolink&800 |}}
+
+A small menu will pop up on the bottom left of the screen called "Transfer Mesh Data". Click on it to expand it.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_weight_notice_transfer_menu.png?nolink&800 |}}
+
+In this menu, set:
+  * "Vertex Mapping" to "Nearest Face Interpolated"
+  * "Ray Radius" to "5"
+  * "Source Layers Selection" to "By Name"
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_weight_edit_transfer_menu.png?nolink&400 |}}
+
+Now hit **Ctrl + Tab** on your keyboard. In the menu that appears, click "Object Mode".
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_weight_exit.png?nolink&800 |}}
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_weight_exited.png?nolink&800 |}}
+
+With this, you've successfully transferred the weights from Miriam's arm to the new cylinder piece of armor we've added, and it should move with the arm.
+
+----
+
+==== Wrapping Up ====
+
+Make sure in the Scene Collection you rename the armature from "SK_P1000.ao" to "armature". So Unreal Engine can read the file correctly.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_rename_armature.png?nolink&600 |}}
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_rename_armature_renamed.png?nolink&600 |}}
+
+On the menu bar, click "File -> Export -> FBX (.fbx)".
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_export_menu.png?nolink&600 |}}
+
+As a reminder, change "Smoothing" to "Face" and **un**check "Add Leaf Bones". Save the **.fbx** in the same folder as the **.psk** file you imported, with the same name.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_export_menu_settings.png?nolink&800 |}}
+
+It probably feels like you've been through a hurricane at this point, but we are done with this step. Go to the next step for instructions on how to import into Unreal Engine. **The next step is the most important step.**
+
+----
+
+[[.:step1|<- Previous Step]] | [[.:|Tutorial Summary]] | [[.:step3|Next Step ->]] 

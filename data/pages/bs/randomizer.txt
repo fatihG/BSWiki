@@ -1,0 +1,261 @@
+====== Randomizer Options: ======
+>[[start|<Back>]]
+
+>> WIP! All of this is still in the making, and is bound to have a lot of mistakes.
+
+Listing all the Randomizer options, and trying to gather information on how they actually work. 
+
+Thanks to all the guys in the Modding Discord for answering my questions about this, since I don't really know all that much about the randomizer.
+
+----
+
+===== Randomizer Specifics =====
+
+Differences from the normal Miriam mode:
+
+  * Ignores the Seama shard drop cut-scene.
+  * First wall is already broken, so don't need fire shard.
+  * Skips all story/cut-scenes
+  * (iirc) Removes the red moon in Garden until you cut it in Gebel fight.
+  * Can't use NG+ in randomizer mode.
+
+Notes regarding Drops
+  * Even monsters that have no drops can get them (Morte)
+  * Bosses never get drops
+  * Drop-chances usually mirror their original % but can vary depending upon settings, more details in the Drops chapter.
+
+> Having an entry in dropMaster seems unrelated to if an enemy gets drops or not. I assume everything is read into memory along with other tables and then logic is applied on it afterwards from there. We know that there must be a lot of hardcoded IDs being used for how shuffling is done. No bosses ever get items assigned to them, even though they are all in dropmaster.
+
+
+----
+
+====== Key Items ======
+----
+
+=== Gating ===
+
+
+Key Items have some built in logic to try to prevent from trapping them behind things you need them for. Like trying not to put Zangetsuto in Den/Glacial Tomb, which you need the sword to access.
+
+| NonCSV\PB_DT_RandomizerRoomCheck |
+
+> Note: Supposedly this file can't be edited through the normal .json and must be hex edited.
+
+=== Disable ===
+
+A way to bypass this, is to put the items in the "ShardId" slot instead of the "RareItemId" slot. And leave Enemy Drops: Shards untouched. This will keep the Plot items in their place despite the "Key Items" settings.
+
+----
+
+===== Key Items: Shuffled =====
+
+> Key Items are mixed among themselves only
+
+=== Key Items Shuffled: Items ===
+
+The first thing that happens in Randomizer is that it shuffles these six Containers among themselves, ignoring all other checks/options.
+
+  * (24)	Swordsman
+  * (178)	Keyofbacker1
+  * (216)	Silverbromide
+  * (260)	Keyofbacker4
+  * (451)	Keyofbacker3
+  * (479)	Keyofbacker2
+
+=== Key Items Shuffled: Shards ===
+
+These shards should then be randomized among themselves, no matter what container they're put in. 
+
+  * Bloodsteel
+  * Demoniccapture
+  * Reflectionray
+  * Aquastream
+  * Dimensionshift
+  * Doublejump
+  * Invert
+  * Deepsinker
+  * HighJump
+
+Questions:
+  * Things I'm curious about and should test:
+    * Test if I can set all key-shards to galleon mobs, and gain all at the start.
+    * Test moving key-shards to chest-containers, and see how that affects randomizer.
+    * Try to split the "key-shards" into 2 groups, and control which boss gains from which pool.
+
+
+----
+
+
+===== Key Items: Anywhere =====
+
+> Key Items may be found anywhere in the game
+
+Basically, this will skip the logic system that tries to keep key items together. And just follow the other rules, especially the "Items" options.
+
+  * Items: Retain Type - All chests are randomised between the same container tags. And all shards are randomised with other shards of the same colour.
+  * Items: Retain Method - Would be things from a chest will be in any chest, things from a monster will be in any monster.
+  * Items: Total Random - Should be completely random.
+
+Notes
+  * Key Items still have a logic where tries not to place them the place you need the item.
+  * Key Shards might have other logic or work more complex ?
+
+Questions:
+  * Does this mean that this combination would keep boss/progression shards in the same place?
+    - Key Items: Anywhere
+    - Items: Retain Type
+    - Enemy Drops: Unchanged
+
+
+----
+
+====== Items ======
+
+----
+
+> For this and really any other setting, it only applies if you've chose to randomize that particular aspect (i.e. setting crafting to shuffle). Otherwise that aspect is untouched. The only thing you cannot keep completely untouched is chest and wall contents. That will always be shuffled in some way.
+===== Items: Retain Type =====
+
+> Retain Type	Item locations will be shuffled among items of the same type
+
+This will use the Containers type entry to group different containers together, and then randomize between themselves.
+
+For example:
+| "ItemType": "EItemType::Key" |
+
+These are the default tags used in the DropRateMaster file:
+
+  * Accessory
+  * Body
+  * Bullet
+  * Coin
+  * Consumable
+  * CraftingMats
+  * Head
+  * Key
+  * None
+  * Recipe
+  * Scarf
+  * Upgrade
+  * Weapon
+
+You can make 1 more tag, or basically anything that isn't tagged with one of those 13, will just be grouped together.
+
+----
+
+===== Items: Retain Method =====
+
+> Retain Method	Items will be obtained via the same method as the normal game
+
+  * Affects: Chests, Walls, Crafting, Quest Rewards
+  * This does not apply to monster drops (own setting)
+  * Crafting: Retains which items are craftable, but can still change materials required.
+  * Possibly more?
+
+
+----
+
+===== Items: Total Random =====
+
+> Total Random	Items are shuffled entirely at random
+
+  * Chests + Walls are shuffled together at random
+  * Depending on Crafting setting:
+    * Crafting items and ingredients are random
+  * Depending on Quest setting:
+    * Quest Rewards are random
+  * Depending on Shop Setting
+    * Shop is random
+  * Depending on Enemy Drops setting:
+    * Enemy drops are randomly shuffled among themselves
+    * Shards are randomly shuffled among themselves
+
+> For this and really any other setting, it only applies if you've chose to randomize that particular aspect (i.e. setting crafting to shuffle). Otherwise that aspect is untouched. The only thing you cannot keep completely untouched is chest and wall contents. That will always be shuffled in some way.
+
+
+----
+
+====== Enemy Drops ======
+
+----
+
+=== Unchanged ===
+> Drops remain consistent with the normal game
+
+----
+
+=== Mixed Shards ===
+> Enemy shards are randomized, but the item drops remain as normal
+
+    * This includes the "ShardId" slot in all chests.
+    * Will not change shards placed in other slots, like "RareItemId" etc
+    * This can replace a shard with any other shard even if it isn't listed in DropRateMaster
+      * (With Retain Type) This will replace a shard with any other shard of the same colour
+      * (With Retain Method) ?
+      * (With Total Chaos) ?
+    * How the shuffle work:
+      * Shuffles the ShardId slot to a random other enemy
+      * Doesn't change the enemies drop%, only the ShardId
+      * This means a Morte can get a shard, but retain a 0% drop rate
+      * You can still have that shard drop if you have at least 1 luck
+
+----
+
+=== Mixed Items ===
+> Item drops are randomizer, but enemy shards remain as normal
+
+Assumption:
+  * This affects:
+    - RareItemID
+    - CommonItemId
+    - RareIngredientId
+    - CommonIngredientId
+  * And not:
+    - ShardId
+    - This should change the Drop rate% for shards
+  * For:
+    - Monsters
+    - Bosses
+
+----
+
+=== Chaos ===
+> Enemy shards and item drops are both randomized
+
+  * This should both shuffle the ShardId and the shard Drop% so you should get some weird results.
+
+----
+
+
+====== List of Options ======
+----
+
+
+^	Goal	^		^
+|	Defeat Gebel	|	Gebel	|
+|	Defeat True Evil	|	Last Boss	|
+|	Defeat All Evil	|	Gebel+Last Boss	|
+^	Key Items	^		^
+|	Shuffled	|	Key Items are mixed among themselves only	|
+|	Anywhere	|	Key Items may be found anywhere in the game	|
+^	Save/Warp Rooms	^		^
+|	Unchanged	|	Save and Warp rooms appear in the same locations as the normal game	|
+|	Mixed	|	Save and Warp rooms are randomized	|
+^	Items	^		^
+|	Retain Type	|	Item locations will be shuffled among items of the same type	|
+|	Retain Method	|	Items will be obtained via the same method as the normal game	|
+|	Total Random	|	Items are shuffled entirely at random	|
+^	Enemy Drops	^		^
+|	Unchanged	|	Drops remain consistent with the normal game	|
+|	Mixed Shards	|	Enemy shards are randomized, but the item drops remain as normal	|
+|	Mixed Items	|	Item drops are randomizer, but enemy shards remain as normal	|
+|	Chaos	|	Enemy shards and item drops are both randomized	|
+^	Crafting	^		^
+|	Unchanged	|	Crafting remains unchanged from the normal game	|
+|	Shuffled	|	Crafting becomes randomized, as dictated by the ITEMS setting	|
+^	Shops	^		^
+|	Unchanged	|	The shop's stock is unchanged from the normal game	|
+|	Shuffled	|	The shop's stock is randomized, as dictated by the ITEMS setting	|
+^	Quests	^		^
+|	Unchanged	|	Quests are unchanged from the normal game	|
+|	Shuffled	|	Quests become randomized, as dictated by the ITEMS setting.	|

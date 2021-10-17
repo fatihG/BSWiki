@@ -1,0 +1,43 @@
+[[../start|<Back>]]
+
+===== Modding: 3D Modelling and Texturing =====
+
+----
+
+==== Introductory Tutorials ====
+
+Follow one of these tutorials for which type of 3D model modification you'd like to do. They cover the entire process from start to finish, you don't need to do them in order.
+
+  * [[modding:modelling:tutorial_mesh|Edit a 3D model's geometry]] - e.g. full character replacement
+  * [[modding:modelling:tutorial_texture|Edit a 3D model's texture]] - e.g. remove tattoos from Miriam's skin
+
+----
+
+==== Specialized Tutorials ====
+
+These tutorials assume you've gone through the introductory tutorials and have basic knowledge of how to modify 3D models in the game.
+
+  * [[modding:modelling:tutorial_character_editing|Editing Miriam's body (and other characters)]] - you will screw up editing any character in the game if you don't read this
+
+----
+==== Troubleshooting ====
+
+**I got a "Fatal Error" message when loading my save game, creating a new game, or entering a room where my mod takes effect.**
+
+Make sure you didn't accidentally put **Materials**, **Skeletal Mesh**, or **Physics Asset** in your final generated **.pak** file. 
+
+**My mod doesn't look like it changed anything?**
+
+Double check that the file paths and filenames for your generated **.uasset** files match the original **.uasset** files in both your Unreal Engine project, and in the directory you create to generate the final **.pak** file.
+
+**I loaded my mod but it looks like the model disappeared?**
+
+When you edited the model, check that the world/scene scale was set to "0.01" meters (or 1 centimeter), also verify your **.psk** import settings and **.fbx** export settings when modifying the 3D model. Your model is probably too big or too small to be visible.
+
+**I loaded my mod but the model looks skinny or distorted?**
+
+This is also a scaling issue. Follow the steps closely in your 3D modelling tool for setting world/scene scale to "0.01" meters (or 1 centimeter), also verify your **.psk** import settings and **.fbx** export settings when modifying the 3D model.
+
+**I loaded my mod but the textures are mismatched from when I edited them in my 3D modelling program.**
+
+This means you ended up not assigning one of the existing materials to the 3D model, so the material order broke. If you intend to not use a specific material, create a very small triangle that you can't see inside of the model, and assign the material to that.

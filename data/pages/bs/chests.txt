@@ -1,0 +1,56 @@
+====== Chests =====
+>[[start|<Back>]]
+
+I might make a reference list to all the chests later on. But for now, colour logic.
+
+----
+
+===== Colour =====
+
+The different colours represents what you can expect inside:
+  * Blue (Materials, Ingredients)
+  * Brown (Potions and Bullets)
+  * Gold (Plot Item, all 1 of them)
+  * Green (Gear and Weapons)
+  * Red (Gold)
+
+----
+
+===== How the colour is decided =====
+
+Each chest have a default colour, that can be overruled through different means. Priority: Blue > Red > Green / Brown (Depending on which is placed in RareItemId)
+
+=== Blue ===
+
+> "AreaChangeTreasureFlag": true,
+
+By setting this to true in DropRateMaster file, the chest turns blue, and refresh each time you exit and re-enter the area.
+
+=== Red ===
+
+> "CoinType": "EDropCoin::D10",
+
+Enabling coins makes the chest red. This even works if coin ratio is 0, so that it doesn't actually drop any coins.
+
+=== Green ===
+
+> "RareItemId": "None",
+> "CommonItemId": "None",
+> "RareIngredientId": "None",
+> "CommonIngredientId": "None",
+
+If any of these contains a Gear or Weapon item, the chest turns green.
+
+> "ShardId": "None",
+
+Note that this entry doesn't change colours, even if you do put a gear item there. Even if it has gear in the later slots.
+
+=== Brown ===
+
+> "RareItemId": "None",
+
+Setting this to an item like potion will make the chest brown. Unless otherwise over-written.
+
+----
+
+

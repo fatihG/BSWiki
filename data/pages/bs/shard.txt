@@ -1,0 +1,291 @@
+====== Shards ======
+>[[start]]
+
+===== Damage types =====
+
+^	-Type-	^	-Shard-	^	ZAN	^	DAG	^	TOT	^	FLA	^	ICE	^	LIG	^	HOL	^	DAR	^	POI	^	CUR	^	STO	^	SpecialEffectId	^
+|	Red	|	AxStrike	|	1	|		|		|		|		|		|		|		|		|		|		|		^
+|	Red	|	AxStrike	|		|		|	1	|		|		|		|		|		|		|		|		|		^
+|	Red	|	Bloodsteel 	|		|		|		|		|		|		|		|		|		|		|		|	-	^
+|	Red	|	Ceruleansplash	|		|		|		|		|	1	|		|		|		|		|		|		|		^
+|	Red	|	Deadhowling	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Red	|	DragonicRage (punch)	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Red	|	DragonicRage (firepunch)	|		|	1	|		|	1	|		|		|		|		|		|		|		|		^
+|	Red	|	DragonicRage (explosion)	|		|		|		|	1	|		|		|		|		|		|		|		|		^
+|	Red	|	EntangleBind	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Red	|	Ghost8Bit	|		|		|		|		|		|		|		|	1	|		|		|		|		^
+|	Red	|	GratefulAssist	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Red	|	Headfail	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Red	|	HellHound	|		|		|		|	1	|		|		|		|		|		|		|		|		^
+|	Red	|	HiddenDart	|		|		|	1	|		|		|		|		|		|		|		|		|		^
+|	Red	|	Jackpot	|		|		|	1	|		|		|		|		|		|		|		|		|		^
+|	Red	|	Jackpot	|		|		|	1	|		|		|		|		|		|		|		|		|		^
+|	Red	|	Jackpot	|		|		|		|	1	|		|		|		|		|		|		|		|		^
+|	Red	|	LigaStreyma	|		|		|		|	1	|		|		|		|		|		|		|		|		^
+|	Red	|	NeverSatisfied	|		|		|		|	1	|		|		|		|		|		|		|		|		^
+|	Red	|	NeverSatisfied (explosion)	|		|		|		|	1	|		|		|		|		|		|		|		|		^
+|	Red	|	Nightmare8Bit	|		|		|		|	1	|		|		|		|	1	|		|		|		|		^
+|	Red	|	Raginggirl	|	1	|		|	1	|		|		|		|		|		|		|		|		|		^
+|	Red	|	RapidSpear	|		|		|	1	|		|		|		|		|		|		|		|		|		^
+|	Red	|	SamonSamHiggin	|		|	1	|		|		|	1	|		|		|		|		|		|		|		^
+|	Red	|	Shovelshooter	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Red	|	Shovelshooter	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Red	|	Shovelshooter	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Red	|	SummonAme	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Red	|	SummonApe	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Red	|	SummonBuell	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Red	|	SummonBuell	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Red	|	SummonBuell	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Red	|	SummonBuell	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Red	|	SummonBugs	|		|		|	1	|		|		|		|		|		|	1	|		|		|	Poison	^
+|	Red	|	SummonButt	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Red	|	SummonChair 	|		|		|		|		|		|		|		|		|		|		|		|	-	^
+|	Red	|	SummonGilemund	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Red	|	SummonRat	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Red	|	SummonRat	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Red	|	SummonTracer	|		|		|	1	|		|		|		|		|	1	|		|		|		|		^
+|	Red	|	SwingTentacle	|		|	1	|		|		|	1	|		|		|		|		|		|		|		^
+|	Red	|	TepsSalenda	|		|		|		|		|		|	1	|		|		|		|		|		|		^
+|	Red	|	ThrowAxe	|	1	|		|		|		|		|		|		|		|		|		|		|		^
+|	Red	|	TissLeif	|		|		|		|		|		|		|	1	|		|		|		|		|		^
+|	Red	|	Toxicstorm	|	1	|		|		|		|		|		|		|		|	1	|		|		|	Poison	^
+|	Red	|	Upbeatheat	|		|		|		|	1	|		|		|		|		|		|		|		|		^
+|	Red	|	VaIsha (Enemy)	|		|		|		|		|	1	|		|		|		|		|		|		|		^
+|	Red	|	VaIsha	|		|		|	1	|		|	1	|		|		|		|		|		|		|		^
+|	Red	|	VaSka	|		|		|		|		|	1	|		|		|		|		|		|		|		^
+|	Red	|	Zombie8Bit	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+^	-Type-	^	-Shard-	^	ZAN	^	DAG	^	TOT	^	FLA	^	ICE	^	LIG	^	HOL	^	DAR	^	POI	^	CUR	^	STO	^	SpecialEffectId	^
+|	Blue	|	Accelerator	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Blue	|	AccelWorld 	|		|		|		|		|		|		|		|		|		|		|		|	-	^
+|	Blue	|	Beastguard 	|		|		|		|		|		|		|		|		|		|		|		|	-	^
+|	Blue	|	ChangeBunny	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Blue	|	ChangeBunny (knife)	|		|		|	1	|		|		|		|		|		|		|		|		|		^
+|	Blue	|	ChangeBunny (Kick)	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Blue	|	Demoniccapture	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Blue	|	Healing 	|		|		|		|		|		|		|		|		|		|		|		|	-	^
+|	Blue	|	Sacredshade 	|		|		|		|		|		|		|		|		|		|		|		|	-	^
+|	Blue	|	Shadowtracer	|		|		|	1	|		|		|		|		|		|		|		|		|		^
+|	Blue	|	Shadowtracer	|	1	|		|	1	|		|		|		|		|		|		|		|		|		^
+|	Blue	|	Shadowtracer (WalalSoulimo)	|	1	|		|		|		|		|		|		|		|		|		|		|		^
+|	Blue	|	WildScratch	|	1	|		|		|		|		|		|		|		|		|		|		|		^
+^	-Type-	^	-Shard-	^	ZAN	^	DAG	^	TOT	^	FLA	^	ICE	^	LIG	^	HOL	^	DAR	^	POI	^	CUR	^	STO	^	SpecialEffectId	^
+|	Purple	|	Acidgouache	|		|	1	|		|		|		|		|		|		|	1	|		|		|	Poison	^
+|	Purple	|	Aimingshield	|	1	|		|		|		|		|		|		|		|		|		|		|		^
+|	Purple	|	Aquastream	|		|		|		|		|	1	|		|		|		|		|		|		|		^
+|	Purple	|	BaudRideBlast	|		|		|		|	1	|		|	1	|	1	|		|		|		|		|		^
+|	Purple	|	BoonsLore	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Purple	|	ChaseArrow	|		|		|	1	|		|		|		|		|		|		|		|		|		^
+|	Purple	|	Chiselbalage	|		|		|	1	|		|		|		|		|		|		|		|		|		^
+|	Purple	|	CircleRipper	|	1	|		|		|		|		|		|		|		|		|		|		|		^
+|	Purple	|	CurseDray	|		|		|		|		|		|		|		|		|		|		|		|	Slow	^
+|	Purple	|	Dimensionshift 	|		|		|		|		|		|		|		|		|		|		|		|	-	^
+|	Purple	|	EightBitFire	|		|		|		|	1	|		|		|		|		|		|		|		|		^
+|	Purple	|	FireCannon	|		|		|		|	1	|		|		|		|		|		|		|		|		^
+|	Purple	|	FireThrower	|		|		|		|	1	|		|		|		|		|		|		|		|		^
+|	Purple	|	FireThrower	|		|		|		|	1	|		|		|		|		|		|		|		|		^
+|	Purple	|	FoldingTurb	|		|		|		|		|		|		|		|	1	|		|		|		|		^
+|	Purple	|	FoldShiu	|		|		|		|		|		|		|		|	1	|		|		|		|		^
+|	Purple	|	FoldShiu	|		|		|		|		|		|		|		|	1	|		|		|		|		^
+|	Purple	|	GoldBarrett	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Purple	|	GoldBarrett	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Purple	|	Hammerknuckle	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Purple	|	HelleTicalGrinder	|	1	|		|		|		|		|		|		|		|		|		|		|		^
+|	Purple	|	InfernoBrace	|		|		|		|	1	|		|		|		|		|		|		|		|		^
+|	Purple	|	LigaDoin	|		|		|		|	1	|		|		|		|		|		|		|		|		^
+|	Purple	|	LigaDoin (explosion)	|		|		|		|	1	|		|		|		|		|		|		|		|		^
+|	Purple	|	PetraBless	|		|		|		|		|		|		|		|		|		|		|	1	|	Stone	^
+|	Purple	|	Petrey	|		|		|		|		|		|		|		|		|		|		|		|	WeakStone	^
+|	Purple	|	Reflectionray	|		|		|	1	|		|		|		|		|		|		|		|		|		^
+|	Purple	|	Releasetoade	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Purple	|	RuinBeak	|		|		|		|		|		|		|		|		|		|		|		|		^
+|	Purple	|	RuinBeak	|	1	|		|		|		|		|		|		|		|		|		|		|		^
+|	Purple	|	ShootingDagger	|		|		|	1	|		|		|		|		|		|		|		|		|		^
+|	Purple	|	StraightArrow	|		|		|	1	|		|		|		|		|		|		|		|		|		^
+|	Purple	|	SummonYorkton	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Purple	|	TepesOsius	|		|		|		|		|		|	1	|		|		|		|		|		|		^
+|	Purple	|	TissRosain	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+|	Purple	|	Tornadoslicer	|		|		|	1	|		|		|		|		|		|		|		|		|		^
+|	Purple	|	Tornadoslicer (Enemy)	|		|		|		|		|	1	|		|		|		|		|		|		|		^
+|	Purple	|	Venomsmog 	|		|	1	|		|		|		|		|		|		|	1	|		|		|	Poison	^
+|	Purple	|	Voidlay	|		|		|		|		|		|		|		|	1	|		|		|		|		^
+|	Purple	|	Voidlay	|		|		|		|		|		|		|		|	1	|		|		|		|		^
+^	-Type-	^	-Shard-	^	ZAN	^	DAG	^	TOT	^	FLA	^	ICE	^	LIG	^	HOL	^	DAR	^	POI	^	CUR	^	STO	^	SpecialEffectId	^
+|	Yellow	|	drain	|		|		|		|		|		|		|		|		|		|		|		|	-	^
+|	Skilled	|	HighJump	|		|	1	|		|		|		|		|		|		|		|		|		|		^
+
+
+===== Shard Stats =====
+
+^	-Type-	^	-Shard-	^	useMP	^	maxRankValue	^	minRankValue	^	maxGradeValue	^	minGradeValue	^	MaxNum	^
+|	Red	|	AxStrike	|	120	|	9	|	1	|	150	|	100	|	3	|
+|	Red	|	Bloodsteel	|	80	|	1440	|	720	|	0.32	|	0.08	|	1	|
+|	Red	|	Ceruleansplash	|	15	|	1	|	1	|	27	|	18	|	5	|
+|	Red	|	Deadhowling	|	99	|	1	|	1	|	66	|	44	|	3	|
+|	Red	|	DragonicRage	|	120	|	1	|	1	|	150	|	100	|	1	|
+|	Red	|	EntangleBind	|	20	|	15	|	5	|	42	|	28	|	5	|
+|	Red	|	Ghost8Bit	|	48	|	8	|	4	|	36	|	24	|	3	|
+|	Red	|	GratefulAssist	|	40	|	9	|	5	|	22	|	18	|	1	|
+|	Red	|	Headfail	|	25	|	5	|	1	|	42	|	28	|	1	|
+|	Red	|	HellHound	|	200	|	3	|	2	|	300	|	200	|	2	|
+|	Red	|	HiddenDart	|	40	|	9	|	3	|	22	|	18	|	16	|
+|	Red	|	Jackpot	|	77	|	1	|	1	|	60	|	40	|	1	|
+|	Red	|	LigaStreyma	|	30	|	1	|	1	|	42	|	28	|	3	|
+|	Red	|	NeverSatisfied	|	66	|	18	|	9	|	50	|	40	|	3	|
+|	Red	|	Nightmare8Bit	|	128	|	2	|	1	|	48	|	32	|	1	|
+|	Red	|	Raginggirl	|	22	|	2	|	1	|	34	|	23	|	5	|
+|	Red	|	RamblingBlade	|	10	|	1	|	1	|	15	|	10	|	10	|
+|	Red	|	RapidSpear	|	60	|	5	|	3	|	31	|	25	|	10	|
+|	Red	|	SamonSamHiggin	|	40	|	5	|	1	|	36	|	24	|	3	|
+|	Red	|	SerpentRicoche	|	10	|	1	|	1	|	15	|	10	|	10	|
+|	Red	|	Shovelshooter	|	35	|	1	|	0.5	|	25	|	20	|	2	|
+|	Red	|	SummonAme	|	30	|	9	|	3	|	30	|	20	|	3	|
+|	Red	|	SummonApe	|	28	|	9	|	3	|	33	|	22	|	5	|
+|	Red	|	SummonBuell	|	40	|	6	|	3	|	22	|	15	|	3	|
+|	Red	|	SummonBugs	|	30	|	3	|	1	|	36	|	24	|	3	|
+|	Red	|	SummonButt	|	40	|	5	|	3	|	17	|	14	|	5	|
+|	Red	|	SummonChair	|	20	|	5	|	1	|	12	|	8	|	5	|
+|	Red	|	SummonGilemund	|	28	|	9	|	3	|	42	|	28	|	3	|
+|	Red	|	SummonRat	|	25	|	9	|	3	|	15	|	10	|	3	|
+|	Red	|	SummonSnake	|	10	|	1	|	1	|	15	|	10	|	10	|
+|	Red	|	SummonTracer	|	50	|	5	|	1.5	|	45	|	30	|	2	|
+|	Red	|	SwingTentacle	|	80	|	3	|	1	|	66	|	44	|	1	|
+|	Red	|	TepsSalenda	|	90	|	4	|	2	|	22	|	18	|	2	|
+|	Red	|	ThrowAxe	|	50	|	2	|	1	|	45	|	30	|	5	|
+|	Red	|	TissLeif	|	60	|	3	|	1	|	37	|	30	|	10	|
+|	Red	|	Toxicstorm	|	40	|	1.5	|	0.75	|	18	|	12	|	3	|
+|	Red	|	Upbeatheat	|	50	|	15	|	3	|	25	|	20	|	5	|
+|	Red	|	VaIsha	|	40	|	20	|	2	|	37	|	30	|	5	|
+|	Red	|	VaSka	|	40	|	9	|	3	|	60	|	40	|	10	|
+|	Red	|	Zombie8Bit	|	48	|	2	|	1	|	72	|	48	|	3	|
+^	-Type-	^	-Shard-	^	useMP	^	maxRankValue	^	minRankValue	^	maxGradeValue	^	minGradeValue	^	MaxNum	^
+|	Blue	|	Accelerator	|	5	|	1	|	1	|	12	|	8	|	1	|
+|	Blue	|	AccelWorld	|	60	|	1	|	1	|	15	|	10	|	1	|
+|	Blue	|	Adail	|	10	|	1	|	1	|	15	|	10	|	10	|
+|	Blue	|	Beastguard	|	30	|	1.25	|	0.85	|	15	|	10	|	1	|
+|	Blue	|	ChangeBunny	|	5	|	1	|	1	|	45	|	30	|	1	|
+|	Blue	|	Demoniccapture	|	2	|	1	|	1	|	22	|	15	|	1	|
+|	Blue	|	Healing	|	30	|	0.5	|	1.5	|	15	|	5	|	1	|
+|	Blue	|	Sacredshade	|	30	|	1	|	1	|	15	|	10	|	1	|
+|	Blue	|	Shadowtracer	|	10	|	3	|	1	|	22	|	15	|	3	|
+|	Blue	|	WildScratch	|	20	|	2	|	1	|	45	|	30	|	1	|
+^	-Type-	^	-Shard-	^	useMP	^	maxRankValue	^	minRankValue	^	maxGradeValue	^	minGradeValue	^	MaxNum	^
+|	Purple	|	Acidgouache	|	80	|	1.5	|	1	|	7	|	5	|	20	|
+|	Purple	|	Aimingshield	|	30	|	2	|	1	|	7	|	5	|	1	|
+|	Purple	|	Aquastream	|	50	|	2	|	1	|	30	|	20	|	15	|
+|	Purple	|	BaudRideBlast	|	40	|	1	|	1	|	105	|	70	|	2	|
+|	Purple	|	BoonsLore	|	25	|	5	|	3	|	33	|	22	|	10	|
+|	Purple	|	ChaseArrow	|	30	|	5	|	3	|	20	|	16	|	10	|
+|	Purple	|	Chiselbalage	|	50	|	0.3	|	0.15	|	31	|	25	|	20	|
+|	Purple	|	CircleRipper	|	60	|	1	|	0.3	|	54	|	36	|	1	|
+|	Purple	|	CurseDray	|	30	|	1.5	|	1	|	10	|	25	|	1	|
+|	Purple	|	Dimensionshift	|	15	|	1	|	1	|	12	|	8	|	1	|
+|	Purple	|	EightBitFire	|	32	|	5	|	1	|	72	|	48	|	10	|
+|	Purple	|	FireCannon	|	18	|	5	|	1	|	27	|	18	|	10	|
+|	Purple	|	FireThrower	|	50	|	9	|	3	|	50	|	40	|	3	|
+|	Purple	|	FoldingTurb	|	50	|	2	|	0.6	|	45	|	30	|	1	|
+|	Purple	|	FoldShiu	|	44	|	2	|	1	|	84	|	56	|	6	|
+|	Purple	|	GoldBarrett	|	10	|	2	|	1	|	69	|	46	|	3	|
+|	Purple	|	Hammerknuckle	|	50	|	1	|	1	|	45	|	30	|	1	|
+|	Purple	|	HelleTicalGrinder	|	30	|	2.25	|	1.5	|	28	|	19	|	1	|
+|	Purple	|	InfernoBrace	|	50	|	1.2	|	0.35	|	52	|	35	|	15	|
+|	Purple	|	LigaDoin	|	40	|	1	|	1	|	60	|	40	|	5	|
+|	Purple	|	PetraBless	|	40	|	1.5	|	1	|	15	|	10	|	50	|
+|	Purple	|	Petrey	|	50	|	10	|	25	|	12	|	8	|	1	|
+|	Purple	|	Reflectionray	|	10	|	960	|	480	|	9	|	6	|	1	|
+|	Purple	|	Releasetoade	|	25	|	3	|	1	|	30	|	20	|	4	|
+|	Purple	|	RuinBeak	|	60	|	2	|	0.85	|	37	|	25	|	5	|
+|	Purple	|	ShootingDagger	|	40	|	9	|	3	|	30	|	24	|	1	|
+|	Purple	|	StraightArrow	|	30	|	5	|	3	|	22	|	18	|	10	|
+|	Purple	|	SummonYorkton	|	29	|	13	|	6.5	|	43	|	29	|	10	|
+|	Purple	|	TepesOsius	|	50	|	9	|	3	|	45	|	30	|	3	|
+|	Purple	|	TissRosain	|	40	|	9	|	1	|	69	|	46	|	1	|
+|	Purple	|	Tornadoslicer	|	40	|	1.5	|	1	|	52	|	35	|	10	|
+|	Purple	|	Venomsmog	|	30	|	1	|	1	|	39	|	26	|	20	|
+|	Purple	|	Voidlay	|	50	|	1.3	|	0.3	|	66	|	44	|	1	|
+^	-Type-	^	-Shard-	^	useMP	^	maxRankValue	^	minRankValue	^	maxGradeValue	^	minGradeValue	^	MaxNum	^
+|	Yellow	|	BloodSuck	|	0	|	1	|	1	|	15	|	10	|	0	|
+|	Yellow	|	CONEnhance	|	0	|	1	|	1	|	10	|	1	|	0	|
+|	Yellow	|	CraftMastery	|	0	|	25	|	5	|	2	|	1	|	0	|
+|	Yellow	|	Detectiveeye	|	0	|	10	|	3	|	15	|	10	|	0	|
+|	Yellow	|	drain	|	0	|	15	|	5	|	15	|	10	|	0	|
+|	Yellow	|	EnhancedGOLD	|	0	|	1	|	1	|	15	|	10	|	0	|
+|	Yellow	|	GreatSwordMastery	|	0	|	1.5	|	1.1	|	0.1	|	0.05	|	0	|
+|	Yellow	|	GunMastery	|	0	|	1.5	|	1.1	|	0.1	|	0.05	|	0	|
+|	Yellow	|	INTEnhance	|	0	|	1	|	1	|	10	|	1	|	0	|
+|	Yellow	|	JapanSwordMastery	|	0	|	1.5	|	1.1	|	0.1	|	0.05	|	0	|
+|	Yellow	|	KickMastery	|	0	|	1	|	1	|	0.1	|	0.05	|	0	|
+|	Yellow	|	KnifeMastery	|	0	|	1	|	1	|	0.1	|	0.05	|	0	|
+|	Yellow	|	LuckyDrop	|	0	|	1	|	1	|	1	|	1	|	0	|
+|	Yellow	|	LUKEnhance	|	0	|	1	|	1	|	10	|	1	|	0	|
+|	Yellow	|	MNDEnhance	|	0	|	1	|	1	|	10	|	1	|	0	|
+|	Yellow	|	Moneyispower	|	0	|	1	|	1	|	1	|	1	|	0	|
+|	Yellow	|	optimizer	|	0	|	20	|	5	|	0.3	|	0.15	|	0	|
+|	Yellow	|	RedDowther	|	0	|	5	|	1	|	0.4	|	0.2	|	0	|
+|	Yellow	|	Regeneration	|	0	|	3	|	5	|	3	|	1	|	0	|
+|	Yellow	|	ResistBrow	|	0	|	1	|	1	|	15	|	5	|	0	|
+|	Yellow	|	Resistcurse	|	0	|	1	|	1	|	15	|	10	|	0	|
+|	Yellow	|	Resistdark	|	0	|	1	|	1	|	15	|	5	|	0	|
+|	Yellow	|	Resistedge	|	0	|	1	|	1	|	15	|	5	|	0	|
+|	Yellow	|	ResistFire	|	0	|	1	|	1	|	15	|	5	|	0	|
+|	Yellow	|	ResistHorley	|	0	|	1	|	1	|	15	|	5	|	0	|
+|	Yellow	|	Resistice	|	0	|	1	|	1	|	15	|	5	|	0	|
+|	Yellow	|	Resistmagic	|	0	|	1	|	1	|	10	|	1	|	0	|
+|	Yellow	|	ResistPetri	|	0	|	1	|	1	|	15	|	10	|	0	|
+|	Yellow	|	ResistPoison	|	0	|	1	|	1	|	15	|	10	|	0	|
+|	Yellow	|	Resistthrust	|	0	|	1	|	1	|	15	|	5	|	0	|
+|	Yellow	|	ResistThunder	|	0	|	1	|	1	|	15	|	5	|	0	|
+|	Yellow	|	SpearMastery	|	0	|	1	|	1	|	0.1	|	0.05	|	0	|
+|	Yellow	|	STREnhance	|	0	|	1	|	1	|	10	|	1	|	0	|
+|	Yellow	|	Submariner	|	0	|	1	|	1	|	15	|	10	|	0	|
+|	Yellow	|	SwordMastery	|	0	|	1	|	1	|	0.1	|	0.05	|	0	|
+|	Yellow	|	WhipMastery	|	0	|	1	|	1	|	0.1	|	0.05	|	0	|
+|	Yellow	|	Wisdomwords	|	0	|	1	|	1	|	15	|	10	|	0	|
+^	-Type-	^	-Shard-	^	useMP	^	maxRankValue	^	minRankValue	^	maxGradeValue	^	minGradeValue	^	MaxNum	^
+|	Green	|	FamiliaBradBringer	|	0	|	1	|	0	|	24	|	12	|	0	|
+|	Green	|	FamiliaBuell	|	0	|	3	|	1	|	24	|	12	|	0	|
+|	Green	|	FamiliaCarabos	|	0	|	1	|	0	|	20	|	10	|	0	|
+|	Green	|	FamiliaDantalion	|	0	|	1	|	0	|	20	|	10	|	0	|
+|	Green	|	FamiliaSilverKnight	|	0	|	1	|	1	|	24	|	12	|	0	|
+|	Green	|	SummonDurahanMaHead	|	0	|	1	|	0	|	20	|	10	|	0	|
+^	-Type-	^	-Shard-	^	useMP	^	maxRankValue	^	minRankValue	^	maxGradeValue	^	minGradeValue	^	MaxNum	^
+|	Skilled	|	Deepsinker	|	0	|	1	|	1	|	15	|	10	|	0	|
+|	Skilled	|	Doublejump	|	0	|	1	|	1	|	15	|	10	|	0	|
+|	Skilled	|	HighJump	|	0	|	1	|	1	|	15	|	10	|	0	|
+|	Skilled	|	Invert	|	0	|	0.5	|	0.1	|	15	|	10	|	0	|
+|	Skilled	|	Shortcut	|	0	|	1	|	1	|	15	|	10	|	0	|
+|	Skilled	|	SkilledCONEnhance	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledCraftMastery	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledDetectiveeye	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	Skilleddrain	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledEnhancedGOLD	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledGreatSwordMastery	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledGunMastery	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledINTEnhance	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledJapanSwordMastery	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledKickMastery	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledKnifeMastery	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledLuckyDrop	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledLUKEnhance	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledMNDEnhance	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledMoneyispower	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	Skilledoptimizer	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledRedDowther	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledRegeneration	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledResistBrow	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledResistcurse	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledResistdark	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledResistedge	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledResistFire	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledResistHorley	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledResistice	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledResistmagic	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledResistPetri	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledResistPoison	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledResistthrust	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledResistThunder	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledSpearMastery	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledSTREnhance	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledSubmariner	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledSwordMastery	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledWhipMastery	|	0	|	1	|	1	|	0	|	0	|	0	|
+|	Skilled	|	SkilledWisdomwords	|	0	|	1	|	1	|	0	|	0	|	0	|

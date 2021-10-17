@@ -1,0 +1,84 @@
+===== On the second day... ====
+
+Stuff goes here, [[..:start|Other stuff goes there.]]
+
+==== Items =====
+
+Lets begin on the multiheaded hydra.
+
+
+----
+====Gear====
+  * [[accessories|Accessories]]
+  * [[body|Body]]
+  * [[head|Head]]
+  * [[scarf|Scarf]]
+
+----
+====Weapons====
+
+  * [[boots|Boots]]
+  * [[dagger|Dagger & Rapier]]
+  * [[sword|Sword]]
+  * [[mace|Mace & Special]]
+  * [[greatsword|Great Sword]]
+  * [[katana|Katana]]
+  * [[spear|Spear]]
+  * [[whip|Whip]]
+  * [[gun|Gun]]
+  * [[bullet|Bullet]]
+
+----
+====Misc====
+  * [[potion]]
+  * [[food]]
+  * [[foodstuff]]
+  * [[ingredient]]
+  * [[key]]
+  * [[seed]]
+  * [[book]]
+  * [[upgrades]]
+
+----
+==== Other ====
+
+  * [[Craft]]
+  * Monster
+  * Boss
+  * Shards
+
+----
+==== Progress ====
+
+  - Complete Data dumps and make into readable/user-friendly format
+  - Update and double check all details
+  - Start creating inter-links between pages (Weapon -> Craft -> Ingredient -> Monster)
+
+Gear+Weapon = Finishing step 2
+
+Status: Gear+Weapon
+  * Tables ok
+  * Data ok
+  * Details ok
+  * Mechanics - ok
+  * Acquisition - ok
+  * Craft - ?
+
+Problems:
+  * How work?
+    * Adversityring
+    * WhipsOfLightDarkness
+    * Adrastea
+  * Lack Ability X?
+    * Gunman's Scarf
+    * Gambanttain
+    * ManGauche
+    * Aimur
+    * WeaponbaneRounds
+    * ShieldbaneRounds
+
+----
+
+==== Test ====
+
+  * [[test_craft]]

@@ -1,0 +1,87 @@
+===== Test Crafting Table =====
+[[start|Back]]
+
+----
+==== Table ====
+{{..:acc:acc35.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	UnicornRing 													|||||||	2080			||	208			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	1			||	1			||	-	|	-	|	1	|	2	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	5	|	-	|	5	|	-	|	-	|
+
+
+> A ring that amplifies the restorative properties of items you use.
+
+Special:
+  * Increases amount of healing done when using consumables by +20% (Potions, food).
+
+  PB_DT_EnchantParameterType
+  "Key": "RecoveryHpRate32",
+  "Key": "RecoveryHpRate33",
+  "EPBEquipSpecialAttribute::RecoveryHpRate",
+  "EquipValue_28_5CFE97924D56254C9B62AF83698220FC": 0.2,
+
+Visible:
+  * No
+
+Acquisition:
+  * Chest: Dian Cecht Cathedral (SAN013)
+  * Drop: Gamigin (2%)
+
+Craft:
+^	Unlock			^^
+|	ItemRecipe002			||
+^	-ID-	^	-#-	^
+|	Ring	|	1	|
+|	Potion	|	1	|
+|	HighPotion	|	1	|
+|	HolyWater	|	1	|
+
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+==== Bullet Point ====
+{{..:acc:acc35.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	UnicornRing 													|||||||	2080			||	208			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	1			||	1			||	-	|	-	|	1	|	2	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	5	|	-	|	5	|	-	|	-	|
+
+
+> A ring that amplifies the restorative properties of items you use.
+
+Special:
+  * Increases amount of healing done when using consumables by +20% (Potions, food).
+
+  PB_DT_EnchantParameterType
+  "Key": "RecoveryHpRate32",
+  "Key": "RecoveryHpRate33",
+  "EPBEquipSpecialAttribute::RecoveryHpRate",
+  "EquipValue_28_5CFE97924D56254C9B62AF83698220FC": 0.2,
+
+Visible:
+  * No
+
+Acquisition:
+  * Chest: Dian Cecht Cathedral (SAN013)
+  * Drop: Gamigin (2%)
+  * Craft:
+    * Recipe: ItemRecipe002
+      - Ring (1)
+      - Potion (1)
+      - HighPotion (1)
+      - HolyWater (1)
+
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----

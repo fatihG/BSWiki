@@ -1,0 +1,79 @@
+====== Bloodstained Data ======
+
+[[..:start|<back>]]
+
+Just writing up complete tables for in-game stats, since I haven't found any good ones online yet, and sick of looking through the Json files constantly.
+
+==== Files, Stats, Rules ====
+  * [[datatable]]
+  * [[stats]]
+  * [[status]]
+  * [[EnemyID]]
+
+==== Versions ====
+
+  * [[dlc]]
+  * [[version]]
+  * [[118]]
+  * [[118_120]]
+
+==== Data Tables ====
+  * [[gear]]
+  * [[weapon]]
+  * [[item]]
+  * [[shard]]
+  * [[craft]]
+  * [[drop]]
+  * [[bosses]]
+  * [[enemies]]
+  * [[quests]]
+  * [[store]]
+
+==== Misc ====
+  * [[ngplus]]
+  * [[book]]
+  * [[modguide]]
+  * [[randomizer]]
+  * [[chests]]
+  * [[drop_prob]]
+  * [[chest_ref]]
+  * [[difficulty]]
+
+
+==== Temp ====
+  * [[data_stats]] - Clean nightmare play-through stats/tiers
+  * [[data_temp]] - Temp's findings
+  * [[special_effects]] - ithinkandicode's list of special effects
+
+==== Div ====
+
+How to test/change order in inventory/craft?
+
+  * CraftMaster
+  * ItemMaster
+  * WeaponMaster
+
+If you change all 3 then it works, until you try to craft. Craft refers to something else than the key, so it wants the wrong item and mess up.
+
+Probably easier to just override all the weapons from scratch.
+
+----
+
+  * p0000	Miriam
+  * p0001	Zangetsu
+  * p0003	?
+  * p0004	Andy
+  * p0005	Bathin
+  * p0006	Bloodless
+  * p0007	Gremory
+
+----
+
+==== Random ====
+
+  * https://bloodstained.forums.net/thread/4158/why-switch-port-run-poorly
+
+
+----
+
+ [[start|<Back>]]

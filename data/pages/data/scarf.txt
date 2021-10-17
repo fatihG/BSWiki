@@ -1,0 +1,318 @@
+ ===== Scarves ===== 
+[[start|<Back>]]
+
+> “Why are all thieves so cold? They all wear scarfs.”
+>> “You’d be cold too if you had no soul to keep your body warm.” -gw2
+
+Scarves are equip-able back-items that gives defence and possible stats and/or resistances. But mostly they look cool. All scarves are visible on Miriam in-game, and have different looks.
+
+=== WIP ===
+
+> This page serves as a Template/Example of how we want other pages to be.
+
+For later:
+  * Cross links to crafting and drops
+  * More detailed special abilities
+  * More detailed locations for found items
+
+
+
+----
+
+==== Table ====
+
+^	-	^	-Name-	^	Def	^	Res	^	Str	^	Con	^	Int	^	Mnd	^	Lck	^	Special	^
+|	-	|	[[#EmptyScarf]]	|		|		|		|		|		|		|		|		|
+|	{{..:scarf:scarf01.png?nolink&30}}	|	[[#Scarf]]	|	1	|		|		|		|		|		|		|		|
+|	{{..:scarf:scarf02.png?nolink&30}}	|	[[#Tattered Scarf]]	|	1	|		|		|		|		|	1	|		|		|
+|	{{..:scarf:scarf03.png?nolink&30}}	|	[[#Bat Wings]]	|	2	|		|		|		|	2	|		|		|		|
+|	{{..:scarf:scarf05.png?nolink&30}}	|	[[#Gunman's Scarf]]	|	3	|		|		|	2	|		|		|		|	Gun faster	|
+|	{{..:scarf:scarf11.png?nolink&30}}	|	[[#Order-made Scarf]]	|	3	|		|		|		|		|		|		|	Dye-able	|
+|	{{..:scarf:scarf04.png?nolink&30}}	|	[[#Bunny Scarf]]	|	3	|	{{..:iconice.png?nolink&20|Ice}} {{..:iconlight.png?nolink&20|Holy}}	|		|		|		|		|	2	|		|
+|	{{..:scarf:scarf07.png?nolink&30}}	|	[[#Faerie Scarf]]	|	3	|	{{..:iconthunder.png?nolink&20|Lightning}}	|		|		|	3	|		|		|		|
+|	{{..:scarf:scarf09.png?nolink&30}}	|	[[#Fangshi Scarf]]	|	4	|	{{..:iconlight.png?nolink&20|Holy}}	|		|		|		|	3	|		|		|
+|	{{..:scarf:scarf06.png?nolink&30}}	|	[[#Flame Scarf]]	|	4	|	{{..:iconflame.png?nolink&20|Fire}}	|	3	|		|		|		|		|		|
+|	{{..:scarf:scarf08.png?nolink&30}}	|	[[#Talisman Scarf]]	|	5	|	{{..:icondark.png?nolink&20|Dark}} {{..:iconcurse.png?nolink&20|Curse}}	|		|	5	|		|		|		|		|
+|	{{..:scarf:scarf10.png?nolink&30}}	|	[[#Over the Rainbow]]	|	7	|	{{..:iconflame.png?nolink&20|Fire}} {{..:iconice.png?nolink&20|Ice}} {{..:iconthunder.png?nolink&20|Lightning}} {{..:iconlight.png?nolink&20|Holy}} {{..:iconcurse.png?nolink&20|Curse}} {{..:iconstone.png?nolink&20|Stone}}	|	3	|	3	|	3	|	3	|		|		|
+
+----
+===== Details =====
+
+----
+
+=== EmptyScarf ===
+{{..:tech.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	EmptyScarf													|||||||	-			||	-			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	0			||	0			||	-	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+
+> This item has no quote.
+
+Special:
+  * This item has no special property
+
+Acquisition:
+  * Chest: no
+  * Craft: no
+  * Drop: no
+
+Notes:
+  * This is used when you have no other scarf equipped.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+ ==== Scarf ==== 
+{{..:scarf:scarf01.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Muffler 													|||||||	100 			||	25 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	1			||	0			||	-	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> Miriam's favourite scarf.
+
+Acquisition:
+  * Miriam starts with this equipped
+  * Shop
+
+Notes:
+  * Starting gear
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+ ==== Tattered Scarf ==== 
+{{..:scarf:scarf02.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Turbinemuffler 													|||||||	160 			||	16 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	1			||	0			||	-	|	-	|	-	|	1	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A scarf made of ragged cloth.
+
+Acquisition:
+  * Chest: Galleon Minerva (SIP013)
+  * Craft
+  * Shop
+
+Notes:
+  * The ItemID "Turbine Muffler" combined with the appearance, gives the impression it's gone through a jet engine.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+ ==== Bat Wings ==== 
+{{..:scarf:scarf03.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Batwing 													|||||||	800 			||	80 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	2			||	0			||	-	|	-	|	2	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A scarf that resembles bat wings.
+
+Acquisition:
+  * Craft: yes
+
+Notes:
+  * Used for delivery quest.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+ ==== Gunman's Scarf ==== 
+{{..:scarf:scarf05.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Outlinestyle 													|||||||	1360 			||	136 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	3			||	0			||	-	|	2	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A scarf that makes you quick on the draw and increases firing rate.
+
+Special:
+  * :FIXME:
+  * Increases fire rate with gun while equipped.
+  * +10% attack speed ?
+
+  PB_DT_ArmorMaster
+  "Key": "Outlinestyle",
+  "UniqeValue": 0.1
+
+Acquisition: 
+  * Craft: yes
+
+Notes:
+  * Good early game scarf, easy to make.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+ ==== Order-made Scarf ==== 
+{{..:scarf:scarf11.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Made-to-order 													|||||||	2080 			||	208 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	3			||	0			||	-	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A personalized scarf that can be dyed the color of your choice.
+
+Special:
+  * Only scarf you can customise the colour off by visiting the Barber. Need to be equipped to do so.
+
+Acquisition: 
+  * Shop (After Glutton Train)
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+ ==== Bunny Scarf ==== 
+{{..:scarf:scarf04.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Usagimuffler 													|||||||	2960 			||	296 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	3			||	0			||	-	|	-	|	-	|	-	|	2	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	10	|	-	|	1	|	-	|	-	|	-	|	-	|
+
+> A scarf with a rabbit motif that is certain to get you hopping.
+
+Acquisition:
+  * Craft: yes
+
+Notes:
+  * Only scarf with luck bonus.
+  * Highest Ice resistance
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+ ==== Faerie Scarf ==== 
+{{..:scarf:scarf07.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	FaerieScarf 													|||||||	5200 			||	520 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	3			||	0			||	-	|	-	|	3	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	10	|	-	|	-	|	-	|	-	|	-	|
+
+> A scarf with a mystical air about it
+
+Acquisition:
+  * Chest: Forbidden Underground Waterway (UGD056)
+  * Craft: yes
+
+Notes:
+  * Highest Lightning resistance
+  * Highest INT bonus (tied)
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+ ==== Fangshi Scarf ==== 
+{{..:scarf:scarf09.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Sendomuffler 													|||||||	8080 			||	808 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	4			||	0			||	-	|	-	|	-	|	3	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	10	|	-	|	-	|	-	|	-	|
+
+> A scarf woven from the threads of a rare insect.
+
+Acquisition:
+  * Craft
+  * Quest: Susie (Chiffon Cake)
+
+Notes:
+  * Highest Holy resistance
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+ ==== Flame Scarf ==== 
+{{..:scarf:scarf06.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Firemuffler 													|||||||	11600 			||	1160 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	4			||	0			||	3	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	10	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A scarf that resembles fire.
+
+Acquisition:
+  * Chest: Inferno Cave (RVA001 upper-left, Invert)
+  * Craft
+
+Notes:
+  * Highest Fire resistance
+  * Highest STR bonus (tied)
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+ ==== Talisman Scarf ==== 
+{{..:scarf:scarf08.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	TalismanScarf 													|||||||	13600 			||	1360 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	5			||	0			||	-	|	5	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	10	|	-	|	10	|	-	|
+
+> A scarf made of many individually prepared talismans.
+
+Acquisition:
+  * Chest: Oriental Sorcery Lab (JPN002 bottom, Dimension Shift)
+
+Notes:
+  * Highest Dark resistance
+  * Highest Curse resistance
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+ ==== Over the Rainbow ==== 
+{{..:scarf:scarf10.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	OvertheRainbow 													|||||||	18080 			||	1808 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	7			||	0			||	3	|	3	|	3	|	3	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	7	|	7	|	7	|	7	|	-	|	-	|	7	|	7	|
+
+> A scarf that brings good luck and blessings to whoever finds it.
+
+Acquisition:
+  * Craft: yes
+
+Notes:
+  * Over all highest stats for scarf, but no luck bonus, and other scarves gives slightly higher resistances
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+-----
+

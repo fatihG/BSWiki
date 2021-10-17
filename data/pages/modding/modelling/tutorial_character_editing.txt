@@ -1,0 +1,40 @@
+[[./start|<Back>]]
+
+===== Tutorial: Character Model Editing Cavats =====
+
+**You must have already completed this tutorial as a prerequisite:** [[.:tutorial_mesh|Modifying a 3D Model's Geometry]]
+
+Bloodstained uses something most Unreal Engine games don't: **Mirror Tables**. If you don't generate a Mirror Table when editing any character/enemy in the game, the animations will break when the character is facing left. This tutorial will cover safely editing Miriam's body, the techniques will apply to any other character in the game.
+
+----
+
+==== Required Modding Tools ====
+
+This tutorial uses the following tools:
+  * [[https://www.unrealengine.com/en-US/unreal|Unreal Engine 4]]
+  * [[https://www.gildor.org/en/projects/umodel|UE Viewer]]
+  * {{ :modding:tool_mirror_plugin_toolbar.zip |Mirror Plugin Toolbar}}
+  * {{ :modding:tool_unrealpak.zip |UnrealPak}}
+
+Pick a 3D modelling software, such as:
+  * [[https://www.blender.org/download/|Blender]] with the [[https://github.com/Befzz/blender3d_import_psk_psa|PSK/PSA Importer Addon Installed]]
+  * [[https://www.autodesk.com/products/3ds-max/free-trial|3DS Max]]
+
+----
+
+==== Steps ====
+
+  - [[.:tutorial_character_editing:step1|Use UE Viewer to Extract Miriam's Body Model]]
+  - [[.:tutorial_character_editing:step2|Modify Miriam's Body]]
+  - [[.:tutorial_character_editing:step3|Generate a Mirror Table in Unreal Engine]]
+  - [[.:tutorial_character_editing:step4|Package and Test]]
+
+----
+
+==== Final Result ====
+
+Miriam's body is modified, and the mirroring still works properly.
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_finished_menu.png?nolink |}}
+
+{{ :modding:modelling:tutorial_character_editing:tutorial_character_editing_finished_mirror_view.png?nolink |}}

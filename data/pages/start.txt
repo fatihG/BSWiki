@@ -1,0 +1,37 @@
+===== In The Beginning... =====
+
+Let's start somewhere.
+
+==== Content Organisation ====
+
+This is what we're working toward:
+
+| [[data:start|Data]]				| Data, items, craft, monsters, shards |
+| System						| Mechanics, Controls, Systems, Rules, how things works |
+| Mode							| Details about different game modes |
+| Setting 						| Story, Lore, Characters |
+| Misc							| Development info, interviews, developer comments etc |
+| Guides						| Game guides, Boss guides, etc |
+| [[modding:start|Modding]]		| Guides |
+
+----
+
+==== WIP =====
+
+  * [[data:start]]
+  * [[bs:start|Bloodstained DataTables]]
+
+{{ icon01.png?nolink }}
+
+----
+
+
+==== Div ====
+
+Just using to create sub-folders for media files.
+
+  * [[potion:start]]
+
+----
+
+{{ icon02.png?nolink }}

@@ -1,0 +1,167 @@
+====== Bloodstained DataTables ======
+
+>[[start|<Back>]]
+
+Bloody Heck !
+
+====== Bloody Heck ! ======
+
+Divided into parts for easier editing.
+
+
+==== Part0: Misc ====
+^ Filename	^ Description	^
+| DT_DialogueSpeakerAttributes.json				| ?	|
+| PBST_N2006_FrameMove.json						| ?	|
+| PB_Dev_TestDataTable.json						| ?	|
+
+==== Part1: A-B ====
+^ Filename	^ Description	^
+| PB_DT_AccelMoveMaster.json					| ?	|
+| PB_DT_AimEffectParameter.json					| ?	|
+^ PB_DT_AmmunitionMaster.json					| Ammo stats	|
+| PB_DT_ArchiveAchiveMaster.json				| Ingame Archive	|
+| PB_DT_ArchiveArtsMaster.json					| Ingame Archive, unlock weapon tech	|
+| PB_DT_ArchiveDiaryMaster.json					| Ingame Archive	|
+| PB_DT_ArchiveEnemyMaster.json					| Ingame Archive	|
+| PB_DT_ArchiveTimeRecordMaster.json			|Ingame Archive	|
+| PB_DT_ArchiveTipsMaster.json					| Ingame Archive	|
+^ PB_DT_ArmorMaster.json						| Gear stats	|
+^ PB_DT_ArtsCommandMaster.json					| Techniques	|
+| PB_DT_AttachMaster.json						| ?	|
+| PB_DT_BallisticMaster.json					| ?	|
+^ PB_DT_BookMaster.json							| Book Stats + req	|
+| PB_DT_BulletMaster.json						| ?	|
+
+==== Part2: C-D ====
+^ Filename	^ Description	^
+| PB_DT_CameraMaster.json						| ?	|
+| PB_DT_CharacterGeneratorMaster.json			| ?	|
+| PB_DT_CharacterMaster.json					| ?	|
+| PB_DT_CharacterPartsMaster.json				| ? Monster vulnerable body parts	|
+| PB_DT_CharaUniqueParameterMaster.json			| ?	|
+| PB_DT_CheatCodeMaster.json					| Cheat code/item	|
+| PB_DT_CollisionMaster.json					| ?	|
+| PB_DT_ConsumableMaster.json					| Consumable set faerie	|
+| PB_DT_CoordinateMaster.json					| Hairdresser UI, order, icons	|
+^ PB_DT_CoordinateParameter.json				| Variable stats: Difficulty, Attack scale, level-stats, max hp/mp, special item variables	|
+| PB_DT_CraftingredientMaster.json				| ?	|
+^ PB_DT_CraftMaster.json						| Craft, req, food stats, alkahest	|
+| PB_DT_CurveMaster.json						| ?	|
+^ PB_DT_DamageMaster.json						| ? Looks like stats for attack animations, Damage Types	|
+| PB_DT_DialogueTableItems.json					| ? Seems to control the dialogue scenes	|
+| PB_DT_DialogueTextMaster.json					| ? Summons the text for dialogues	|
+| PB_DT_DLCMaster.json							| DLC path and id, Only Iga so far	|
+^ PB_DT_DropRateMaster.json						| Drop rates items/shard from monsters/chests	|
+
+==== Part3: E-R ====
+^ Filename	^ Description	^
+| PB_DT_EffectManID.json						| ?	|
+| PB_DT_EffectMaster.json						| ?	|
+^ PB_DT_EnchantaParameterInitialSetting.json	| ? Item/Skilled/Passive initial values before modifications	|
+^ PB_DT_EnchantParameterType.json				| Item/Skilled/Passive special properties, most gear special ability stats	|
+| PB_DT_EventSwingMaster.json					| ?	|
+| PB_DT_FarmMaster.json							| Rooms to finish growing seeds	|
+| PB_DT_FoodstuffMaster.json					| ? Defines food/alchemy materials	|
+| PB_DT_HitSECommonMaster.json					| ?	|
+| PB_DT_HitSEMaster.json						| ?	|
+| PB_DT_Icons.json								| ?	|
+| PB_DT_InputIcon.json							| ?	|
+| PB_DT_InputMoveMaster.json					| ?	|
+| PB_DT_ItemMaster.json							| ?	Dummy file |
+| PB_DT_KeyExclusionMaster.json					| ?	|
+| PB_DT_KeyItemMaster.json						| ?	|
+| PB_DT_MutekiTimerMaster.json					| ?	|
+| PB_DT_N1006_FireBone.json						| ?	|
+| PB_DT_N1006_RayStartPositions.json			| ?	|
+| PB_DT_PlayableCharacterMaster.json			| ? change player	|
+| PB_DT_QuestMaster.json						| Quest stats	|
+| PB_DT_RoomMaster.json							| ? Rooms/Doors	|
+
+==== Part4: S-W ====
+^ Filename	^ Description	^
+| PB_DT_ScenarioMaster.json						| ?	|
+| PB_DT_SearchSurfaceIdMaster.json				| ?	|
+| PB_DT_SentenceEnemy.json						| Enemy names	|
+| PB_DT_SentenceInfo.json						| ?	|
+| PB_DT_SentenceTable_JPN.json					| ?	|
+| PB_DT_SequencerEventMaster.json				| ?	|
+| PB_DT_SequencerMaster.json					| ?	|
+| PB_DT_ShardMaster.json						| ?	Shard stats	|
+| PB_DT_ShopMaster.json							| ?	|
+| PB_DT_SoundEffectMaster.json					| ?	|
+| PB_DT_SoundExtraRoomMaster.json				| ?	|
+| PB_DT_SoundMaster.json						| ?	|
+| PB_DT_SoundSettingMaster.json					| ?	|
+| PB_DT_SoundTestMaster.json					| ?	|
+^ PB_DT_SpecialEffectDefinitionMaster.json		| ? Potion/Food values, Max-up, passive shard variables	|
+| PB_DT_SpecialEffectGroupMaster.json			| ?	|
+| PB_DT_SpecialEffectManID.json					| ?	|
+| PB_DT_SpecialEffectMaster.json				| ?	|
+| PB_DT_SplineMaster.json						| ?	|
+| PB_DT_StaffRoll2Master.json					| ?	|
+| PB_DT_StaffRollMaster.json					| ?	|
+| PB_DT_StepCommand.json						| ?	|
+| PB_DT_SubCharacterMovementMaster.json			| ?	|
+| PB_DT_SurfaceEffectMaster.json				| ?	|
+| PB_DT_SurfaceMapMaster.json					| ?	|
+| PB_DT_SurfaceMaster.json						| ?	|
+| PB_DT_SystemMoveMaster.json					| ? player moves	|
+| PB_DT_WeaponMaster.json						| Weapon stats	|
+| PB_DT_WindowTemplateMaster.json				| ?	|
+
+==== Part5: Subfolders ====
+^ Filename	^ Description	^
+| Character/PB_DT_ChrExtraParameter.json		| ?	|
+| Character/PB_DT_N1011CoopActionList.json		| ?	|
+| Character/PB_DT_OnceFlagList.json				| ?	|
+| Character/PB_DT_PlayableCharacterMaster.json	| ?	|
+| Command/PB_DT_StepCommandByKeyMaster.json		| ?	|
+| Common/PB_DT_ArchiveFlagMaster.json			| ?	|
+| Common/PB_DT_CraftFlagMaster.json				| ?	|
+| Common/PB_DT_EventFlagMaster.json				| ?	|
+| Common/PB_DT_FindRoute.json					| ?	|
+| Common/PB_DT_GimmickFlagMaster.json			| ?	|
+| Common/PB_DT_QuestFlagMaster.json				| ?	|
+| Common/PB_DT_ReferenceMaster.json				| ?	|
+| Common/PB_DT_ShopFlagMaster.json				| ?	|
+| Effect/PB_DT_EffectExtraManID.json			| ?	|
+^ Enemy/PB_DT_CharacterParameterMaster.json		| enemy/player stat	|
+| Enemy/PB_DT_N1005CoopAction.json				| ?	|
+| Enemy/PB_DT_N1005IntervalDistance.json		| ?	|
+| ExtraParam/PB_DT_N3019_ExtraParam.json		| ?	|
+| Item/PB_DT_HairCatalog.json					| ?	|
+^ Item/PB_DT_ItemMaster.json					| Item store ng+	|
+| Platform/PB_DT_AchievementMaster.json			| ?	|
+| Player/PB_DT_P000_WarpBoneList.json			| ?	|
+| Subtitle/PB_DT_SubtitleMaster.json			| ?	|
+| TimeLine/PBDT_DefaultTimeLineTable.json		| ?	|
+| TimeLine/PBDT_N1006_StartEvent.json			| ?	|
+| Tutorial/PB_DT_TutorialMaster.json			| ?	|
+
+----
+
+===== Specific Files =====
+
+----
+
+==== Item/PB_DT_ItemMaster.json ====
+  * To remove from shop:
+      * "buyPrice": 0,
+  * To make un-sellable, example key items:
+      * "sellPrice": 0,
+  * To add to shop: (price higher than 0)
+    * "buyPrice": 1,
+    * "Producted": "Event_01_001_0000",
+  * Certain items can't be bought because they don't have a store tab:
+    * Books
+    * Spells
+
+----
+
+==== PB_DT_EnchantaParameterInitialSetting.json ====
+This file has a lot of different stats, but notable that many of them start with value 0 or 1, and other effects like items, can set the same value to 1 (+1), and thus enabling the effect.
+  * Example Aegis Plate works like this with variable "GimmickDamage" default at 1, Aegis Plate sets the same value by 1 (+1), for total of 2, which disables all environment damage. Thus you can set base value to 2 to disable it.
+    * Setting it to 0 makes you take a lot of damage, I got hit for around 550 hp by one of the water spikes.
+  * Haven't tested yet, but the same should work for other effects like the Silver/Gold/Traverser/Advercity rings etc.
+  * Bluu tested that you can enable "DetectiveEyeBonusRate" to enable the Rank9 effect of upgrading Detective Eye.

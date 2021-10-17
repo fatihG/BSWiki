@@ -1,0 +1,366 @@
+====== Items ======
+>[[start]]
+===== Here goes nothing! =====
+
+^	-Type-	^	-Index-	^	-Name-	^	-ID-	^	-Effect-	^	-Description-	^
+|	Book	|	574	|	Might Tome	|	Bookofstiffness	|	10	|	A book imbued with magic that increases strength (STR).	|
+|	Book	|	575	|	Sage's Tome	|	Abookofwisemen	|	10	|	A book imbued with magic that increases intelligence (INT).	|
+|	Book	|	576	|	Sentinel Tome	|	GuardiansBook	|	10	|	A book imbued with magic that increases constitution (CON).	|
+|	Book	|	577	|	Believer's Tome	|	Bookoffaith	|	10	|	A book imbued with magic that increases mind (MND).	|
+|	Book	|	578	|	Fortune Tome	|	BookofFortune	|	5	|	A curious book that seems to bring good fortune. Increases LUCK.	|
+|	Book	|	579	|	Godsend Tome	|	BookofFury	|	15	|	A marvelous book that brings wondrous fortune. Greatly increases LUCK.	|
+|	Book	|	580	|	Coldstave Tome	|	Bookofwinter	|	15	|	A book that is warm to the touch. Increases resistance to ice.	|
+|	Book	|	581	|	Heatstave Tome	|	Heatresistantbook	|	15	|	A book that is cold to the touch. Increases resistance to fire.	|
+|	Book	|	582	|	Shockstave Tome	|	LightningProtectionBook	|	15	|	A book under divine protection. Increases resistance to thunder.	|
+|	Book	|	583	|	Empyreal Tome	|	Bookoflatency	|	15	|	A holy book containing God's power. Increases resistance to darkness.	|
+|	Book	|	584	|	Obscurity Tome	|	ShadingBook	|	15	|	A book brimming with dark energy. Increases resistance to light.	|
+|	Book	|	585	|	Corporeity Tome	|	Bookoffossilstone	|	15	|	A book holding secrets of the flesh. Increases petrification resistance.	|
+|	Book	|	586	|	Immunity Tome	|	Bookofdetoxification	|	15	|	A book imbued with fortifying magic. Increases poison resistance.	|
+|	Book	|	587	|	Blessed Tome	|	TheBookofMonster	|	15	|	A book that a priest has blessed. Increases curse resistance.	|
+|	Book	|	588	|	Prowess Tome	|	BookoftheMighty	|	1.2	|	A book that speeds muscle movement. Increases standard attack speed.	|
+|	Book	|	589	|	Tailwind Tome	|	Abookofthegale	|	1.2	|	A book that fortifies the legs. Increases movement speed.	|
+|	Book	|	590	|	Tactician's Tome	|	BookofTactics	|	1.2	|	A book of power by a great tactician. Increases EXP intake.	|
+|	Book	|	591	|	Mastery Tome	|	Bookofexercise	|	1.2	|	A book by a warrior of great skill. Hastens proficiency growth.	|
+|	Book	|	592	|	Tome of Conquest	|	Bookofthechampion	|	1.2	|	The ultimate tome. Equivalent to the Prowess, Tailwind, and Mastery Tomes. (Tactician)	|
+|	Book	|	593	|	Ancillary Tome	|	Bookofthefollower	|	1.2	|	A book by a legendary summoner. Increases the power of familiars.	|
+|	Book	|	594	|	Deadeye Tome	|	BookofDevils	|	1.2	|	A book written by a godlike hunter. Makes directional shards stronger.	|
+|	Food	|	433	|	Rice Ball	|	RiceBall	|	30	|	Cooked rice shaped into a portable snack for when you feel peckish.	|
+|	Food	|	434	|	Fried Potatoes	|	FriedPotatoes	|	75	|	Potatoes fried in oil, which gets all over your hands... You won't care.	|
+|	Food	|	435	|	Corn Chowder	|	CornChowder	|	80	|	A thick but smooth corn soup that hovers between a food and a drink.	|
+|	Food	|	436	|	Apple Risotto	|	AppleRisotto	|	320	|	An improvised risotto made with apple and rice. Surprisingly good.	|
+|	Food	|	437	|	Uni Rice Bowl	|	UniDon	|	375	|	A simple dish consisting of sea urchin on cooked rice. Delectable.	|
+|	Food	|	438	|	Pizza	|	Pizza	|	395	|	Pizza dough covered in toppings and an irresistible layer of cheese.	|
+|	Food	|	439	|	Fried Egg	|	FriedEgg	|	45	|	The simplest of egg dishes. Needs no more than a dash of salt and pepper.	|
+|	Food	|	440	|	Rolled Omelette	|	RolledOmelette	|	80	|	A whisked eggs spread flat while cooking and then rolled up.	|
+|	Food	|	441	|	Egg on Rice	|	EggonRice	|	95	|	The ultimate everyman's breakfast: raw egg and soy sauce over rice.	|
+|	Food	|	442	|	Scrambled Eggs	|	ScrambledEggs	|	57	|	A dish made by whisking eggs before cooking them. Or, a failed omelette.	|
+|	Food	|	443	|	Egg Soufflé	|	EggSoufflé	|	170	|	An egg dish that looks and tastes as fluffy as a cloud.	|
+|	Food	|	444	|	Omurice	|	Omurice	|	195	|	Rice wrapped in an omelette. A novel idea, but tricky to prepare.	|
+|	Food	|	445	|	Fried Fish	|	FriedFish	|	100	|	Whitefish that has been breaded and fried to enhance flavor and texture.	|
+|	Food	|	446	|	Fish & Chips	|	FishAndChips	|	170	|	Fried fish and fried potatoes on a single plate. Fattening? Never.	|
+|	Food	|	447	|	Forneus Meunière	|	ForneusMeunière	|	295	|	Whitefish fried in a bit of fat until it turns a scrumptious golden brown.	|
+|	Food	|	448	|	Forneus in Garlic	|	ForneusinGarlic	|	320	|	Whitefish fried in garlic and fat. The smell clings to your garments.	|
+|	Food	|	449	|	Simmered Forneus	|	SimmeredForneus	|	320	|	Simmered whitefish that falls apart in your mouth.	|
+|	Food	|	450	|	Fish Hot Pot	|	FishHotPot	|	495	|	A hot pot made with whitefish. Add rice at the end for a risotto.	|
+|	Food	|	451	|	Macaroni Gratin	|	MacaroniGratin	|	220	|	Macaroni covered in white sauce and baked. Don't miss the crispy bottom.	|
+|	Food	|	452	|	Macaroni & Cheese	|	MacaroniAndCheese	|	270	|	A classic made by slathering pasta with cheese. But this seems off...	|
+|	Food	|	453	|	Classic Spaghetti	|	ClassicSpaghetti	|	195	|	Pasta tossed in tomato sauce. Certain to put a smile on any face.	|
+|	Food	|	454	|	Pasta Carbonara	|	PastaCarbonara	|	245	|	A popular pasta made with a thick, creamy sauce. Quick and delicious.	|
+|	Food	|	455	|	Pasta Vongole	|	PastaVongole	|	295	|	A clam and garlic pasta that floods your mouth with flavor.	|
+|	Food	|	456	|	Sea Urchin Pasta	|	SeaUrchinPasta	|	370	|	Pasta tossed in creamy sea urchin and accented with an acidic tomato note.	|
+|	Food	|	457	|	Salt Ramen	|	SaltRamen	|	245	|	Chinese noodles in salt broth. Goes well with a bowl of rice.	|
+|	Food	|	458	|	Soy Ramen	|	SoyRamen	|	245	|	Chinese noodles in soy broth. It's polite to drink all the soup.	|
+|	Food	|	459	|	Tonkotsu Ramen	|	TonkotsuRamen	|	245	|	Chinese noodles in tonkotsu broth. A rich flavor you'll learn to crave.	|
+|	Food	|	460	|	Miso Ramen	|	MisoRamen	|	245	|	Chinese noodles in miso broth. Warms the body and soul.	|
+|	Food	|	461	|	Chicken Casserole	|	ChickenCasserole	|	170	|	Chicken and rice covered in white sauce and baked. Don't burn yourself.	|
+|	Food	|	462	|	Garlic Chicken	|	GarlicChicken	|	200	|	Chicken cooked in garlic sauce. One whiff is enough to make you hungry.	|
+|	Food	|	463	|	Chicken Sauté	|	ChickenSauté	|	200	|	A chicken thigh fried in fat, yielding crispy skin and juicy meat.	|
+|	Food	|	464	|	Ginger Pork	|	GingerPork	|	175	|	Thinly sliced pork simmered in ginger sauce. Pairs well with rice.	|
+|	Food	|	465	|	Pork Cutlet	|	Tonkatsu	|	300	|	A slice of pork that has been breaded and fried for a crispy outside.	|
+|	Food	|	466	|	Sukiyaki	|	Sukiyaki	|	375	|	A hot pot made with meat and vegetables which are dipped in egg.	|
+|	Food	|	467	|	Miso Cutlet	|	MisoCutlet	|	375	|	A pork cutlet topped with miso. Popular in some parts of Nippon.	|
+|	Food	|	468	|	Steak	|	Steak	|	495	|	A slice of meat cooked on a hot surface. You'll savor every bite.	|
+|	Food	|	469	|	Exquisite Steak	|	ExquisiteSteak	|	700	|	Steak made with the choicest meat. Meals like this can change your life.	|
+|	Food	|	470	|	Meat Hot Pot	|	MeatHotPot	|	495	|	An invigorating hot pot brimming with slices of meat.	|
+|	Food	|	471	|	Curry & Rice	|	Curry&Rice	|	200	|	Curry sauce over rice. Delicious, but imagine it with meat or vegetables...	|
+|	Food	|	472	|	Pork Curry	|	PorkCurry	|	237	|	A curry and rice plate with large chunks of pork. Tasty and filling.	|
+|	Food	|	473	|	Chicken Curry	|	ChickenCurry	|	287	|	Curry and rice made with chicken that has soaked up the flavor.	|
+|	Food	|	474	|	Seafood Curry	|	SeafoodCurry	|	337	|	Curry and rice with seafood that will make waves in your mouth.	|
+|	Food	|	475	|	Beef Curry	|	BeefCurry	|	337	|	An extravagant curry and rice plate loaded with beef. Seconds, please!	|
+|	Food	|	476	|	Apple Pie	|	ApplePie	|	370	|	A pie with an apple slice filling that gives it a subtle sweetness.	|
+|	Food	|	477	|	Lemon Cream Pie	|	LemonPie	|	370	|	A summer treat made with a lemon juice filling and topped with cream.	|
+|	Food	|	478	|	Strawberry Pie	|	StrawberryPie	|	395	|	A pie encrusted with strawberries. It's as pretty as jewelry.	|
+|	Food	|	479	|	Manju	|	Manju	|	25	|	An Eastern afternoon treat made of bean paste wrapped in dough.	|
+|	Food	|	480	|	Cookies	|	Cookies	|	30	|	A classic baked sweet that can be made in all shapes and sizes.	|
+|	Food	|	481	|	Chocolate Cookies	|	ChocolateCookies	|	37	|	A cookie made with bitter chocolate for a more sophisticated flavor.	|
+|	Food	|	482	|	Cinnamon Cookies	|	CinnamonCookies	|	50	|	A fragrant cookie that pairs well with black tea.	|
+|	Food	|	483	|	Flan	|	Flan	|	45	|	A steamed egg-and-milk custard. Every bite is bliss.	|
+|	Food	|	484	|	Sponge Cake	|	SpongeCake	|	70	|	A fluffy cake that rises in the oven and tastes great all on its own.	|
+|	Food	|	485	|	Chiffon Cake	|	ChiffonCake	|	120	|	A silky sponge cake that's nothing short of a culinary miracle.	|
+|	Food	|	486	|	Cheesecake	|	CheeseCake	|	145	|	A moist and mildly sweet cake made with an ample helping of cheese.	|
+|	Food	|	487	|	Chocolate Crepe	|	ChocolateCrepe	|	145	|	A simple crepe that gets a subtle bitter note from the chocolate.	|
+|	Food	|	488	|	Chocolate Cake	|	ChocolateCake	|	145	|	A luxurious chocolate cake. Also, a cavity waiting to happen.	|
+|	Food	|	489	|	Strawberry Cake	|	StrawberryCake	|	170	|	A cake containing strawberries (which discerning eaters save for last).	|
+|	Food	|	490	|	Strawberry Crepe	|	StrawberryCrepe	|	195	|	Cream and strawberries wrapped in a crepe for a delightful combination.	|
+|	Food	|	491	|	Berry Spaghetti	|	BerrySpaghetti	|	320	|	An improvised dessert pasta made with strawberries and cream. It works!	|
+|	Food	|	492	|	Shiruko Spaghetti	|	ShirukoSpaghetti	|	320	|	A chance creation made with sweet red bean juice. Not for everyone...	|
+|	Food	|	493	|	Lemonade	|	Lemonade	|	Mp 36	|	A refreshing, summery drink made from sweetened lemon juice.	|
+|	Food	|	494	|	Apple Juice	|	AppleJuice	|	Mp 36	|	Apple juice made the right way: by carefully selecting the best fruit.	|
+|	Food	|	495	|	Strawberry Au Lait	|	StrawberryAuLait	|	Mp 45	|	A glass of milk with strawberries in it. They always sink to the bottom...	|
+|	Food	|	496	|	Smoothie	|	Smoothie	|	Mp 84	|	Fruit blended into a smooth drink. A recipe for beautiful skin.	|
+|	Food	|	497	|	Fruit Juice	|	FruitJuice	|	Mp 84	|	Nutrient-rich juice. Drink in moderation to avoid a bellyache.	|
+|	Food	|	498	|	Nectar	|	Nectar	|	Mp 744	|	The libation of the gods. Grants immortality and staves off wrinkles.	|
+|	Food	|	499	|	Dark Matter	|	DarkMatter	|	Poison	|	An ominous black mass that is probably edible...but you first.	|
+|	FoodStuff	|	376	|	Rice	|	Paddy	|	Shop	|	A grain that features prominently in Eastern diets.	|
+|	FoodStuff	|	377	|	Corn	|	Corn	|	Shop	|	A vegetable covered in small yellow kernels. Feeds people and livestock.	|
+|	FoodStuff	|	378	|	Potato	|	Potato	|	Shop	|	A hardy tuber that thrives in poor soil. Beware the poisonous sprouts.	|
+|	FoodStuff	|	379	|	Cinnamon	|	Cinnamon	|	Shop	|	A spice with a unique aroma made from a type of tree bark.	|
+|	FoodStuff	|	380	|	Flour	|	Flour	|	Shop	|	A grain found in nearly every household and used in many dishes.	|
+|	FoodStuff	|	381	|	Egg	|	Egg	|	Shop	|	A freshly laid chicken egg. You can pick up the yolk with your fingers.	|
+|	FoodStuff	|	382	|	Dragon Egg	|	DragonsEgg	|	DragonsEgg 	|	An egg laid by a dragon. Fetches good coin among gourmands.	|
+|	FoodStuff	|	383	|	Sugar	|	Sugar	|	Shop	|	A sweetener and essential ingredient when making desserts.	|
+|	FoodStuff	|	384	|	Soy Sauce	|	SoySauce	|	Chest	|	A liquid condiment made from soybeans that is essential to Eastern cuisine.	|
+|	FoodStuff	|	385	|	Miso	|	Miso	|	Chest	|	A paste of fermented soybeans that's hard on the eyes but full of flavor.	|
+|	FoodStuff	|	386	|	Black Pepper	|	Pepper	|	Chest	|	A spice used to punch up cooking. Often appears next to salt.	|
+|	FoodStuff	|	387	|	Ginger	|	Ginger	|	Chest	|	A spice that imparts a refreshing bite and warms the body.	|
+|	FoodStuff	|	388	|	Garlic	|	Garlic	|	Chest	|	A spice with a distinct smell that vampires utterly detest.	|
+|	FoodStuff	|	389	|	Moco Oil	|	MocoOil	|	Moco Weed 	|	Oil harvested from moco weeds. Works wonders on the skin.	|
+|	FoodStuff	|	390	|	Rennet	|	Rennet	|	Zagan, Haagenti	|	A complex of enzymes used to produce cheese.	|
+|	FoodStuff	|	391	|	Milk	|	Milk	|	Shop	|	Fresh milk packed with nutrients to help you grow strong.	|
+|	FoodStuff	|	392	|	Beast Milk	|	MilkofZagan	|	Zagan 	|	Milk taken from a zagan. Truly the pinnacle of dairy delights.	|
+|	FoodStuff	|	393	|	Tomato	|	Tomato	|	Aello 	|	A ruby-red vegetable that appears in everything from salads to stews.	|
+|	FoodStuff	|	394	|	Moco Leek	|	MocoOnion	|	Moco Weed 	|	An onion harvested from moco weeds. Cooking it brings out its sweetness.	|
+|	FoodStuff	|	395	|	Fey Leaf	|	DaturaLeaf	|	Moco Weed 	|	The poisonous leaf of a Datura. It can be made edible if properly heated.	|
+|	FoodStuff	|	396	|	Fell Leaf	|	CerberaLeaf	|	Giant Moco 	|	The nutrient-rich leaf of a Cerbera. It is valued for its medicinal properties.	|
+|	FoodStuff	|	397	|	Clam	|	Clam	|	Scylla 	|	A shellfish that needs to be purged of sand before eating.	|
+|	FoodStuff	|	398	|	Sea Urchin	|	Uni	|	Dullahammer 	|	A sea delicacy best enjoyed raw— the fresher the better.	|
+|	FoodStuff	|	399	|	Red Bean	|	RedBean	|	Gusion 	|	A type of bean grown in the Orient and used to make desserts.	|
+|	FoodStuff	|	400	|	Cacao Bean	|	CacaoBean	|	Shop	|	A fragrant bean that tastes bitter when you bite into it.	|
+|	FoodStuff	|	401	|	Forneus Filet	|	ForneusFilet	|	Forneus 	|	Meat from Forneus. It's classified under white fish.	|
+|	FoodStuff	|	402	|	Aquatic Filet	|	DeeseamaFilet	|	Deeseama 	|	Deeseama meat. It's extremely tough and rubbery.	|
+|	FoodStuff	|	403	|	G-Bone Steak	|	G-LabolasFilet	|	Celaeno, Ocypete	|	Meat from a glasya-labolas. The light flavor compliments any cuisine.	|
+|	FoodStuff	|	404	|	Plume Pork	|	YorktonMeat	|	Plume Parma 	|	Pork from a plume parma. Try the sirloin; it's delicious.	|
+|	FoodStuff	|	405	|	Beast Beef	|	ZaganMeat	|	Zagan 	|	The meat of a zagan. It melts in your mouth with each bite.	|
+|	FoodStuff	|	406	|	Flying Beef	|	HaagentiFilet	|	Haagenti 	|	Scrumptious haagenti meat that will have you mooing for more.	|
+|	FoodStuff	|	407	|	Strawberry	|	Strawberry	|	Celaeno, Tamako-Death	|	A sweet and sour fruit that makes delicious preserves.	|
+|	FoodStuff	|	408	|	Apple	|	Apple	|	Ocypete 	|	A juicy, red fruit that can be eaten without removing the skin.	|
+|	FoodStuff	|	409	|	Lemon	|	Lemon	|	Aello, Rul'sha	|	A yellow and very sour fruit that can be used to mask the smell of fish.	|
+|	FoodStuff	|	410	|	Ambrosia	|	Ambrosia	|	Vul'sha 	|	A legendary fruit said to grant immortality.	|
+|	FoodStuff	|	411	|	Baking Soda	|	BakingSoda	|	Shop	|	Powder used to make dough rise or remove stains from teacups.	|
+|	FoodStuff	|	412	|	Butter	|	Butter	|	Shop	|	A dairy product used in everything from sweets to sautés.	|
+|	FoodStuff	|	413	|	Cheese	|	Cheese	|	Giant Rat	|	A dairy product made by fermenting milk.	|
+|	FoodStuff	|	414	|	Soda Water	|	Soda	|	Shop	|	Carbonated water. Mix it with fruit juice for a delicious beverage.	|
+|	FoodStuff	|	415	|	Consommé	|	Consommé	|	Craft	|	A clear, amber broth. Delicious served both hot and cold.	|
+|	FoodStuff	|	416	|	Curry Powder	|	CurryPowder	|	Ordog 	|	A powdered mixture of fragrant spices that whets the appetite.	|
+|	FoodStuff	|	417	|	Salt Broth	|	SaltBroth	|	Craft	|	A simple broth that has been flavored with salt.	|
+|	FoodStuff	|	418	|	Soy Broth	|	SoyBroth	|	Craft	|	A Nipponese broth flavored with soy sauce.	|
+|	FoodStuff	|	419	|	Tonkotsu Broth	|	TonkotsuBroth	|	Craft	|	A cloudy broth made by slowly boiling pork bones.	|
+|	FoodStuff	|	420	|	Miso Broth	|	MisoBroth	|	Craft	|	A hearty broth made with dissolved miso.	|
+|	FoodStuff	|	421	|	Heavy Cream	|	HeavyCream	|	Craft	|	A thick, white liquid made from butterfat.	|
+|	FoodStuff	|	422	|	Red Bean Paste	|	RedBeanPaste	|	Craft	|	Boiled, sweetened red beans that may be mashed and skinned or left whole.	|
+|	FoodStuff	|	423	|	Cocoa	|	Cocoa	|	Buer 	|	A sweet beverage made from cacao beans.	|
+|	FoodStuff	|	424	|	Chinese Noodles	|	ChineseNoodles	|	Craft	|	Thin, frizzly noodles from China that are often consumed with broth.	|
+|	FoodStuff	|	425	|	Pasta	|	Pasta	|	Craft	|	Noodles made from durum wheat flour. They become chewy once boiled.	|
+|	FoodStuff	|	426	|	Bread	|	Bread	|	Shop	|	A flour-based dough that has been leavened and then baked.	|
+|	FoodStuff	|	427	|	Pie Dough	|	PieDough	|	Craft	|	A dough made from flour and plenty of butter. Makes a nice, flaky crust.	|
+|	FoodStuff	|	428	|	Pizza Dough	|	PizzaDough	|	Craft	|	A flour-based dough that is kneaded and stretched into a thin circle.	|
+|	FoodStuff	|	429	|	Crepe Dough	|	CrepeDough	|	Craft	|	A dough made by soaking flour in water. It is rolled paper thin.	|
+|	FoodStuff	|	430	|	Curry Sauce	|	CurrySauce	|	Craft	|	A hot sauce made from a mixture of fragrant spices.	|
+|	FoodStuff	|	431	|	White Sauce	|	WhiteSauce	|	Craft	|	A white sauce made from a roux of fat and flour.	|
+|	FoodStuff	|	432	|	Vongole Sauce	|	VongoleSauce	|	Craft	|	A clam-based sauce that tastes delicious when tossed with pasta.	|
+|	Ingrediment	|	16	|	Alkahest	|	Alkhahest	|	Ghost, Poltergeist, Amy	|	A single-use solvent that is used to break down transmuted materials.	|
+|	Ingrediment	|	17	|	Sulfur	|	Sulfur	|	Shop	|	An ore used in alchemy.	|
+|	Ingrediment	|	18	|	Saltpeter	|	Saltpeter	|	Shop	|	A niter ore.	|
+|	Ingrediment	|	19	|	Mercury	|	Mercury	|	Shop	|	A common alchemic material.	|
+|	Ingrediment	|	20	|	Sulfate	|	Sulfate	|	Shop	|	A liquid acid.	|
+|	Ingrediment	|	21	|	Gunpowder	|	Gunpowder	|	Bomber Morte, Leraje, Giant Cannon	|	A powder that burns quickly and explodes, making it useful, but dangerous to handle.	|
+|	Ingrediment	|	22	|	Ectoplasm	|	Ectoplasm	|	Ghost, Amy	|	A flossy, astral matter.	|
+|	Ingrediment	|	23	|	Bronze	|	Bronze	|	Dullahammer 	|	A metal that changes color from added tin.	|
+|	Ingrediment	|	24	|	Iron	|	Iron	|	Dullahammer, Blood Grinder Knight, Carriage Morte 	|	A common form of metal.	|
+|	Ingrediment	|	25	|	Obsidian	|	Obsidian	|	Sabnock, Gargoyle, Light Elemental	|	A black gemstone formed by volcanic lava.	|
+|	Ingrediment	|	26	|	Steel	|	Steel	|	Blood Grinder Knight, Sabnock, Buer Armor, Shovel Armor	|	A sturdy alloy made from iron ore that is easy to work with and suited for fine detailing.	|
+|	Ingrediment	|	27	|	Silver	|	Silver	|	Shield Outsider, Bloodbringer, Lance Armor	|	A precious metal.	|
+|	Ingrediment	|	28	|	Damascus	|	DamascusSteel	|	Mimic, Puppy, Lance Armor, Axe Outsider	|	A sturdy metal with attractive banding.	|
+|	Ingrediment	|	29	|	Mithril	|	Mithril	|	Axe Outsider 	|	An argent mineral that is both durable and light. However, only the finest of smiths can work it.	|
+|	Ingrediment	|	30	|	Platinum	|	Platinum	|	Axe Outsider, Zepar, Kunekune 	|	A bright metal resistant to oxidation and corrosion. It is difficult to mine and quite precious.	|
+|	Ingrediment	|	31	|	Crystal	|	Clystal	|	Living Fossil 	|	A precious mineral with purifying properties that has been revered as holy since ancient times.	|
+|	Ingrediment	|	32	|	Gold	|	Gold	|	Craft, Alkehest	|	Not just any gold. This was created by Alchemists.	|
+|	Ingrediment	|	33	|	Crimsonite	|	Hihiirokane	|	Ninja 	|	A legendary metal as bright as the sun.	|
+|	Ingrediment	|	34	|	Orichalcum	|	Orichalcum	|	G Axe Outsider 	|	A legendary metal excavated from a lost country.	|
+|	Ingrediment	|	35	|	Cotton	|	Hemp	|	Moco Weed 	|	Cloth made from a plant. It is durable, absorbent, and soft on the skin.	|
+|	Ingrediment	|	36	|	Hemp	|	Cotton	|	Barbatos 	|	Cloth made from plant fibers. It is comfortable to wear and breathes well, but falls apart easily.	|
+|	Ingrediment	|	37	|	Wool	|	Felt	|	Wolfman, Gamigin, Allocer	|	Versatile cloth made from sheep's wool that is cool in the summer and warm in winter.	|
+|	Ingrediment	|	38	|	Silk	|	Silk	|	Allocer, Rocky, Kamikaze	|	Precious, lustrous cloth made from the cocoon of the silkworm. Prized since ancient times.	|
+|	Ingrediment	|	39	|	Cashmere	|	Leather	|	Giant Buer 	|	A fine, downy wool taken from a goat. It is lightweight and quite lovely to look at.	|
+|	Ingrediment	|	40	|	Halite	|	Halite	|	Seama 	|	Salt extracted from rocks.	|
+|	Ingrediment	|	41	|	Elm	|	ElmLumber	|	Cannon Morte 	|	A cheap lumber.	|
+|	Ingrediment	|	42	|	Oak	|	OakLumber	|	Poltergeist, Carriage Morte	|	A fairly sturdy lumber.	|
+|	Ingrediment	|	43	|	Walnut	|	WalnutLumber	|	Chair Mimic 	|	An extremely sturdy lumber.	|
+|	Ingrediment	|	44	|	Mahogany	|	MahoganyLumber	|	Deathtrap 	|	A rare and beautiful lumber.	|
+|	Ingrediment	|	45	|	Cypress	|	CypressLumber	|	Deathtrap, Giant Cannon, Gusion Cannon	|	A fine lumber favored in the East.	|
+|	Ingrediment	|	46	|	Ruby	|	Ruby	|	Buer Armor, Rul'sha, Fire Elemental	|	A scarlet gemstone.	|
+|	Ingrediment	|	47	|	Sapphire	|	Sapphire	|	Shovel Armor, Ice Elemental	|	A deep blue gemstone.	|
+|	Ingrediment	|	48	|	Emerald	|	Emerald	|	Thunder Elemental 	|	A bright green gemstone.	|
+|	Ingrediment	|	49	|	Diamond	|	Diamond	|	Light Elemental, Dark Elemental, Ice Elemental	|	A gemstone with a beautiful sparkle.	|
+|	Ingrediment	|	50	|	Bixbite	|	Bixbite	|	Fire Elemental 	|	An extremely rare red gemstone.	|
+|	Ingrediment	|	51	|	Alexandrite	|	Alexandrite	|	Ice Elemental 	|	A type of chrysoberyl with color-changing properties.	|
+|	Ingrediment	|	52	|	8-bit Coin	|	8BitCoin	|	Shop	|	A valuable coin that can be found in circulation.	|
+|	Ingrediment	|	53	|	16-bit Coin	|	16BitCoin	|	Shop	|	A rare and valuable coin that can be found in circulation.	|
+|	Ingrediment	|	54	|	32-bit Coin	|	32BitCoin	|	Shop	|	An extremely rare and valuable coin that can be found in circulation.	|
+|	Ingrediment	|	55	|	8-bit Nightmare	|	Medal022	|	Eight Bit Overlord	|	A book inside which an ancient demon overlord has been imprisoned.	|
+|	Ingrediment	|	611	|	Writhing Limb	|	Recklesslimb	|	Seama 	|	A branch (?) that continues its disgusting flailing.	|
+|	Ingrediment	|	612	|	Sharp Razor	|	SharpRazor	|	Killer Barber 	|	A razor that has cut through more than hair.	|
+|	Ingrediment	|	613	|	Tome Scrap	|	DevilBookPaperStrip	|	Dantalion 	|	A torn page that crackles with magic.	|
+|	Ingrediment	|	614	|	Sword Fragment	|	deathBringerDebris	|	Bloodbringer 	|	One piece of a shattered demon blade.	|
+|	Ingrediment	|	615	|	Chair Remnants	|	Mimicchairdebris	|	Chair Mimic 	|	A fragment claimed from the wreckage of a chair.	|
+|	Ingrediment	|	616	|	Monster Bird Tear	|	MonsterBirdTears	|	Aello, Ocypete	|	A mysterious glowing liquid.	|
+|	Ingrediment	|	617	|	Witch's Tears	|	Cyhyraethtear	|	Cyhyraeth 	|	A liquid as red as blood.	|
+|	Ingrediment	|	618	|	Queen's Tears	|	Lamastutear	|	Tamako-Death, Lamashtu	|	A liquid imbued with powerful sorcery.	|
+|	Ingrediment	|	619	|	Rat Teeth	|	Giantratteeth	|	Giant Rat 	|	The incisors of a giant rat.	|
+|	Ingrediment	|	620	|	Bat Fang	|	Batfang	|	Bat	|	A fang from a bat.	|
+|	Ingrediment	|	621	|	Demon Dog Fang	|	DemonDogFang	|	Gieremund 	|	A sharp fang from a demon canine.	|
+|	Ingrediment	|	622	|	Monster Fang	|	Ivory	|	Buer 	|	A fang from a monster.	|
+|	Ingrediment	|	623	|	Sinister Fang	|	Devilsfang	|	Demon, Puppy	|	The fang of an unusually cruel demon.	|
+|	Ingrediment	|	624	|	Demon Fang	|	Gusionfang	|	Archdemon, Rocky, Giant Bat	|	A fang from a demon.	|
+|	Ingrediment	|	625	|	Fiend Fang	|	Marbasfang	|	Silver Wolfman, Marbas	|	A fang embued with dark energy.	|
+|	Ingrediment	|	626	|	Imbrued Fang	|	Gieremundfang	|	Millionaire's Bane 	|	A fang caked with horrific amounts of blood.	|
+|	Ingrediment	|	627	|	Lycan Claw	|	Wolfclaw	|	Wolfman 	|	A razor-sharp wolf's claw.	|
+|	Ingrediment	|	628	|	Dragon Talons	|	Dragonclaw	|	Dragon 	|	A rare find: the talons of a dragon.	|
+|	Ingrediment	|	629	|	Demon Claw	|	Apenail	|	Hellhound 	|	A claw from a demon.	|
+|	Ingrediment	|	630	|	Monster Horn	|	Chicomecoatlhorn	|	Zagan 	|	A horn taken from something horrible.	|
+|	Ingrediment	|	631	|	Demon Horn	|	Gaaphorn	|	Gaap 	|	A horn taken from something unspeakable.	|
+|	Ingrediment	|	632	|	Hellhorse Hoof	|	Gamiginhoof	|	Gamigin 	|	A hoof that has treaded on who knows what carnage.	|
+|	Ingrediment	|	633	|	Water Horse Hoof	|	Glashtynhoof	|	Glashtyn 	|	The hoof of a demon that lurks beneath the water.	|
+|	Ingrediment	|	634	|	Melting Bone	|	MeltedBone	|	Bone Morte, Shield Outsider	|	A bone that is slightly sticky to touch.	|
+|	Ingrediment	|	635	|	Dragon Bone	|	Dragonbone	|	Living Fossil 	|	A precious find, even in this castle.	|
+|	Ingrediment	|	636	|	Demon Bone	|	Knightbone	|	Volcano Morte 	|	A bone from a demon.	|
+|	Ingrediment	|	637	|	Imbrued Bone	|	Bloodybone	|	Master Carpenter 	|	A bone steeped in blood.	|
+|	Ingrediment	|	638	|	Melting Skull	|	MeltingSkull	|	Bone Morte 	|	A skull that looks eerier from melting.	|
+|	Ingrediment	|	639	|	Sinister Skull	|	Jeneralskull	|	Shield Outsider 	|	A skull that is, against all odds, quite sinister.	|
+|	Ingrediment	|	640	|	Fiend Skull	|	Warriorskull	|	G Axe Outsider 	|	A skull embued with dark energy.	|
+|	Ingrediment	|	641	|	Imbrued Skull	|	Bloodyskull	|	Revenant 	|	A frightful skull that is bathed in blood.	|
+|	Ingrediment	|	642	|	Grotesque Shell	|	Mimicshell	|	Scythe Mite, Mimic, Blood Bug	|	The hardy shell of a monster.	|
+|	Ingrediment	|	643	|	Inhuman Carapace	|	Dethtrapshell	|	Blood Bug 	|	The formidable shell of a demon.	|
+|	Ingrediment	|	644	|	Cannon Scrap	|	CannonDebris	|	Cannon Morte 	|	A scrap from a shattered cannon.	|
+|	Ingrediment	|	645	|	Gargoyle Stone	|	Gargoyledebris	|	Gargoyle 	|	A fragment claimed from the wreckage of a gargoyle.	|
+|	Ingrediment	|	646	|	Hellhorse Mane	|	Gamiginhair	|	Gamigin 	|	The mane of an untameable equine demon.	|
+|	Ingrediment	|	647	|	Water Horse Mane	|	Glashtynhair	|	Glashtyn 	|	The mane of a water horse.	|
+|	Ingrediment	|	648	|	Lion Mane	|	ManeLion	|	Sabnock 	|	A very soft and fluffy mane.	|
+|	Ingrediment	|	649	|	Lion Lord's Mane	|	Marbasmane	|	Marbas 	|	A mane that continues to exude valor.	|
+|	Ingrediment	|	650	|	Monster Bird Hair	|	MonsterBirdHair	|	Celaeno 	|	The lovely hair of a demon...bird?	|
+|	Ingrediment	|	651	|	Thunderbird Plume	|	ThunderbirdFeathers	|	Celaeno 	|	A light, yet sturdy feather.	|
+|	Ingrediment	|	652	|	Flight Feather	|	WindFeathers	|	Ocypete 	|	An elegant feather.	|
+|	Ingrediment	|	653	|	Bovine Plume	|	Haagentifeather	|	Haagenti 	|	A feather imbued with the power of levitation.	|
+|	Ingrediment	|	654	|	Small Webbing	|	BatFeather	|	Bat 	|	The wing membrane of a bat.	|
+|	Ingrediment	|	655	|	Toad Webbing	|	Toadwing	|	Water Leaper 	|	The wing membrane of a flying toad.	|
+|	Ingrediment	|	656	|	Demon Wing	|	Gaapwing	|	Gaap, Giant Bat	|	A wing from a demon.	|
+|	Ingrediment	|	657	|	Rat Tail	|	Giantrattail	|	Giant Rat 	|	The tail of a giant rat.	|
+|	Ingrediment	|	658	|	Demon Tail	|	DevilRoyalTail	|	Archdemon 	|	A tail from a demon.	|
+|	Ingrediment	|	659	|	Lili Tail	|	Lilimtail	|	Lili 	|	A charming prize taken from a murderous rabbit-lady-thing.	|
+|	Ingrediment	|	660	|	Queen's Tail	|	Lamastutail	|	Lamashtu 	|	An elegant and regal tail.	|
+|	Ingrediment	|	661	|	Lili Ears	|	Lilimear	|	Lili 	|	The ears of a half-rabbit, half-human.	|
+|	Ingrediment	|	662	|	Faerie Wing	|	Dineseawing	|	Sidhe 	|	A wing plucked from a faerie.	|
+|	Ingrediment	|	663	|	Vespine Wing	|	Tytaniawing	|	Titania 	|	A wing plucked from a wasp-like faerie.	|
+|	Ingrediment	|	664	|	Faerie Dust	|	FairyPowder	|	Carabosse, Titania	|	Glittering dust produced from the scales of faerie wings.	|
+|	Ingrediment	|	665	|	Vespine Stinger	|	TytaniaPoisonedNeedle	|	Scythe Mite, Sidhe	|	A stinger containing deadly venom.	|
+|	Ingrediment	|	666	|	Dragon Scale	|	Dragonscales	|	Dragon 	|	A scale as rigid as armor.	|
+|	Ingrediment	|	667	|	Dragon's Wrath	|	Abyssguardianbastard	|	Abyssal Guardian 	|	A rare scale that is oft said to be the source of a dragon's rage.	|
+|	Ingrediment	|	668	|	Dreadful Rag	|	DemonCloth	|	Barbatos 	|	A scrap of cloth once worn by a demon.	|
+|	Ingrediment	|	669	|	Durable Rag	|	Assasincloth	|	Assassin 	|	A scrap of cloth once worn by an assassin.	|
+|	Ingrediment	|	670	|	Sinister Rag	|	Lerajecloth	|	Leraje, Cyhyraeth	|	A scrap of cloth once worn by an especially awful demon.	|
+|	Ingrediment	|	671	|	Eastern Fabric	|	Ninjacloth	|	Ninja 	|	A scrap of cloth once worn by a shinobi.	|
+|	Ingrediment	|	672	|	Houndskin	|	DemonDogSkin	|	Gieremund 	|	The hide of a demonic dog.	|
+|	Ingrediment	|	673	|	Monster Fur	|	MonkeyFur	|	Simian 	|	A fur from a monster.	|
+|	Ingrediment	|	674	|	Leonine Pelt	|	Buerfur	|	Buer 	|	The thick pelt of a lion demon.	|
+|	Ingrediment	|	675	|	Sinister Pelt	|	Wolfmanfur	|	Wolfman 	|	The pelt of an unusually cruel demon.	|
+|	Ingrediment	|	676	|	Durable Leather	|	Decarabialeather	|	Decarabia 	|	Tough leather that will not tear easily.	|
+|	Ingrediment	|	677	|	Strange Leather	|	DevilBookLeather	|	Dantalion 	|	Leather with unusual patterning.	|
+|	Ingrediment	|	678	|	Slimy Leather	|	Decimaleather	|	Deeseama 	|	Tough leather that still glistens with...ugh...	|
+|	Ingrediment	|	679	|	Demon Pelt	|	Silverwolffur	|	Macaron, Gusion	|	A loathsome pelt taken from a demon.	|
+|	Ingrediment	|	680	|	Fiend Pelt	|	Gusionfur	|	Silver Wolfman 	|	A pelt clouded in darkness.	|
+|	Ingrediment	|	681	|	Toad Eye	|	Poisontoadeye	|	Toad 	|	A slightly creepy, goggling eyeball.	|
+|	Ingrediment	|	682	|	Sinister Eye	|	Evileye	|	Poison Toad 	|	An evil eye, literally.	|
+|	Ingrediment	|	683	|	Demon Eye	|	SeekerEye	|	Seeker, Giant Toad	|	The probing eye of a demon.	|
+|	Ingrediment	|	684	|	Fiend Eye	|	DevilRoyalEyeball	|	Tracer 	|	An eye that sees only darkness.	|
+|	Ingrediment	|	685	|	Toad Heart	|	ToadHeart	|	Toad, Poison Toad, Water Leaper	|	The heart of a...well, no need to spell it out.	|
+|	Ingrediment	|	686	|	Sinister Heart	|	BelialHeart	|	Demon 	|	The heart of an unusually cruel demon.	|
+|	Ingrediment	|	687	|	Demon Heart	|	EligosHeart	|	Archdemon, Giant Toad	|	The blackened heart of a demon.	|
+|	Ingrediment	|	688	|	Dragon Heart	|	AbyssguardianHeart	|	Abyssal Guardian 	|	A heart that continues to pulse angrily.	|
+|	Ingrediment	|	689	|	Fiend Heart	|	MurmurHeart	|	Demon Lord 	|	A heart that brims with darkness.	|
+|	Ingrediment	|	690	|	Monster Blood	|	Toadfluid	|	Simian 	|	The blood of some hellish creature.	|
+|	Ingrediment	|	691	|	Aquatic Blood	|	Misteriousfluid	|	Scylla, Deeseama	|	The blood of an aquatic demon.	|
+|	Key	|	503	|	Galleon Map	|	ShipMap	|	Galleon Chest	|	A map of the Minerva.	|
+|	Key	|	504	|	Passplate	|	Certificationboard	|	OD	|	A relic required to pass through the demons' entry gate.	|
+|	Key	|	505	|	Identification	|	IDphoto	|	Dominique	|	The latest in ecclesiastical research: a rather hazy "photograph."	|
+|	Key	|	506	|	Silver Bromide	|	Silverbromide	|	Gold Chest	|	A special mineral required to produce "photographs".	|
+|	Key	|	507	|	Carpenter's Key	|	Keyofbacker1	|	Dian Cecht Cathedral: big room outside Bloodless, Invert	|	Unlocks a special room, inside which a demon awaits your challenge.	|
+|	Key	|	508	|	Warhorse's Key	|	Keyofbacker2	|	Glacial Tomb: Chest in room with Gusion Cannon	|	Unlocks a special room, inside which a demon awaits your challenge.	|
+|	Key	|	509	|	Millionaire's Key	|	Keyofbacker3	|	Den of Behemoths: Chest first big room, Invert	|	Unlocks a special room, inside which a demon awaits your challenge.	|
+|	Key	|	510	|	Celeste's Key	|	Keyofbacker4	|	Hall of Termination: Chest in roof outside Gebel	|	Unlock Celeste's room.	|
+|	Key	|	511	|	Hair Apparent I	|	Worldfashionfirstissue	|	Dian Cecht Cathedral: big room outside Bloodless	|	A magazine issue that glamorizes the "French braid."	|
+|	Key	|	512	|	Hair Apparent II	|	WorldfashionNo02	|	Dian Cecht Cathedral: East bell room top, ReflectionRay	|	A magazine issue that glamorizes "swept-back" hairstyles.	|
+|	Key	|	513	|	Hair Apparent III	|	WorldfashionNo03	|	Quest, Lindsay	|	A magazine issue that glamorizes "hair bunches."	|
+|	Key	|	514	|	Hair Apparent IV	|	WorldfashionNo04	|	Quest: Susie	|	A magazine issue that glamorizes the "double bun."	|
+|	Key	|	515	|	Hair Apparent V	|	WorldfashionNo05	|	Not obtainable, already unlocked.	|	A magazine issue that glamorizes "straight long" hairstyles.	|
+|	Key	|	516	|	Hair Apparent VI	|	WorldfashionNo06	|	Towers of Twin Dragons: Chest at floor first room	|	A magazine issue that glamorizes "boyish" hairstyles.	|
+|	Key	|	517	|	Hair Apparent VII	|	WorldfashionNo07	|	Towers of Twin Dragons: Chest first room, jumpkick candle	|	A magazine issue that glamorizes the "ponytail."	|
+|	Key	|	518	|	Hair Apparent VIII	|	WorldfashionNo08	|	Oriental Sorcery Lab: Room opposite of teleporter	|	A magazine issue that glamorizes "geisha" hairstyles.	|
+|	Key	|	519	|	Hair Apparent IX	|	WorldfashionNo09	|	Quest: Abigail	|	A magazine issue that glamorizes "braided bangs."	|
+|	Key	|	520	|	Hair Apparent X	|	WorldfashionNo10	|	Dian Cecht Cathedral: Under falling bell room	|	A magazine issue that glamorizes "vintage curls."	|
+|	Key	|	521	|	Hair Apparent XI	|	WorldfashionNo11	|	Hall of Termination: Room above teleporter	|	A magazine issue that glamorizes "high forehead" hairstyles.	|
+|	Key	|	522	|	Hair Apparent XII	|	WorldfashionNo12	|	Galleon Minerva: Left deck, top right, Invert	|	A magazine issue that glamorizes "valkyrie" hairstyles.	|
+|	Key	|	523	|	Village Key	|	VillageKey	|	Dominique	|	A key that opens the locked door in the shelter.	|
+|	Key	|	524	|	Fine Healing Item/R	|	ItemRecipe001	|	Enterance, outside Zangetsu1 	|	A recipe for a fine healing item.	|
+|	Key	|	525	|	Ultimate Healing Item/R	|	ItemRecipe002	|	Hall of Termination, room over the bottom save 	|	A recipe for the ultimate healing item.	|
+|	Key	|	526	|	Faerie Healing Item/R	|	ItemRecipe003	|	Garden of Silence, Big room after the Teleport 	|	A recipe for a faerie healing item.	|
+|	Key	|	527	|	Elemental Ammunition/R	|	BalletRecipe001	|	Forbidden Underground Waterway, room near save under the east entry from banshee 	|	A recipe for ammunition imbued with elemental magic.	|
+|	Key	|	528	|	Special Ammunition/R	|	BalletRecipe002	|	Towers of Twin Dragons, room before elevator 	|	A recipe for ammunition with special effects.	|
+|	Key	|	529	|	Potent Ammunition/R	|	BalletRecipe003	|	Hidden Desert, middle between both teleporters 	|	A recipe for potent ammunition.	|
+|	Key	|	530	|	Ultimate Ammunition/R	|	BalletRecipe004	|	Inferno Cave, room almost above the save point 	|	A recipe for the ultimate ammunition. Uses diamond.	|
+|	Key	|	531	|	Steel Equipment/R	|	ArmsRecipe003	|	Forbidden Underground Waterway, near save over waterline 	|	A recipe for steel equipment.	|
+|	Key	|	532	|	Obsidian Equipment/R	|	ArmsRecipe004	|	Garden of Silence, big room with chariot 	|	A recipe for obsidian equipment.	|
+|	Key	|	533	|	Damascus Equipment/R	|	ArmsRecipe005	|	Underground Sorcery Lab, opposite save room can't double jump 	|	A recipe for Damascus equipment.	|
+|	Key	|	534	|	Gold Equipment/R	|	ArmsRecipe007	|	Livre Ex Machina, room with dragon above the teleport near OD 	|	A recipe for gold equipment.	|
+|	Key	|	535	|	Crimsonite Equipment/R	|	ArmsRecipe009	|	Oriental Sorcery Lab, room through portals almost right under the teleport 	|	A recipe for crimsonite equipment.	|
+|	Key	|	536	|	Cashmere Equipment/R	|	ArmsRecipe012	|	Den of Behemoths, go left from the second big open room 	|	A recipe for cashmere equipment.	|
+|	Key	|	537	|	Fine Equipment/R	|	ArmsRecipe018	|	Hall of Termination, room down and to right from the room with the switch for the door 	|	A recipe for fine equipment.	|
+|	Key	|	538	|	Very Fine Equipment/R	|	ArmsRecipe019	|	Dian Cecht Cathedral, top of the room with falling bells 	|	A recipe for very fine equipment.	|
+|	Key	|	539	|	Legendary Equipment/R	|	ArmsRecipe020	|	Hall of Termination, room outside Gebel 	|	A recipe for legendary equipment.	|
+|	Key	|	540	|	Ramen/R	|	DishRecipe002	|	Oriental Sorcery Lab, portal room, middle left exit 	|	A recipe for ramen.	|
+|	Key	|	541	|	Curry Dish/R	|	DishRecipe003	|	Forbidden Underground Waterway, other side of the waterfall 	|	A recipe for a curry dish.	|
+|	Key	|	542	|	Pasta Dish/R	|	DishRecipe004	|	Towers of Twin Dragons, upper left tower 	|	A recipe for a pasta dish.	|
+|	Key	|	543	|	Meat Dish/R	|	DishRecipe005	|	Enterance, room above the big room with lionman 	|	A recipe for a meat dish.	|
+|	Key	|	544	|	Fish Dish/R	|	DishRecipe006	|	Forbidden Underground Waterway, Big room in middle of all saverooms 	|	A recipe for a fish dish.	|
+|	Key	|	545	|	Sweets/R	|	DishRecipe007	|	Towers of Twin Dragons, upper left tower, middle left on the map slider under a cog 	|	A recipe for sweets.	|
+|	Key	|	546	|	Cookies/R	|	DishRecipe008	|	Livre Ex Machina, long room above zanetsu fight 	|	A recipe for cookies.	|
+|	Key	|	547	|	Cake/R	|	DishRecipe010	|	Dian Cecht Cathedral, hall with closed door and banshee between two big rooms, left of bell room 	|	A recipe for cake.	|
+|	Key	|	548	|	Drink/R	|	DishRecipe011	|	Livre Ex Machina, two rooms left of the big room with spikes at bottom, room has a dragon 	|	A recipe for a drink.	|
+|	Key	|	549	|	Ultimate Dish/R	|	DishRecipe014	|	Forbidden Underground Waterway, teleport at end of desert, two rooms up 	|	A recipe for the "ultimate dish." Allegedly more delicious than the "supreme dish."	|
+|	Key	|	550	|	Supreme Dish/R	|	DishRecipe015	|	Forbidden Underground Waterway, exit from inferno cave hidden in wall before you jump down toward teleport 	|	A recipe for the "supreme dish." Allegedly more delicious than the "ultimate dish."	|
+|	Key	|	551	|	Discount Card	|	DiscountCard	|	Shop, after Bathin	|	A card given to the supply post's loyal customers. Allows you to purchase items at a discount.	|
+|	Key	|	552	|	Vepar Medal	|	Medal001	|	Defeat boss taking 0 damage, only used for bragging rights.	|	Proof that you have triumphed over Vepar.	|
+|	Key	|	553	|	Zangetsu Medal	|	Medal002	|	Defeat boss taking 0 damage, only used for bragging rights.	|	Proof that you have triumphed over Zangetsu.	|
+|	Key	|	554	|	Craftwork Medal	|	Medal003	|	Defeat boss taking 0 damage, only used for bragging rights.	|	Proof that you have triumphed over the Craftwork.	|
+|	Key	|	555	|	Andrealphus Medal	|	Medal004	|	Defeat boss taking 0 damage, only used for bragging rights.	|	Proof that you have triumphed over Andrealphus.	|
+|	Key	|	556	|	Glutton Train Medal	|	Medal005	|	Defeat boss taking 0 damage, only used for bragging rights.	|	Proof that you have triumphed over the Glutton Train.	|
+|	Key	|	557	|	Valac Medal	|	Medal006	|	Defeat boss taking 0 damage, only used for bragging rights.	|	Proof that you have triumphed over Valac.	|
+|	Key	|	558	|	Bathin Medal	|	Medal007	|	Defeat boss taking 0 damage, only used for bragging rights.	|	Proof that you have triumphed over Bathin.	|
+|	Key	|	559	|	Abyssal Guardian Medal	|	Medal008	|	Defeat boss taking 0 damage, only used for bragging rights.	|	Proof that you have triumphed over the Abyssal Guardian.	|
+|	Key	|	560	|	Gebel Medal	|	Medal009	|	Defeat boss taking 0 damage, only used for bragging rights.	|	Proof that you have triumphed over Gebel.	|
+|	Key	|	561	|	Bloodless Medal	|	Medal010	|	Defeat boss taking 0 damage, only used for bragging rights.	|	Proof that you have triumphed over Bloodless.	|
+|	Key	|	562	|	Alfred Medal	|	Medal011	|	Defeat boss taking 0 damage, only used for bragging rights.	|	Proof that you have triumphed over Alfred.	|
+|	Key	|	563	|	Orobas Medal	|	Medal012	|	Defeat boss taking 0 damage, only used for bragging rights.	|	Proof that you have triumphed over Orobas.	|
+|	Key	|	564	|	True Zangetsu Medal	|	Medal013	|	Defeat boss taking 0 damage, only used for bragging rights.	|	Proof that you have triumphed over Zangetsu at his most powerful.	|
+|	Key	|	565	|	Valefar Medal	|	Medal014	|	Defeat boss taking 0 damage, only used for bragging rights.	|	Proof that you have triumphed over Valefar.	|
+|	Key	|	566	|	Gremory Medal	|	Medal015	|	Defeat boss taking 0 damage, only used for bragging rights.	|	Proof that you have triumphed over Gremory.	|
+|	Key	|	567	|	Dominique Medal	|	Medal016	|	Defeat boss taking 0 damage, only used for bragging rights.	|	Proof that you have triumphed over Dominique.	|
+|	Key	|	568	|	Bael Medal	|	Medal017	|	Defeat boss taking 0 damage, only used for bragging rights.	|	Proof that you have triumphed over Bael.	|
+|	Key	|	569	|	O.D. Medal	|	Medal018	|	Defeat boss taking 0 damage, only used for bragging rights.	|	Proof that you have triumphed over Orlok Dracule.	|
+|	Key	|	570	|	Unused	|	Medal019	|	Unobtainable	|	Unused	|
+|	Key	|	571	|	IGA Medal	|	Medal020	|	Defeat boss taking 0 damage, only used for bragging rights.	|	Proof that you have triumphed over IGA.	|
+|	Key	|	572	|	8-bit Medal	|	Medal021	|	Defeat boss taking 0 damage, only used for bragging rights.	|	Proof that you have triumphed over the Eight Bit Overlord.	|
+|	Key	|	573	|	Doppelganger Medal	|	Medal023	|	Defeat boss taking 0 damage, only used for bragging rights.	|	Proof that you have triumphed over the Doppelganger.	|
+|	Potion	|	0	|	Potion	|	Potion	|	50	|	Medicine for restoring a small amount of health.	|
+|	Potion	|	1	|	High Potion	|	HighPotion	|	250	|	Medicine for restoring a large amount of health.	|
+|	Potion	|	2	|	Ex Potion	|	ExPotion	|	9999	|	Medicine for fully restoring health.	|
+|	Potion	|	3	|	Ether	|	Ether	|	MP 30	|	Medicine for restoring a small amount of magic.	|
+|	Potion	|	4	|	High Ether	|	HighEther	|	MP 150	|	Medicine for restoring a large amount of magic.	|
+|	Potion	|	5	|	Ex Ether	|	ExEther	|	MP 9999	|	Medicine for fully restoring magic.	|
+|	Potion	|	6	|	Mithridate	|	Mithridate	|	ClearPoison	|	Medicine for purging poison from the body.	|
+|	Potion	|	7	|	Holy Water	|	HolyWater	|	ClearCurse	|	Water that has been blessed. Removes curses.	|
+|	Potion	|	8	|	Stonethaw	|	Stonethaw	|	ClearStone	|	Medicine that restores flexibility to petrified flesh.	|
+|	Potion	|	9	|	Poison	|	Poison	|	Poison	|	A substance that poisons you and drains health over a period of time.	|
+|	Potion	|	10	|	Waystone	|	Waystone	|	WayStone	|	A relic that takes you wherever you picture. Requires concentration.	|
+|	Potion	|	11	|	Panacea	|	Panacea	|	ClearAll	|	A medicine that dispels all afflictions.	|
+|	Potion	|	12	|	Faerie Medicine	|	FaerieMedicine	|	50	|	Medicine for restoring a small amount of health. Only used by Carabosse.	|
+|	Potion	|	13	|	Faerie Elixir	|	FaerieElixir	|	250	|	Medicine for restoring a large amount of health. Only used by Carabosse.	|
+|	Potion	|	14	|	Faerie Allheal	|	FaerieAllheal	|	9999	|	Medicine for fully restoring health. Only used by Carabosse.	|
+|	Potion	|	15	|	Faerie Panacea	|	FaeriePanacea	|	ClearAll	|	A medicine that dispels all afflictions. Only used by Carabosse.	|
+|	Seed	|	500	|	Corn Seed	|	SeedCorn	|	Farming	|	Corn that has been kept for planting. You could use it to create more corn.	|
+|	Seed	|	501	|	Rice Seed	|	SeedRice	|	Farming	|	Rice that has been kept for planting. You could use it to create more rice.	|
+|	Seed	|	502	|	Potato Seed	|	SeedPotato	|	Farming	|	A potato that has been kept for planting. Salt allows you to grow a larger crop.	|
+|	Upgrades	|	56	|	MaxHPUP	|	MaxHPUP	|	20	|		|
+|	Upgrades	|	57	|	MaxMPUP	|	MaxMPUP	|	10	|		|
+|	Upgrades	|	58	|	MaxBulletUP	|	MaxBulletUP	|	5	|		|
+|	Upgrades	|	59	|	HPFullRecovery	|	HPFullRecovery	|		|		|
+|	Upgrades	|	60	|	MPFullRecovery	|	MPFullRecovery	|		|		|

@@ -1,0 +1,233 @@
+===== Guns =====
+[[start|<Back>]]
+
+> Blank
+
+Guns are the only ranged attack weapon in the game, and focuses on Strike damage. You an always fire the basic bullets, but they will generally do poor damage. If you want to make proper use out of guns you're going to need to use bullets to do proper damage against enemies.
+
+> WIP
+
+To-do:
+  * Links to crafting
+  * Links to techniques
+
+----
+
+==== Table ====
+
+^	Guns									^^^^^
+^	Img	^	-Name-	^	Atk	^	Dmg	^	Special	^
+|	{{..:gun:gun01.png?nolink&30}}	|	[[#Musketoon]]	|	5	|	{{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{..:gun:gun02.png?nolink&30}}	|	[[#Blunderbuss]]	|	10	|	{{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{..:gun:gun03.png?nolink&30}}	|	[[#Tanegashima]]	|	12	|	{{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{..:gun:gun04.png?nolink&30}}	|	[[#Toradar]]	|	15	|	{{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{..:gun:gun05.png?nolink&30}}	|	[[#Culverin]]	|	20	|	{{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{..:gun:gun06.png?nolink&30}}	|	[[#Betelgeuse]]	|	23	|	{{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{..:gun:gun07.png?nolink&30}}	|	[[#Verethragna]]	|	25	|	{{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{..:gun:gun08.png?nolink&30}}	|	[[#Adrasteia]]	|	26	|	{{..:iconstrike.png?nolink&20|Strike}}	|	Homing shots	|
+|	{{..:gun:weap8bit08.png?nolink&30}}	|	[[#Renee's Requiem]]	|	11-22-32	|	{{..:iconstrike.png?nolink&20|Strike}}	|	Upgradeable	|
+
+----
+=====Details=====
+----
+
+====Musketoon====
+{{..:gun:gun01.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Musketon									|||||	5	|	-	|	300			||	30			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> A short-barreled gun used by pirates.
+
+Acquisition:
+  * Chest: Galleon Minerva (SIP007)
+  * Craft
+  * Shop
+
+Notes:
+  * Used to upgrade Gun Mastery rank 2-4
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Blunderbuss====
+{{..:gun:gun02.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Branderbus									|||||	10	|	-	|	2700			||	270			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> A gun with a wide muzzle akin to the mouth of a trumpet.
+
+Technique:
+  * Rapid Fire (236A)
+
+Acquisition:
+  * Chest: Entrance (ENT007)
+  * Craft
+  * Shop
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Tanegashima====
+{{..:gun:gun03.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Tanegasima									|||||	12	|	-	|	4800			||	480			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> A short-barreled gun used in the Far East.
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Used to upgrade Gun Mastery rank 5-7
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Toradar====
+{{..:gun:gun04.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Trador									|||||	15	|	-	|	7500			||	750			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> A long matchlock used for picking off targets at a distance.
+
+Technique:
+  * Rapid Fire (236A)
+
+Acquisition:
+  * Craft
+  * Drop: Leraje (4%)
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Culverin====
+{{..:gun:gun05.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Carvalin									|||||	20	|	-	|	14700			||	1470			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> A small ancestor of the musket used by cavalry.
+
+Acquisition:
+  * Chest: Galleon Minerva (SIP024)
+  * Craft
+
+Notes:
+  * Used to upgrade Gun Mastery rank 8-9
+  * It's possible to reach it early by using a glitch called "Firebomb Jump".
+  * It is the best weapon to use against Vepar in a clean Nightmare game.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Betelgeuse====
+{{..:gun:gun06.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Betelgeuse									|||||	23	|	-	|	21600			||	2160			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> A gun with a rifled barrel that increases the weapon's potency.
+
+Acquisition:
+  * Craft
+  * Shop (After Glutton Train)
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Verethragna====
+{{..:gun:gun07.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Ursula									|||||	25	|	-	|	24300			||	2430			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> A gun that grants victory to whoever holds it.
+
+Technique:
+  * Rapid Fire (236A)
+
+Acquisition:
+  * Craft
+
+Notes:
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Adrasteia====
+{{..:gun:gun08.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Adrastea									|||||	26	|	-	|	43200			||	4320			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> A gun whose name means "inescapable."
+
+Special:
+  * Missiles have a limited homing ability.
+    * It pretty much chose a random enemy and tries to shoot in that direction, ignoring which way you point the gun.
+    * Has a bad habit or creating weird paths that means it doesn't actually hit things, especially if they're close and right in front of you.
+    * (FIXME need more research)
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Obviously great at picking off targets in odd angles.
+  * This can be very "Hit and Miss" (Pun intended), and it's often easier to just have a shortcut set to change to another gun for when it gets annoying to use.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Renee's Requiem====
+{{..:gun:weap8bit08.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	TrustMusket									|||||	11	|	-	|	-			||	-			||
+|	TrustMusket2									|||||	22	|	-	|	-			||	-			||
+|	TrustMusket3									|||||	32	|	-	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> With her last breath, she imbues this weapon with her soul.
+
+Special:
+  * 8Bit-Upgradeable
+    - 8bitcoin lets you craft the first one.
+    - 16bitcoin lets you upgrade it to the second form.
+    - 32bitcoin+8bitnightmare lets you upgrade it to the third form.
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Highest ATK Gun
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----

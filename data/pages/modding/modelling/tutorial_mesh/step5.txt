@@ -1,0 +1,128 @@
+===== Tutorial: Modifying a 3D Model's Geometry; Step 5. =====
+
+[[.:step4|<- Previous Step]] | [[.:|Tutorial Summary]] | [[.:step6|Next Step ->]] 
+
+----
+
+==== Import the FBX File Into Unreal Engine ====
+
+Return to the Epic Games Launcher. Once Unreal Engine version 4.18.3 has finished installing, click the yellow "Launch" button to open it.
+
+{{ :modding:modelling:tutorial_unreal_import_launch_button.png?nolink&300 |}}
+
+Once it's loaded, create a new blank project with no starter content. I placed this project next to my "ModelEdits" folder which contains the **.fbx** file I'll be importing.
+
+{{ :modding:modelling:tutorial_unreal_import_new_project_miriam_head.png?nolink&800 |}}
+
+After that's created, select "Edit -> Project Settings..." from the menu bar.
+
+{{ :modding:modelling:tutorial_unreal_import_edit_project_settings.png?nolink&800 |}}
+
+Search for "pak" and **un**check "Use Pak File".
+
+{{ :modding:modelling:tutorial_unreal_uncheck_use_pak_file.png?nolink&800 |}}
+
+Search for "event driven" and **un**check "Event Driven Loader Enabled".
+
+{{ :modding:modelling:tutorial_unreal_uncheck_event_driven_loader.png?nolink&800 |}}
+
+In the Content Browser section, click the button on the left next to "Filters" to show the sources panel.
+
+{{ :modding:modelling:tutorial_unreal_show_sources_panel.png?nolink&800 |}}
+
+You will see an empty "Content" folder. Right click on it and create a new folder.
+
+{{ :modding:modelling:tutorial_unreal_empty_content_folder.png?nolink&400 |}}
+
+Your goal here will be to mimic the file path of the original **.uasset** file you've modified, starting with "Core". Check your "extracted" folder from step 3 to verify the original path.
+
+{{ :modding:modelling:tutorial_unreal_miriam_head_content_path.png?nolink&400 |}}
+
+Drag and drop your **.fbx** model file into Unreal's content browser inside of the deepest folder, "Mesh" folder in this case.
+
+{{ :modding:modelling:tutorial_unreal_drop_miriam_head_in_mesh_folder.png?nolink&800 |}}
+
+Leave all import settings at their defaults and click "Import".
+
+{{ :modding:modelling:tutorial_unreal_miriam_head_import_settings_default.png?nolink&400 |}}
+
+In addition to the model you just imported, all the materials will be extracted from the model and a generated skeleton  and physics asset will show up in the same folder.
+
+{{ :modding:modelling:tutorial_unreal_miriam_head_just_imported.png?nolink&600 |}}
+
+You will need to move these assets to the //original location// and //original filename// of the **.uasset** files that were exported from the **.pak** file in step 3 (I named this folder //extracted//). You can use the UE Viewer export folder as a hint to where to look in the //extracted// folder, since that folder only contains the assets related to the exported model.
+
+For example, I can see in my UE Viewer export folder (which I named "ModelEdits"), there is a "Material" folder with a bunch of **.mat** files.
+
+{{ :modding:modelling:tutorial_unreal_material_move_check_ue_export.png?nolink&600 |}}
+
+If I look at the same location in the //extracted// folder with the original **.uasset** files, the corresponding "Material" folder has a lot more files, but this lets me narrow down where I need to look for the corresponding **.uasset** files.
+
+{{ :modding:modelling:tutorial_unreal_material_move_check_extracted.png?nolink&600 |}}
+
+You can't just blindly trust the UE Viewer exported paths and filenames, //sometimes// the **.uasset** filename will not match the actual exported asset filename, although it //usually// does. Don't rely on it.
+
+From what I can gather in this case, the following files need to be moved/renamed:
+
+  * **Core/Character/P0000/Mesh/M_Eye01** -> **Core/Character/P0000/Material/Eye/M_Eye01**
+  * **Core/Character/P0000/Mesh/M_Face01** -> **Core/Character/P0000/Material/Face/M_Face01**
+  * **Core/Character/P0000/Mesh/M_Outline_PI001_Inst** -> **Core/Character/P0000/Material/Outline/M_Outline_Pl001_Inst**
+  * **Core/Character/P0000/Mesh/SK_Pl01_MiriamHead_PhysicsAsset** -> **Core/Character/P0000/Mesh/PhysicsAsset_P0000_Head**
+  * **Core/Character/P0000/Mesh/SK_PI01_MiriamHead_Skeleton** -> **Core/Character/P0000/Mesh/Skeleton_P0000_Head**
+  * **Core/Character/P0000/Mesh/T_Mouth01** -> **Core/Character/P0000/Material/Mouth/T_Mouth01**
+
+Notice that the imported skeleton and physics asset name did not match the original **.uasset** filenames, and it needs to be changed. Copy/Paste filenames from the original **.uasset** files in order to prevent typing errors. I and 1, O and 0 look very similar in some fonts.
+
+This is what the Unreal project's Content Browser setup looks like after moving all of the assets to the proper locations.
+
+{{ :modding:modelling:tutorial_unreal_miriam_head_final_asset_location.png?nolink&400 |}}
+
+Next, for each material in the project, you need to right click on it and click "Create Material Instance".
+
+{{ :modding:modelling:tutorial_unreal_create_material_instance.png?nolink&300 |}}
+
+A copy of the material will be created with the same filename, but **_Inst** is added to the end.
+
+{{ :modding:modelling:tutorial_unreal_content_browser_duplicate_material_instance.png?nolink&300 |}}
+
+Right click on the original material and delete it. It should pop up with a warning dialog, click "Force Delete".
+
+{{ :modding:modelling:tutorial_unreal_delete_original_material_instance.png?nolink&300 |}}
+
+Now rename the material instance you created to remove the extra **_Inst** that was added to the filename by the Unreal editor, so it matches the original filename again.
+
+{{ :modding:modelling:tutorial_unreal_rename_material_instance.png?nolink&300 |}}
+
+Do this for **all of the materials** in the project. In this case, I have 4 materials I need to do this for.
+
+This process of creating material instances detaches the original materials from the model. You'll need to edit the model to assign these new material instances to the model instead. Double click on "SK_PI01_MiriamHead" to open up the asset details. The material slots show on the left.
+
+{{ :modding:modelling:tutorial_unreal_miriam_head_assign_material_instance_model.png?nolink&800 |}}
+
+For each of these slots, assign the corresponding material. If you don't remember which material goes in which slot, open up your **.fbx** file in Blender or your 3D modelling program again and check the material names there.
+
+{{ :modding:modelling:tutorial_unreal_miriam_head_check_blender_material_names.png?nolink&800 |}}
+
+Unreal will look like this when all the material instances are re-assigned. Click the save button then close the window.
+
+{{ :modding:modelling:tutorial_unreal_miriam_head_assign_material_instance_model_assigned.png?nolink&800 |}}
+
+On the menu bar, click "File -> Save All".
+
+{{ :modding:modelling:tutorial_unreal_file_save_all.png?nolink&500 |}}
+
+Now you are ready to package the project and create the new **.uasset** files which will replace the old ones. On the menu bar, click "File -> Package Project -> Windows -> Windows (64-bit)".
+
+{{ :modding:modelling:tutorial_unreal_package_project.png?nolink&500 |}}
+
+In the dialog that pops up, create a "Cooked" folder and select it.
+
+{{ :modding:modelling:tutorial_unreal_package_project_select_location_dialog.png?nolink&700 |}}
+
+A popup notification will show, and will disappear when the packaging is complete.
+
+{{ :modding:modelling:tutorial_unreal_package_project_notification.png?nolink&600 |}}
+
+----
+
+[[.:step4|<- Previous Step]] | [[.:|Tutorial Summary]] | [[.:step6|Next Step ->]] 

@@ -1,0 +1,262 @@
+====== DLC ======
+>[[start|<Back>]]
+==== Available At Launch ====
+
+  * Biggest Igavania EVER
+  * Tons of weapons, spells, & equipment
+  * Craft, Cook, & Upgrade
+  * Full cosmetic customization
+  * Celebrity voice actors (David Hayter!)
+  * Orchestra soundtrack by Michiru Yamane
+  * Rich story with alternate endings
+  * New Game Plus
+  * Nightmare Difficulty
+  * 8-bit Level
+
+==== Free Updates On Launch ====
+
+  * Speedrun Mode
+  * Pure Miriam Outfit (Valkyrie: Hair, Head, Armour, Sword)
+  * Boss Rush Mode
+
+----
+
+==== Free DLC/Updates After Launch (Released) ====
+
+  * Playable Character #2 (Zangetsu)
+  * Randomizer (replaces: Roguelike Mode)
+  * Boss Revenge Mode
+  * Chroma Wheel (Customization)
+  * Bloodless mode (Bonus character)
+  * Classic Mode
+  * Special Crossover Content #1
+
+----
+
+==== Free DLC/Updates After Launch (Unreleased) ====
+
+  * Online & local Co-op Mode (Chaos)
+  * Online & local Indirect Vs. Mode (Indirect)
+  * Special Crossover Content #2
+  * Playable Characters #3 (Unknown, Not Domi)
+
+----
+
+==== Backer/Paid DLC ====
+
+  * Iga's Backpack
+
+----
+
+==== Notes ====
+
+Order's been reshuffled. Next up should be Chaos mode content.
+
+----
+
+  Just
+  some
+  filling
+  to
+  make
+  this
+  easier
+  to
+  work
+  with
+
+----
+
+==== Patch Notes: ====
+
+ === Patch 1.01 - Day 0 Patch === 
+
+This patch was included in the original PC release on 18 Jun, 2019.
+
+----
+
+ === Patch 1.02 - Day One Patch === 
+
+Released for PC (Steam and GOG) on 18 Jun 2019.
+
+New Features:
+  * Boss Rush Mode
+  * Speed Run Mode
+  * Support for Iga’s Backpack DLC
+
+Nerfs:
+  * Alchemic Bounty is no longer guaranteed
+  * Alkahest cost increased from 50g to 800g
+  * Reduced the amount of Alkahest that drops from Ghosts and Poltergeist from 5 to 1.
+  * Reduced Amy's Alkahest drop from 10 to 2.
+
+----
+
+ === Patch 1.03 - ?? === 
+
+Details unknown.
+
+----
+
+ === Patch 1.04 - Balance Update #1 === 
+
+Released for PC (Steam) on August 6th, 2019.
+
+Item Name Changes:
+  * Changed Crimson Blizzard to Crimson Storm
+  * Changed God Cross to Gold Cross, and added extra text to description
+
+Bug Fixes:
+  * Fixed instances where Bloodless would not heal while using Blood Steal offscreen.
+  * Fixed shards that had memory leaks
+  * Fixed the physics bug on hair while using some accessories
+  * Fixed the crash after interacting with a bookcase
+  * Fixed items getting stuck on walls
+  * Fixed repeating SFX during Beal encounter
+  * Fixed instances where sliding into water would cause the player to get stuck
+
+Familiar Changes:
+  * Familiar upgrade via Grade was nerfed.
+  * This makes collecting shared to raise a familiar's grade have a weaker effect on the familiar's strength.
+  * Increased strength based on level
+  * This makes levelling up a familiar have a more beneficial effect on its strength
+  * Dullhammer Head has been nerfed
+
+Shard Adjustments (Decreased Power):
+  * Riga Stroaema
+  * ATK 28 < 24
+  * Craftwork
+  * ATK 15 < 10
+  * Bunnymorphosis
+  * ATK 30 < 25
+  * Flame Cannon
+  * ATK 18 < 16
+  * True Arrow
+  * ATK 18 < 16
+  * Chaser Arrow
+  * ATK 16 < 14
+  * Heretical Grinder
+  * ATK 19 < 15
+  * Circular Ripper
+  * ATK 36 < 32
+  * Flying Dagger
+  * ATK 24 < 20
+  * Riga Dohin
+  * ATK 40 < 35
+  * Welcome Company
+  * ATK 18 < 12
+  * Spans 5 < 3 (only affects starting portraits, max is still 9)
+  * Directed Shield
+  * MP 30/sec < 50/sec
+
+Weapon Adjustments (Decreased Power):
+
+  * Flying Edge
+  * ATK 18 < 16
+  * Rhava Bural
+  * ATK 14 < 12
+  * Rhava Velar
+  * ATK 16 < 14
+
+Weapon Techniques (Increased Power):
+
+  * Surprise Gift
+  * Force Blast
+  * Lasting Wound
+  * Flashing Air Kick
+  * Crimson Storm
+  * Sansetsuzan
+
+Crafting:
+
+  * Changed crafting materials for Flame Cannon
+
+Enemy HP Increases:
+
+  * Dullahammer Head
+  * Malediction
+
+Boss Adjustments
+
+  * Orobas
+  * Valefor
+  * Gremory
+
+Drop Rates (Increased Chance)
+
+  *  Increased the drop rate of "Monster Fur" from Simians: 3.0% < 8.0%
+
+Credits:
+
+  * Text corrections
+
+Map:
+
+  * Map close button has been remapped to standard exit/close button
+  * Marker button has been changed
+  * Trail display button has been changed
+  * Map scroll speed improved
+  * Zoom in and out improved
+  * Zoom level retained when reopening the map
+  * Auto-center when opening the map
+
+Misc:
+
+  * Valefor's max HP heal is capped at 9999
+  * Adjusted quest jingle volume
+  * Adjusted lighting on GDN013 well (difficult to see that players can go through).
+  * All cheats codes can now be entered in full caps (e.g., THESPEEDGAMERS)
+
+----
+
+ ==== Patch 1.04 ==== 
+
+> 2020-05-02 ?
+
+  * Content Parity (All versions the same)
+  * Switch performance updates focus done
+
+----
+
+ === Patch 1.10 === 
+
+> 2020-05-07 (23 switch)
+
+  * Zangetsu Mode
+  * Randomizer Mode
+
+----
+
+ === Patch 1.15 === 
+
+> 2020-08-01 ?
+
+  * Chroma Wheel
+  * Boss Revenge
+
+----
+
+ === Patch 1.17 === 
+
+  * ? (No idea what this version did, but I have DataTable backups from it)
+
+----
+
+ === Patch 1.18 === 
+
+> 2020-11-10
+
+  * Bloodless Mode
+  * Randomizer Improvements
+
+----
+
+ === Patch 1.20 === 
+
+> 2021-01-14
+
+  * Classic Mode
+  * Crossover: Kingdom: Two Crowns
+
+----
+

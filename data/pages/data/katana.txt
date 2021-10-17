@@ -1,0 +1,315 @@
+ ===== Katana ===== 
+[[start|<Back>]]
+
+> Blank
+
+The Katana's are middle to large swords, slower but longer reach and more damage than normal swords. They also have the largest selection of weapon techniques, making them popular with players that enjoy that play-style.
+
+> WIP
+
+To-do:
+  * Links to crafting
+  * Links to techniques
+
+----
+
+==== Table ====
+
+^	Img	^	-Name-	^	Atk	^	Dmg	^	Special	^
+|	{{..:katana:jsword01.png?nolink&30}}	|	[[#Dull Blade]]	|	13	|	{{..:iconcut.png?nolink&20|Cut}}	|		|
+|	{{..:katana:jsword02.png?nolink&30}}	|	[[#Nodachi]]	|	18	|	{{..:iconcut.png?nolink&20|Cut}}	|		|
+|	{{..:katana:jsword03.png?nolink&30}}	|	[[#Tsurumaru]]	|	22	|	{{..:iconcut.png?nolink&20|Cut}}	|		|
+|	{{..:katana:jsword04.png?nolink&30}}	|	[[#Honebami]]	|	27	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{..:katana:jsword05.png?nolink&30}}	|	[[#Raikiri]]	|	25	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconthunder.png?nolink&20|Lightning}}	|		|
+|	{{..:katana:jsword10.png?nolink&30}}	|	[[#Swordfish]]	|	36	|	{{..:iconcut.png?nolink&20|Cut}} {{..:iconstrike.png?nolink&20|Strike}}	|		|
+|	{{..:katana:jsword06.png?nolink&30}}	|	[[#Dojigiri]]	|	40	|	{{..:iconcut.png?nolink&20|Cut}}	|		|
+|	{{..:katana:jsword07.png?nolink&30}}	|	[[#Zangetsuto]]	|	45	|	{{..:iconcut.png?nolink&20|Cut}}	|	Keyitem, Plotitem	|
+|	{{..:katana:jsword08.png?nolink&30}}	|	[[#Mikazuki]]	|	49	|	{{..:iconcut.png?nolink&20|Cut}}	|		|
+|	{{..:katana:jsword09.png?nolink&30}}	|	[[#Grand Izayoi]]	|	49	|	{{..:iconcut.png?nolink&20|Cut}}	|	Atk grows with blooddrain	|
+
+
+
+----
+
+===== Details =====
+
+====Dull Blade====
+{{..:katana:jsword01.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Dull									|||||	13	|	-	|	1200			||	120			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+
+> The work of a forgotten swordsmith.
+
+Technique:
+  * None
+
+Acquisition:
+  * Craft
+  * Shop
+
+Notes:
+  * Despite being named Dull, it does not do Strike damage.
+  * The only Katana with no techniques natively, probably why it is named "Dull".
+  * Used to craft the Katana Mastery yellow shard.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+====Nodachi====
+{{..:katana:jsword02.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Noda									|||||	18	|	-	|	2700			||	270			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> A long blade used by cavalry in the Far East.
+
+Technique:
+  * Eleventh Hour (66A)
+
+Acquisition:
+  * Craft
+  * Shop
+
+Notes:
+  * Earliest weapon with access to Block technique.
+  * Used to Rank 2-4 for Katana Mastery yellow shard.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+
+====Tsurumaru====
+{{..:katana:jsword03.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Tsurumaru									|||||	22	|	-	|	4800			||	480			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+
+> A blade with an elegant curve. The work of the swordsmith Kuninaga.
+
+Technique:
+  * Crimson Blizzard (2146A)
+  * Sansetsuzan (236A)
+
+Acquisition:
+  * Craft
+  * Quest: Susie (Fried Potatoes)
+
+Notes:
+  * Used to Rank 5-7 for Katana Mastery yellow shard.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Honebami====
+{{..:katana:jsword04.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	ShiroTorujiro 									|||||	27	|	-	|	7500			||	750			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+
+> A Nipponese halberd refashioned into a sword by the swordsmith Toshiro.
+
+Technique:
+  * Helmsplitter (22A)
+  * Eleventh Hour (66A)
+
+Acquisition:
+  * Craft
+  * Chest: Bridge of Evil (TRN002 top-middle)
+
+Notes:
+  * Cut + Strike means it works well against most enemies.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Raikiri====
+{{..:katana:jsword05.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Lightningoff 									|||||	25	|	25	|	10800			||	1080			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|
+
+
+
+> A blade said to have cut down a thunder god.
+
+Technique:
+  * Jinrai (646A)
+
+Acquisition:
+  * Craft
+  * Shop (After Glutton Train)
+
+Notes:
+  * Remember that MAtk does nothing on weapons.
+  * Used to Rank 8-9 for Katana Mastery yellow shard.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Swordfish====
+{{..:katana:jsword10.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	OgreWoodenSword 									|||||	36	|	-	|	14700			||	1470			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|
+
+
+> A giant, wooden sword named after a fish.
+
+Technique:
+  * Helmsplitter (22A)
+
+Acquisition:
+  * Chest: Forbidden Underground Waterway (UGD046 top-right, Deepsinker/Reflection Ray/Double Jump)
+Notes:
+  * Cut + Strike means it works well against most enemies.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Dojigiri====
+{{..:katana:jsword06.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Tadanako 									|||||	40	|	-	|	19200			||	1920			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> A great blade by the smith Yasutsuna. It appears in an oni-slaying tale.
+
+Technique:
+  * Crimson Blizard (2146A)
+  * Sansetsuzan (236A)
+
+Acquisition:
+  * Craft
+  * Drop: Kamikaze (4%)
+  * Quest: Susie (Pork Cutlet)
+
+Notes:
+  * Only Katana that drops from enemy.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Zangetsuto====
+{{..:katana:jsword07.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Swordsman 									|||||	45	|	-	|	-			||	-			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> A great blade whose bearers are given the name Zangetsu, or "moon sunderer."
+
+Special:
+  - Key Item
+    * Removed in NG+
+  - Plot Item
+    * This item is needed to complete the game (Alternative ending)
+  - "SpecialEffectId": "Slaymoon",
+    * This special property is only used on this sword:
+    * Allows this weapon to trigger the events when you cut red moons
+    * Always does critical hits against Gremory
+
+  PB_DT_WeaponMaster
+  "Key": "Swordsman",
+  "SpecialEffectId": "Slaymoon",
+
+  PB_DT_CoordinateParameter
+  "Key": "FakeMoon_ChangeHPThreshold",
+  "Value": 600.0
+
+Technique:
+  * Crescent Stroke (4268A)
+  * Eleventh Hour (66A)
+
+Acquisition:
+  * Chest: Oriental Sorcery Lab (JPN016, Defeat boss and talk to him)
+
+Notes:
+  * Best weapon against Gremory for obvious reasons.
+  * Obviously the weapon you use when playing Zangetsu mode.
+  * If you could get this weapon early (before defeating Craftwork) you could theoretically cut the moon in Gardens and enter Den of Behemoths before getting Double Jump. And if you watch the cut-scene you'll trigger a state that replaces Dominique with Anna in the store for the rest of the game.
+    * Only possible with cheating in the item somehow in Story-Mode.
+    * Not possible in randomiser, they removed both the red moon and all the story events.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Mikazuki====
+{{..:katana:jsword08.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	MikazukiMaen 									|||||	49	|	-	|	30000			||	3000			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> The work of the swordsmith Munechika. It boasts a stunning blade pattern.
+
+Technique:
+  * Jinrai (646A)
+  * Sansetsuzan (236A)
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Equally strong to Grand Izayoi before you start absorbing blood
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+====Grand Izayoi====
+{{..:katana:jsword09.png?nolink }}
+
+^	ItemID									^^^^^	Atk	^	Matk	^	Buy			^^	Sell			^^
+|	Truesixteenthnight 									|||||	49	|	-	|	43200			||	4320			||
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	{{..:icon06.png?nolink&20}}	|		|		|		|		|		|		|		|		|		|		|
+
+
+> A blade made at great personal risk. It grows and has a mind of its own.
+
+Special:
+    * When you use "Blood Steal" shard to absorb blood this sword increases ATK, up to a max of 4444 litre of blood.
+    * This is tracked under Archives Personal Information tab.
+    * The blood amount is per save-game and not per weapon, you can sell and buy the weapon back and have the same bonus.
+    *  The max ATK is 58.
+
+  PB_DT_CoordinateParameter
+  "Key": "WeaponGrowMaxAtk_Izayoi",
+  "Value": 58.0
+  "Key": "GrowNeedBloodAmount_Izayoi",
+  "Value": 4444.0
+
+Technique:
+  * Crescent Stroke (4268A)
+
+Acquisition:
+  * Craft
+
+Notes:
+  * Arguably the most grindy weapon in the game to max out.
+  * Unless you use cheesy end-game tactics like Gebel's Glasses + Time Stop + Rhava on Revenant, and just Blood Steal constantly.
+  * Reference to Muramasa and other similar swords from the Castlevania games.
+  * This is the weapon Doppleganger boss uses against you.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+

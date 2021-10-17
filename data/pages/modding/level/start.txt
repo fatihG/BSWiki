@@ -1,0 +1,29 @@
+===== Level Editing =====
+
+A level editor is in active development. Until it's ready, you can use direct UAsset editors like [[https://github.com/atenfyr/UAssetGUI/releases|UAssetGUI]].
+
+==== Standalone Level Editing Tools ====
+
+  * [[https://github.com/Lakifume/True-Randomization/releases/|True Randomization Mod]] - Comes with a map editor. You can rearrange rooms, change music.
+
+==== Basic Concepts  ====
+
+All levels/rooms in the game are stored under **BloodstainedRotN/Content/Core/Environment** (this is the extracted folder from the game's **.pak** files).
+
+Each "ACTXX_XXX" folder is an area of the game. E.g. "ACT01_SIP" is the Galleon Minerva level at the start of the game. Underneath the "ACTXX_XXX" folders is a similar setup for each level:
+
+| Blueprint				| Scripts or groups of commonly used model sets across multiple rooms. |
+| Dialogue				| Triggers for any NPC conversations in the area. |
+| Level					| Defines the placement of everything in each room, 3D models, enemies, etc. |
+| Mesh					| 3D models that only appear in a particular area are stored here. |
+| MI					| Materials associated to the 3D models. |
+| Sequence				| Cutscenes. |
+| Textures				| Textures associated to the 3D models. |
+
+If you want to modify the 3D models/textures, [[modding:modelling:start|visit the modelling section]]. This page is for everything else.
+
+==== Room ID Map  ====
+
+This is map helps you find the room IDs so you don't have to guess which files to edit. The text is very small so zoom in.
+
+{{ :modding:level:bloodstained_map_labeled.png?direct |}}

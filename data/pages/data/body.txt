@@ -1,0 +1,969 @@
+===== Body =====
+[[start|<Back>]]
+
+> WIP
+
+Progress: inserting data into template.
+
+Lets see how big an unwieldly this document gets at 40 armours. Might have to split it up somewhat.
+
+Unused: {{..:body:body27.png?nolink}}
+
+
+----
+
+==== Table ====
+ 
+^	-	^	-Name-	^	Def	^	Res	^	Str	^	Con	^	Int	^	Mnd	^	Lck	^	Special	^
+|	-|	[[#EmptyBody]]	|		|		|		|		|		|		|		|		|
+|	{{..:body:body03.png?nolink&30}}	|	[[#Tunic]]	|	2	|		|		|		|		|		|		|		|
+|	{{..:body:body02.png?nolink&30}}	|	[[#Leather Chestguard]]	|	3	|		|		|		|		|		|		|		|
+|	{{..:body:body04.png?nolink&30}}	|	[[#Country Dress]]	|	3	|		|		|		|	1	|	2	|		|		|
+|	{{..:body:body05.png?nolink&30}}	|	[[#Bronze Chestguard]]	|	5	|		|		|		|		|		|		|		|
+|	{{..:body:body06.png?nolink&30}}	|	[[#Chemise]]	|	4	|		|		|		|	2	|	3	|		|		|
+|	{{..:body:body07.png?nolink&30}}	|	[[#Scale Armor]]	|	7	|		|		|		|		|		|		|		|
+|	{{..:body:body09.png?nolink&30}}	|	[[#Iron Breastplate]]	|	11	|		|		|		|		|		|		|		|
+|	{{..:body:body08.png?nolink&30}}	|	[[#Brigandine]]	|	9	|	{{..:iconstrike.png?nolink&20}}	|		|	2	|		|	2	|		|		|
+|	{{..:body:body15.png?nolink&30}}	|	[[#Apron]]	|	8	|	{{..:iconflame.png?nolink&20}}	|		|		|		|		|	1	|	Minor Craft Bonus	|
+|	{{..:body:body10.png?nolink&30}}	|	[[#Kung Fu Vest]]	|	9	|		|	2	|		|		|		|		|		|
+|	{{..:body:body11.png?nolink&30}}	|	[[#Tea Dress]]	|	9	|		|		|		|	2	|	5	|		|		|
+|	{{..:body:body12.png?nolink&30}}	|	[[#Chainmail]]	|	14	|	{{..:iconcut.png?nolink&20}} {{..:iconstrike.png?nolink&20}}	|		|		|		|		|		|		|
+|	{{..:body:body18.png?nolink&30}}	|	[[#Hound Vest]]	|	13	|		|	3	|		|		|	2	|		|		|
+|	{{..:body:body19.png?nolink&30}}	|	[[#Mantua]]	|	11	|		|		|		|	3	|	6	|		|		|
+|	{{..:body:body20.png?nolink&30}}	|	[[#Ex Shovel Armor]]	|	14	|		|		|	2	|		|		|		|	Change apperance and move/skillset	|
+|	{{..:body:body14.png?nolink&30}}	|	[[#Lamellar Armor]]	|	15	|	{{..:iconcut.png?nolink&20}} {{..:iconstrike.png?nolink&20}}	|		|		|		|		|		|		|
+|	{{..:body:body28.png?nolink&30}}	|	[[#Crusader's Armor]]	|	16	|	{{..:iconcurse.png?nolink&20}}	|	1	|		|	1	|		|		|		|
+|	{{..:body:body17.png?nolink&30}}	|	[[#Steel Breastplate]]	|	18	|		|		|		|		|		|		|		|
+|	{{..:body:body24.png?nolink&30}}	|	[[#Riding Habit]]	|	20	|		|		|	2	|		|		|		|		|
+|	{{..:body:body21.png?nolink&30}}	|	[[#Duelist's Guard]]	|	22	|	{{..:iconlight.png?nolink&20}}	|	2	|		|	2	|		|		|		|
+|	{{..:body:body29.png?nolink&30}}	|	[[#Silver Breastplate]]	|	27	|		|		|	3	|		|		|		|		|
+|	{{..:body:body31.png?nolink&30}}	|	[[#Assassin's Vest]]	|	23	|	{{..:iconpoison.png?nolink&20}}	|	1	|		|		|		|		|	Attack speed bonus	|
+|	{{..:body:body13.png?nolink&30}}	|	[[#Feather Robe]]	|	30	|		|		|		|	3	|		|		|	Knockback on taking damage	|
+|	{{..:body:body25.png?nolink&30}}	|	[[#Polonaise]]	|	27	|		|		|		|	3	|	5	|		|		|
+|	{{..:body:body23.png?nolink&30}}	|	[[#Knight's Cuirass]]	|	29	|		|		|		|		|		|		|		|
+|	{{..:body:body35.png?nolink&30}}	|	[[#Crystal Armor]]	|	30	|	{{..:icondark.png?nolink&20}}	|		|		|		|		|		|		|
+|	{{..:body:body26.png?nolink&30}}	|	[[#Aegis Plate]]	|	25	|		|		|		|		|		|		|	Immune to gimmick damage	|
+|	{{..:body:body39.png?nolink&30}}	|	[[#Dragon Armor]]	|	33	|	{{..:iconflame.png?nolink&20}} {{..:iconice.png?nolink&20}}	|		|		|		|		|		|		|
+|	{{..:body:body36.png?nolink&30}}	|	[[#Gold Breastplate]]	|	36	|		|		|		|		|		|		|		|
+|	{{..:body:body32.png?nolink&30}}	|	[[#Spiked Breastplate]]	|	36	|		|		|		|		|		|		|	Damages enemies on touch	|
+|	{{..:body:body16.png?nolink&30}}	|	[[#Silk Dress]]	|	27	|		|		|		|	5	|	8	|		|		|
+|	{{..:body:body34.png?nolink&30}}	|	[[#Majestic Plate]]	|	37	|	{{..:iconice.png?nolink&20}}	|		|		|		|		|		|		|
+|	{{..:body:body33.png?nolink&30}}	|	[[#Flame Mail]]	|	37	|	{{..:iconflame.png?nolink&20}}	|	8	|		|		|		|		|		|
+|	{{..:body:body38.png?nolink&30}}	|	[[#Shinobi Garb]]	|	39	|	{{..:icondark.png?nolink&20}} {{..:iconpoison.png?nolink&20}} {{..:iconcurse.png?nolink&20}} {{..:iconstone.png?nolink&20}}	|	5	|		|	3	|		|		|		|
+|	{{..:body:body30.png?nolink&30}}	|	[[#Kalasiris]]	|	39	|		|		|		|	5	|		|	5	|		|
+|	{{..:body:body22.png?nolink&30}}	|	[[#Scarlet Dress]]	|	41	|		|		|		|	8	|	10	|		|		|
+|	{{..:body:body37.png?nolink&30}}	|	[[#Imperial Armor]]	|	45	|		|		|		|		|		|		|		|
+|	{{..:body:body40.png?nolink&30}}	|	[[#Tatenashi]]	|	52	|	{{..:iconcut.png?nolink&20}} {{..:iconstrike.png?nolink&20}} {{..:iconstab.png?nolink&20}}	|		|		|		|		|		|		|
+|	{{..:body:body41.png?nolink&30}}	|	[[#Coronation Gown]]	|	48	|	{{..:iconflame.png?nolink&20}} {{..:iconice.png?nolink&20}} {{..:iconthunder.png?nolink&20}}	|	5	|	5	|	5	|	5	|		|		|
+|	{{..:body:body01.png?nolink&30}}	|	[[#Valkyrie Dress]]	|	40	|		|		|		|		|		|	7	|	Changes apperance	|
+
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+===== Details =====
+
+=== EmptyBody ===
+
+> This item has no quote.
+
+Special:
+  * This item has no special property
+
+Acquisition:
+  * Chest: no
+  * Craft: no
+  * Drop: no
+
+Notes:
+  * This is used when you have no other armour equipped.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Tunic ====
+{{..:body:body03.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Tunic 													|||||||	100 			||	10 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	2			||	1			||	-	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A long shirt made of plain cloth.
+
+Acquisition:
+  * Chest: Galleon Minerva (SIP005)
+  * Craft
+  * Shop
+
+Notes:
+  * Used in quest
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Leather Chestguard ====
+{{..:body:body02.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Skinbreastplate 													|||||||	100 			||	10 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	3			||	0			||	-	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A chestguard made of tanned leather.
+
+Acquisition:
+  * Chest: Entrance (ENT002 upper right)
+  * Craft
+  * Shop
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Country Dress ====
+{{..:body:body04.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Countrydress 													|||||||	100 			||	10 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	3			||	3			||	-	|	-	|	1	|	2	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A common, plain dress.
+
+Acquisition:
+  * Chest: Galleon Minerva (SIP004)
+  * Craft
+  * Shop
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Bronze Chestguard ====
+{{..:body:body05.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Copperbreastplate 													|||||||	400 			||	40 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	5			||	1			||	-	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A chestguard made of bronze.
+
+Acquisition:
+  * Craft: yes
+  * Shop
+
+Notes:
+  * Used in ranks
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Chemise ====
+{{..:body:body06.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Chemisedress 													|||||||	400 			||	40 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	4			||	4			||	-	|	-	|	2	|	3	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A thin dress made of muslin.
+
+Acquisition:
+  * Craft: yes
+  * Shop
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Scale Armor ====
+{{..:body:body07.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Scalearmor 													|||||||	900 			||	90 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	7			||	1			||	-	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> Armor made by weaving together metal plates in a scale pattern.
+
+Acquisition:
+  * Craft
+  * Drop: Blood Grinder Knight (4%)
+  * Shop
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Iron Breastplate ====
+{{..:body:body09.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Ironbreastplate 													|||||||	1200 			||	120 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	11			||	2			||	-	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> An iron breastplate designed to not impede movement.
+
+Acquisition:
+  * Craft
+  * Drop: Buer Armor (8%)
+
+Notes:
+  * Used in ranks
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Brigandine ====
+{{..:body:body08.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Brigandine 													|||||||	1600 			||	160 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	9			||	4			||	-	|	2	|	-	|	2	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	5	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> Armor fortified by riveting a line of metal plates to the inside.
+
+Acquisition:
+  * Craft: yes
+  * Quest: Lindsay (Sabnock 2x)
+
+Notes:
+  * Used in quest
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Apron ====
+{{..:body:body15.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	IronMansApron 													|||||||	1700 			||	170 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	8			||	8			||	-	|	-	|	-	|	-	|	1	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	5	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> An apron imbued with the soul of a departed chef.
+
+Special:
+  * 10% chance getting an extra item when crafting
+
+  PB_DT_CoordinateParameter
+  "Key": "ApronCraftBonusRate",
+  "Value": 0.1
+
+Acquisition:
+  * Craft: yes
+  * Quest: Susie (Corn Chowder)
+
+Notes:
+  * The only early game armour with a luck bonus, too small bonus to be worth using it.
+  * You can put it on a shortcut, and swap to it every time you craft something. Not a major gain.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Kung Fu Vest ====
+{{..:body:body10.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	KungFuBest 													|||||||	2000 			||	200 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	9			||	4			||	2	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A traditional Eastern garment designed for ease of movement.
+
+Acquisition:
+  * Chest: Garden of Silence (GDN006 upper right)
+  * Craft
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Tea Dress ====
+{{..:body:body11.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Teadress 													|||||||	2300 			||	230 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	9			||	9			||	-	|	-	|	2	|	5	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A light dress for tea parties.
+
+Acquisition:
+  * Craft: yes
+
+Notes:
+  * Used in quest
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Chainmail ====
+{{..:body:body12.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Chainmail 													|||||||	2500 			||	250 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	14			||	3			||	-	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	3	|	3	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> Armor that is made of many small metal rings linked together.
+
+Acquisition:
+  * Craft: yes
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Hound Vest ====
+{{..:body:body18.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Beastleather 													|||||||	2700 			||	270 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	13			||	6			||	3	|	-	|	-	|	2	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A vest crafted from the pelt of a ferocious beast.
+
+Acquisition:
+  * Craft: yes
+
+Notes:
+  * Used in quest
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Mantua ====
+{{..:body:body19.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Maturedress 													|||||||	2800 			||	280 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	11			||	11			||	-	|	-	|	3	|	6	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A loose and elegant gown.
+
+Acquisition:
+  * Craft: yes
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Ex Shovel Armor ====
+{{..:body:body20.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Shovelarmorsarmor 													|||||||	3000 			||	300 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	14			||	3			||	-	|	2	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> Armor formerly worn by a certain valiant knight.
+
+Special:
+  * This changes your character into Shovel Knight
+  * This includes appearance, moveset and attacks
+  * This overrides your weapon, and gives you a set ATK (30) weapon
+  * You can't use any active shards (red, blue, purple, some white)
+  * Passives like yellow shards/white versions, food, and stats from other gear still applies
+  * This means you need to change out of the Shovel Armour in order to use progression like double jump or slide
+  * Once you gain double jump shard, you instead gain ability to stick the shovel downward to pogo bounce
+  * You can use the Buer familiar in combination with the pogo bounce in order to get some mobility
+
+  PB_DT_ArmorMaster
+  "Key": "Shovelarmorsarmor",
+  "Package": "/Game/Core/Item/Body/Body_ShovelArmor/EQBP_ShovelArmor",
+
+Acquisition:
+  * Drop: Shovel Armor (3%)
+
+Notes:
+  * This is one of two armours in the game that changes Miriam's appearance.
+  * Obviously this is a reference to Shovel Knight.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Lamellar Armor ====
+{{..:body:body14.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	LamellarArmor 													|||||||	3600 			||	360 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	15			||	3			||	-	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	5	|	5	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> Armor made of metal plates arranged in rows.
+
+Acquisition:
+  * Craft: yes
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Crusader's Armor ====
+{{..:body:body28.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	CrusadeArmor 													|||||||	4200 			||	420 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	16			||	4			||	1	|	-	|	1	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	10	|	-	|
+
+> Armor emblazoned with a cross.
+
+Acquisition:
+  * Chest: Dian Cecht Cathedral (SAN014)
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Steel Breastplate ====
+{{..:body:body17.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Steelbreastplate 													|||||||	4900 			||	490 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	18			||	4			||	-	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A fortified steel breastplate.
+
+Acquisition:
+  * Craft
+  * Drop: Shield Outsider (4%)
+  * Shop (After Glutton Train
+
+Notes:
+  * Used in ranks
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Riding Habit ====
+{{..:body:body24.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	RidingHabit 													|||||||	5100 			||	510 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	20			||	10			||	-	|	2	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A riding garment designed with elasticity in mind.
+
+Acquisition:
+  * Craft
+  * Wall: Towers of Twin Dragons (Wall_TWR016 upper right)
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Duelist's Guard ====
+{{..:body:body21.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	DuelBrest 													|||||||	5600 			||	560 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	22			||	5			||	2	|	-	|	2	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	10	|	-	|	-	|	-	|	-	|
+
+> A chestguard worn by duelists.
+
+Acquisition:
+  * Craft
+  * Quest: Susie (Lemonade)
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Silver Breastplate ====
+{{..:body:body29.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Silverbreastplate 													|||||||	6400 			||	640 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	27			||	6			||	-	|	3	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A silver breastplate imbued with protections against evil.
+
+Acquisition:
+  * Craft: yes
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Assassin's Vest ====
+{{..:body:body31.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Assassinvest 													|||||||	6400 			||	640 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	23			||	11			||	1	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	2	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	10	|	-	|	-	|
+
+> Assassin's garb that increases the speed of your attacks.
+
+Special:
+  * This means that all attacks are 10% faster.
+
+  PB_DT_EnchantParameterType
+  "Key": "AttackSpeedRate29",
+  "EPBEquipSpecialAttribute::AttackSpeedRate",
+  "EquipValue_28_5CFE97924D56254C9B62AF83698220FC": 0.1,
+
+Acquisition:
+  * Craft: yes
+  * Drop: Assassin (5%)
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Feather Robe ====
+{{..:body:body13.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Featherrobe 													|||||||	6400 			||	640 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	30			||	15			||	-	|	-	|	3	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A robe so feather-light that a single hit may send you fluttering away.
+
+Special:
+  * DamageVanishCondition +100
+  * This means you gain +100% knockback whenever you're hit
+
+  PB_DT_EnchantParameterType
+  "Key": "DamageVanishCondition30",
+  "EPBEquipSpecialAttribute::DamageVanishCondition",
+  "EquipValue_28_5CFE97924D56254C9B62AF83698220FC": 100.0,
+
+Acquisition:
+  * Craft
+  * Quest: Susie (Strawberry Crepe)
+
+Notes:
+  * Makes you feel like you're playing classic-vania against the dulla-heads
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Polonaise ====
+{{..:body:body25.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	VoronezDress 													|||||||	8100 			||	810 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	27			||	27			||	-	|	-	|	3	|	5	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> Loungewear that is all the rage with fashionable noble ladies.
+
+Acquisition:
+  * Craft: yes
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Knight's Cuirass ====
+{{..:body:body23.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Cureus 													|||||||	8100 			||	810 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	29			||	7			||	-	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A knight's durable chest armor.
+
+Acquisition:
+  * Craft: yes
+  * Shop (After Glutton Train)
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Crystal Armor ====
+{{..:body:body35.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Crystalscale 													|||||||	10000 			||	1000 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	30			||	7			||	-	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	10	|	-	|	-	|	-	|
+
+> Specially crafted armor with crystal scales. Resistant to darkness.
+
+Acquisition:
+  * Chest: Glacial Tomb (ICE003)
+  * Craft
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Aegis Plate ====
+{{..:body:body26.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	BreastplateofAguilar 													|||||||	-			||	-			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	25			||	6			||	-	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A breastplate that nullifies all damage from traps and hazardous environments.
+
+Special:
+  * Key Item
+    * This item is removed in NG+
+  * GimmickDamageRate -100%
+    * This means that you ignore all damage from hazards:
+    * Spikes, Spears, Lava, etc.
+
+  PB_DT_EnchantParameterType
+  "Key": "GimmickDamageRate31",
+  "EPBEquipSpecialAttribute::GimmickDamageRate",
+  "EquipValue_28_5CFE97924D56254C9B62AF83698220FC": 100.0,
+
+Acquisition:
+  * Chest: Towers of Twin Dragons (TWR019 upper left, invert from bottom)
+
+Notes:
+  * Considered required to progress the game to best ending, but it's possible to bypass it.
+  * This can make areas like Inferno Caves much easier, since you can walk in the lava.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Dragon Armor ====
+{{..:body:body39.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	DragonScale 													|||||||	12100 			||	1210 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	33			||	8			||	-	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	4	|	4	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> Armor fashioned from a weave of dragon scales.
+
+Acquisition:
+  * Craft: yes
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Gold Breastplate ====
+{{..:body:body36.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Goldbreastplate 													|||||||	12100 			||	1210 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	36			||	9			||	-	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A gold breastplate so bright that it dazzles beholders.
+
+Acquisition:
+  * Craft: yes
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Spiked Breastplate ====
+{{..:body:body32.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	SpikeBreast 													|||||||	14400 			||	1440 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	36			||	9			||	-	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A breastplate lined with sharp spikes that injure whoever touches them.
+
+Special:
+  * Damages on touch
+    * This does very low damage to anything you touch
+    * This includes enemies and candles
+
+  PB_DT_ArmorMaster
+  "Key": "SpikeBreast",
+  "Package": "/Game/Core/Item/Body/SpikeBreast/EQBP_SpikeBreast",
+
+Acquisition:
+  * Chest: Secret Sorcery Lab (TAR006)
+  * Craft
+
+Notes:
+  * Very easy to craft/find, generally good armour for when you can craft/find it.
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Silk Dress ====
+{{..:body:body16.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Silkdress 													|||||||	14400 			||	1440 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	27			||	27			||	-	|	-	|	5	|	8	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A light dress with a beautiful white sheen.
+
+Acquisition:
+  * Craft: yes
+
+Notes:
+  * Used in quest
+  * Used as requirement/ingredient to craft 2 other armours
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Majestic Plate ====
+{{..:body:body34.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	GloriousBreast 													|||||||	16900 			||	1690 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	37			||	9			||	-	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	5	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A breastplate presented by a ruler to one who performs great deeds.
+
+Acquisition:
+  * Craft: yes
+  * Quest: Abigail (Diamond)
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Flame Mail ====
+{{..:body:body33.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	ShiningBreast 													|||||||	16900 			||	1690 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	37			||	9			||	8	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	10	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> Armor mantled in searing fire.
+
+Acquisition:
+  * Craft
+  * Drop: Volcano Morte (4%)
+
+Notes:
+  * Highest STR armour
+  * Highest Fire resist armour
+  * Good even as end-game
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Shinobi Garb ====
+{{..:body:body38.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Ashinbacostume 													|||||||	19600 			||	1960 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	39			||	19			||	5	|	-	|	3	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	8	|	8	|	8	|	5	|
+
+> A garment from the Far East that allows you to move silently.
+
+Acquisition:
+  * Craft
+  * Drop: Ninja (6%)
+
+Notes:
+  * Good combination of STR and INT, as well as some useful resistances
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Kalasiris ====
+{{..:body:body30.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Caracilis 													|||||||	19600 			||	1960 			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	39			||	19			||	-	|	-	|	5	|	-	|	5	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A see-through tunic worn by affluent members of ancient Egyptian society.
+
+Acquisition:
+  * Craft: yes
+
+Notes:
+  * Has a decent LCK bonus, making it the first armour useful for farming
+  * Despite the description, you can't see through it. This made a lot of people very disappointed :p
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Scarlet Dress ====
+{{..:body:body22.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Crimsondress 													|||||||	22500 			||	0			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	41			||	41			||	-	|	-	|	8	|	10	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A blood red dress designed to catch the eye.
+
+Acquisition:
+  * Craft: yes
+
+Notes:
+  * Highest INT bonus
+  * Good caster type end-game
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Imperial Armor ====
+{{..:body:body37.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	ImperialArmor 													|||||||	22500 			||	0			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	45			||	11			||	-	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> Luxurious and stately armor that bears nary a scratch.
+
+Acquisition:
+  * Craft: yes
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Tatenashi ====
+{{..:body:body40.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Shieldless 													|||||||	25600 			||	0			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	52			||	13			||	-	|	-	|	-	|	-	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	10	|	10	|	10	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> Armor so tough that its name claims a shield is unnecessary.
+
+Acquisition:
+  * Craft: yes
+
+Notes:
+  * Highest DEF
+  * Resistance to Slash, Strike, Thrust are great
+  * Best defensive end-game
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Coronation Gown ====
+{{..:body:body41.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Coronationdress 													|||||||	25600 			||	0			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	48			||	48			||	5	|	5	|	5	|	5	|	-	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	5	|	5	|	5	|	-	|	-	|	-	|	-	|	-	|
+
+> A breathtaking dress fit for no less than a queen.
+
+Acquisition:
+  * Craft: yes
+
+Notes:
+  * All over good DEF, Stats, Resistances
+  * A good jack of all trades end-game
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
+
+==== Valkyrie Dress ====
+{{..:body:body01.png?nolink }}
+
+^	ItemID													^^^^^^^	Buy			^^	Sell			^^
+|	Valkyriedress 													|||||||	-			||	-			||
+^	Atk	^	Matk	^	Def			^^	Mdef			^^	Str	^	Con	^	Int	^	Mnd	^	Lck	^
+|	-	|	-	|	40			||	40			||	-	|	-	|	-	|	-	|	7	|
+^	{{..:iconcut.png?nolink&20|Cut}}	^	{{..:iconstrike.png?nolink&20|Strike}}	^	{{..:iconstab.png?nolink&20|Stab}}	^	{{..:iconflame.png?nolink&20|Fire}}	^	{{..:iconice.png?nolink&20|Ice}}	^	{{..:iconthunder.png?nolink&20|Lightning}}	^	{{..:iconlight.png?nolink&20|Holy}}	^	{{..:icondark.png?nolink&20|Dark}}	^	{{..:iconpoison.png?nolink&20|Poison}}	^	{{..:iconcurse.png?nolink&20|Curse}}	^	{{..:iconstone.png?nolink&20|Stone}}	^
+|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|	-	|
+
+> A warmaiden's distinct dress.
+
+Special:
+  * Changes Miriam's appearance
+    * Changes the armour Miriam wears into a white versions
+    * This can not be dyed at the Barber
+
+  PB_DT_ArmorMaster
+  "Key": "Valkyriedress",
+  "Package": "/Game/Core/Item/Body/Body01/Data/BDBP_Body01",
+
+Acquisition:
+  * Chest: Towers of Twin Dragons (TWR019 top middle, invert)
+
+Notes:
+  * Highest LCK armour
+  * Makes it very useful for farming
+  * Good for LCK based end-game
+
+[[#Table|{{ ..:icon09.png?nolink&20 |Top}}]]
+----
